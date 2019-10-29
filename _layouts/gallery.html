@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+    {% include head.html %}
+
+    <body>
+
+        <div class="wrap">
+            <div class="header">{{ page.title }}</div>
+
+            {% include nav.html %}
+
+            <div class="mainContent">
+
+                <h5>{{ site.data.galleries[page.dataFile].description }}</h5>
+
+                {% for image in site.data.galleries[page.dataFile].images %}
+
+                    {% if image.url %}
+                        <a href="{{ image.url }}">{{ image.urlText }}</a>
+                        <br />
+                    {% endif %}
+
+                    {% capture src %}
+                        /{{ site.data.galleries[page.dataFile].imageFolder }}{{ image.img }}
+                    {% endcapture %}
+
+                    <img src="{{ src }}"
+                        alt="{{ image.name }}" 
+                        class="center-img" />
+
+                    <br />
+                    {{ image.text }}
+                    <br />
+
+                    <hr />
+
+                {% endfor %}
+
+
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

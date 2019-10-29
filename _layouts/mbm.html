@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+    {% include head.html %}
+    <body>
+
+        <div class="wrap">
+            <div class="header">Mahabodhi Moonlight</div>
+
+            {% include nav.html %}
+            {% include poems/mbm.html %}
+
+            <div class="mainContent subMenu">
+
+                <h4>{{ page.title }}</h4>
+
+                {{ content }}
+
+                {% if page.written %}
+                    <div class="poem-written-date">
+                        HC: {{ page.written }}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

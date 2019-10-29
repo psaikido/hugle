@@ -1,0 +1,10 @@
+<nav class="poem-menu">
+    <ul class="">
+        {% for item in site.data.read.anec.menu %}
+            <li {% if page.url  == item.url %}class="current"{% endif %}>
+                <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
+

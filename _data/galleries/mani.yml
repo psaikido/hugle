@@ -1,0 +1,64 @@
+name: mani
+description: mani stone carving
+imageFolder: assets/images/mani/
+
+images:
+- name: Lamayuru 
+  img: lamayuru.jpg
+  text: Lamayuru Monastery, Ladakh
+
+- name: mani 1 tools 
+  img: tools.jpg
+  text: first mani stone before starting
+
+- name: mani 1 started
+  img: mani1Started.jpg
+  text: first mani stone started
+
+- name: mani 1 teacher 
+  img: mani1Teacher.jpg
+  text: Phunchok Namgyal teaching the carving
+
+- name: mani 1 finished 
+  img: mani1Finished.jpg
+  text: first mani completed
+
+- name: mani 2 started 
+  img: mani2Started.jpg
+  text: mani 2 started
+
+- name: mani 2 finished 
+  img: mani2Finished.jpg
+  text: mani 2 completed - here it is up against the wall of the main Gompa at Lamayuru - I'm told it is still there 14 years later! Dupon Samten Rimpoche asked me to initial and date them "to encourage the others", normally stones aren't signed
+
+- name: mani 3 Mareike
+  img: mani3Mareike.jpg
+  text: mani 3 for the lovely Mareike - something lighter so it could go home with her on the plane
+
+- name: mani 4
+  img: mani4.jpg
+  text: mani 4
+
+- name: mani 5
+  img: mani5.jpg
+  text: mani 5 dedicated at the Women's Institute in Leh, Ladakh. It was finding this rock in the desert by Choglamsar that was the experience spoken of in the poem <a href="/pages/read/poetry/mbm/17-overhead.html">overhead</a>
+
+- name: mani 6
+  img: mani6.jpg
+  text: mani 6 'ordinary grey rocks of the mountain' at the Maenllwyd
+
+- name: Tara stone for Sophie
+  img: greenTaraMantraOnSerpentine.jpg
+  text: Green Tara's mantra on serpentine stone for Sophie - 'om tare tutare ture soha'
+
+- name: mani 7
+  img: mani7.jpg
+  text: mani 7 made and given to the monks on Holy Island
+
+- name: mani 8
+  img: mani8.jpg
+  text: mani 8 made for Sue Hyland
+
+- name: mani 9
+  img: mani9.jpg
+  text: mani 9 made for Ben Carroll

@@ -1,0 +1,32 @@
+name: bio
+description: bio pix
+imageFolder: assets/images/bio/
+
+images:
+- name: birth
+  img: hughie_april26_1964.jpg
+  text: 1964 - born premature - this is an incubator
+
+- name: happy rock
+  img: happyRock64.jpg
+  text: Tim, Jem, Matt, Margaret, Hughie, Damian, Colmcille
+
+- name: lover
+  img: gasket_balloon_mime.jpg
+  text: lover 
+
+- name: warrior
+  img: h_dobra.jpg
+  text: warrior 
+
+- name: magician
+  img: FireWallet.jpg
+  text: magician 
+
+- name: predator
+  img: Chess.jpg
+  text: predator 
+
+- name: king
+  img: h_naranjodebulnes89.jpg
+  text: king 

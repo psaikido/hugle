@@ -1,0 +1,28 @@
+/* Most desktops */
+@media only screen and (min-device-width: 991px) {
+}
+
+/* Most tablets */
+@media only screen and (max-device-width: 990px) {
+}
+
+/* Most mobiles */
+@media only screen and (max-device-width: 480px) {
+    .mainContent {
+        left: 0;
+
+        &.subMenu {
+            left: 122px;
+        }
+    }
+
+    nav.poem-menu {
+        font-size: 12px;
+        max-width: 114px;
+    }
+
+    .wrap img {
+        max-width: 308px;
+    }
+}
+
