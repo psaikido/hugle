@@ -1,0 +1,52 @@
+name: faves
+description: fave pix
+imageFolder: assets/images/faves/
+
+images:
+    - img: 5balls_oxford.jpg
+    - img: 70sCarrollsHilliards.jpg
+    - img: 7yearsold.jpg
+    - img: anandaCaveMala.jpg
+    - img: blueWallLamps.jpg
+    - img: Chess.jpg
+    - img: chinaHatTrick.jpeg
+    - img: cricket_team.jpg
+    - img: deadPhones.jpg
+    - img: family-xmas2012.jpg
+    - img: firebreathingwithrichie.jpg
+    - img: FireWallet.jpg
+    - img: giantsGrave.jpg
+    - img: h_backright_holyfamily70.jpg
+    - img: h_losthorizon_baggypoint86.jpg
+    - img: h_naranjodebulnes89.jpg
+    - img: h_Wendy_Greg.jpg
+    - img: hcTieBurn1980.jpeg
+    - img: HeartSutraGift.jpg
+    - img: hGuitar.jpg
+    - img: HolyIslandMani.jpg
+    - img: hughie_mani.jpg
+    - img: HughieMan2008.JPG
+    - img: HughieTimDamianMargaretJemMatt_Cornwall08.jpg
+    - img: ilkleyartshow.jpg
+    - img: john1.jpg
+    - img: JohnCrook_Hughie_2009.jpg
+    - img: JohnCrookChanHall.jpg
+    - img: JohnSeniorMaenllwyd2012.jpg
+    - img: JoshRosieMargaretJaquelineHughieDamo_NoreLighthouse2012.jpg
+    - img: losrubios_h&d_pembroke98.jpg
+    - img: MaenllwydFrostyMorning.jpg
+    - img: MaenllwydManiStone.jpg
+    - img: Margaret_Colm_ReedvilleGrove.jpg
+    - img: MargaretHughColmWallaseyHospitalWhereHWasBorn.jpg
+    - img: modelmayhem.jpg
+    - img: PaulDaniels_Hughie_2013.jpg
+    - img: peewee_hughie_firetower.jpg
+    - img: portisheadDryBoat.jpg
+    - img: Promo1984.jpg
+    - img: SamAndPaulWeddingHughie.jpg
+    - img: shifu_retreat2000.jpg
+    - img: SophieJohnHughiePete2012.jpg
+    - img: taraStone.jpg
+    - img: theGangMinusAbi_2012xmas.jpg
+    - img: weedplants.jpg
+    - img: WiltshirePath.jpg

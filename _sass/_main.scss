@@ -1,0 +1,103 @@
+body {
+    background-color: $bkg;
+    font-family: 'Caveat', cursive;
+    font-size: 1.4em;
+    letter-spacing: .1em;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+.wrap {
+    position: relative;
+    min-height: 429px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent url("../images/mushin.gif") no-repeat scroll 100% 100%;
+
+    img {
+        max-width: 95%;
+    }
+}
+
+.header {
+    min-height: 61px;
+    color: $text-dark;
+    font-style: italic;
+    letter-spacing: .3em;
+    padding: 13px 80px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid $border-light;
+}
+
+.homePage table { 
+    width: 100%;
+    text-align: center;
+}
+
+.mainContent {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    color: $text-dark;
+    min-height: 450px;
+    text-align: left;
+    max-width: 750px;
+    padding-bottom: 30px;
+
+    &.subMenu {
+        left: 240px;
+    }
+
+    td {
+        text-align: left;
+        vertical-align: top;
+    }
+
+    h4 {
+        border-bottom: 1px solid $border-dark;
+    }
+}
+
+.center-img {
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: auto;
+}
+
+a:link,
+a:visited {
+	color: $text-link;
+}
+
+.poem {
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    padding: 6px 0 0 0;
+
+    h4 {
+        border-bottom: 1px solid $border-light;
+    }
+}
+
+.mainContent .poem-written-date {
+    text-align: right;
+    color: $text-light;
+}
+
+.footer {
+    font-style: italic;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(220, 220, 220, 0.70);
+}
+

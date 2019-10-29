@@ -1,0 +1,37 @@
+menu:
+
+- title: home
+  url: /index.html
+
+- title: Stopping the Sun
+  url: /pages/read/poetry/sts/00-index.html
+
+- title: Mahabodhi Moonlight
+  url: /pages/read/poetry/mbm/00-index.html
+
+- title: Sunshine & Shadow
+  url: /pages/read/poetry/sas/00-index.html
+
+- title: First Burn
+  url: /pages/read/prose/01-fb.html
+
+- title: anecdotes
+  url: /pages/read/anecdotes/000-index.html
+
+- title: mani stones
+  url: /pages/mani.html
+
+- title: portfolio
+  url: /pages/portfolio.html
+
+- title: bio
+  url: /pages/bio.html
+
+- title: circus
+  url: /pages/circus.html
+
+- title: Chan
+  url: /pages/chan.html
+
+- title: faves
+  url: /pages/faves.html

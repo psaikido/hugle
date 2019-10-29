@@ -1,0 +1,71 @@
+.navbar {
+    .navbar-nav {
+        border-radius: .25rem;
+        border-color: rgba(0, 0, 0, .9);
+        width: 236px;
+        background-color: $border-light;
+        color: $text-dark;
+        padding: 8px;
+
+        .nav-item {
+            line-height: 30px;
+            text-align: left;
+            width: 100%;
+
+            a {
+                display: inline-block;
+                width: 100%;
+            }
+        }
+
+        .dropdown-menu {
+            padding: 5px;
+            line-height: 33px;
+            background: rgba(240, 240, 240, 0.94);
+
+            a {
+                display: inline-block;
+                width: 100%;
+            }
+        }
+
+        .nav-link {
+            color: $text-link;
+        }
+    }
+}
+
+.bg-faded {
+    background: transparent;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: -3px;
+    z-index: 2;
+
+}
+
+nav.poem-menu {
+    position: absolute;
+    top: 80px;
+    left: 8px;
+    float: left;
+    text-align: right;
+    max-width: 200px;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 8px 0 0;
+
+        li {
+            padding-right: 5px;
+        }
+
+        li.current {
+            border-right: 1px solid #f00;
+        }
+    }
+}

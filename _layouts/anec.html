@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ⚡ lang="en">
+    {% include head.html %}
+    <body>
+
+        <div class="wrap">
+            <div class="header">anecdotes</div>
+
+            {% include nav.html %}
+            {% include poems/nav-anec.html %}
+
+            <div class="mainContent subMenu">
+
+                <h4>{{ page.title }}</h4>
+
+                {{ content }}
+
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>
