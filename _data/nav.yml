@@ -36,5 +36,8 @@ menu:
 - title: faves
   url: /pages/faves.html
 
+- title: TV Lutòn
+  url: /pages/read/tvluton.html
+
 - title: Ladakh 2005
   url: /pages/read/ladakh.html
