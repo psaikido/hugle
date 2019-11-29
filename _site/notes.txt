@@ -1,5 +1,0 @@
-https://jekyllrb.com/
-Start dev by going:
-`bundle exec jekyll serve`
-
-Go live by ftping _site/
