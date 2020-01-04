@@ -11,9 +11,9 @@ of the fizz and flash
 of shoals of life  
 in lighter waters  
 
-the booming depths
-of pressured pulsing
-darkened half life
+the booming depths  
+of pressured pulsing  
+darkened half life  
   
 yet living  
 
