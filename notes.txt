@@ -5,3 +5,8 @@ Start dev by going:
 Go live by
 `bundle exec jekyll build`
 ..and then ftping _site/
+..or
+    cd _site
+    sftp carrollonline_uk@gp-uk.net
+    cd httpdocs
+    put -r .
