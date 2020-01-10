@@ -1,0 +1,38 @@
+<nav class="navbar navbar-light bg-faded">
+    <button class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#nav-content" 
+        aria-controls="nav-content" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav-content">   
+        <ul class="navbar-nav">
+            {% for item in site.data.nav.menu %}
+                {% if item.sub %}
+                    <li class="nav-item parent">
+                        {{ item.title }}
+                    </li>
+
+                    <ul>
+                        {% for subitem in item.sub %}
+                            <li class="nav-item">
+                                <a href="{{ subitem.url }}" alt="{{ subitem.title }}">
+                                    {{ subitem.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <li class="nav-item">
+                        <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
+
