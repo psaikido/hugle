@@ -9,8 +9,10 @@ title: Hughie
 
 <div class="homePage">
 
-|[Mantrasphere](http://mantrasphere.co.uk) | [Mindfulness CD](http://mantrasphere.co.uk/index.php?page=mindfulness-cd) | 
-| [Closeup Magic](http://hugle.co.uk) | [Family Archive](http://family.carrollonline.uk) |
+| [Mantrasphere](http://mantrasphere.co.uk) | [Mindfulness CD](http://mantrasphere.co.uk/index.php?page=mindfulness-cd) | 
+| [Closeup Magic](http://hugle.co.uk) | [Code](https://bitbucket.org/psaikido) | 
+| [Guitar Tuition](http://guitar.hugle.co.uk) | [ME/CFS](http://www.mecfshints.com/) |
+| [Family Archive](http://family.carrollonline.uk) | [PTSD](https://www.mind.org.uk/information-support/types-of-mental-health-problems/post-traumatic-stress-disorder-ptsd/) |
 
 </div>
 

@@ -1,43 +1,52 @@
 menu:
 
-- title: home
-  url: /index.html
+    - title: home
+      url: /index.html
 
-- title: Stopping the Sun
-  url: /pages/read/poetry/sts/00-index.html
+    - title: "poems:"
+      sub: 
+        - title: Stopping the Sun
+          url: /pages/poems/sts/00-index.html
 
-- title: Mahabodhi Moonlight
-  url: /pages/read/poetry/mbm/00-index.html
+        - title: Mahabodhi Moonlight
+          url: /pages/poems/mbm/00-index.html
 
-- title: Sunshine & Shadow
-  url: /pages/read/poetry/sas/00-index.html
+        - title: Sunshine & Shadow
+          url: /pages/poems/sas/00-index.html
 
-- title: First Burn
-  url: /pages/read/prose/01-fb.html
+    - title: "prose:"
+      sub:
+        - title: First Burn
+          url: /pages/prose/firstBurn/01-fb.html
 
-- title: anecdotes
-  url: /pages/read/anecdotes/000-index.html
+        - title: anecdotes
+          url: /pages/prose/anecdotes/000-index.html
 
-- title: mani stones
-  url: /pages/mani.html
+        - title: Ladakh 2005
+          url: /pages/prose/ladakh.html
 
-- title: portfolio
-  url: /pages/portfolio.html
+    - title: "pix:"
+      sub:
+        - title: mani stones
+          url: /pages/pix/mani.html
 
-- title: bio
-  url: /pages/bio.html
+        - title: portfolio
+          url: /pages/pix/portfolio.html
 
-- title: circus
-  url: /pages/circus.html
+        - title: bio
+          url: /pages/pix/bio.html
 
-- title: Chan
-  url: /pages/chan.html
+        - title: circus
+          url: /pages/pix/circus.html
 
-- title: faves
-  url: /pages/faves.html
+        - title: Chan
+          url: /pages/pix/chan.html
 
-- title: TV Lutòn
-  url: /pages/read/tvluton.html
+        - title: faves
+          url: /pages/pix/faves.html
 
-- title: Ladakh 2005
-  url: /pages/read/ladakh.html
+    - title: "musings:"
+      sub:
+        - title: TV Lutòn
+          url: /pages/musings/tvluton.html
+

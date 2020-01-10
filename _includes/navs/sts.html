@@ -1,7 +1,7 @@
 <nav class="poem-menu">
     <ul class="">
-        {% for item in site.data.read.mbm.menu %}
-            <li {% if page.url  == item.url %}class="current"{% endif %}>
+        {% for item in site.data.sts.menu %}
+            <li {% if page.url == item.url %}class="current"{% endif %}>
                 <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
             </li>
         {% endfor %}

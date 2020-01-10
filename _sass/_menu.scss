@@ -2,35 +2,39 @@
     .navbar-nav {
         border-radius: .25rem;
         border-color: rgba(0, 0, 0, .9);
-        width: 236px;
+        width: 281px;
         background-color: $border-light;
         color: $text-dark;
         padding: 8px;
 
-        .nav-item {
-            line-height: 30px;
-            text-align: left;
-            width: 100%;
+        ul {
+            list-style-type: none;
 
-            a {
-                display: inline-block;
+            .nav-item {
+                line-height: 30px;
+                text-align: left;
                 width: 100%;
+
+                a {
+                    display: inline-block;
+                    width: 100%;
+                }
             }
-        }
 
-        .dropdown-menu {
-            padding: 5px;
-            line-height: 33px;
-            background: rgba(240, 240, 240, 0.94);
+            .dropdown-menu {
+                padding: 5px;
+                line-height: 33px;
+                background: rgba(240, 240, 240, 0.94);
 
-            a {
-                display: inline-block;
-                width: 100%;
+                a {
+                    display: inline-block;
+                    width: 100%;
+                }
             }
-        }
 
-        .nav-link {
-            color: $text-link;
+            .nav-link {
+                color: $text-link;
+            }
         }
     }
 }
