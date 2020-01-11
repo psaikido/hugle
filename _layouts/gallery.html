@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% include head.html %}
+
+    <body>
+        <div id="outer">
+
+            <div id="header">
+                <h1>Magician for parties, weddings, walk-about, festivals, restaurants, hotels</h1>
+                &nbsp;
+            </div>
+
+            <div id="menu">
+                {% include nav.html %}
+            </div>
+
+            <div id="content">
+                {{ page.dataFile }}
+                <div class="gallery">
+                    <h5>{{ page.description }}</h5>
+                    
+                    {% for image in site.data.pics.images %}
+                        {% capture src %}
+                            /{{ site.data.pics.imageFolder }}{{ image.img }}
+                        {% endcapture %}
+
+                        <img src="{{ src }}"
+                            alt="{{ image.name }}" 
+                            class="center-img" />
+                    {% endfor %}
+
+                </div>
+            </div>
+
+            {% include rightStrip.html %}
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

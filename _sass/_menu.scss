@@ -1,0 +1,25 @@
+#menu {
+    float: left;
+    width: 150px;
+    height: 286px;
+    background-color: #eee;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+
+    a {
+        color: #666;
+    }
+
+    ul {
+        list-style: none;
+    }
+    ul li {
+        height: 30px;
+        text-align: right;
+        padding: 5px 10px 0 0;
+    }
+    ul li.menuactive {
+        border-right: 2px solid #f00;
+    }
+}
+

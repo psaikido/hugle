@@ -1,0 +1,108 @@
+<head>
+<meta charset="UTF-8">
+<title>magician for parties weddings hotels restaurants openings</title>
+<meta name="description" content="magician for parties, weddings, hotels, restaurants and openings">
+<meta name="keywords" content="magician for parties, weddings, hotels, restaurants, openings">
+<meta name="robots" content="index, follow">
+<meta name="author" content="hugle">
+<meta name="geo.placename" content="Portishead">
+<meta name="geo.region" content="SW">
+<meta name="geo.position" content="51.559504;-1.838454">
+<meta name="ICBM" content="51.559504, -1.838454">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<base href="{{ site.url }}">
+<meta name="Generator" content="CMS Made Simple - Copyright (C) 2004-12 Ted Kulp. All rights reserved.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 
+<link rel="stylesheet" type="text/css" href="/assets/css/hugle.css">
+
+<script id="facebook-jssdk" src="//connect.facebook.net/en_GB/all.js#xfbml=1"></script>
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1199885-16']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+/***
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+***/
+ 
+function slideSwitch() {
+    var $active = $('#slideshow div.imgWrap.active');
+    if ( $active.length == 0 ) $active = $('#slideshow div.imgWrap:last');
+
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow div.imgWrap:first');
+
+     $active.fadeOut(500)
+         .addClass('last-active')
+         .removeClass('active');
+
+      $next.fadeIn(500)
+         .addClass('active')
+         .removeClass('last-active');
+         
+}
+$(document).ready(function() {
+    setInterval( 'slideSwitch()', 3000 ); 
+});
+</script>
+
+<link href="https://plus.google.com/u/0/b/113950568330386092006/113950568330386092006/" rel="author">
+
+<script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    if (!window.web3.currentProvider ||
+        !window.web3.currentProvider.isMetaMask) {
+      __insertDappDetected()
+    }
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()
+</script>
+</head>

@@ -1,0 +1,20 @@
+menu:
+
+    - title: home
+      url: /index.html
+
+    - title: vid
+      url: /pages/vid.html
+
+    - title: pics
+      url: /pages/pics.html
+
+    - title: testimonials
+      url: /pages/testimonials.html
+
+    - title: blog
+      url: /pages/blog.html
+
+    - title: guitar tuition
+      url: http://guitar.hugle.co.uk
+

@@ -1,0 +1,26 @@
+title: hugle
+email: contact@hugle.co.uk
+description: Close up magic
+baseurl: "/"
+url: "http://hugle.co.uk"
+favicon: assets/images/favicon.ico
+permalink: /:path/:basename:output_ext
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+plugins:
+    - jekyll-bootstrap-sass
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+exclude:
+    - README.md
+    - Gemfile
+    - Gemfile.lock
+    - changelog.md
+    - "*.Rmd"
+    - notes.txt
