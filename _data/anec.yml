@@ -1,28 +1,31 @@
 menu:
 
 - title: finale
-  url: /pages/read/anecdotes/010-finale.html
+  url: /pages/prose/anecdotes/010-finale.html
 
 - title: glassed
-  url: /pages/read/anecdotes/020-glassed.html
+  url: /pages/prose/anecdotes/020-glassed.html
 
 - title: XTC
-  url: /pages/read/anecdotes/030-xtc.html
+  url: /pages/prose/anecdotes/030-xtc.html
 
 - title: body-builders
-  url: /pages/read/anecdotes/040-body-builders.html
+  url: /pages/prose/anecdotes/040-body-builders.html
 
 - title: 2 Hot 4 July
-  url: /pages/read/anecdotes/050-2hot4july.html
+  url: /pages/prose/anecdotes/050-2hot4july.html
 
 - title: Red Faces in the Park
-  url: /pages/read/anecdotes/060-red-faces.html
+  url: /pages/prose/anecdotes/060-red-faces.html
 
 - title: Tel Aviv TV
-  url: /pages/read/anecdotes/070-telavivtv.html
+  url: /pages/prose/anecdotes/070-telavivtv.html
 
 - title: Rumanians
-  url: /pages/read/anecdotes/080-rumanians.html
+  url: /pages/prose/anecdotes/080-rumanians.html
 
 - title: Eisteddfod
-  url: /pages/read/anecdotes/090-eisteddfod.html
+  url: /pages/prose/anecdotes/090-eisteddfod.html
+
+- title: Dancing Shiva
+  url: /pages/prose/anecdotes/100-dancing-shiva.html
