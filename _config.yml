@@ -1,4 +1,4 @@
-url: "http://carrollonline.uk/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://carrollonline.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "carrollonline" # the name of your site, e.g. ACME Corp.
 description: Hugh Carroll's personal site, portfolio, pix, writings
