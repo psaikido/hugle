@@ -62,9 +62,9 @@ and set my life's course
 around that time  
 I had my ear pierced  
 and thus the rings remind me  
-of taht ecstatic rite  
+of that ecstatic rite  
 a journey of tribal allegiance  
-to waht I later learned to call  
+to what I later learned to call  
 the Way of the Bodhisattva
 </div>
 
