@@ -3,6 +3,9 @@ menu:
     - title: home
       url: /index.html
 
+    - title: music
+      url: /pages/music.html
+
     - title: "poems:"
       sub: 
         - title: Stopping the Sun
