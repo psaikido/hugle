@@ -9,13 +9,16 @@ menu:
     - title: "poems:"
       sub: 
         - title: Stopping the Sun
-          url: /pages/poems/sts/00-index.html
+          url: /pages/poems/sts/000-index.html
 
         - title: Mahabodhi Moonlight
           url: /pages/poems/mbm/00-index.html
 
         - title: Sunshine & Shadow
           url: /pages/poems/sas/00-index.html
+
+        - title: trauma
+          url: /pages/poems/trauma/000-index.html
 
     - title: "prose:"
       sub:

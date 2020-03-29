@@ -16,7 +16,7 @@ body {
     padding: 0;
 
     img {
-        max-width: 95%;
+        max-width: 100%;
     }
 }
 
@@ -95,10 +95,11 @@ a:visited {
 
 .footer {
     font-style: italic;
+    font-size: 12px;
     position: fixed;
-    left: 0;
+    left: 37%;
     bottom: 0;
-    width: 100%;
+    width: 35%;
     text-align: center;
     background: rgba(220, 220, 220, 0.70);
 }

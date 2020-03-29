@@ -1,29 +1,43 @@
 menu:
 
 - title: owls
-  url: /pages/poems/sts/01-owls.html
+  url: /pages/poems/sts/010-owls.html
 
 - title: just listen
-  url: /pages/poems/sts/02-just-listen.html
+  url: /pages/poems/sts/020-just-listen.html
 
 - title: birdsong
-  url: /pages/poems/sts/03-birdsong.html
-
-- title: the ferryman
-  url: /pages/poems/sts/04-ferryman.html
-
-- title: shadow 
-  url: /pages/poems/sts/05-shadow.html
+  url: /pages/poems/sts/030-birdsong.html
 
 - title: all of us 
-  url: /pages/poems/sts/06-all-of-us.html
-
-- title: survival 
-  url: /pages/poems/sts/07-survival.html
+  url: /pages/poems/sts/060-all-of-us.html
 
 - title: stopping the sun 
-  url: /pages/poems/sts/08-stopping-the-sun.html
+  url: /pages/poems/sts/080-stopping-the-sun.html
 
 - title: giggle dancing 
-  url: /pages/poems/sts/09-giggle-dancing.html
+  url: /pages/poems/sts/090-giggle-dancing.html
 
+- title: strategies
+  url: /pages/poems/sts/120-strategies.html
+
+- title: gleamings
+  url: /pages/poems/sts/130-gleamings.html
+
+- title: treasure
+  url: /pages/poems/sts/140-treasure.html
+
+- title: grumbles
+  url: /pages/poems/sts/150-grumbles.html
+
+- title: la via dolorosa
+  url: /pages/poems/sts/160-dolorosa.html
+
+- title: trodden down
+  url: /pages/poems/sts/200-trodden.html
+
+- title: magic tricks
+  url: /pages/poems/sts/220-magic-tricks.html
+
+- title: plankton
+  url: /pages/poems/sts/230-plankton.html

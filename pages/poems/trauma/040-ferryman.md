@@ -1,5 +1,5 @@
 ---
-layout: sts
+layout: trauma
 written: 2019
 title: the ferryman
 ---
