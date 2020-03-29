@@ -1,6 +1,6 @@
 ---
 layout: anec
-title: Red Faces in the Park
+title: red faces in the park
 ---
 
 <div class="poem">
