@@ -1,6 +1,6 @@
 menu:
 
-- title: Time
+- title: time
   url: /pages/poems/sas/01-time.html
 
 - title: bottom feeder
@@ -9,7 +9,7 @@ menu:
 - title: love is a dance 
   url: /pages/poems/sas/03-love-dance.html
 
-- title: Thread
+- title: thread
   url: /pages/poems/sas/04-thread.html
 
 - title: self
@@ -27,7 +27,7 @@ menu:
 - title: Richie
   url: /pages/poems/sas/09-richie.html
 
-- title: Thursday boys
+- title: thursday boys
   url: /pages/poems/sas/10-thursday-boys.html
 
 - title: ice
@@ -44,3 +44,6 @@ menu:
 
 - title: Silbury
   url: /pages/poems/sas/15-silbury.html
+
+- title: dad
+  url: /pages/poems/sas/16-dad.html
