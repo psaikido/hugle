@@ -8,6 +8,9 @@ menu:
 
     - title: "poems:"
       sub: 
+        - title: anecdotes
+          url: /pages/poems/anecdotes/000-index.html
+
         - title: Stopping the Sun
           url: /pages/poems/sts/000-index.html
 
@@ -24,9 +27,6 @@ menu:
       sub:
         - title: First Burn
           url: /pages/prose/firstBurn/01-fb.html
-
-        - title: anecdotes
-          url: /pages/prose/anecdotes/000-index.html
 
         - title: Ladakh 2005
           url: /pages/prose/ladakh.html

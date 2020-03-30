@@ -1,55 +1,58 @@
 menu:
 
 - title: finale
-  url: /pages/prose/anecdotes/010-finale.html
+  url: /pages/poems/anecdotes/010-finale.html
 
 - title: glassed
-  url: /pages/prose/anecdotes/020-glassed.html
+  url: /pages/poems/anecdotes/020-glassed.html
 
 - title: XTC
-  url: /pages/prose/anecdotes/030-xtc.html
+  url: /pages/poems/anecdotes/030-xtc.html
 
 - title: body-builders
-  url: /pages/prose/anecdotes/040-body-builders.html
+  url: /pages/poems/anecdotes/040-body-builders.html
 
 - title: 2 Hot 4 July
-  url: /pages/prose/anecdotes/050-2hot4july.html
+  url: /pages/poems/anecdotes/050-2hot4july.html
 
 - title: red faces in the park
-  url: /pages/prose/anecdotes/060-red-faces.html
+  url: /pages/poems/anecdotes/060-red-faces.html
 
 - title: Tel Aviv TV
-  url: /pages/prose/anecdotes/070-telavivtv.html
+  url: /pages/poems/anecdotes/070-telavivtv.html
 
 - title: Rumanians
-  url: /pages/prose/anecdotes/080-rumanians.html
+  url: /pages/poems/anecdotes/080-rumanians.html
 
 - title: Eisteddfod
-  url: /pages/prose/anecdotes/090-eisteddfod.html
+  url: /pages/poems/anecdotes/090-eisteddfod.html
 
 - title: dancing Shiva
-  url: /pages/prose/anecdotes/100-dancing-shiva.html
+  url: /pages/poems/anecdotes/100-dancing-shiva.html
 
 - title: library
-  url: /pages/prose/anecdotes/110-library.html
+  url: /pages/poems/anecdotes/110-library.html
 
 - title: sword
-  url: /pages/prose/anecdotes/120-sword.html
+  url: /pages/poems/anecdotes/120-sword.html
 
 - title: bucket
-  url: /pages/prose/anecdotes/130-bucket.html
+  url: /pages/poems/anecdotes/130-bucket.html
 
 - title: El Naranjo de Bulnes
-  url: /pages/prose/anecdotes/140-naranjo.html
+  url: /pages/poems/anecdotes/140-naranjo.html
 
 - title: Grist
-  url: /pages/prose/anecdotes/150-grist.html
+  url: /pages/poems/anecdotes/150-grist.html
 
 - title: Tiananmen Square
-  url: /pages/prose/anecdotes/160-tiananmen.html
+  url: /pages/poems/anecdotes/160-tiananmen.html
 
 - title: Gaumin Si
-  url: /pages/prose/anecdotes/170-gaumin-si.html
+  url: /pages/poems/anecdotes/170-gaumin-si.html
 
 - title: the strap
-  url: /pages/prose/anecdotes/180-strap.html
+  url: /pages/poems/anecdotes/180-strap.html
+
+- title: the golden fleece
+  url: /pages/poems/anecdotes/190-golden-fleece.html

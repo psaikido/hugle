@@ -1,6 +1,6 @@
 ---
 layout: anec
-title: Dancing Shiva
+title: dancing Shiva
 ---
 
 <div class="poem">

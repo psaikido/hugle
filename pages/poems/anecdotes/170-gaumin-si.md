@@ -24,3 +24,4 @@ you
 forget it!"
 </div>
 
+![Gaumin Si](/assets/images/chan/gauminSiGroup.jpg "Gaumin Si")
