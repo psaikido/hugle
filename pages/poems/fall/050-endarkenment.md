@@ -1,11 +1,10 @@
 ---
-layout: trauma
+layout: fall
 written: 2019
 title: endarkenment
 ---
 
 <div class="poem">
-endarkenment  
 my endarkenment was total  
 an absence of light  
 and also of matter  
@@ -33,8 +32,8 @@ recalled in the daytime
 it can still give a jolt  
 but it can be known  
 as a strangeness  
-an illusion
-unreal
+an illusion  
+unreal  
 something from the beyond
 
 
@@ -47,11 +46,12 @@ I must reassure myself
 that it's all a false alarm  
 that really there is no crisis  
 that the past really has gone  
-and in the present  
-I am safe
-that the universe does want me
-the proof of which
+and in the present    
+I am safe  
+that the universe does want me  
+the proof of which  
 is that right now
+
 
 I am here
 </div>

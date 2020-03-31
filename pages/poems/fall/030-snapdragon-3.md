@@ -1,7 +1,7 @@
 ---
-layout: trauma
+layout: fall
 written: 2019
-title: snapdragon #3
+title: snapdragon 3
 ---
 
 <div class="poem">
@@ -46,7 +46,7 @@ allowing chaotic feelings
 and trying not to flinch  
 
 
-today in an anniversary  
+today is an anniversary  
 twenty eight years  
 since I was brought back  
 twenty eight years  
@@ -71,9 +71,9 @@ just the way it is
   
 at least one thing's for sure  
 and that is a matter of attitude  
-if I'm what love do I get  
+if I'm asking 'what love do I get?'  
 then the suffering is terrible  
-if I'm asking what love do I give  
+if I'm asking 'what love do I give?'  
 then everywhere seems filled  
 with ordinary magic  
 </div>

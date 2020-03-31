@@ -9,7 +9,7 @@ menu:
     - title: music
       url: /pages/music.html
 
-    - title: "poems:"
+    - title: "poems 'hughku':"
       sub: 
         - title: anecdotes
           url: /pages/poems/anecdotes/000-index.html
@@ -23,8 +23,8 @@ menu:
         - title: Sunshine & Shadow
           url: /pages/poems/sas/00-index.html
 
-        - title: trauma
-          url: /pages/poems/trauma/000-index.html
+        - title: the fall
+          url: /pages/poems/fall/000-index.html
 
     - title: "prose:"
       sub:

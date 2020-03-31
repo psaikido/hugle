@@ -1,7 +1,7 @@
 ---
-layout: trauma
+layout: fall
 written: 2019
-title: snapdragon #2
+title: snapdragon 2
 ---
 
 <div class="poem">
@@ -81,6 +81,8 @@ to get it across
 words like "terror" and "fear"  
 just point in the right direction  
 and that was only the start  
+
+
 after a while it became clear  
 that if I went to my right  
 I would re-enter my body  
@@ -98,7 +100,7 @@ you can't die if you have no body
 
 it felt like maybe twenty minutes  
 I floated in that dread  
-until I thought my oint of awareness  
+until I thought my point of awareness  
 would fly apart with stress  
 an arm came around me  
 "come with me Hughie, it's ok"  

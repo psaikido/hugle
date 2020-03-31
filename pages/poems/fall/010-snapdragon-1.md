@@ -1,7 +1,7 @@
 ---
-layout: trauma
+layout: fall
 written: 2019
-title: snapdragon #1
+title: snapdragon 1
 ---
 
 <div class="poem">
