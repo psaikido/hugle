@@ -28,7 +28,6 @@ my friend rang me
 our new friends  
 had set a record  
 losing  
-54 - 3
-
+96 - 2
 </div>
 
