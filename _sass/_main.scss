@@ -1,11 +1,14 @@
 body {
-    background-color: $bkg;
     font-family: 'Caveat', cursive;
     font-size: 1.4em;
     letter-spacing: .1em;
     margin: 0;
     padding: 0;
     line-height: 25px;
+    background: $bkg url("../images/mushin.gif") no-repeat scroll;
+    background-attachment: fixed;
+    background-position: 98% 85%;
+    background-size: 15%;
 }
 
 .wrap {
@@ -44,9 +47,6 @@ body {
     min-width: 246px;
     text-align: left;
     padding-bottom: 80px;
-    background: transparent url("../images/mushin.gif") no-repeat scroll;
-    background-position: 90% 90%;
-    background-size: 30%;
 
     &.subMenu {
         left: 240px;
@@ -97,10 +97,9 @@ a:visited {
     font-style: italic;
     font-size: 12px;
     position: fixed;
-    left: 37%;
     bottom: 0;
-    width: 35%;
-    text-align: center;
+    width: 100%;
+    text-align: right;
     background: rgba(220, 220, 220, 0.70);
 }
 
