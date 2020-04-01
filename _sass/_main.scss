@@ -32,6 +32,19 @@ body {
     margin: 0 auto;
     text-align: center;
     border-bottom: 1px solid $border-light;
+    font-size: 1.5em;
+}
+
+#frmSearch {
+    position: absolute;
+    top: 15px;
+    right: 0;
+
+    #searchTerm {
+        color: $text-light;
+        background-color: $bkg;
+        width: 140px;
+    }
 }
 
 .homePage table { 
