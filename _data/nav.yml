@@ -3,9 +3,6 @@ menu:
     - title: home
       url: /index.html
 
-    - title: search
-      url: /pages/search.html
-
     - title: music
       url: /pages/music.html
 

@@ -26,10 +26,19 @@ var store = [{% for item in site.pages %}{
   'title': {{item.title | jsonify}},
   'path': {{ item.url | jsonify }},
   'excerpt': {{ item.content | strip_html | truncatewords: 20 | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% endfor %}
+  }
+  {% unless forloop.last %}, {% endunless %}
+  {% endfor %}
 ];
 
 $(document).ready(function() {
+  $('<div id="results">')
+    .prependTo('.mainContent');
+
+  $('input#searchTerm').click(function () {
+    $(this).val('');
+  });
+
   $('input#searchTerm').on('keyup', function () {
     var resultdiv = $('#results');
     var query = $(this).val();
