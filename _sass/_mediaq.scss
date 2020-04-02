@@ -8,6 +8,10 @@
 
 /* Most mobiles */
 @media only screen and (max-device-width: 480px) {
+    body {
+        font-size: 1.2em;
+    }
+
     .mainContent {
         left: 0;
 
@@ -19,10 +23,31 @@
     nav.poem-menu {
         font-size: 12px;
         max-width: 114px;
+        left: 0;
     }
 
     .wrap img {
         max-width: 260px;
+    }
+
+    .header {
+        font-size: 1em;
+        max-width: 300px;
+    }
+    
+    #frmSearch {
+        position: absolute;
+        right: 7px;
+
+        #searchTerm {
+            width: 100px;
+        }
+    }
+
+    nav.poem-menu {
+        ul li {
+            font-size: 1.1em;
+        }
     }
 }
 
