@@ -7,7 +7,7 @@ title: giggle dancing
 <div class="poem">
 the Chan nuns  
 clearly loved  
-their abbottess  
+their abbess  
 young and pretty with it  
 she had an elemental force
 
@@ -36,3 +36,4 @@ two pairs of eyes
 giggle dancing
 </div>
 
+!["China feet"](/assets/images/chan/shoes.jpg "China feet")
