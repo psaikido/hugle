@@ -27,3 +27,5 @@ the sage told me
 "your honour  
 is redeemed"
 </div>
+
+![West Ogwell Church](/assets/images/sts/westOgwellChurchInterior.jpg "West Ogwell church")
