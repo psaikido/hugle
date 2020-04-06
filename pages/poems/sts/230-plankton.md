@@ -8,19 +8,26 @@ title: plankton
 all over the hermitage  
 polite little notices  
 asking folks to be quiet  
-yet showers  
-and doors  
-and latches  
-provide opportunities  
-to make them sound  
-like ice hockey  
-like kendo  
-like gunfire
+yet
 
 
-startled plankton
-move further off shore
-and we can't even see
+showers  
+doors  
+latches  
+
+
+sound like
+
+
+ice hockey  
+kendo  
+gunfire
+
+
+startled plankton  
+move further off shore  
+and we can't even see  
+
 
 the sea
 </div>
