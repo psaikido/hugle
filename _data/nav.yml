@@ -6,7 +6,7 @@ menu:
     - title: music
       url: /pages/music.html
 
-    - title: "poems 'hughku':"
+    - title: "poems ('hughku'):"
       sub: 
         - title: anecdotes
           url: /pages/poems/anecdotes/000-index.html
@@ -22,6 +22,9 @@ menu:
 
         - title: the fall
           url: /pages/poems/fall/000-index.html
+
+        - title: a bucket
+          url: /pages/poems/bucket/000-index.html
 
     - title: "prose:"
       sub:
