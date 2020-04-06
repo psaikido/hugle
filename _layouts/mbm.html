@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    {% include head.html %}
-    <body>
+{% include hughku-top.html %}
 
-        <div class="wrap">
-            <div class="header">Mahabodhi Moonlight</div>
+    <div class="header">Mahabodhi Moonlight</div>
+    {% include navs/mbm.html %}
 
-            {% include navs/main.html %}
-            {% include navs/mbm.html %}
-            {% include search.html %}
-
-            <div class="mainContent subMenu">
-                <h4>{{ page.title }}</h4>
-
-                {{ content }}
-
-                {% if page.written %}
-                    <div class="poem-written-date">
-                        HC: {{ page.written }}
-                    </div>
-                {% endif %}
-            </div>
-        </div>
-
-        {% include footer.html %}
-    </body>
-</html>
+{% include hughku-tail.html %}
