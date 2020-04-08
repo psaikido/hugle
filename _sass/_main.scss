@@ -88,6 +88,10 @@ a:link,
 a:visited {
 	color: $text-link;
 }
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid $hilight;
+}
 
 .poem {
     img {
