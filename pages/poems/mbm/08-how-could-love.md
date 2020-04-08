@@ -11,3 +11,5 @@ when it's not a part of me
  
 I'm a part of it
 </div>
+
+![Crisps](/assets/images/bio/hughieCrisps.jpg "Hughie with crisps")

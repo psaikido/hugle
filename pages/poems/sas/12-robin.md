@@ -10,9 +10,13 @@ in sunny seclusion
 we listened  
 to the glorying mercury  
 of that robin's song  
+
+
 in such dazzlement  
 my heart found  
 its declaration to you  
+
+
 a triumphant surrender  
 older  
 than grass  
