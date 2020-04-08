@@ -1,6 +1,6 @@
 ---
 title: Time
-written: 1977
+written: 1973
 layout: sas
 ---
 
