@@ -8,7 +8,7 @@ body {
     background: $bkg url("../images/mushin.gif") no-repeat scroll;
     background-attachment: fixed;
     background-position: 98% 85%;
-    background-size: 15%;
+    background-size: 10%;
 }
 
 .wrap {
@@ -26,7 +26,7 @@ body {
 
 .header {
     min-height: 61px;
-    color: $text-dark;
+    color: $hilight;
     font-style: italic;
     font-size: 1.5em;
     letter-spacing: .3em;
@@ -45,6 +45,7 @@ body {
         color: $text-light;
         background-color: $bkg;
         width: 140px;
+        border-color: $text-light;
     }
 }
 
@@ -72,7 +73,7 @@ body {
     }
 
     h4 {
-        border-bottom: 1px solid $border-dark;
+        border-bottom: 1px solid $border-light;
     }
 }
 

@@ -1,6 +1,7 @@
 ---
 layout: mbm
-title: Guesthouse
+written: 2006
+title: guesthouse
 ---
 
 <div class="poem">

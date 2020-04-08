@@ -8,20 +8,20 @@ menu:
 
     - title: "poems ('hughku'):"
       sub: 
-        - title: anecdotes
-          url: /pages/poems/anecdotes/000-index.html
-
-        - title: Stopping the Sun
-          url: /pages/poems/sts/000-index.html
+        - title: Sunshine & Shadow
+          url: /pages/poems/sas/00-index.html
 
         - title: Mahabodhi Moonlight
           url: /pages/poems/mbm/00-index.html
 
-        - title: Sunshine & Shadow
-          url: /pages/poems/sas/00-index.html
+        - title: Stopping the Sun
+          url: /pages/poems/sts/000-index.html
 
         - title: the fall
           url: /pages/poems/fall/000-index.html
+
+        - title: anecdotes
+          url: /pages/poems/anecdotes/000-index.html
 
         - title: a bucket
           url: /pages/poems/bucket/000-index.html

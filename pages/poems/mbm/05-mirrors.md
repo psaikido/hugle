@@ -1,6 +1,7 @@
 ---
 layout: mbm
-title: In the hall of mirrors
+written: 2005
+title: in the hall of mirrors
 ---
 
 <div class="poem">

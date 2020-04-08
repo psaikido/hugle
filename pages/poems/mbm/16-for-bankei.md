@@ -1,5 +1,6 @@
 ---
 layout: mbm
+written: 2005
 title: for Bankei
 ---
 

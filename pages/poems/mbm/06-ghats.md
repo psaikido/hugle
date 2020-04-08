@@ -1,6 +1,7 @@
 ---
 layout: mbm
-title: The Burning Ghats
+written: 2006
+title: the burning ghats
 ---
 
 <div class="poem">

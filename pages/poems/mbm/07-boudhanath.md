@@ -1,6 +1,7 @@
 ---
 layout: mbm
-title: Boudhanath Stupa
+written: 2006
+title: Boudhanath stupa
 ---
 
 <div class="poem">
