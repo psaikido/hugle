@@ -17,5 +17,5 @@ the frozen dreams
 of ice
 </div>
 
-![Tiger Temple](/assets/images/bio/tiger_hughie06.jpg "The tiger temple, Kanchanaburi, Thailand, Hughie in awe in 2006")
+![Dobra Valley](/assets/images/bio/h_dobra.jpg "Hughie on the Dobra valley expedition")
 

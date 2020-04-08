@@ -5,7 +5,6 @@ title: don't freak out
 ---
 
 <div class="poem">
-don't freak out  
 when Hughie is freaking out  
 Chang Ke says:  
 ruminating on hurts of the past  

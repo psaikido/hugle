@@ -1,5 +1,6 @@
 ---
 layout: anec
+written: 2019
 title: 2 Hot 4 July
 ---
 
@@ -36,3 +37,4 @@ and somehow lost his address
 
 </div>
 
+![Ios amphitheatre](/assets/images/bucket/ios_amphitheater.jpg "Ios amphitheatre")
