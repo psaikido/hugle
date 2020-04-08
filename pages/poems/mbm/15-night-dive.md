@@ -1,5 +1,6 @@
 ---
 layout: mbm
+written: 2006
 title: night dive
 ---
 

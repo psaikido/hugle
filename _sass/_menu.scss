@@ -1,10 +1,10 @@
 .navbar {
     .navbar-nav {
         border-radius: .25rem;
-        border-color: rgba(0, 0, 0, .9);
+        border: 1px solid $border-light;
         width: 281px;
-        background-color: $border-light;
-        color: $text-dark;
+        background-color: $darkGrey;
+        color: $hilight;
         padding: 8px;
 
         ul {
@@ -71,7 +71,7 @@ nav.poem-menu {
         }
 
         li.current {
-            border-right: 1px solid #f00;
+            border-right: 1px solid $hilight;
         }
     }
 }

@@ -1,6 +1,7 @@
 ---
 layout: mbm
-title: Mahabodhi Moonlight
+written: 2006
+title: mahabodhi moonlight
 ---
 
 <div class="poem">
