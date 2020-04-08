@@ -87,6 +87,7 @@ body {
 a:link,
 a:visited {
 	color: $text-link;
+    border-bottom: 1px solid $bkg;
 }
 a:hover {
     text-decoration: none;
