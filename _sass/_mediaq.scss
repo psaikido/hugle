@@ -13,7 +13,7 @@
     }
 
     .mainContent {
-        left: 0;
+        left: 18px;
 
         &.subMenu {
             left: 122px;
@@ -21,8 +21,9 @@
     }
 
     nav.poem-menu {
-        font-size: 12px;
+        font-size: 1.2em;
         max-width: 114px;
+        min-width: 114px;
         left: 0;
     }
 
