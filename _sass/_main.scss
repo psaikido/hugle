@@ -107,10 +107,15 @@ a:hover {
     }
 }
 
-.mainContent .poem-written-date {
-    text-align: right;
-    color: $text-light;
-    margin-top: 90px;
+.mainContent {
+    .poem-written-date {
+        text-align: right;
+        color: $text-light;
+    }
+
+    .poem-footer {
+        padding-top: 26px;
+    }
 }
 
 .footer {
