@@ -10,6 +10,17 @@
                         HC: {{ page.written }}
                     </div>
                 {% endif %}
+
+                {% for item in menu %}
+                    {% if currentItemFound %}
+                        next -> <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                        {% break %}
+                    {% endif %}
+
+                    {% if page.url == item.url %}
+                        {% assign currentItemFound = true %}
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
 
