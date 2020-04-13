@@ -26,6 +26,50 @@
             </div>
         </div>
 
+    <script type="text/javascript">
+        $('.poem-menu .toggler.show').click(function () {
+            if ($('.poem-menu ul').is(':visible')) {
+                hide(this);
+            } else {
+                show(this);
+            }
+        })
+
+        function hide (elem) {
+            $(elem).html('->');
+
+            $('.poem-menu')
+                .css('max-width', '20px')
+                .css('min-width', '20px');
+
+            $('.poem-menu').find('ul').hide();
+
+            $('.mainContent.subMenu')
+                .css('left', '22px')
+                .css('width', '328px');
+
+            $(elem)
+                .attr('class', 'toggler hide');
+        }
+
+        function show (elem) {
+            $(elem).html('hide');
+
+            $('.poem-menu')
+                .css('max-width', '140px')
+                .css('min-width', '114px');
+
+            $('.poem-menu').find('ul').show();
+
+            $('.mainContent.subMenu')
+                .css('left', '140px')
+                .css('width', '126px');
+
+            $(elem)
+                .attr('class', 'toggler show');
+        }
+    </script>
+
         {% include footer.html %}
     </body>
 </html>

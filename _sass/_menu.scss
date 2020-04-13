@@ -65,6 +65,7 @@ nav.poem-menu {
         list-style-type: none;
         margin: 0;
         padding: 0 8px 0 0;
+        display: block;
 
         li {
             padding-right: 5px;
@@ -73,5 +74,9 @@ nav.poem-menu {
         li.current {
             border-right: 1px solid $hilight;
         }
+    }
+
+    .toggler {
+        display: none;
     }
 }
