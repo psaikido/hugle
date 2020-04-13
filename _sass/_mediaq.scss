@@ -16,15 +16,26 @@
         left: 18px;
 
         &.subMenu {
-            left: 122px;
+            left: 140px;
+            width: 210px;
+            min-width: 210px;
         }
     }
 
     nav.poem-menu {
-        font-size: 1.2em;
-        max-width: 114px;
+        font-size: 1em;
+        max-width: 140px;
         min-width: 114px;
         left: 0;
+
+        .toggler {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            width: 100%;
+            background: $hilight;
+            text-align: left;
+        }
     }
 
     .wrap img {

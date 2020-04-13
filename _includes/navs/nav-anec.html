@@ -1,4 +1,5 @@
 <nav class="poem-menu">
+    <div class="toggler show">hide</div>
     <ul class="">
         {% for item in site.data.anec.menu %}
             <li {% if page.url  == item.url %}class="current"{% endif %}>
