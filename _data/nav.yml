@@ -34,6 +34,11 @@ menu:
         - title: Ladakh 2005
           url: /pages/prose/ladakh.html
 
+    - title: "Sutta Anthology:"
+      sub:
+        - title: Majjhima Nikaya 
+          url: /pages/suttas/mn/000-index.html
+
     - title: "pix:"
       sub:
         - title: mani stones
