@@ -5,4 +5,4 @@ title: Majjhima Nikaya
 
 The Middle Length Discourses
 
-This is a selection and precis of the Suttas I found interesting
+This is my selection and a few notes on the Suttas I found interesting with links to the full text.
