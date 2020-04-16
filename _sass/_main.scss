@@ -1,6 +1,6 @@
 body {
     font-family: 'Caveat', cursive;
-    font-size: 1.4em;
+    font-size: 1.5em;
     letter-spacing: .1em;
     margin: 0;
     padding: 0;
@@ -57,7 +57,7 @@ body {
 .mainContent {
     position: absolute;
     top: 80px;
-    color: $text-dark;
+    color: $text-light;
     min-height: 450px;
     min-width: 246px;
     text-align: left;
@@ -87,11 +87,11 @@ body {
 a:link,
 a:visited {
 	color: $text-link;
-    border-bottom: 1px solid $bkg;
+    border-bottom: 1px solid $text-mute;
 }
 a:hover {
+    color: $hilight;
     text-decoration: none;
-    border-bottom: 1px solid $hilight;
 }
 
 .poem {
