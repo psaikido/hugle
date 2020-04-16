@@ -9,8 +9,8 @@ big old banana moon
 backing up towards the dawn  
 jaunty yellow  
 funny face  
-thank you for reminding me  
-about joy
+thanks for reminding me  
+of sweetness
 </div>
 
 !["Waning moon"](/assets/images/bucket/oldmoon.jpg "old moon")  
