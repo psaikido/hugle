@@ -1,8 +1,13 @@
 .navbar {
+    position: absolute;
+    top: 0;
+    left: -16px;
+    z-index: 2;
+
     .navbar-nav {
         border-radius: .25rem;
         border: 1px solid $border-light;
-        width: 281px;
+        width: 295px;
         background-color: $darkGrey;
         color: $hilight;
         padding: 8px;
@@ -43,22 +48,12 @@
     background: transparent;
 }
 
-.navbar {
-    position: absolute;
-    top: 0;
-    left: -3px;
-    z-index: 2;
-
-}
-
 nav.poem-menu {
     position: absolute;
     top: 80px;
     left: -33px;
     float: left;
     text-align: right;
-    max-width: 236px;
-    min-width: 195px;
     padding-bottom: 30px;
 
     ul {
@@ -69,6 +64,7 @@ nav.poem-menu {
 
         li {
             padding-right: 5px;
+            padding-bottom: 2px;
         }
 
         li.current {
