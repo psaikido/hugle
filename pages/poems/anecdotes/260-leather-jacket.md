@@ -18,12 +18,11 @@ to kill
 
 huddling through the market  
 I saw prominently displayed  
-a leather jacket  
+a rock & roll jacket  
 red on the shoulders  
 red on the elbows  
 all beat up  
-rock & roll  
-and warm
+but lined and warm
 
 
 a sticker on it  
