@@ -27,3 +27,5 @@ not to be sick
 it was the biggest laugh  
 I ever got
 </div>
+
+!['Phil' at Snapdragon 91](/assets/images/circus/h_as_phil91.jpg "'Phil' at Snapdragon 91") 
