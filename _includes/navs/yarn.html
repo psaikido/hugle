@@ -1,0 +1,11 @@
+<nav class="poem-menu">
+    <div class="toggler show">hide</div>
+    <ul class="">
+        {% for item in site.data.yarn.menu %}
+            <li {% if page.url  == item.url %}class="current"{% endif %}>
+                <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
+
