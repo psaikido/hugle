@@ -3,8 +3,8 @@ menu:
     - title: home
       url: /index.html
 
-    - title: yarn
-      url: /pages/yarn/000-index.html
+    - title: music
+      url: /pages/music.html
 
     - title: "poems ('hughku'):"
       sub: 
@@ -23,13 +23,16 @@ menu:
         - title: a bucket
           url: /pages/poems/bucket/000-index.html
 
-    - title: "prose:"
+    - title: "stories:"
       sub:
-        - title: First Burn
-          url: /pages/prose/firstBurn/01-fb.html
+        - title: yarn
+          url: /pages/yarn/000-index.html
 
         - title: Ladakh 2005
           url: /pages/prose/ladakh.html
+
+        - title: First Burn
+          url: /pages/prose/firstBurn/01-fb.html
 
     - title: "Sutta Anthology:"
       sub:
@@ -55,9 +58,6 @@ menu:
 
         - title: faves
           url: /pages/pix/faves.html
-
-    - title: music
-      url: /pages/music.html
 
     - title: "silly:"
       sub:
