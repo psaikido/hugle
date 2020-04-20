@@ -1,7 +1,7 @@
 ---
 layout: fall
 written: 2019
-title: snapdragon 1
+title: snapdragon before
 ---
 
 <div class="poem">
@@ -81,12 +81,15 @@ representing the country
 The International Festival of New Circus  
 but we were still only really  
 just a bunch of hippies  
-  
-but my oh my  
-didn't we give it  
-a right proper go  
-when all's said and done  
-at least I can say  
-I didn't hold back  
+
+
+follow your dreams  
+everyone says  
+but what happens  
+when they become
+
+
+nightmares?
 </div>
 
+![Hughie 5 rings](/assets/images/circus/5rings.jpg "Hughie 5 rings")
