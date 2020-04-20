@@ -1,7 +1,7 @@
 ---
 layout: fall
 written: 2019
-title: snapdragon 3
+title: snapdragon after
 ---
 
 <div class="poem">
@@ -78,3 +78,5 @@ then everywhere seems filled
 with ordinary magic  
 </div>
 
+
+![Phil](/assets/images/circus/h_as_phil91.jpg "Hughie as 'Phil'")
