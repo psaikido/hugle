@@ -10,7 +10,7 @@ we're not supposed to tell
 how it's done  
 like most magic  
 the secret  
-is dissappointing  
+is disappointing  
 
 
 returning from the bathroom  
