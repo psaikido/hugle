@@ -71,5 +71,3 @@ well
 
 so can I
 </div>
-
-![Hughie, Wendy, Greg](/assets/images/bucket/h_wendy_greg.jpg "Hughie, Wendy, Greg")
