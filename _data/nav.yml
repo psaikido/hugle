@@ -3,8 +3,8 @@ menu:
     - title: home
       url: /index.html
 
-    - title: music
-      url: /pages/music.html
+    - title: yarn
+      url: /pages/yarn/000-index.html
 
     - title: "poems ('hughku'):"
       sub: 
@@ -19,9 +19,6 @@ menu:
 
         - title: the fall
           url: /pages/poems/fall/000-index.html
-
-        - title: anecdotes
-          url: /pages/poems/anecdotes/000-index.html
 
         - title: a bucket
           url: /pages/poems/bucket/000-index.html
@@ -59,7 +56,10 @@ menu:
         - title: faves
           url: /pages/pix/faves.html
 
-    - title: "musings:"
+    - title: music
+      url: /pages/music.html
+
+    - title: "silly:"
       sub:
         - title: TV Lutòn
           url: /pages/musings/tvluton.html
