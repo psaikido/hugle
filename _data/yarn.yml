@@ -96,5 +96,8 @@ menu:
 - title: mist
   url: /pages/yarn/310-mist.html
 
+- title: models
+  url: /pages/yarn/311-models.html
+
 - title: airborne
   url: /pages/yarn/320-airborne.html
