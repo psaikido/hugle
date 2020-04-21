@@ -22,9 +22,9 @@ the kind of naughty line
 that has to be handled carefully  
 
 
-on this occassion  
+on this occasion  
 a guy was about to swallow  
-a mouthful of champaigne  
+a mouthful of champagne  
 and managed to snort it  
 
 
