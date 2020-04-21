@@ -23,7 +23,7 @@ by a big heavy cable
 sledge-hammered into the ground  
 with two enormous stakes  
 that first time for me  
-putting the tent up
+putting the tent up  
 was like dreaming
 
 
