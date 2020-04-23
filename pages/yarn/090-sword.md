@@ -8,7 +8,7 @@ title: sword
 my old jiu-jitsu teacher  
 used to have a short sword  
 its blade milled off  
-it was used occassionally in class  
+it was used occasionally in class  
 it was from Korea  
 and had been used  
 in World War II  
@@ -16,7 +16,7 @@ so we were told
 
 
 there were loads of cool things  
-tht we learned all about  
+that we learned all about  
 the stances and cuts  
 the formal defences  
 this was some of the actual stuff  
