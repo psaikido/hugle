@@ -33,12 +33,14 @@ he had let it go
 between "two" and SMASH  
 it had really just  
 broken on the floor  
+
 the other guy  
 was also convinced  
 so he gave it a go  
 somehow by chance  
-he only knicked himself  
+he only nicked himself  
 glass all down his chest  
+
 "Wow!" thought I  
 "I didn't know you could do that!"  
 so "one, two" SMASH!  
@@ -65,7 +67,7 @@ an ambulance man
 started berating the policeman  
 as people streamed  
 out of the pub  
-an old nurse too me  
+an old nurse took me  
 by the elbow  
 and quietly lead me  
 into an ambulance
