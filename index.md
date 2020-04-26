@@ -7,7 +7,7 @@ title: Hughie
 
 <i>not waiting for a future that never arrives</i>
 
-<div class="homePage">
+<div class="home-page">
 
 | [Mantrasphere](http://mantrasphere.co.uk) | [Mindfulness CD](http://mantrasphere.co.uk/index.php?page=mindfulness-cd) | 
 | [Closeup Magic](http://hugle.co.uk) | [Code](https://bitbucket.org/psaikido) | 

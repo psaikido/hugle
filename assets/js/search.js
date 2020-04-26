@@ -33,13 +33,13 @@ var store = [{% for item in site.pages %}{
 
 $(document).ready(function() {
   $('<div id="results">')
-    .prependTo('.mainContent');
+    .prependTo('.main-content');
 
-  $('input#searchTerm').click(function () {
+  $('input#search-term').click(function () {
     $(this).val('');
   });
 
-  $('input#searchTerm').on('keyup', function () {
+  $('input#search-term').on('keyup', function () {
     var resultdiv = $('#results');
     var query = $(this).val();
     var result = index.search(query);

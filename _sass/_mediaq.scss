@@ -12,7 +12,7 @@
         font-size: 1.2em;
     }
 
-    .mainContent {
+    .main-content {
         left: 18px;
 
         &.subMenu {
@@ -47,11 +47,11 @@
         max-width: 300px;
     }
     
-    #frmSearch {
+    #search-form {
         position: absolute;
         right: 7px;
 
-        #searchTerm {
+        #search-term {
             width: 100px;
         }
     }

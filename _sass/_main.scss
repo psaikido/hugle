@@ -36,12 +36,12 @@ body {
     border-bottom: 1px solid $border-light;
 }
 
-#frmSearch {
+#search-form {
     position: absolute;
     top: 15px;
     right: 0;
 
-    #searchTerm {
+    #search-term {
         color: $text-light;
         background-color: $bkg;
         width: 140px;
@@ -49,12 +49,12 @@ body {
     }
 }
 
-.homePage table { 
+.home-page table { 
     width: 100%;
     text-align: center;
 }
 
-.mainContent {
+.main-content {
     position: absolute;
     top: 80px;
     color: $text-light;
@@ -111,7 +111,7 @@ a:hover {
     }
 }
 
-.mainContent {
+.main-content {
     .poem-written-date {
         text-align: right;
         color: $text-light;
@@ -130,5 +130,9 @@ a:hover {
     width: 100%;
     text-align: right;
     background: rgba(220, 220, 220, 0.70);
+
+    .footer-text {
+        margin-right: 10px;
+    }
 }
 
