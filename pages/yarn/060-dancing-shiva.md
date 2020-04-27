@@ -56,7 +56,8 @@ to be self-conscious
 and thus at last  
 I broke out of the suburban dream  
 primordially in touch  
-with Mother Earth and Father Sun
+with Mother Earth  
+and Father Sun
 
 the whole experience marked me  
 and set my life's course  
