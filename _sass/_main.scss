@@ -49,9 +49,20 @@ body {
     }
 }
 
-.home-page table { 
-    width: 100%;
-    text-align: center;
+.home-page {
+    table { 
+        width: 100%;
+
+        td {
+            text-align: center;
+        }
+    }
+
+    .home-sub-title {
+        font-style: italic;
+        color: $hilight;
+        text-align: center;
+    }
 }
 
 .main-content {
