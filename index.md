@@ -5,7 +5,7 @@ title: Hughie
 
 ![Hughie, wall, door](/assets/images/bio/h-wall-door.jpg "this wall, this door"){: .center-img }
 
-<i>not waiting for a future that never arrives</i>
+<i>zen circus death magic</i>
 
 <div class="home-page">
 
