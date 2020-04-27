@@ -5,9 +5,12 @@ title: Hughie
 
 ![Hughie, wall, door](/assets/images/bio/h-wall-door.jpg "this wall, this door"){: .center-img }
 
-<i>zen circus death magic</i>
-
 <div class="home-page">
+
+<div class="home-sub-title">
+zen circus death magic
+</div>
+
 
 | [Mantrasphere](http://mantrasphere.co.uk) | [Mindfulness CD](http://mantrasphere.co.uk/index.php?page=mindfulness-cd) | 
 | [Closeup Magic](http://hugle.co.uk) | [Code](https://bitbucket.org/psaikido) | 
