@@ -92,7 +92,7 @@ this time past a huge crowd
 my brain was already overloaded  
 but it was suddenly time  
 to step out and go to the mic  
-"erev tov kahal nichbad"
+"erev tov kahal nichbad"  
 (good evening honourable audience)  
 8000 people cheering  
 really knocks your socks off  

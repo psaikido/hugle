@@ -15,8 +15,8 @@ of that wondrous mountain
 1989 "I ran the world" t-shirt  
 wearing my boina  
 in the majest of youth  
-relaxed
-triumphant
+relaxed  
+triumphant  
 an effortless smile
 
 
