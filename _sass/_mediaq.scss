@@ -9,7 +9,7 @@
 /* Most mobiles */
 @media only screen and (max-device-width: 480px) {
     body {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .main-content {
@@ -17,13 +17,19 @@
 
         &.subMenu {
             left: 140px;
-            width: 210px;
+            width: 245px;
             min-width: 210px;
+
+            &.hide {
+                left: 24px;
+                width: 358px;
+            }
         }
     }
 
     nav.poem-menu {
-        font-size: 1em;
+        top: 85px;
+        font-size: .8em;
         max-width: 140px;
         min-width: 114px;
         left: 0;
@@ -35,6 +41,22 @@
             width: 100%;
             background: $hilight;
             text-align: left;
+            text-indent: 2px;
+        }
+
+        ul li {
+            font-size: 1.1em;
+        }
+
+        &.hide, 
+        .toggler.hide {
+            width: 22px;
+        }
+
+        &.show, 
+        .toggler.show {
+            max-width: 140px;
+            min-width: 114px;
         }
     }
 
@@ -56,10 +78,8 @@
         }
     }
 
-    nav.poem-menu {
-        ul li {
-            font-size: 1.1em;
-        }
+    .navbar {
+        font-size: 1em;
     }
 }
 
