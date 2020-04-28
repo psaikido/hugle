@@ -39,14 +39,12 @@
             $(elem).html('->');
 
             $('.poem-menu')
-                .css('max-width', '20px')
-                .css('min-width', '20px');
+                .attr('class', 'poem-menu hide');
 
             $('.poem-menu').find('ul').hide();
 
             $('.main-content.subMenu')
-                .css('left', '22px')
-                .css('width', '328px');
+                .attr('class', 'main-content subMenu hide');
 
             $(elem)
                 .attr('class', 'toggler hide');
@@ -56,14 +54,12 @@
             $(elem).html('hide');
 
             $('.poem-menu')
-                .css('max-width', '140px')
-                .css('min-width', '114px');
+                .attr('class', 'poem-menu show');
 
             $('.poem-menu').find('ul').show();
 
             $('.main-content.subMenu')
-                .css('left', '140px')
-                .css('width', '126px');
+                .attr('class', 'main-content subMenu');
 
             $(elem)
                 .attr('class', 'toggler show');
