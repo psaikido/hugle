@@ -3,9 +3,10 @@ layout: yarn
 title: yarn 
 ---
 
-As a deliberate attempt to cheer myself up I've written about important moments, curious incidents and so forth.  
-They didn't always cheer me up, but it is fun writing in this prose/poem 'hughku' style I reckons.  
-Often these stories have lain around for decades and when the time comes to write them, they just leap out.
+Taking the 'backward step' in zazen I often find that the unconscious gets to work. Moments significant to me arrange themselves into a haiku/haibun/senryu sort of form, dubbed 'hughku' (thanks Brendan!). Making them public is taking the 'forward step' of full self-expression, a concept much appreciated from Roshi Reb Anderson.
 
 
-100% true in all details afaik! Let me know if exageration has crept in.
+Few people know how long they have here. That fact made me want to document these anecdotes. Here they are in roughly chronological order.
+
+
+100% true in all details afaik! Let me know if exageration has crept in - email is in the footer below.
