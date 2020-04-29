@@ -18,7 +18,7 @@ that warmed from a distance
 we were up against  
 legends  
 the hot favourites  
-Haggis and Charlie  
+Haggis and Lee  
 
 
 someone must've nobbled them  
