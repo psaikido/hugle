@@ -13,7 +13,7 @@ me and Jem
 
 clicking clicky tiles  
 looking up at the ceiling  
-making occassional  
+making occasional  
 afcse  
 cafes  
 facse  
