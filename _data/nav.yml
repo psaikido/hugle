@@ -6,8 +6,11 @@ menu:
     - title: music
       url: /pages/music.html
 
-    - title: "poems ('hughku'):"
+    - title: "hughku:"
       sub: 
+        - title: yarn
+          url: /pages/yarn/000-index.html
+
         - title: Sunshine & Shadow
           url: /pages/poems/sas/000-index.html
 
@@ -25,9 +28,6 @@ menu:
 
     - title: "stories:"
       sub:
-        - title: yarn
-          url: /pages/yarn/000-index.html
-
         - title: Ladakh 2005
           url: /pages/prose/ladakh.html
 
