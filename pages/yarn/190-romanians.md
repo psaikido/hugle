@@ -1,11 +1,10 @@
 ---
 layout: yarn
 written: 2019
-title: Rumanians
+title: Romanians
 ---
 
 <div class="poem">
-
 my friend had a gig near me  
 and invited me along  
 an East European rugby squad  
@@ -29,6 +28,7 @@ my friend rang me
 our new friends  
 had set a record  
 losing  
-96 - 2
+54 - 3
 </div>
 
+[Match link](http://stats.espnscrum.com/scrum/rugby/match/22864.html)
