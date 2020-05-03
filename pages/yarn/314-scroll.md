@@ -8,7 +8,7 @@ title: scroll
 I'd been asked  
 to talk on Chan  
 at the Ashmolean  
-there was a caligrapher there  
+there was a calligrapher there  
 Bing Nan Li  
 he had no English  
 
