@@ -54,4 +54,5 @@ not to be
 evaluated
 </div>
 
-![Heart Sutra scroll](/assets/images/chan/HeartSutraGift.jpg "Heart Sutra scroll")
+![Heart Sutra scroll](/assets/images/chan/HeartSutraGift.jpg "Heart Sutra scroll")  
+[Heart Sutra wikipedia](https://en.wikipedia.org/wiki/Heart_Sutra)
