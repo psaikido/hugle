@@ -37,7 +37,7 @@ until the rest of them
 were satisfied  
 that there was in fact  
 no drugs factory  
-their tipp-off  
+their tip-off  
 was false
 
 
