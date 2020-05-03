@@ -105,7 +105,7 @@ just before I was supposed
 to juggle  
 
 the excitement of that day  
-faded all to fast  
+faded all too fast  
 but that night over beers  
 I thought it would last  
 forever
