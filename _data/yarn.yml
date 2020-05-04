@@ -1,5 +1,9 @@
 menu:
 
+- title: title page
+  url: /pages/yarn/000-index.html
+  silent: true
+
 - title: scrabble
   url: /pages/yarn/010-scrabble.html
 
