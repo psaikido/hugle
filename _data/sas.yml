@@ -1,5 +1,9 @@
 menu:
 
+- title: title page
+  url: /pages/poems/sas/000-index.html
+  silent: true
+
 - title: time
   url: /pages/poems/sas/010-time.html
 

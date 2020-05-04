@@ -1,5 +1,9 @@
 menu:
 
+- title: title page
+  url: /pages/poems/sts/000-index.html
+  silent: true
+
 - title: owls
   url: /pages/poems/sts/010-owls.html
 

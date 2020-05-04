@@ -1,5 +1,9 @@
 menu:
 
+- title: title page
+  url: /pages/poems/fall/000-index.html
+  silent: true
+
 - title: Snapdragon before 
   url: /pages/poems/fall/010-snapdragon-1.html
 

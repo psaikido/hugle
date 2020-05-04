@@ -1,5 +1,9 @@
 menu:
 
+- title: title page
+  url: /pages/poems/bucket/000-index.html
+  silent: true
+
 - title: cloud
   url: /pages/poems/bucket/010-cloud.html
 

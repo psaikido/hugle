@@ -1,5 +1,9 @@
 menu:
 
+- title: title page
+  url: /pages/poems/mbm/000-index.html
+  silent: true
+
 - title: Ladakh
   url: /pages/poems/mbm/010-ladakh.html
 
