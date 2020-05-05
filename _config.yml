@@ -1,7 +1,7 @@
-url: "https://carrollonline.uk/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-title: "carrollonline" # the name of your site, e.g. ACME Corp.
-description: Hugh Carroll's personal site, portfolio, pix, writings
+url: "https://carrollonline.uk/"
+baseurl: "/"
+title: "carrollonline"
+description: Hughie's writings
 favicon: assets/images/favicon.ico
 permalink: /:path/:basename:output_ext
 
@@ -11,6 +11,7 @@ kramdown:
 
 plugins:
     - jekyll-bootstrap-sass
+    - jekyll-sitemap
 
 sass:
     sass_dir: _sass
