@@ -20,6 +20,7 @@
 
                         {% if page.url == item.url %}
                             {% assign currentItemFound = true %}
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"><img src="/assets/images/fbshare.jpg" height="45" alt="share" title="share" /></a><br />
                         {% endif %}
                     {% endfor %}
                 </div>
