@@ -97,6 +97,9 @@ menu:
 - title: leg
   url: /pages/yarn/221-leg.html
 
+- title: chess
+  url: /pages/yarn/222-chess.html
+
 - title: bucket
   url: /pages/yarn/230-bucket.html
 
