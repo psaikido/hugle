@@ -12,11 +12,9 @@ zen circus death magic
 </div>
 
 
-| [Mantrasphere](http://mantrasphere.co.uk) | [Mindfulness CD](http://mantrasphere.co.uk/index.php?page=mindfulness-cd) | 
-| [Closeup Magic](http://hugle.co.uk) | [Code](https://bitbucket.org/psaikido) | 
-| [Guitar Tuition](http://guitar.hugle.co.uk) | [ME/CFS](http://www.mecfshints.com/) |
-| [Family Archive](http://family.carrollonline.uk) | [PTSD](https://www.mind.org.uk/information-support/types-of-mental-health-problems/post-traumatic-stress-disorder-ptsd/) |
-| [Damo DeviantArt](https://www.deviantart.com/capn-damo) | [Portishead Sound](https://www.facebook.com/portisheadsound/) |
+| [Family](http://family.carrollonline.uk) | [Mantrasphere](http://mantrasphere.co.uk) | 
+| [Magic](http://hugle.co.uk) | [Mindfulness CD](https://mantrasphere.co.uk/pages/mindfulness-cd.html) | 
+| [Guitar](http://guitar.hugle.co.uk) | [Code](https://bitbucket.org/psaikido) |
+| [Damo Art](https://www.deviantart.com/capn-damo) | [Chan](https://westernchanfellowship.org) |
 
 </div>
-
