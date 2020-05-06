@@ -1,3 +1,5 @@
+description: main menu
+
 menu:
 
     - title: home
@@ -10,6 +12,7 @@ menu:
       sub: 
         - title: yarn
           url: /pages/yarn/000-index.html
+          yml: yarn
 
         - title: Sunshine & Shadow
           url: /pages/poems/sas/000-index.html
@@ -63,4 +66,7 @@ menu:
       sub:
         - title: TV Lutòn
           url: /pages/musings/tvluton.html
+
+    - title: sitemap
+      url: /pages/sitemap.html
 
