@@ -7,7 +7,7 @@
 }
 
 /* Most mobiles */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 440px) {
     body {
         font-size: 1em;
     }
@@ -27,7 +27,7 @@
 
             &.hide {
                 left: 24px;
-                width: 358px;
+                width: 340px;
             }
         }
     }
