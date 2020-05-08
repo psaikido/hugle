@@ -13,4 +13,4 @@ Waves, crocodiles, whirlpools, sharks (some translations 'alligators').
 
 Controversial! "In the village he sees a woman not well covered and dressed" and the monk is overwhelmed by lust and leaves the holy life to become a layman.
 
-Full text on [buddhism.org](http://www.buddhism.org/Sutras/Agama/Majjhima/067-catuma-e1.htm)
+[Full text](http://www.buddhism.org/Sutras/Agama/Majjhima/067-catuma-e1.htm)
