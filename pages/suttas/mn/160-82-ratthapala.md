@@ -22,4 +22,4 @@ After a struggle to get permission to ordain from his parents Ratthapala talks t
 -- desire can never be wholly satisfying and it generates a feeling of lack.
 
 
-Full text on [Access to Insight](https://accesstoinsight.org/tipitaka/mn/mn.082.than.html)
+[Full text](https://accesstoinsight.org/tipitaka/mn/mn.082.than.html)

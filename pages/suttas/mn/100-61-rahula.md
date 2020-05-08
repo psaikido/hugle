@@ -18,4 +18,4 @@ An action of body, speech and mind should be reflected on before, during and aft
 If the answer is 'yes' before then you don't do it, if during you suspend it, if after you confess it.
 
 
-Full text on [Access to Insight](https://accesstoinsight.org/tipitaka/mn/mn.061.than.html)
+[Full text](https://accesstoinsight.org/tipitaka/mn/mn.061.than.html)

@@ -12,4 +12,4 @@ The bit I liked best was the tiny detail:
 
 Even as the boss of all bosses he shows his humility like this. I found it touching.
 
-Full text on [Access to Insight](https://accesstoinsight.org/tipitaka/mn/mn.026.than.html)
+[Full text](https://accesstoinsight.org/tipitaka/mn/mn.026.than.html)

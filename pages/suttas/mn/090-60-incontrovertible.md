@@ -9,4 +9,4 @@ The eternalists assume an afterlife and karma and so tend to wholesome actions, 
 It is therefore sensible to assume an afterlife and karma are both true.
 
 
-Full text on [Access to Insight](https://accesstoinsight.org/tipitaka/mn/mn.060.than.html)
+[Full text](https://accesstoinsight.org/tipitaka/mn/mn.060.than.html)

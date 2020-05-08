@@ -18,4 +18,4 @@ Angulimala goes on alms round and sees a mother give birth to a deformed child. 
 Angulimala eventually gets fully enlightenend. One day on alms round he gets beaten up, people throw stones at him, whereupon the Buddha says "Bear it Brahmin, bear it Brahmin. You are experiencing here and now the results of deeds because of which you might have gone to hell."
 
 
-Full text on [Access to Insight](https://accesstoinsight.org/tipitaka/mn/mn.086.than.html)
+[Full text](https://accesstoinsight.org/tipitaka/mn/mn.086.than.html)
