@@ -14,8 +14,8 @@ images:
 - name: CallValidate
   img: callvalidate.png
   text: Enterprise development for Callcredit Group
-  url: https://callvalidate.co.uk
-  urlText: callvalidate.co.uk
+  url: https://www.callcreditsecure.co.uk/callvalidate/
+  urlText: callvalidate
 - name: Swindon Chan Group
   img: chanGroup.png
   text: The site of the Swindon Chan Group, sitting weekly since 1988
@@ -62,8 +62,6 @@ images:
 - name: Junction Box
   img: junctionBox.png
   text: A sky themed site for pointing at my other sites, an index of indexes
-  url: http://psaikido.co.uk
-  urlText: psaikido.co.uk
 - name: Kate Meier
   img: katemeier.png
   text: Massage therapist site now defunct
