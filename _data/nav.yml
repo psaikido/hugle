@@ -8,6 +8,9 @@ menu:
     - title: music
       url: /pages/music.html
 
+    - title: portfolio
+      url: /pages/pix/portfolio.html
+
     - title: "hughku:"
       sub: 
         - title: yarn
@@ -46,9 +49,6 @@ menu:
       sub:
         - title: mani stones
           url: /pages/pix/mani.html
-
-        - title: portfolio
-          url: /pages/pix/portfolio.html
 
         - title: bio
           url: /pages/pix/bio.html
