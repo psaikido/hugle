@@ -1,5 +1,5 @@
 ---
-layout: fall
+layout: sts
 written: 2019
 title: don't freak out
 ---
