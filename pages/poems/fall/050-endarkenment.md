@@ -12,7 +12,7 @@ both internal and external
 
 bodiless
 
-I hung suspended
+I hung suspended  
 in an infinite abyss
 
 
