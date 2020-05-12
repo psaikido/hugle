@@ -35,7 +35,7 @@ and became increasingly confused
 about whether I had survived  
 my body certainly didn't belong  
 so I wasn't sure where I was  
-even while taking
+even while taking  
 the audience's applause
 
 
