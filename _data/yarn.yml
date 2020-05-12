@@ -84,6 +84,24 @@ menu:
 - title: library
   url: /pages/yarn/180-library.html
 
+- title: snapdragon before
+  url: /pages/yarn/181-snapdragon-1.html
+
+- title: snapdragon during
+  url: /pages/yarn/182-snapdragon-2.html
+
+- title: snapdragon after
+  url: /pages/yarn/183-snapdragon-3.html
+
+- title: ferryman
+  url: /pages/yarn/184-ferryman.html
+
+- title: endarkenment
+  url: /pages/yarn/185-endarkenment.html
+
+- title: shadow
+  url: /pages/yarn/186-shadow.html
+
 - title: Romanians
   url: /pages/yarn/190-romanians.html
 
