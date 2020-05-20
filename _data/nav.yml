@@ -14,20 +14,20 @@ menu:
     - title: "hughku:"
       sub: 
         - title: yarn
-          url: /pages/yarn/000-index.html
+          url: /pages/hk/yarn/000-index.html
           yml: yarn
 
         - title: Sunshine & Shadow
-          url: /pages/poems/sas/000-index.html
+          url: /pages/hk/sas/000-index.html
 
         - title: Mahabodhi Moonlight
-          url: /pages/poems/mbm/000-index.html
+          url: /pages/hk/mbm/000-index.html
 
         - title: Stopping the Sun
-          url: /pages/poems/sts/000-index.html
+          url: /pages/hk/sts/000-index.html
 
-        - title: a bucket
-          url: /pages/poems/bucket/000-index.html
+        - title: bucket
+          url: /pages/hk/bucket/000-index.html
 
     - title: "stories:"
       sub:
