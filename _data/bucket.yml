@@ -3,54 +3,54 @@ description: a bucket
 menu:
 
 - title: title page
-  url: /pages/poems/bucket/000-index.html
+  url: /pages/hk/bucket/000-index.html
   silent: true
 
 - title: cloud
-  url: /pages/poems/bucket/010-cloud.html
+  url: /pages/hk/bucket/010-cloud.html
 
 - title: dad
-  url: /pages/poems/bucket/020-dad.html
+  url: /pages/hk/bucket/020-dad.html
 
 - title: mam
-  url: /pages/poems/bucket/030-mam.html
+  url: /pages/hk/bucket/030-mam.html
 
 - title: grandma
-  url: /pages/poems/bucket/040-grandma.html
+  url: /pages/hk/bucket/040-grandma.html
 
 - title: Silbury
-  url: /pages/poems/bucket/050-silbury.html
+  url: /pages/hk/bucket/050-silbury.html
 
 - title: banana moon
-  url: /pages/poems/bucket/060-banana-moon.html
+  url: /pages/hk/bucket/060-banana-moon.html
 
 - title: posh clothes
-  url: /pages/poems/bucket/070-posh-clothes.html
+  url: /pages/hk/bucket/070-posh-clothes.html
 
 - title: new moon
-  url: /pages/poems/bucket/080-new-moon.html
+  url: /pages/hk/bucket/080-new-moon.html
 
 - title: who cares?
-  url: /pages/poems/bucket/090-who-cares.html
+  url: /pages/hk/bucket/090-who-cares.html
 
 - title: gliding
-  url: /pages/poems/bucket/100-gliding.html
+  url: /pages/hk/bucket/100-gliding.html
 
 - title: softness
-  url: /pages/poems/bucket/110-softness.html
+  url: /pages/hk/bucket/110-softness.html
 
 - title: game
-  url: /pages/poems/bucket/120-game.html
+  url: /pages/hk/bucket/120-game.html
 
 - title: book
-  url: /pages/poems/bucket/130-book.html
+  url: /pages/hk/bucket/130-book.html
 
 - title: bastards
-  url: /pages/poems/bucket/140-bastards.html
+  url: /pages/hk/bucket/140-bastards.html
 
 - title: flight
-  url: /pages/poems/bucket/150-flight.html
+  url: /pages/hk/bucket/150-flight.html
 
 - title: Mrs Nguy
-  url: /pages/poems/bucket/160-nguy.html
+  url: /pages/hk/bucket/160-nguy.html
 

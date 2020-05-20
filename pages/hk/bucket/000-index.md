@@ -1,6 +1,6 @@
 ---
 layout: bucket
-title: a bucket
+title: bucket
 ---
 
 A bucket of as yet unthemed words.
