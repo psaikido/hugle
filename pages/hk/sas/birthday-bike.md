@@ -1,6 +1,6 @@
 ---
 title: birthday bicycle
-written:
+written: 2003
 layout: sas
 ---
 

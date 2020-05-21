@@ -13,12 +13,12 @@ menu:
 
     - title: "hughku:"
       sub: 
-        - title: yarn
+        - title: Yarn
           url: /pages/hk/yarn/000-index.html
           yml: yarn
 
         - title: Sunshine & Shadow
-          url: /pages/hk/sas/000-index.html
+          url: /pages/hk/sas/index.html
 
         - title: Mahabodhi Moonlight
           url: /pages/hk/mbm/000-index.html
