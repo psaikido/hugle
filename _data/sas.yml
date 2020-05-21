@@ -27,6 +27,9 @@ menu:
 - title: jewels
   url: /pages/hk/sas/jewels.html
 
+- title: the flowers
+  url: /pages/hk/sas/flowers.html
+
 - title: dog & stick
   url: /pages/hk/sas/dog-stick.html
 
@@ -35,9 +38,6 @@ menu:
 
 - title: Richie
   url: /pages/hk/sas/richie.html
-
-- title: the flowers
-  url: /pages/hk/sas/flowers.html
 
 - title: four great kings
   url: /pages/hk/sas/four-great-kings.html
