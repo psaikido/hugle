@@ -18,11 +18,14 @@ menu:
 - title: sorcerer
   url: /pages/hk/mbm/sorcerer.html
 
-- title: in the hall of mirrors
+- title: hall of mirrors
   url: /pages/hk/mbm/mirrors.html
 
 - title: overhead
   url: /pages/hk/mbm/overhead.html
+
+- title: complaining 
+  url: /pages/hk/mbm/complaining.html
 
 - title: never
   url: /pages/hk/mbm/never.html
@@ -33,6 +36,9 @@ menu:
 - title: wild dogs 
   url: /pages/hk/mbm/wild-dogs.html
 
+- title: Kushinagar
+  url: /pages/hk/mbm/kushinagar.html
+
 - title: the burning ghats
   url: /pages/hk/mbm/ghats.html
 
@@ -42,11 +48,17 @@ menu:
 - title: Rajgir
   url: /pages/hk/mbm/rajgir.html
 
+- title: cholera
+  url: /pages/hk/mbm/cholera.html
+
+- title: for Bankei
+  url: /pages/hk/mbm/for-bankei.html
+
+- title: thistledown
+  url: /pages/hk/mbm/thistledown.html
+
 - title: how could love? 
   url: /pages/hk/mbm/how-could-love.html
-
-- title: complaining 
-  url: /pages/hk/mbm/complaining.html
 
 - title: Kathmandu 
   url: /pages/hk/mbm/kathmandu.html
@@ -60,26 +72,18 @@ menu:
 - title: guesthouse 
   url: /pages/hk/mbm/guesthouse.html
 
-- title: dog & bell
-  url: /pages/hk/mbm/dog-bell.html
-
 - title: night dive
   url: /pages/hk/mbm/night-dive.html
-
-- title: for Bankei
-  url: /pages/hk/mbm/for-bankei.html
-
-- title: sleepers
-  url: /pages/hk/mbm/sleepers.html
-
-- title: time stops
-  url: /pages/hk/mbm/time-stops.html
 
 - title: blue
   url: /pages/hk/mbm/manta.html
 
-- title: thistledown
-  url: /pages/hk/mbm/thistledown.html
+- title: dog & bell
+  url: /pages/hk/mbm/dog-bell.html
 
-- title: cholera
-  url: /pages/hk/mbm/cholera.html
+- title: time stops
+  url: /pages/hk/mbm/time-stops.html
+
+- title: sleepers
+  url: /pages/hk/mbm/sleepers.html
+
