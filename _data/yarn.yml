@@ -3,167 +3,167 @@ description: yarn
 menu:
 
 - title: title page
-  url: /pages/hk/yarn/000-index.html
+  url: /pages/hk/yarn/index.html
   silent: true
 
 - title: scrabble
-  url: /pages/hk/yarn/010-scrabble.html
+  url: /pages/hk/yarn/scrabble.html
 
 - title: moron
-  url: /pages/hk/yarn/020-moron.html
+  url: /pages/hk/yarn/moron.html
 
 - title: bang
-  url: /pages/hk/yarn/030-bang.html
+  url: /pages/hk/yarn/bang.html
 
 - title: the strap
-  url: /pages/hk/yarn/040-strap.html
+  url: /pages/hk/yarn/strap.html
 
 - title: XTC
-  url: /pages/hk/yarn/050-xtc.html
+  url: /pages/hk/yarn/xtc.html
 
 - title: dancing Shiva
-  url: /pages/hk/yarn/060-dancing-shiva.html
+  url: /pages/hk/yarn/dancing-shiva.html
 
 - title: glassed
-  url: /pages/hk/yarn/070-glassed.html
+  url: /pages/hk/yarn/glassed.html
 
 - title: The Inevitable Split 
-  url: /pages/hk/yarn/080-split.html
+  url: /pages/hk/yarn/split.html
 
 - title: groupies
-  url: /pages/hk/yarn/081-groupies.html
+  url: /pages/hk/yarn/groupies.html
 
 - title: sword
-  url: /pages/hk/yarn/090-sword.html
+  url: /pages/hk/yarn/sword.html
 
 - title: Joanne Whalley
-  url: /pages/hk/yarn/091-joanne-whalley.html
+  url: /pages/hk/yarn/joanne-whalley.html
 
 - title: 2 Hot 4 July
-  url: /pages/hk/yarn/100-2hot4july.html
+  url: /pages/hk/yarn/2hot4july.html
 
 - title: body-builders
-  url: /pages/hk/yarn/110-body-builders.html
+  url: /pages/hk/yarn/body-builders.html
 
 - title: white hats
-  url: /pages/hk/yarn/111-white-hats.html
+  url: /pages/hk/yarn/white-hats.html
 
 - title: finale
-  url: /pages/hk/yarn/120-finale.html
+  url: /pages/hk/yarn/finale.html
 
 - title: 3 minutes
-  url: /pages/hk/yarn/121-3-minutes.html
+  url: /pages/hk/yarn/3-minutes.html
 
 - title: Eisteddfod
-  url: /pages/hk/yarn/130-eisteddfod.html
+  url: /pages/hk/yarn/eisteddfod.html
 
 - title: necrophilobats
-  url: /pages/hk/yarn/131-necrophilobats.html
+  url: /pages/hk/yarn/necrophilobats.html
 
 - title: chocolate
-  url: /pages/hk/yarn/132-chocolate.html
+  url: /pages/hk/yarn/chocolate.html
 
 - title: giraffes
-  url: /pages/hk/yarn/133-giraffes.html
+  url: /pages/hk/yarn/giraffes.html
 
 - title: wind
-  url: /pages/hk/yarn/134-wind.html
+  url: /pages/hk/yarn/wind.html
 
 - title: dobra 
-  url: /pages/hk/yarn/140-dobra.html
+  url: /pages/hk/yarn/dobra.html
 
 - title: leather jacket 
-  url: /pages/hk/yarn/150-leather-jacket.html
+  url: /pages/hk/yarn/leather-jacket.html
 
 - title: red faces in the park
-  url: /pages/hk/yarn/160-red-faces.html
+  url: /pages/hk/yarn/red-faces.html
 
 - title: Tel Aviv TV
-  url: /pages/hk/yarn/170-telavivtv.html
+  url: /pages/hk/yarn/telavivtv.html
 
 - title: library
-  url: /pages/hk/yarn/180-library.html
+  url: /pages/hk/yarn/library.html
 
 - title: snapdragon before
-  url: /pages/hk/yarn/181-snapdragon-1.html
+  url: /pages/hk/yarn/snapdragon-1.html
 
 - title: snapdragon during
-  url: /pages/hk/yarn/182-snapdragon-2.html
+  url: /pages/hk/yarn/snapdragon-2.html
 
 - title: snapdragon after
-  url: /pages/hk/yarn/183-snapdragon-3.html
+  url: /pages/hk/yarn/snapdragon-3.html
 
 - title: ferryman
-  url: /pages/hk/yarn/184-ferryman.html
+  url: /pages/hk/yarn/ferryman.html
 
 - title: endarkenment
-  url: /pages/hk/yarn/185-endarkenment.html
+  url: /pages/hk/yarn/endarkenment.html
 
 - title: Romanians
-  url: /pages/hk/yarn/190-romanians.html
+  url: /pages/hk/yarn/romanians.html
 
 - title: arrested
-  url: /pages/hk/yarn/200-arrested.html
+  url: /pages/hk/yarn/arrested.html
 
 - title: the golden fleece
-  url: /pages/hk/yarn/210-golden-fleece.html
+  url: /pages/hk/yarn/golden-fleece.html
 
 - title: El Naranjo de Bulnes
-  url: /pages/hk/yarn/220-naranjo.html
+  url: /pages/hk/yarn/naranjo.html
 
 - title: leg
-  url: /pages/hk/yarn/221-leg.html
+  url: /pages/hk/yarn/leg.html
 
 - title: chess
-  url: /pages/hk/yarn/222-chess.html
+  url: /pages/hk/yarn/chess.html
 
 - title: bucket
-  url: /pages/hk/yarn/230-bucket.html
+  url: /pages/hk/yarn/bucket.html
 
 - title: sapphire
-  url: /pages/hk/yarn/240-sapphire.html
+  url: /pages/hk/yarn/sapphire.html
 
 - title: scattering
-  url: /pages/hk/yarn/241-scattering.html
+  url: /pages/hk/yarn/scattering.html
 
 - title: Grist
-  url: /pages/hk/yarn/250-grist.html
+  url: /pages/hk/yarn/grist.html
 
 - title: Bott
-  url: /pages/hk/yarn/251-bott.html
+  url: /pages/hk/yarn/bott.html
 
 - title: levitation
-  url: /pages/hk/yarn/260-levitation.html
+  url: /pages/hk/yarn/levitation.html
 
 - title: shine
-  url: /pages/hk/yarn/270-shine.html
+  url: /pages/hk/yarn/shine.html
 
 - title: Gaumin Si
-  url: /pages/hk/yarn/280-gaumin-si.html
+  url: /pages/hk/yarn/gaumin-si.html
 
 - title: Tiananmen Square
-  url: /pages/hk/yarn/290-tiananmen.html
+  url: /pages/hk/yarn/tiananmen.html
 
 - title: lynch mob
-  url: /pages/hk/yarn/300-lynch-mob.html
+  url: /pages/hk/yarn/lynch-mob.html
 
 - title: mist
-  url: /pages/hk/yarn/310-mist.html
+  url: /pages/hk/yarn/mist.html
 
 - title: models
-  url: /pages/hk/yarn/311-models.html
+  url: /pages/hk/yarn/models.html
 
 - title: finger ring
-  url: /pages/hk/yarn/312-finger-ring.html
+  url: /pages/hk/yarn/finger-ring.html
 
 - title: Paul Daniels
-  url: /pages/hk/yarn/313-paul-daniels.html
+  url: /pages/hk/yarn/paul-daniels.html
 
 - title: scroll
-  url: /pages/hk/yarn/314-scroll.html
+  url: /pages/hk/yarn/scroll.html
 
 - title: airborne
-  url: /pages/hk/yarn/320-airborne.html
+  url: /pages/hk/yarn/airborne.html
 
 - title: rain
-  url: /pages/hk/yarn/330-rain.html
+  url: /pages/hk/yarn/rain.html
