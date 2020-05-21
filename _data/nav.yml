@@ -27,7 +27,7 @@ menu:
           url: /pages/hk/sts/000-index.html
 
         - title: bucket
-          url: /pages/hk/bucket/000-index.html
+          url: /pages/hk/bucket/index.html
 
     - title: "stories:"
       sub:
