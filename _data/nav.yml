@@ -40,7 +40,7 @@ menu:
     - title: "Sutta Anthology:"
       sub:
         - title: Majjhima Nikaya 
-          url: /pages/suttas/mn/000-index.html
+          url: /pages/suttas/mn/index.html
 
     - title: "pix:"
       sub:
