@@ -1,5 +1,5 @@
 ---
-layout: sts
+layout: sas
 written: 2019
 title: la via dolorosa
 ---
