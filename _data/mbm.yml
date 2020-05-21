@@ -12,11 +12,20 @@ menu:
 - title: Leh
   url: /pages/hk/mbm/leh.html
 
+- title: wild dogs 
+  url: /pages/hk/mbm/wild-dogs.html
+
 - title: night winds
   url: /pages/hk/mbm/night-winds.html
 
 - title: sorcerer
   url: /pages/hk/mbm/sorcerer.html
+
+- title: guesthouse 
+  url: /pages/hk/mbm/guesthouse.html
+
+- title: how could love? 
+  url: /pages/hk/mbm/how-could-love.html
 
 - title: hall of mirrors
   url: /pages/hk/mbm/mirrors.html
@@ -27,14 +36,8 @@ menu:
 - title: complaining 
   url: /pages/hk/mbm/complaining.html
 
-- title: never
-  url: /pages/hk/mbm/never.html
-
 - title: Tsopema 
   url: /pages/hk/mbm/tsopema.html
-
-- title: wild dogs 
-  url: /pages/hk/mbm/wild-dogs.html
 
 - title: Kushinagar
   url: /pages/hk/mbm/kushinagar.html
@@ -45,20 +48,26 @@ menu:
 - title: mahabodhi moonlight
   url: /pages/hk/mbm/mahabodhi-moonlight.html
 
+- title: kaleidoscope
+  url: /pages/hk/mbm/kaleidoscope.html
+
 - title: Rajgir
   url: /pages/hk/mbm/rajgir.html
 
 - title: cholera
   url: /pages/hk/mbm/cholera.html
 
+- title: no poetry
+  url: /pages/hk/mbm/no-poetry.html
+
+- title: never
+  url: /pages/hk/mbm/never.html
+
 - title: for Bankei
   url: /pages/hk/mbm/for-bankei.html
 
 - title: thistledown
   url: /pages/hk/mbm/thistledown.html
-
-- title: how could love? 
-  url: /pages/hk/mbm/how-could-love.html
 
 - title: Kathmandu 
   url: /pages/hk/mbm/kathmandu.html
@@ -68,9 +77,6 @@ menu:
 
 - title: Chomolungma
   url: /pages/hk/mbm/chomolungma.html
-
-- title: guesthouse 
-  url: /pages/hk/mbm/guesthouse.html
 
 - title: night dive
   url: /pages/hk/mbm/night-dive.html

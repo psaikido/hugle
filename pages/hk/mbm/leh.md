@@ -9,7 +9,8 @@ silk route city
 our wobbly legs  
 in your ancient streets
    
-people step over a sleeping dog  
+people step over  
+a sleeping dog  
 peaceful horned cow  
 browsing the shops
  

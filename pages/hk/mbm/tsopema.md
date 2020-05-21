@@ -5,7 +5,8 @@ title: dog at Tsopema
 ---
 
 <div class="poem">
-we walked around the holy lake  
+we walked around  
+the holy lake  
 suddenly  
 a dying dog
  
@@ -15,7 +16,9 @@ of its last breathing
  
 alone in the afternoon  
 I returned and gazed  
-then something inside let go
+then something inside  
+let go
+
  
 what if I really stopped  
 asking the world  

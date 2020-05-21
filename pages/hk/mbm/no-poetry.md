@@ -1,7 +1,7 @@
 ---
 title: no poetry
 written: 2005
-layout: sas
+layout: mbm
 ---
 
 <div class="poem">
