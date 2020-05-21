@@ -3,7 +3,7 @@ baseurl: "/"
 title: "carrollonline"
 description: Hughie's writings
 favicon: assets/images/favicon.ico
-permalink: /:path/:basename:output_ext
+permalink: /:path/:basename:output_ext/404.html
 
 markdown: kramdown
 kramdown:
