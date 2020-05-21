@@ -9,23 +9,38 @@ menu:
 - title: Ladakh
   url: /pages/hk/mbm/ladakh.html
 
-- title: mahabodhi moonlight
-  url: /pages/hk/mbm/mahabodhi-moonlight.html
+- title: Leh
+  url: /pages/hk/mbm/leh.html
 
-- title: never
-  url: /pages/hk/mbm/never.html
+- title: night winds
+  url: /pages/hk/mbm/night-winds.html
 
-- title: Rajgir
-  url: /pages/hk/mbm/rajgir.html
+- title: sorcerer
+  url: /pages/hk/mbm/sorcerer.html
 
 - title: in the hall of mirrors
   url: /pages/hk/mbm/mirrors.html
 
+- title: overhead
+  url: /pages/hk/mbm/overhead.html
+
+- title: never
+  url: /pages/hk/mbm/never.html
+
+- title: Tsopema 
+  url: /pages/hk/mbm/tsopema.html
+
+- title: wild dogs 
+  url: /pages/hk/mbm/wild-dogs.html
+
 - title: the burning ghats
   url: /pages/hk/mbm/ghats.html
 
-- title: Boudhanath stupa
-  url: /pages/hk/mbm/boudhanath.html
+- title: mahabodhi moonlight
+  url: /pages/hk/mbm/mahabodhi-moonlight.html
+
+- title: Rajgir
+  url: /pages/hk/mbm/rajgir.html
 
 - title: how could love? 
   url: /pages/hk/mbm/how-could-love.html
@@ -36,14 +51,14 @@ menu:
 - title: Kathmandu 
   url: /pages/hk/mbm/kathmandu.html
 
+- title: Boudhanath stupa
+  url: /pages/hk/mbm/boudhanath.html
+
+- title: Chomolungma
+  url: /pages/hk/mbm/chomolungma.html
+
 - title: guesthouse 
   url: /pages/hk/mbm/guesthouse.html
-
-- title: Tsopema 
-  url: /pages/hk/mbm/tsopema.html
-
-- title: wild dogs 
-  url: /pages/hk/mbm/wild-dogs.html
 
 - title: dog & bell
   url: /pages/hk/mbm/dog-bell.html
@@ -54,15 +69,6 @@ menu:
 - title: for Bankei
   url: /pages/hk/mbm/for-bankei.html
 
-- title: overhead
-  url: /pages/hk/mbm/overhead.html
-
-- title: night winds
-  url: /pages/hk/mbm/night-winds.html
-
-- title: Leh
-  url: /pages/hk/mbm/leh.html
-
 - title: sleepers
   url: /pages/hk/mbm/sleepers.html
 
@@ -72,11 +78,8 @@ menu:
 - title: blue
   url: /pages/hk/mbm/manta.html
 
-- title: Chomolungma
-  url: /pages/hk/mbm/chomolungma.html
-
-- title: sorcerer
-  url: /pages/hk/mbm/sorcerer.html
+- title: thistledown
+  url: /pages/hk/mbm/thistledown.html
 
 - title: cholera
   url: /pages/hk/mbm/cholera.html
