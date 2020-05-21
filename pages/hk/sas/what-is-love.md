@@ -1,6 +1,6 @@
 ---
 title: what is love?
-written: 2020
+written: 1998 & 2020
 layout: sas
 ---
 
