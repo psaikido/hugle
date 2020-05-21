@@ -7,7 +7,8 @@ layout: sas
 <div class="poem">
 my dad  
 always denying emotions  
-ran from his mother's funeral  
+ran  
+from his mother's funeral  
 hiding his eyes  
 
 
