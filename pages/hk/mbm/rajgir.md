@@ -21,4 +21,5 @@ to hear the echoes
 still
 </div>
 
-!["Rajgir Vulture Peak"](/assets/images/pilg1/rajgir.jpg "Rajgir Vulture Peak")
+!["Rajgir Vulture Peak"](/assets/images/pilg1/rajgir.jpg "Rajgir Vulture Peak")  
+[what3words](https://what3words.com/emblem.counts.basically)
