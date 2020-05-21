@@ -5,7 +5,8 @@ title: time stops
 ---
 
 <div class="poem">
-this is where time stops  
+this is where  
+time stops  
 high note  
 jungle insects  
 high voltage  
