@@ -3,54 +3,53 @@ description: a bucket
 menu:
 
 - title: title page
-  url: /pages/hk/bucket/000-index.html
+  url: /pages/hk/bucket/index.html
   silent: true
 
 - title: cloud
-  url: /pages/hk/bucket/010-cloud.html
+  url: /pages/hk/bucket/cloud.html
 
 - title: dad
-  url: /pages/hk/bucket/020-dad.html
+  url: /pages/hk/bucket/dad.html
 
 - title: mam
-  url: /pages/hk/bucket/030-mam.html
+  url: /pages/hk/bucket/mam.html
 
 - title: grandma
-  url: /pages/hk/bucket/040-grandma.html
+  url: /pages/hk/bucket/grandma.html
 
 - title: Silbury
-  url: /pages/hk/bucket/050-silbury.html
+  url: /pages/hk/bucket/silbury.html
 
 - title: banana moon
-  url: /pages/hk/bucket/060-banana-moon.html
+  url: /pages/hk/bucket/banana-moon.html
 
 - title: posh clothes
-  url: /pages/hk/bucket/070-posh-clothes.html
+  url: /pages/hk/bucket/posh-clothes.html
 
 - title: new moon
-  url: /pages/hk/bucket/080-new-moon.html
+  url: /pages/hk/bucket/new-moon.html
 
 - title: who cares?
-  url: /pages/hk/bucket/090-who-cares.html
+  url: /pages/hk/bucket/who-cares.html
 
 - title: gliding
-  url: /pages/hk/bucket/100-gliding.html
+  url: /pages/hk/bucket/gliding.html
 
 - title: softness
-  url: /pages/hk/bucket/110-softness.html
+  url: /pages/hk/bucket/softness.html
 
 - title: game
-  url: /pages/hk/bucket/120-game.html
+  url: /pages/hk/bucket/game.html
 
 - title: book
-  url: /pages/hk/bucket/130-book.html
+  url: /pages/hk/bucket/book.html
 
 - title: bastards
-  url: /pages/hk/bucket/140-bastards.html
+  url: /pages/hk/bucket/bastards.html
 
 - title: flight
-  url: /pages/hk/bucket/150-flight.html
+  url: /pages/hk/bucket/flight.html
 
 - title: Mrs Nguy
-  url: /pages/hk/bucket/160-nguy.html
-
+  url: /pages/hk/bucket/nguy.html

@@ -5,7 +5,8 @@ layout: bucket
 ---
 
 <div class="poem">
-I was watching my friends do a street show  
+I was watching my friends  
+do a street show  
 when I got the fateful call  
 my dad  
 was gone  
@@ -16,7 +17,8 @@ to ask the guys
 to give me a while  
 
 
-the bedroom was filled with sunlight  
+the bedroom  
+was filled with sunlight  
 he lay on his side quite dead  
 I sat in silence for ages  
 until all there was was peace  
@@ -41,7 +43,8 @@ strangely, vividly present
 
 
 it was in his last years  
-when he'd forgotten his parental stance  
+when he'd forgotten  
+his parental stance  
 the sternness and distance  
 softening into warmth and fun  
 that we had our closest times  
