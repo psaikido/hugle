@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: the burning ghats
+permalink: /mbm/ghats.html
 ---
 
 <div class="poem">

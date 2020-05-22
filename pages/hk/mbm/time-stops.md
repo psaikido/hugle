@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: time stops
+permalink: /mbm/time-stops.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 title: no poetry
 written: 2005
 layout: mbm
+permalink: /mbm/no-poetry.html
 ---
 
 <div class="poem">

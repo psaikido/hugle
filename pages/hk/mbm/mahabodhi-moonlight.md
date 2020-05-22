@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: mahabodhi moonlight
+permalink: /mbm/mahabodhi-moonlight.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: wild dogs
+permalink: /mbm/wild-dogs.html
 ---
 
 <div class="poem">

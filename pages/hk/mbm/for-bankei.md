@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: for Bankei
+permalink: /mbm/for-bankei.html
 ---
 
 <div class="poem">

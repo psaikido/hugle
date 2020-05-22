@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: Kathmandu
+permalink: /mbm/kathmandu.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: how could love
+permalink: /mbm/how-could-love.html
 ---
 
 <div class="poem">

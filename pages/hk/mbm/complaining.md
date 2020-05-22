@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: when complaining stops
+permalink: /mbm/complaining.html
 ---
 
 <div class="poem">

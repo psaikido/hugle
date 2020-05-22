@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: overhead
+permalink: /mbm/overhead.html
 ---
 
 <div class="poem">
