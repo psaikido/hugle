@@ -13,4 +13,4 @@ your acceptance
 so radiant
 </div>
 
-!["Hush"](/assets/images/sunshad/Hush.gif "Hush")
+!["Hush"](/assets/images/bucket/Hush.gif "Hush")
