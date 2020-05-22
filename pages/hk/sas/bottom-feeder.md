@@ -20,4 +20,4 @@ yet living
 through ages  
 </div>
 
-!["sea"](/assets/images/sunshad/deepSea.jpg "sea")
+!["sea"](/assets/images/bucket/deepSea.jpg "sea")
