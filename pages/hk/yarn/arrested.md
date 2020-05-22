@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: arrested
+permalink: /yarn/arrested.html
 ---
 
 <div class="poem">

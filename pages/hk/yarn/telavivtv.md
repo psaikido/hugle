@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: Tel Aviv TV
+permalink: /yarn/telavivtv.html
 ---
 
 <div class="poem">

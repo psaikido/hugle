@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: rain
+permalink: /yarn/rain.html
 ---
 
 <div class="poem">

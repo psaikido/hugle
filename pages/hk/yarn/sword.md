@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: sword
+permalink: /yarn/sword.html
 ---
 
 <div class="poem">

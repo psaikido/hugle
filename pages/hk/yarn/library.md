@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: library
+permalink: /yarn/library.html
 ---
 
 <div class="poem">

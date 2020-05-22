@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: El Naranjo de Bulnes
+permalink: /yarn/naranjo.html
 ---
 
 <div class="poem">

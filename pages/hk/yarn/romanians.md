@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: Romanians
+permalink: /yarn/romanians.html
 ---
 
 <div class="poem">

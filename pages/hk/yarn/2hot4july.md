@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: 2 Hot 4 July
+permalink: /yarn/2hot4july.html
 ---
 
 <div class="poem">

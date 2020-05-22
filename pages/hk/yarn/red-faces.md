@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: red faces in the park
+permalink: /yarn/red-faces.html
 ---
 
 <div class="poem">

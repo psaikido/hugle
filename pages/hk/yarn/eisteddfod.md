@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: Eisteddfod
+permalink: /yarn/eisteddfod.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: Paul Daniels
+permalink: /yarn/paul-daniels.html
 ---
 
 <div class="poem">

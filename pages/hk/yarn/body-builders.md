@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: body-builders 
+permalink: /yarn/body-builders.html
 ---
 
 <div class="poem">

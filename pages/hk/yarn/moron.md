@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: moron
+permalink: /yarn/moron.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: necrophilobats
+permalink: /yarn/necrophilobats.html
 ---
 
 <div class="poem">

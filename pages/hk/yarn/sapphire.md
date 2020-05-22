@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: sapphire
+permalink: /yarn/sapphire.html
 ---
 
 <div class="poem">

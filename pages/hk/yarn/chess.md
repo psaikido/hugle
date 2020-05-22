@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: chess
+permalink: /yarn/chess.html
 ---
 
 <div class="poem">

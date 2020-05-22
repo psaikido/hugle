@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: endarkenment
+permalink: /yarn/endarkenment.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: wind
+permalink: /yarn/wind.html
 ---
 
 <div class="poem">

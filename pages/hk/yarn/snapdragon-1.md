@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: snapdragon before
+permalink: /yarn/snapdragon-1.html
 ---
 
 <div class="poem">

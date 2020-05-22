@@ -14,7 +14,7 @@ menu:
     - title: "hughku:"
       sub: 
         - title: Yarn
-          url: /pages/hk/yarn/index.html
+          url: /yarn/
           yml: yarn
 
         - title: Sunshine & Shadow

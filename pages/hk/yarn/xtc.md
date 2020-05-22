@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: XTC 
+permalink: /yarn/xtc.html
 ---
 
 <div class="poem">

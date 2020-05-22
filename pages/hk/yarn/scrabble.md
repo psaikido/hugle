@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: scrabble
+permalink: /yarn/scrabble.html
 ---
 
 <div class="poem">
