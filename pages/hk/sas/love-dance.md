@@ -1,6 +1,6 @@
 ---
 title: love is a dance
-written: 1994
+written: 2002
 layout: sas
 ---
 

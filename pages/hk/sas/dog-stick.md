@@ -1,6 +1,6 @@
 ---
 title: dog stick
-written:
+written: 2004
 layout: sas
 ---
 

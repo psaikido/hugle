@@ -1,6 +1,6 @@
 ---
 title: Richie
-written: 
+written: 2005
 layout: sas
 ---
 
