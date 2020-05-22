@@ -51,4 +51,4 @@ a striptease maybe?
 expressive dance?  
 </div>
 
-![Hughie in boina with fag](/assets/images/bucket/h-fag-boina.jpg "Hughie in boina with fag 1990")
+![Hughie beach juggle Thailand](/assets/images/pilg1/beachJuggle.jpg "Hughie beach juggle Thailand")
