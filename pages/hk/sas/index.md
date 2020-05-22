@@ -1,6 +1,6 @@
 ---
-layout: sas
 title: Sunshine & Shadow
+layout: sas
 ---
 
 Inner journeys from the 90s onwards in a roughly chronological order of when they were written.  
