@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: scattering 
+permalink: /yarn/scattering.html
 ---
 
 <div class="poem">

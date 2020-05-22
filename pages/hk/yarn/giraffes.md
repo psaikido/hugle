@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: giraffes
+permalink: /yarn/giraffes.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: mist
+permalink: /yarn/mist.html
 ---
 
 <div class="poem">

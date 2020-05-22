@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: chocolate
+permalink: /yarn/chocolate.html
 ---
 
 <div class="poem">

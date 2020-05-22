@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: Bott
+permalink: /yarn/bott.html
 ---
 
 <div class="poem">

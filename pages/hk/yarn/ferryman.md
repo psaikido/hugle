@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: the ferryman
+permalink: /yarn/ferryman.html
 ---
 
 <div class="poem">

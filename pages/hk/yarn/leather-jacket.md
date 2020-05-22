@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: leather jacket
+permalink: /yarn/leather-jacket.html
 ---
 
 <div class="poem">

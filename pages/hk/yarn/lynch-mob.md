@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: lynch mob
+permalink: /yarn/lynch-mob.html
 ---
 
 <div class="poem">

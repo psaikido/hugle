@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: dancing Shiva
+permalink: /yarn/dancing-shiva.html
 ---
 
 <div class="poem">

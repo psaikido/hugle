@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: bang
+permalink: /yarn/bang.html
 ---
 
 <div class="poem">

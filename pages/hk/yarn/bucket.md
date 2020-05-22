@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: bucket
+permalink: /yarn/bucket.html
 ---
 
 <div class="poem">

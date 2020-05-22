@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: the strap
+permalink: /yarn/strap.html
 ---
 
 <div class="poem">

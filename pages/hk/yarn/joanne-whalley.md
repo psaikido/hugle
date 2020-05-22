@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: Joanne Whalley
+permalink: /yarn/joanne-whalley.html
 ---
 
 <div class="poem">

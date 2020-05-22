@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: Gaumin Si
+permalink: /yarn/gaumin-si.html
 ---
 
 <div class="poem">

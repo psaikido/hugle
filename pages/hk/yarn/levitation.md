@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: levitation
+permalink: /yarn/levitation.html
 ---
 
 <div class="poem">

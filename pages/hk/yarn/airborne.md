@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: airborne
+permalink: /yarn/airborne.html
 ---
 
 <div class="poem">

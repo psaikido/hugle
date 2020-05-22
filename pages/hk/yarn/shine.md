@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: shine
+permalink: /yarn/shine.html
 ---
 
 <div class="poem">

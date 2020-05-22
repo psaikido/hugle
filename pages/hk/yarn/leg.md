@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: leg
+permalink: /yarn/leg.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: Grist
+permalink: /yarn/grist.html
 ---
 
 <div class="poem">

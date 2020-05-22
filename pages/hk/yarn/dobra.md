@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: Dobra
+permalink: /yarn/dobra.html
 ---
 
 <div class="poem">

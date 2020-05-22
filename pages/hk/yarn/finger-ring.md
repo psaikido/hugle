@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: finger ring 
+permalink: /yarn/finger-ring.html
 ---
 
 <div class="poem">

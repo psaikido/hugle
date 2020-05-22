@@ -2,6 +2,7 @@
 layout: yarn
 written: 2019
 title: finale 
+permalink: /yarn/finale.html
 ---
 
 <div class="poem">

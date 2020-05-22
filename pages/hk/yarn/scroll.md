@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: scroll
+permalink: /yarn/scroll.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: The Inevitable Split
+permalink: /yarn/split.html
 ---
 
 <div class="poem">

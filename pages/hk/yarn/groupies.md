@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: groupies
+permalink: /yarn/groupies.html
 ---
 
 <div class="poem">

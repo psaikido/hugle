@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: models
+permalink: /yarn/models.html
 ---
 
 <div class="poem">

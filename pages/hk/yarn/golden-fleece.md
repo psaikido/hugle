@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: the golden fleece
+permalink: /yarn/golden-fleece.html
 ---
 
 <div class="poem">

@@ -2,6 +2,7 @@
 layout: yarn
 written: 2020
 title: white hats 
+permalink: /yarn/white-hats.html
 ---
 
 <div class="poem">
