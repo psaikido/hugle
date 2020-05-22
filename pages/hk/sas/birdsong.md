@@ -28,4 +28,4 @@ the sage told me
 is redeemed"
 </div>
 
-![West Ogwell Church](/assets/images/sts/westOgwellChurchInterior.jpg "West Ogwell church")
+![West Ogwell Church](/assets/images/bucket/westOgwellChurchInterior.jpg "West Ogwell church")
