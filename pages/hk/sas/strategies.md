@@ -1,7 +1,7 @@
 ---
-layout: sas
-written: 2019
 title: strategies
+written: 2019
+layout: sas
 ---
 
 <div class="poem">

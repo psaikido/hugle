@@ -23,9 +23,6 @@ menu:
         - title: Mahabodhi Moonlight
           url: /pages/hk/mbm/index.html
 
-        - title: bucket
-          url: /pages/hk/bucket/index.html
-
     - title: "stories:"
       sub:
         - title: Ladakh 2005

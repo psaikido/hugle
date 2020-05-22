@@ -1,7 +1,7 @@
 ---
-layout: sas
-written: 2019
 title: la via dolorosa
+written: 2019
+layout: sas
 ---
 
 <div class="poem">
