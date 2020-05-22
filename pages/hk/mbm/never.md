@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: never
+permalink: /mbm/never.html
 ---
 
 <div class="poem">

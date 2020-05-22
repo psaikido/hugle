@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: Kushinagar
+permalink: /mbm/kushinagar.html
 ---
 
 <div class="poem">

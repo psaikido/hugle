@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: night dive
+permalink: /mbm/night-dive.html
 ---
 
 <div class="poem">

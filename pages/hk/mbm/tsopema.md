@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: dog at Tsopema
+permalink: /mbm/tsopema.html
 ---
 
 <div class="poem">

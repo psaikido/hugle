@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: night winds
+permalink: /mbm/night-winds.html
 ---
 
 <div class="poem">

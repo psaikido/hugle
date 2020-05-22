@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: guesthouse
+permalink: /mbm/guesthouse.html
 ---
 
 <div class="poem">

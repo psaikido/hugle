@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: Leh
+permalink: /mbm/leh.html
 ---
 
 <div class="poem">

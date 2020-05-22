@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: Chomolungma
+permalink: /mbm/chomolungma.html
 ---
 
 <div class="poem">

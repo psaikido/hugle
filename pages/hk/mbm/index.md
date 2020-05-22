@@ -1,6 +1,7 @@
 ---
 layout: mbm
 title: mahabodhi moonlight
+permalink: /mbm/
 ---
 
 Poems from a pilgrimage to Ladakh, India and Thailand.  

@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: thistledown 
+permalink: /mbm/thistledown.html
 ---
 
 <div class="poem">

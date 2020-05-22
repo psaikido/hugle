@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: Ladakh
+permalink: /mbm/ladakh.html
 ---
 
 <div class="poem">

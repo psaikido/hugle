@@ -2,6 +2,7 @@
 layout: mbm
 written: 2020
 title: sorcerer
+permalink: /mbm/sorcerer.html
 ---
 
 <div class="poem">

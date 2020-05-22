@@ -2,6 +2,7 @@
 layout: mbm
 written: 2020
 title: cholera
+permalink: /mbm/cholera.html
 ---
 
 <div class="poem">

@@ -1,7 +1,8 @@
 ---
 layout: mbm
 written: 2005
-title: Kathmandu
+title: kaleidoscope
+permalink: /mbm/kaleidoscope.html
 ---
 
 <div class="poem">

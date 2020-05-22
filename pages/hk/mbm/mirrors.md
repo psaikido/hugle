@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: in the hall of mirrors
+permalink: /mbm/mirrors.html
 ---
 
 <div class="poem">

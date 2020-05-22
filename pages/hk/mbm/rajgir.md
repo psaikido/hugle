@@ -2,6 +2,7 @@
 layout: mbm
 written: 2005
 title: Rajgir
+permalink: /mbm/rajgir.html
 ---
 
 <div class="poem">

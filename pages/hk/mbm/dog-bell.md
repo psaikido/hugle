@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: dog and bell
+permalink: /mbm/dog-bell.html
 ---
 
 <div class="poem">

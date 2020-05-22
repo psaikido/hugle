@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: sleepers
+permalink: /mbm/sleepers.html
 ---
 
 <div class="poem">

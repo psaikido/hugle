@@ -2,6 +2,7 @@
 layout: mbm
 written: 2006
 title: manta
+permalink: /mbm/manta.html
 ---
 
 <div class="poem">
