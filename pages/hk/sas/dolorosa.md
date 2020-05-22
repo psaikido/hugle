@@ -16,8 +16,7 @@ you are halfway
 and the return  
 is still to come
 
-how else
-
+how else  
 are heroes born?
 </div>
 

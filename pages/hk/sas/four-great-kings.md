@@ -7,13 +7,17 @@ layout: sas
 <div class="poem">
 the four great kings  
 my brothers  
-who spurned my adoration  
-do they not know the Lord of Death  
-cares nought for seniority?  
+who spurned  
+my adoration  
+do they not know  
+the Lord of Death  
+cares nought  
+for seniority?  
   
 Yama crowned me  
 and now  
-in the fierce blast of freedom  
+in the fierce blast  
+of freedom  
 I wear  
 my shaven head  
 </div>

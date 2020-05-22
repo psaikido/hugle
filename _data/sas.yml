@@ -6,26 +6,29 @@ menu:
   url: /pages/hk/sas/index.html
   silent: true
 
+- title: bottom feeder
+  url: /pages/hk/sas/bottom-feeder.html
+
+- title: love is a dance 
+  url: /pages/hk/sas/love-dance.html
+
 - title: glimpse
   url: /pages/hk/sas/glimpse.html
 
 - title: behind the disco
   url: /pages/hk/sas/disco.html
 
-- title: love is a dance 
-  url: /pages/hk/sas/love-dance.html
-
 - title: ice
   url: /pages/hk/sas/ice.html
-
-- title: bottom feeder
-  url: /pages/hk/sas/bottom-feeder.html
 
 - title: dragon
   url: /pages/hk/sas/dragon.html
 
 - title: jewels
   url: /pages/hk/sas/jewels.html
+
+- title: what is love?
+  url: /pages/hk/sas/what-is-love.html
 
 - title: the flowers
   url: /pages/hk/sas/flowers.html
@@ -42,14 +45,14 @@ menu:
 - title: four great kings
   url: /pages/hk/sas/four-great-kings.html
 
+- title: Gaia
+  url: /pages/hk/sas/gaia.html
+
 - title: Madonna
   url: /pages/hk/sas/madonna.html
 
 - title: robin
   url: /pages/hk/sas/robin.html
-
-- title: what is love?
-  url: /pages/hk/sas/what-is-love.html
 
 - title: owls
   url: /pages/hk/sas/owls.html
@@ -78,14 +81,8 @@ menu:
 - title: treasure
   url: /pages/hk/sas/treasure.html
 
-- title: grumbles
-  url: /pages/hk/sas/grumbles.html
-
 - title: la via dolorosa
   url: /pages/hk/sas/dolorosa.html
-
-- title: trodden down
-  url: /pages/hk/sas/trodden.html
 
 - title: magic tricks
   url: /pages/hk/sas/magic-tricks.html
