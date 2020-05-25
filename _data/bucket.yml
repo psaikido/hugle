@@ -1,0 +1,13 @@
+description: bucket
+
+menu:
+
+- title: title page
+  url: /bucket/
+  silent: true
+
+- title: earthquake
+  url: /bucket/earthquake.html
+
+- title: ancestors
+  url: /bucket/ancestors.html
