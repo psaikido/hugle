@@ -23,6 +23,9 @@ menu:
         - title: Mahabodhi Moonlight
           url: /mbm/
 
+        - title: Bucket
+          url: /bucket/
+
     - title: "stories:"
       sub:
         - title: Ladakh 2005
