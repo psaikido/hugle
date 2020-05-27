@@ -12,7 +12,7 @@ into an enfoldment of mist
 
 
 nearly blind  
-i slowed to a near stall  
+I slowed to a near stall  
 
 
 over the hump  
