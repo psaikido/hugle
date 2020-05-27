@@ -76,7 +76,7 @@ that summer
 was the absolute best time  
 a boy can possibly have  
 some hundred shows  
-around the uk  
+around the UK  
 and finishing in Israel  
 representing the country  
 The International Festival of New Circus  

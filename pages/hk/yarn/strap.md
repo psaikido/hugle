@@ -40,7 +40,7 @@ of a little known rule
 
 
 she sent me for the strap  
-I waited outside Eagen's office  
+I waited outside Egen's office  
 on his way in  
 I saw him spit  
 another thing  

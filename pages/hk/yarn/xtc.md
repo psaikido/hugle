@@ -40,7 +40,7 @@ some original members
 including Barry my chum  
 at his glittering best  
 wheeled out some of the old tunes  
-in packed pub  
+in a packed pub  
 back in Swindon
 
 they jammed the bit at the end  

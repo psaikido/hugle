@@ -56,7 +56,7 @@ everything I had
 had been spent  
 in helping, encouraging, cajouling  
 sometimes sheer lifting  
-a person who's fear  
+a person whose fear  
 had turned her into luggage  
 
 
