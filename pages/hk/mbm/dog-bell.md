@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2006
 title: dog and bell
+written: 2006
+layout: mbm
 permalink: /mbm/dog-bell.html
 ---
 

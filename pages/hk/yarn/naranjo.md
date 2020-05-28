@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: El Naranjo de Bulnes
+written: 2019
+layout: yarn
 permalink: /yarn/naranjo.html
 ---
 

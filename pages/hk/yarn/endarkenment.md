@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: endarkenment
+written: 2019
+layout: yarn
 permalink: /yarn/endarkenment.html
 ---
 

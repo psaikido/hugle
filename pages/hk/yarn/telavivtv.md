@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: Tel Aviv TV
+written: 2019
+layout: yarn
 permalink: /yarn/telavivtv.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: for Bankei
+written: 2005
+layout: mbm
 permalink: /mbm/for-bankei.html
 ---
 

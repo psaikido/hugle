@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: levitation
+written: 2020
+layout: yarn
 permalink: /yarn/levitation.html
 ---
 

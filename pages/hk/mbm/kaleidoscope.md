@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: kaleidoscope
+written: 2005
+layout: mbm
 permalink: /mbm/kaleidoscope.html
 ---
 

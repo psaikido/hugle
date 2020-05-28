@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: dog at Tsopema
+written: 2005
+layout: mbm
 permalink: /mbm/tsopema.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: Tiananmen Square
+written: 2019
+layout: yarn
 permalink: /yarn/tiananmen.html
 ---
 

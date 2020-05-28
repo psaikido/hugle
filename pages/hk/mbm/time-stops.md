@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2006
 title: time stops
+written: 2006
+layout: mbm
 permalink: /mbm/time-stops.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: finale 
+written: 2019
+layout: yarn
 permalink: /yarn/finale.html
 ---
 

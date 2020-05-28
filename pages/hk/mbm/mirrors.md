@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: in the hall of mirrors
+written: 2005
+layout: mbm
 permalink: /mbm/mirrors.html
 ---
 

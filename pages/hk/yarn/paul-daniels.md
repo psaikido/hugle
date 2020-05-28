@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: Paul Daniels
+written: 2020
+layout: yarn
 permalink: /yarn/paul-daniels.html
 ---
 

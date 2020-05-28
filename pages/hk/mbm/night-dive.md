@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2006
 title: night dive
+written: 2006
+layout: mbm
 permalink: /mbm/night-dive.html
 ---
 

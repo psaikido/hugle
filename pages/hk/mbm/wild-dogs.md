@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: wild dogs
+written: 2005
+layout: mbm
 permalink: /mbm/wild-dogs.html
 ---
 

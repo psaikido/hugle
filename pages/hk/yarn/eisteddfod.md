@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: Eisteddfod
+written: 2019
+layout: yarn
 permalink: /yarn/eisteddfod.html
 ---
 

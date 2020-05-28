@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: glassed 
+written: 2019
+layout: yarn
 permalink: /yarn/glassed.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: mist
+written: 2020
+layout: yarn
 permalink: /yarn/mist.html
 ---
 

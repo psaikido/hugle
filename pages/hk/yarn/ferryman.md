@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: the ferryman
+written: 2019
+layout: yarn
 permalink: /yarn/ferryman.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: red faces in the park
+written: 2019
+layout: yarn
 permalink: /yarn/red-faces.html
 ---
 

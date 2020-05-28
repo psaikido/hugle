@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: 2 Hot 4 July
+written: 2019
+layout: yarn
 permalink: /yarn/2hot4july.html
 ---
 

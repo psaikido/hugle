@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: night winds
+written: 2005
+layout: mbm
 permalink: /mbm/night-winds.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: library
+written: 2019
+layout: yarn
 permalink: /yarn/library.html
 ---
 

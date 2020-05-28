@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: 3 minutes 
+written: 2020
+layout: yarn
 permalink: /yarn/3-minutes.html
 ---
 

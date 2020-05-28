@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: lynch mob
+written: 2020
+layout: yarn
 permalink: /yarn/lynch-mob.html
 ---
 
