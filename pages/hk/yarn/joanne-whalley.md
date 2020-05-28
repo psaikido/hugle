@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: Joanne Whalley
+written: 2020
+layout: yarn
 permalink: /yarn/joanne-whalley.html
 ---
 

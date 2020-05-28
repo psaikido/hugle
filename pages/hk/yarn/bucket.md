@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: bucket
+written: 2019
+layout: yarn
 permalink: /yarn/bucket.html
 ---
 

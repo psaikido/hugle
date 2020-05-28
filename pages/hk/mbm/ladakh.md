@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: Ladakh
+written: 2005
+layout: mbm
 permalink: /mbm/ladakh.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: leather jacket
+written: 2020
+layout: yarn
 permalink: /yarn/leather-jacket.html
 ---
 

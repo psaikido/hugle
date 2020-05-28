@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: Kushinagar
+written: 2005
+layout: mbm
 permalink: /mbm/kushinagar.html
 ---
 

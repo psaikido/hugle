@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: when complaining stops
+written: 2005
+layout: mbm
 permalink: /mbm/complaining.html
 ---
 

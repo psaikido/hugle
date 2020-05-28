@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: thistledown 
+written: 2005
+layout: mbm
 permalink: /mbm/thistledown.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2006
 title: the burning ghats
+written: 2006
+layout: mbm
 permalink: /mbm/ghats.html
 ---
 

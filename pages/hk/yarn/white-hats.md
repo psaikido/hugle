@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: white hats 
+written: 2020
+layout: yarn
 permalink: /yarn/white-hats.html
 ---
 

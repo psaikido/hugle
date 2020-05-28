@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: finger ring 
+written: 2020
+layout: yarn
 permalink: /yarn/finger-ring.html
 ---
 

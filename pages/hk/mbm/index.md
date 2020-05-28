@@ -1,6 +1,6 @@
 ---
-layout: mbm
 title: mahabodhi moonlight
+layout: mbm
 permalink: /mbm/
 ---
 

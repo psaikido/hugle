@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: Gaumin Si
+written: 2019
+layout: yarn
 permalink: /yarn/gaumin-si.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: body-builders 
+written: 2019
+layout: yarn
 permalink: /yarn/body-builders.html
 ---
 

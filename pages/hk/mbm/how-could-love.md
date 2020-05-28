@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: how could love
+written: 2005
+layout: mbm
 permalink: /mbm/how-could-love.html
 ---
 

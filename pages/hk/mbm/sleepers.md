@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2006
 title: sleepers
+written: 2006
+layout: mbm
 permalink: /mbm/sleepers.html
 ---
 

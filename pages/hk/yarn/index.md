@@ -1,6 +1,6 @@
 ---
-layout: yarn
 title: yarn 
+layout: yarn
 permalink: /yarn/
 ---
 

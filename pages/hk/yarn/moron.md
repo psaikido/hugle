@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: moron
+written: 2019
+layout: yarn
 permalink: /yarn/moron.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: Bott
+written: 2020
+layout: yarn
 permalink: /yarn/bott.html
 ---
 

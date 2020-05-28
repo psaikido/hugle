@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2020
 title: cholera
+written: 2020
+layout: mbm
 permalink: /mbm/cholera.html
 ---
 

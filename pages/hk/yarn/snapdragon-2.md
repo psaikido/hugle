@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2019
 title: snapdragon during 
+written: 2019
+layout: yarn
 permalink: /yarn/snapdragon-2.html
 ---
 

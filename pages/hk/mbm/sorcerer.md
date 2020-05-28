@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2020
 title: sorcerer
+written: 2020
+layout: mbm
 permalink: /mbm/sorcerer.html
 ---
 

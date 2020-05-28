@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2005
 title: never
+written: 2005
+layout: mbm
 permalink: /mbm/never.html
 ---
 

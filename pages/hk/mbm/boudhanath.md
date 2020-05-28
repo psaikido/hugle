@@ -1,7 +1,7 @@
 ---
-layout: mbm
 written: 2006
 title: Boudhanath stupa
+layout: mbm
 permalink: /mbm/boudhanath.html
 ---
 

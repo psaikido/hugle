@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: giraffes
+written: 2020
+layout: yarn
 permalink: /yarn/giraffes.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: leg
+written: 2020
+layout: yarn
 permalink: /yarn/leg.html
 ---
 

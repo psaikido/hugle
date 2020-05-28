@@ -1,7 +1,7 @@
 ---
-layout: yarn
-written: 2020
 title: wind
+written: 2020
+layout: yarn
 permalink: /yarn/wind.html
 ---
 

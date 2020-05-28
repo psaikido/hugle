@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2006
 title: manta
+written: 2006
+layout: mbm
 permalink: /mbm/manta.html
 ---
 

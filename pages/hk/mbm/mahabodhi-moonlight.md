@@ -1,7 +1,7 @@
 ---
-layout: mbm
-written: 2006
 title: mahabodhi moonlight
+written: 2006
+layout: mbm
 permalink: /mbm/mahabodhi-moonlight.html
 ---
 
