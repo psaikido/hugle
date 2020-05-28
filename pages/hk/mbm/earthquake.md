@@ -1,8 +1,8 @@
 ---
 title: earthquake
 written: 2020
-layout: bucket
-permalink: /bucket/earthquake.html
+layout: mbm
+permalink: /mbm/earthquake.html
 ---
 
 [Ontul Rinpoche](https://www.facebook.com/ontul)'s answer  
