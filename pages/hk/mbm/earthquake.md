@@ -53,6 +53,6 @@ of accepting
 our imminent  
 demise
 
-!["Tsopema"](/assets/images/pilg1/tsopema.jpg "Tsopema")
+!["Tsopema"](/assets/images/pilg1/pilg54.jpg "Nuns at Tsopema")
 [what3words](https://what3words.com/sentry.jauntily.dean)  
 [wikipedia](https://en.wikipedia.org/wiki/2005_Kashmir_earthquake)
