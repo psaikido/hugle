@@ -39,4 +39,4 @@ preposterous jewels
 awkward miracles  
 
 
-!["skin colours"](/assets/images/bucket/skin-type-hands.jpg "skin colours")
+!["skin colours"](/assets/images/pilg1/pilg125.jpg "skin colours")
