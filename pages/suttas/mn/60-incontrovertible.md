@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 60 The Incontrovertible Teaching: Apannaka"
+title: "MN 60 Apannaka: The Incontrovertible Teaching"
 ---
 
 The Buddha sets out the opposing philosophical views of eternalism and nihilism. Those who hold that there is an afterlife and such a thing as karma are the 'eternalists'. Nihilists hold that there are no such things.  

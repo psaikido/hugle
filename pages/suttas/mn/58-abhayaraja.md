@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 58 To Prince Abhaya: Abhayaraja Kumara"
+title: "MN 58 Abhayaraja Kumara: To Prince Abhaya"
 ---
 
 "What if a tender infant had a stick or pebble in his mouth, what would you do to him?"  

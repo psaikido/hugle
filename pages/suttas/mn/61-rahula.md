@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 61 Advice to Rahula at Ambalatthika: Ambalatthika-rahulovada"
+title: "MN 61 Ambalatthika-rahulovada: Advice to Rahula at Ambalatthika"
 ---
 
 
