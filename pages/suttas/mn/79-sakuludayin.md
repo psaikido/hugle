@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 79 To Shorter Discourse to Sakuludayin: Culasakuladayin"
+title: "MN 79 Culasakuladayin: The Shorter Discourse to Sakuludayin"
 ---
 
 The Buddha asks Sakuludayin what his teacher's teaching is. He replies "this is the perfect splendour". The Buddha asks "what is that splendour?" but gets a repetition in reply.

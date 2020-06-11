@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 63 The Shorter Instructions to Malunkya: Cula-Malunkyovada"
+title: "MN 63 Cula-Malunkyovada: The Shorter Instructions to Malunkya"
 ---
 
 "These speculative views are undeclared by the Tathagata -  

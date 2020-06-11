@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 21 Simile of the Saw: Kakacupama"
+title: "MN 21 Kakacupama: Simile of the Saw"
 ---
 
 Monks, there are these five aspects of speech by which others may address you:  

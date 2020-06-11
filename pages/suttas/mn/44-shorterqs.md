@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 44 The Shorter Series of Questions and Answers: Culavedalla"
+title: "MN 44 Culavedalla: The Shorter Series of Questions and Answers"
 ---
 
 Bhikkhuni Dhammadina, an arahant, talks with her former husband Visakha, a non-returner.  

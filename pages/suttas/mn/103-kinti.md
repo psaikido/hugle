@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 103 Dealing with Disputes: Kinti"
+title: "MN 103 Kinti: Dealing with Disputes"
 ---
 
 If someone commits some kind of offence or transgression you should not hurry to reprove them, but one should examine thus:  

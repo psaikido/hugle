@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 87 Born from those who are dear: Piyajatika"
+title: "MN 87 Piyajatika: Born from those who are dear"
 ---
 
 "Sorrow, lamentation, pain, distress, & despair are born from one who is dear."

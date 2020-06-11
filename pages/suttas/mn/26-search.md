@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 26 The Noble Search: Ariyapariyesana"
+title: "MN 26 Ariyapariyesana: The Noble Search"
 ---
 
 The Buddha gives his life story on his search.  

@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 106 Imperturbable: Anenja-sappaya"
+title: "MN 106 Anenja-sappaya: Imperturbable"
 ---
 
 Not clinging to an identity, or anything at all, is the way.

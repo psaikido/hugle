@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 88 The Cload: Bahatika"
+title: "MN 88 Bahatika: The Cloak"
 ---
 
 A king talking to Ananda praises him with a phrase I thought wonderful:  
