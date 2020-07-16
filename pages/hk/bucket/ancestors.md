@@ -5,7 +5,7 @@ layout: bucket
 permalink: /bucket/ancestors.html
 ---
 
-practicing my juggling  
+practising my juggling  
 one day in Oxford  
 a passing priest  
 asked if I'd do a show  
