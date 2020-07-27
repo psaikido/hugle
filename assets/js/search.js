@@ -11,6 +11,8 @@ var index = lunr(function () {
 
 {% assign count = 0 %}
 
+var store = [];
+
 {% for item in site.pages %}
     index.add({
         title: {{ item.title | jsonify }},
@@ -20,16 +22,13 @@ var index = lunr(function () {
     })
 
     {% assign count = count | plus: 1 %}
-{% endfor %}
 
-var store = [{% for item in site.pages %}{
-  'title': {{item.title | jsonify}},
-  'path': {{ item.url | jsonify }},
-  'excerpt': {{ item.content | strip_html | truncatewords: 20 | jsonify }}
-  }
-  {% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-];
+    store.push({
+      'title': {{item.title | jsonify}},
+      'path': {{ item.url | jsonify }},
+      'excerpt': {{ item.content | strip_html | truncatewords: 20 | jsonify }}
+    })
+{% endfor %}
 
 $(document).ready(function() {
   $('<div id="results">')
