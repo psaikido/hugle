@@ -3,7 +3,7 @@ email: contact@hugle.co.uk
 description: Close up magic
 baseurl: "/"
 url: "https://hugle.co.uk"
-favicon: assets/images/favicon.ico
+favicon: assets/favicon.ico
 permalink: /:path/:basename:output_ext
 
 markdown: kramdown
