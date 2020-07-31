@@ -69,9 +69,6 @@ menu:
 - title: just listen
   url: /sun/just-listen.html
 
-- title: birdsong
-  url: /sun/birdsong.html
-
 - title: all of us 
   url: /sun/all-of-us.html
 
@@ -143,6 +140,9 @@ menu:
 
 - title: renting
   url: /sun/renting.html
+
+- title: birdsong
+  url: /sun/birdsong.html
 
 - title: softness
   url: /sun/softness.html
