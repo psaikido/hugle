@@ -6,6 +6,9 @@ menu:
   url: /sun/
   silent: true
 
+- title: ice
+  url: /sun/ice.html
+
 - title: bottom feeder
   url: /sun/bottom-feeder.html
 
@@ -32,9 +35,6 @@ menu:
 
 - title: dragon
   url: /sun/dragon.html
-
-- title: ice
-  url: /sun/ice.html
 
 - title: jewels
   url: /sun/jewels.html

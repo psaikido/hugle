@@ -4,7 +4,10 @@ layout: sun
 permalink: /sun/
 ---
 
-Inner journeys from the 90s onwards in a roughly chronological order of when they were written.  
+Poems on love, longing, loss and darkness.  
+They have all sprung from the silence of meditation.  
+I rarely write in a deliberate way but instead wait until something comes up demanding to be written.
+
 
 !["Gaia House style"](/assets/images/chan/GaiaHouseStyle.jpg "Gaia House style")
 
