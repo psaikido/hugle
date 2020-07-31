@@ -15,16 +15,12 @@ menu:
       sub: 
         - title: Yarn
           url: /yarn/
-          yml: yarn
 
         - title: Sunshine & Shadow
           url: /sun/
 
         - title: Mahabodhi Moonlight
           url: /mbm/
-
-        - title: Bucket
-          url: /bucket/
 
     - title: "stories:"
       sub:

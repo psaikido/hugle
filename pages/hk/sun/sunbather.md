@@ -1,8 +1,8 @@
 ---
 title: sunbather
 written: 2020
-layout: bucket
-permalink: /bucket/sunbather.html
+layout: sun
+permalink: /sun/sunbather.html
 ---
 
 
