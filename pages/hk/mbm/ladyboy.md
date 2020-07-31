@@ -1,8 +1,8 @@
 ---
 title: ladyboy
 written: 2020
-layout: sun
-permalink: /sun/ladyboy.html
+layout: mbm
+permalink: /mbm/ladyboy.html
 ---
 
 Bangkok ladyboy  
