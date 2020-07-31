@@ -11,7 +11,8 @@ title: Hughie
 zen circus death magic
 </div>
 
-[Buy 'Yarn'](https://www.blurb.co.uk/b/10210368-yarn) as a book
+[Yarn](https://www.blurb.co.uk/b/10210368-yarn) book on blurb. Their shipping charge is large.
+Email me for a cheaper copy, signed too!
 
 
 | [Family](http://family.carrollonline.uk) | [Mantrasphere](http://mantrasphere.co.uk) | 
