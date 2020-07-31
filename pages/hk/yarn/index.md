@@ -12,6 +12,9 @@ permalink: /yarn/
   <p style='margin: 5px;'>By <a style='text-decoration: none; color: #00c0be; order-bottom: 0;'><script id='metamorph-223-start' type='text/x-placeholder'></script>Hughie Carroll<script id='metamorph-223-end' type='text/x-placeholder'></script></a></p>
 </div>
 
+Blurb.com put a hefty shipping charge on. Email me for cheaper, and signed, copies.  
+
+
 Taking the 'backward step' in zazen I often find that the unconscious gets to work. Moments significant to me arrange themselves into a haiku/haibun/senryu sort of form, dubbed 'hughku' (thanks Brendan!). Making them public is taking the 'forward step' of full self-expression, a concept much appreciated from Roshi Reb Anderson.
 
 
