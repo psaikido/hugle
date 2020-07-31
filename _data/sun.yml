@@ -18,11 +18,23 @@ menu:
 - title: behind the disco
   url: /sun/disco.html
 
-- title: ice
-  url: /sun/ice.html
+- title: ancestors
+  url: /sun/ancestors.html
+
+- title: you're leaving
+  url: /sun/leaving.html
+
+- title: spectre
+  url: /sun/spectre.html
+
+- title: spy hole
+  url: /sun/spyhole.html
 
 - title: dragon
   url: /sun/dragon.html
+
+- title: ice
+  url: /sun/ice.html
 
 - title: jewels
   url: /sun/jewels.html
@@ -48,11 +60,8 @@ menu:
 - title: Gaia
   url: /sun/gaia.html
 
-- title: Madonna
-  url: /sun/madonna.html
-
-- title: robin
-  url: /sun/robin.html
+- title: ladyboy
+  url: /sun/ladyboy.html
 
 - title: owls
   url: /sun/owls.html
@@ -120,17 +129,29 @@ menu:
 - title: new moon
   url: /sun/new-moon.html
 
-- title: who cares?
-  url: /sun/who-cares.html
+- title: Madonna
+  url: /sun/madonna.html
+
+- title: robin
+  url: /sun/robin.html
 
 - title: gliding
   url: /sun/gliding.html
+
+- title: carrying the cake
+  url: /sun/carrying-the-cake.html
+
+- title: renting
+  url: /sun/renting.html
 
 - title: softness
   url: /sun/softness.html
 
 - title: game
   url: /sun/game.html
+
+- title: who cares?
+  url: /sun/who-cares.html
 
 - title: book
   url: /sun/book.html
@@ -143,3 +164,7 @@ menu:
 
 - title: Mrs Nguy
   url: /sun/nguy.html
+
+- title: sunbather
+  url: /sun/sunbather.html
+

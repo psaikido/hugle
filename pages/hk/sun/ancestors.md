@@ -1,8 +1,8 @@
 ---
 title: ancestors
 written: 2020
-layout: bucket
-permalink: /bucket/ancestors.html
+layout: sun
+permalink: /sun/ancestors.html
 ---
 
 practising my juggling  

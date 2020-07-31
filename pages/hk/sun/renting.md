@@ -1,8 +1,8 @@
 ---
 title: renting
 written: 2020
-layout: bucket
-permalink: /bucket/renting.html
+layout: sun
+permalink: /sun/renting.html
 ---
 
 

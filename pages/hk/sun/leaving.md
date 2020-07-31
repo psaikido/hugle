@@ -1,8 +1,8 @@
 ---
 title: you're leaving
 written: 2020
-layout: bucket
-permalink: /bucket/leaving.html
+layout: sun
+permalink: /sun/leaving.html
 ---
 
 

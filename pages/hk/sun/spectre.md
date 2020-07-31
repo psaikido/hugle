@@ -1,8 +1,8 @@
 ---
 title: spectre
 written: 2020
-layout: bucket
-permalink: /bucket/spectre.html
+layout: sun
+permalink: /sun/spectre.html
 ---
 
 

@@ -1,8 +1,8 @@
 ---
 title: spy hole
 written: 2020
-layout: bucket
-permalink: /bucket/spyhole.html
+layout: sun
+permalink: /sun/spyhole.html
 ---
 
 
