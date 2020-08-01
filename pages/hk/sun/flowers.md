@@ -25,7 +25,7 @@ and I looked at the flowers
 the flowers I'd bought you to celebrate  
 to celebrate your return to home  
 and me and not to flee to your new end  
-without me in another country with your new boyfried  
+without me in another country with your new boyfriend  
 I looked at the flowers  
   
 carnations I think blue and pink  
