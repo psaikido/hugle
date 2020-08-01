@@ -16,7 +16,7 @@ to be done with it forever
 but where there is light  
 there is always darkness  
 so all I have to do  
-it turn around  
+is turn around  
 and face the sun  
 and there it can stay  
 behind me  
