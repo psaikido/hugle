@@ -2,7 +2,7 @@
 title: birthday bicycle
 written: 2003
 layout: sun
-permalink: /sun/birthday-bike.html
+permalink: /sun/birthday-bicycle.html
 ---
 
 <div class="poem">
