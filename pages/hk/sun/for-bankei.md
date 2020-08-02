@@ -1,8 +1,8 @@
 ---
 title: for Bankei
 written: 2005
-layout: mbm
-permalink: /mbm/for-bankei.html
+layout: sun
+permalink: /sun/for-bankei.html
 ---
 
 <div class="poem">
