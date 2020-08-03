@@ -1,8 +1,8 @@
 ---
-title: manta
+title: blue
 written: 2006
 layout: mbm
-permalink: /mbm/manta.html
+permalink: /mbm/blue.html
 ---
 
 <div class="poem">
