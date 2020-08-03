@@ -19,13 +19,10 @@ menu:
         - title: Sunshine & Shadow
           url: /sun/
 
-        - title: Mahabodhi Moonlight
-          url: /mbm/
-
     - title: "stories:"
       sub:
-        - title: Ladakh 2005
-          url: /pages/prose/ladakh.html
+        - title: Mahabodhi Moonlight
+          url: /pages/prose/mahabodhi-moonlight.html
 
         - title: First Burn
           url: /pages/prose/firstBurn/01-fb.html
