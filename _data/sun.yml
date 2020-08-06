@@ -21,9 +21,6 @@ menu:
 - title: behind the disco
   url: /sun/disco.html
 
-- title: for Bankei
-  url: /sun/for-bankei.html
-
 - title: balance regained
   url: /sun/balance-regained.html
 
@@ -72,11 +69,11 @@ menu:
 - title: Gaia
   url: /sun/gaia.html
 
-- title: owls
-  url: /sun/owls.html
-
 - title: just listen
   url: /sun/just-listen.html
+
+- title: owls
+  url: /sun/owls.html
 
 - title: all of us 
   url: /sun/all-of-us.html
@@ -135,11 +132,11 @@ menu:
 - title: the big nowhere
   url: /sun/big-nowhere.html
 
-- title: Madonna
-  url: /sun/madonna.html
-
 - title: robin
   url: /sun/robin.html
+
+- title: Madonna
+  url: /sun/madonna.html
 
 - title: gliding
   url: /sun/gliding.html
@@ -219,7 +216,7 @@ menu:
 - title: earthquake
   url: /sun/earthquake.html
 
-- title: Tsopema 
+- title: dog at Tsopema 
   url: /sun/tsopema.html
 
 - title: long train
@@ -240,11 +237,14 @@ menu:
 - title: Rajgir
   url: /sun/rajgir.html
 
+- title: dog & bell
+  url: /sun/dog-bell.html
+
 - title: cholera
   url: /sun/cholera.html
 
-- title: no poetry
-  url: /sun/no-poetry.html
+- title: for Bankei
+  url: /sun/for-bankei.html
 
 - title: never
   url: /sun/never.html
@@ -267,8 +267,8 @@ menu:
 - title: blue
   url: /sun/blue.html
 
-- title: dog & bell
-  url: /sun/dog-bell.html
+- title: no poetry
+  url: /sun/no-poetry.html
 
 - title: ladyboy
   url: /sun/ladyboy.html
