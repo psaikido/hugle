@@ -22,3 +22,25 @@ Few people know how long they have here. That fact made me want to document thes
 
 
 100% true in all details afaik! Let me know if exageration has crept in - email is in the footer below.
+
+
+#### Back cover blurb
+_Hugh Carroll is a magician. A magician of thoughts, of music, of
+meditation, of empathy and kinship, but here and now, he is a
+magician of words. These poems are some of his grandest tricks yet.
+Through honest and incisive prose that seems part Rumi, part diary
+but all Hughie, we share memories and lucid visions of his vibrant and
+emotional past._
+
+
+_This is a poetic diarist detailing his heart and soul but his style is just
+so inviting and humble that it's hard not to share the feelings behind every experience he documents._
+
+
+_Once you have read these works, you will know Hugh. If you already
+know him, then you’ll know him better. Regardless, many poets never
+achieve the directness or elegance shown here. This is a vital and
+compelling read. Magical, in fact._
+
+
+_– Brendan Hamley_
