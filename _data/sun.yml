@@ -54,6 +54,9 @@ menu:
 - title: birthday bicycle
   url: /sun/birthday-bicycle.html
 
+- title: just listen
+  url: /sun/just-listen.html
+
 - title: Richie
   url: /sun/richie.html
 
@@ -69,8 +72,8 @@ menu:
 - title: Gaia
   url: /sun/gaia.html
 
-- title: just listen
-  url: /sun/just-listen.html
+- title: treasure
+  url: /sun/treasure.html
 
 - title: owls
   url: /sun/owls.html
@@ -86,9 +89,6 @@ menu:
 
 - title: strategies
   url: /sun/strategies.html
-
-- title: treasure
-  url: /sun/treasure.html
 
 - title: la via dolorosa
   url: /sun/dolorosa.html
@@ -123,11 +123,11 @@ menu:
 - title: banana moon
   url: /sun/banana-moon.html
 
-- title: posh clothes
-  url: /sun/posh-clothes.html
-
 - title: new moon
   url: /sun/new-moon.html
+
+- title: posh clothes
+  url: /sun/posh-clothes.html
 
 - title: the big nowhere
   url: /sun/big-nowhere.html
@@ -141,11 +141,11 @@ menu:
 - title: gliding
   url: /sun/gliding.html
 
-- title: carrying the cake
-  url: /sun/carrying-the-cake.html
-
 - title: renting
   url: /sun/renting.html
+
+- title: carrying the cake
+  url: /sun/carrying-the-cake.html
 
 - title: gulf
   url: /sun/gulf.html
@@ -153,11 +153,11 @@ menu:
 - title: treason
   url: /sun/treason.html
 
-- title: birdsong
-  url: /sun/birdsong.html
-
 - title: softness
   url: /sun/softness.html
+
+- title: birdsong
+  url: /sun/birdsong.html
 
 - title: game
   url: /sun/game.html
