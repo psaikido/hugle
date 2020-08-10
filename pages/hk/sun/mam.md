@@ -9,7 +9,7 @@ permalink: /sun/mam.html
 five lunatic boys  
 loved unconditionally  
 throughout a steadfast lifetime  
-Mam, you've demonstrated  
+mam, you've demonstrated  
 the kind of selfless virtue  
 I thought only existed  
 in sermons
