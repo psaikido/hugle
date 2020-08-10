@@ -1,5 +1,5 @@
 ---
-title: mahabodhi moonlight
+title: Mahabodhi moonlight
 written: 2006
 layout: sun
 permalink: /sun/mahabodhi-moonlight.html
