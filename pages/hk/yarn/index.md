@@ -1,5 +1,5 @@
 ---
-title: yarn 
+title: info 
 layout: yarn
 permalink: /yarn/
 ---
