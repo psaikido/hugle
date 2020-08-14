@@ -3,17 +3,17 @@ layout: default
 title: Hughie
 ---
 
-![Hughie, wall, door](/assets/images/bio/h-wall-door.jpg "this wall, this door"){: .center-img }
 
 <div class="home-page">
+
+[Yarn details](/yarn/)
+
+
+![Hughie, wall, door](/assets/images/bio/h-wall-door.jpg "this wall, this door"){: .center-img }
 
 <div class="home-sub-title">
 zen circus death magic
 </div>
-
-[Yarn](https://www.blurb.co.uk/b/10210368-yarn) book on blurb. Their shipping charge is large.
-Email me for a cheaper copy, signed too!
-
 
 | [Family](http://family.carrollonline.uk) | [Mantrasphere](http://mantrasphere.co.uk) | 
 | [Magic](http://hugle.co.uk) | [Mindfulness CD](https://mantrasphere.co.uk/pages/mindfulness-cd.html) | 
