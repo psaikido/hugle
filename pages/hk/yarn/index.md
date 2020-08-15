@@ -7,7 +7,7 @@ permalink: /yarn/
 Here are your choices for reading yarn:
 - read [here](/yarn/scrabble.html) for free
 - buy book for &pound;5 if I can hand it to you
-- add &pound;3 for postage & packing in the UK. Email hughie(at)carrollonline.co.uk with the name and address to send to. Make a paypal 'friends and family' payment or suggest another method in your email
+- add &pound;3 for postage & packing in the UK. Email hughie(at)carrollonline.co.uk with the name and address to send to. Make a [paypal](https://www.paypal.com/biz/fund?id=PXMH9L6D4LUJN) 'friends and family' payment or suggest another method in your email
 - buy from blurb.com site. They put on a hefty shipping charge, nearly 8 quid!  Here's the link:
 
 <div class='share-on-blog' style='margin: 2px;vertical-align: top; font-size: 14px; font-family: arial; color: #000; max-width:300px;padding: 20px;border: 1px solid #f5f5f5; text-align: center; display: block;margin: 5px auto;'>
