@@ -6,6 +6,36 @@ menu:
   url: /sun/
   silent: true
 
+- title: ancestors
+  url: /sun/ancestors.html
+
+- title: you're leaving
+  url: /sun/leaving.html
+
+- title: magic tricks
+  url: /sun/magic-tricks.html
+
+- title: spectre
+  url: /sun/spectre.html
+
+- title: spy hole
+  url: /sun/spyhole.html
+
+- title: birthday bicycle
+  url: /sun/birthday-bicycle.html
+
+- title: behind the disco
+  url: /sun/disco.html
+
+- title: dad
+  url: /sun/dad.html
+
+- title: mam
+  url: /sun/mam.html
+
+- title: grandma
+  url: /sun/grandma.html
+
 - title: ice
   url: /sun/ice.html
 
@@ -18,23 +48,8 @@ menu:
 - title: glimpse
   url: /sun/glimpse.html
 
-- title: behind the disco
-  url: /sun/disco.html
-
 - title: balance regained
   url: /sun/balance-regained.html
-
-- title: ancestors
-  url: /sun/ancestors.html
-
-- title: you're leaving
-  url: /sun/leaving.html
-
-- title: spectre
-  url: /sun/spectre.html
-
-- title: spy hole
-  url: /sun/spyhole.html
 
 - title: dragon
   url: /sun/dragon.html
@@ -50,9 +65,6 @@ menu:
 
 - title: dog & stick
   url: /sun/dog-stick.html
-
-- title: birthday bicycle
-  url: /sun/birthday-bicycle.html
 
 - title: just listen
   url: /sun/just-listen.html
@@ -93,9 +105,6 @@ menu:
 - title: la via dolorosa
   url: /sun/dolorosa.html
 
-- title: magic tricks
-  url: /sun/magic-tricks.html
-
 - title: plankton
   url: /sun/plankton.html
 
@@ -107,15 +116,6 @@ menu:
 
 - title: cloud
   url: /sun/cloud.html
-
-- title: dad
-  url: /sun/dad.html
-
-- title: mam
-  url: /sun/mam.html
-
-- title: grandma
-  url: /sun/grandma.html
 
 - title: Silbury
   url: /sun/silbury.html
