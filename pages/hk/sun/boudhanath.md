@@ -6,7 +6,7 @@ permalink: /sun/boudhanath.html
 ---
 
 <div class="poem">
-boudhanath stupa  
+Boudhanath stupa  
 long imagined  
 now really here
  
