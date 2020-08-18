@@ -14,7 +14,7 @@ all eyes electric popping
 or head lowered  
 twinkling beneath comedy eyebrows  
 and when something was shit  
-you said "it's shit"  
+you said "it's shit!"  
   
 after the funeral  
 after the song of the blackbird  
