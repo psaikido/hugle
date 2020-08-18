@@ -14,8 +14,8 @@ in lighter waters
 
 the booming depths  
 of pressured pulsing  
-darkened half life  
   
+darkened half life  
 yet living  
 
 through ages  
