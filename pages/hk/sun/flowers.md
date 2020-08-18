@@ -11,7 +11,8 @@ while you made the tea
 you had some news to give to me  
 I waited and trembled, what could it be  
 that could be so big it needed tea and  
-waiting - I knew it was the end of our  
+waiting  
+I knew it was the end of our  
 happiness, I knew in my bones as I  
 looked at the flowers  
   
