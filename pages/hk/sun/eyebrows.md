@@ -15,7 +15,7 @@ all eyes shifted to John
 "to see the nature with a  
 compassionate heart"  
 all eyes shifted back  
-De Lin rocked on his cusion  
+De Lin rocked on his cushion  
 eyebrows lifted  
 "not bad! not bad!"
 
