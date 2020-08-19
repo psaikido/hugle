@@ -81,6 +81,12 @@ menu:
 - title: bat detector
   url: /sun/bat-detector.html
 
+- title: Carrollus Primus
+  url: /sun/carrollus-primus.html
+
+- title: silly walks
+  url: /sun/silly-walks.html
+
 - title: Gaia
   url: /sun/gaia.html
 
@@ -98,6 +104,9 @@ menu:
 
 - title: giggle dancing 
   url: /sun/giggle-dancing.html
+
+- title: eyebrows
+  url: /sun/eyebrows.html
 
 - title: strategies
   url: /sun/strategies.html
