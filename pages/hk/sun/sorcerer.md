@@ -59,7 +59,7 @@ so I said "I'll teach you my secrets
 if you teach me yours!"  
 again the laughter  
 I don't think you are supposed  
-to talk to rimpoches  
+to talk to rinpoches  
 that way  
 but I went to his room  
 late at night  
