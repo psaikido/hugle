@@ -5,6 +5,9 @@ menu:
     - title: home
       url: /index.html
 
+    - title: shop
+      url: /pages/shop.html
+
     - title: music
       url: /pages/music.html
 

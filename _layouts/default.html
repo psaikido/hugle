@@ -4,12 +4,12 @@
     <body>
 
         <div class="wrap">
-            <div class="header">hughie</div>
+            <div class="header">{{ page.title }}</div>
 
             {% include navs/main.html %}
             {% include search.html %}
 
-            <div class="main-content home">
+            <div class="home">
                 {{ content }}
             </div>
         </div>
