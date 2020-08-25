@@ -1,6 +1,7 @@
 body {
     font-family: 'Paprika', cursive;
     font-size: 1.1em;
+    color: $text-light;
     letter-spacing: .1em;
     margin: 0;
     padding: 0;
@@ -147,3 +148,33 @@ a:hover {
     }
 }
 
+.shop-item {
+    float: left;
+    clear: left;
+    width: 100%;
+    border-bottom: 1px solid $border-light;
+    margin-bottom: 40px;
+    padding: 20px;
+
+    .graphic {
+        float: left;
+
+        img {
+            max-width: 252px;
+        }
+    }
+
+    .info {
+        float: left;
+        margin-left: 30px;
+        max-width: 62%;
+
+        ul {
+            list-style-type: square;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+    }
+}

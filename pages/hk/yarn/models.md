@@ -26,7 +26,7 @@ then there it was
 Mantrasphere  
 
 
-![Mantrasphere cover](/assets/images/bucket/MantrasphereCover.gif "Mantrasphere"){:class="half"}
+![Mantrasphere cover](/assets/images/shop/mantrasphere.gif "Mantrasphere"){:class="half"}
 
 
 the printing looked ok  

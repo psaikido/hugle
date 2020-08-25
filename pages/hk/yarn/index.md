@@ -4,22 +4,15 @@ layout: yarn
 permalink: /yarn/
 ---
 
-Here are your choices for reading yarn:
-- read [here](/yarn/scrabble.html) for free
-- buy book for &pound;5 if I can hand it to you
-- add &pound;3 for postage & packing in the UK. Email hughie(at)carrollonline.co.uk with the name and address to send to. Make a [paypal](https://www.paypal.com/biz/fund?id=PXMH9L6D4LUJN) 'friends and family' payment or suggest another method in your email
-- buy from blurb.com site. They put on a hefty shipping charge, nearly 8 quid!  Here's the link:
+- &pound;5 by hand
+- &pound;8 by post payment by paypal 
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="LXC8HCD5FJR5A">
+    <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+    </form>
 
-<div class='share-on-blog' style='margin: 2px;vertical-align: top; font-size: 14px; font-family: arial; color: #000; max-width:300px;padding: 20px;border: 1px solid #f5f5f5; text-align: center; display: block;margin: 5px auto;'>
-  <a href="https://www.blurb.com/bookshare/app/index.html?bookId=10210368" data-bindattr-56="56" target='_blank'>
-    <img src="https://bookshow.blurb.com/bookshow/cache/P15519862/md/cover_2.jpeg?access_key=f37383a64a089c459866fdbac3db4210" data-bindattr-57="57" alt='' style='max-height:300px; max-width:300px;border:0;zoom: 50%;box-shadow: 3px 3px 10px 1px #999;' />
-	</a>
-  <p style='margin: 5px;'><a target='_blank' style='text-decoration: none; font-size: 18px; color: #00c0be; text-transform: uppercase; border-bottom: 0;'><script id='metamorph-222-start' type='text/x-placeholder'></script>Yarn for sale on blurb.com<script id='metamorph-222-end' type='text/x-placeholder'></script></a></p>
-  <p style='margin: 5px;'>By <a style='text-decoration: none; color: #00c0be; order-bottom: 0;'><script id='metamorph-223-start' type='text/x-placeholder'></script>Hughie Carroll<script id='metamorph-223-end' type='text/x-placeholder'></script></a></p>
-</div>
-
-- if you would like it signed then let me know in your email
-- if you have an unsteady moment and feel the indefensible need to make a donation, then you can do that via [paypal](https://www.paypal.com/biz/fund?id=PXMH9L6D4LUJN)
+- buy on [blurb.co.uk](https://www.blurb.co.uk/b/10210368-yarn)
 
 
 
