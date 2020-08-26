@@ -21,5 +21,5 @@ I rarely write in a deliberate way but instead wait until something comes up dem
 The poems from 'Ladakh' onwards are from a pilgrimage in 2005/6. The writings in prose form about that journey are called [Mahabodhi Moonlight](/pages/prose/mahabodhi-moonlight.html)
 
 
-!["Gaia House style"](/assets/images/chan/GaiaHouseStyle.jpg "Gaia House style")
+![Sunshine & Shadow cover](/assets/images/shop/sunshad-cover.jpg "Sunshine & Shadow cover")
 
