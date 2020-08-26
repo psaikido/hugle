@@ -9,6 +9,7 @@ permalink: /yarn/praise-for-yarn
 - "A terrific book, Hughie! Our hero is a wonderfully engaging character we know well. He'll try anything, and loves the laughs." _GM_
 
 - "Just finished. I had to keep reading out loud to _A_ because its riveting. I cried, I laughed and I'm proud to be your friend." _L_
+
 - "Wow....great pace! Keep writing like that!" _NR_
 
 - "Bows low. Awesome, hughie, awesome" _OC_
