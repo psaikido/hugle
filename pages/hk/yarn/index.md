@@ -15,6 +15,11 @@ permalink: /yarn/
 - buy on [blurb.co.uk](https://www.blurb.co.uk/b/10210368-yarn)
 
 
+![Yarn cover](/assets/images/shop/yarn-cover.jpg "Yarn cover")  
+
+
+[praise for Yarn](/yarn/praise-for-yarn)
+
 
 #### preface
 Taking the 'backward step' in zazen I often find that the unconscious gets to work. Moments significant to me arrange themselves into a haiku/haibun/senryu sort of form, dubbed 'hughku' (thanks Brendan!). Making them public is taking the 'forward step' of full self-expression, a concept much appreciated from Roshi Reb Anderson.
