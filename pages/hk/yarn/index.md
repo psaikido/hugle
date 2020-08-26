@@ -18,7 +18,7 @@ permalink: /yarn/
 ![Yarn cover](/assets/images/shop/yarn-cover.jpg "Yarn cover")  
 
 
-[praise for Yarn](/yarn/praise-for-yarn)
+[praise for Yarn](/yarn/praise-for-yarn.html)
 
 
 #### preface
