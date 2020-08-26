@@ -51,6 +51,8 @@ body {
 }
 
 .home-page {
+    position: relative;
+
     table { 
         width: 100%;
 
@@ -59,10 +61,24 @@ body {
         }
     }
 
-    .home-sub-title {
+    .home-text-box {
+        position: absolute;
+        top: 230px;
+        left: 168px;
+        width: 60%;
+        border: 1px solid $dark-grey;
         font-style: italic;
-        color: $hilight;
-        text-align: center;
+        padding: 30px;
+        background-color: $bkg;
+        opacity: .8;
+
+        a {
+            color: $hilight;
+        }
+
+        td {
+            text-align: left;
+        }
     }
 }
 

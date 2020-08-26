@@ -3,13 +3,13 @@ description: main menu
 menu:
 
     - title: home
-      url: /index.html
+      url: /
 
     - title: shop
-      url: /pages/shop.html
+      url: /shop/
 
-    - title: music
-      url: /pages/music.html
+    - title: links
+      url: /links/
 
     - title: portfolio
       url: /pages/pix/portfolio.html
