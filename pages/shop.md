@@ -12,7 +12,7 @@ permalink: /shop/
 
 <div class="info">
 - &pound;5 by hand
-- &pound;8 by post payment by paypal (available early September 2020)  
+- &pound;8 by post 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="7QV7W7X7EL9RJ">
@@ -32,7 +32,7 @@ permalink: /shop/
 
 <div class="info">
 - &pound;5 by hand
-- &pound;8 by post payment by paypal 
+- &pound;8 by post 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="LXC8HCD5FJR5A">
@@ -53,7 +53,7 @@ permalink: /shop/
 <div class="info">
 - &pound;5 by hand
 
-- &pound;8 by post payment by paypal 
+- &pound;8 by post
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="89NJ993PW445W">
@@ -77,7 +77,7 @@ Two of the tracks are on soundcloud:
 [Body Scan](https://soundcloud.com/mantrasphere/bodyscan)
 
 - &pound;3 by hand  
-- &pound;5 by post payment by paypal 
+- &pound;5 by post
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="UGMP8AX2XG2SQ">
