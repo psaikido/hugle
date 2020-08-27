@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Links
-permalink: /links
+permalink: /links/
 ---
 
 - [Family](http://family.carrollonline.uk)

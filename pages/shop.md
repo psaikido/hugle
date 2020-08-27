@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shop
-permalink: /shop
+permalink: /shop/
 ---
 
 <div class="shop-item">
