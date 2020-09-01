@@ -5,7 +5,21 @@ permalink: /shop/
 ---
 
 <div class="shop-item">
-##### Sunshine & Shadow
+<div class="graphic">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="PXMH9L6D4LUJN" />
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+</form>
+</div>
+<div class="info">
+- For sundry payments or if you are overcome with an indefensible desire to give me money :)
+</div>
+</div>
+
+
+<div class="shop-item">
+##### [Sunshine & Shadow](/sun)
 <div class="graphic">
 ![Sunshine & Shadow cover](/assets/images/shop/sunshad-cover.jpg "Sunshine & Shadow cover")
 </div>
@@ -25,7 +39,7 @@ permalink: /shop/
 
 
 <div class="shop-item">
-##### Yarn
+##### [Yarn](/yarn)
 <div class="graphic">
 ![Yarn cover](/assets/images/shop/yarn-cover.jpg "Yarn cover")  
 </div>
@@ -45,7 +59,7 @@ permalink: /shop/
 
 
 <div class="shop-item">
-##### Mantrasphere
+##### [Mantrasphere](https://mantrasphere.co.uk)
 <div class="graphic">
 ![Mantrasphere cover](/assets/images/shop/mantrasphere.gif "Mantrasphere cover")  
 </div>
@@ -59,8 +73,6 @@ permalink: /shop/
     <input type="hidden" name="hosted_button_id" value="89NJ993PW445W">
     <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
     </form>
-
-- [Mantrasphere](https://mantrasphere.co.uk) album's website  
 </div>
 </div>
 

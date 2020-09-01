@@ -11,7 +11,7 @@ title: Hughie
 <div class="home-text-box">
 
 | [Yarn](/yarn) | [Family](http://family.carrollonline.uk) | 
-| [Sunshine & Shadow](/sun) | [Merch](/shop/) | 
+| [Sunshine & Shadow](/sun) | [Shop](/shop/) | 
 
 </div>
 
