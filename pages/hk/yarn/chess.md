@@ -5,6 +5,8 @@ layout: yarn
 permalink: /yarn/chess.html
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jh9JYVPCPOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <div class="poem">
 the scars were deep  
 all over his face  
@@ -62,4 +64,5 @@ another cut
 </div>
 
 ![chess](/assets/images/faves/Chess.jpg "chess")
+
 

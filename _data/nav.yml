@@ -8,12 +8,6 @@ menu:
     - title: shop
       url: /shop/
 
-    - title: links
-      url: /links/
-
-    - title: portfolio
-      url: /pages/pix/portfolio.html
-
     - title: "hughku:"
       sub: 
         - title: Yarn
@@ -52,10 +46,20 @@ menu:
         - title: faves
           url: /pages/pix/faves.html
 
-    - title: "silly:"
+    - title: "stuff:"
       sub:
         - title: TV Lutòn
           url: /pages/musings/tvluton.html
+
+        - title: links
+          url: /links/
+
+        - title: vids
+          url: /vids/
+
+        - title: portfolio
+          url: /pages/pix/portfolio.html
+
 
     - title: sitemap
       url: /pages/sitemap.html
