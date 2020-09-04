@@ -48,17 +48,17 @@ menu:
 
     - title: "stuff:"
       sub:
-        - title: TV Lutòn
-          url: /pages/musings/tvluton.html
-
-        - title: links
-          url: /links/
-
         - title: vids
           url: /vids/
 
         - title: portfolio
           url: /pages/pix/portfolio.html
+
+        - title: TV Lutòn
+          url: /pages/musings/tvluton.html
+
+        - title: links
+          url: /links/
 
 
     - title: sitemap
