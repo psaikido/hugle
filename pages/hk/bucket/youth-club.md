@@ -104,4 +104,5 @@ and called out
 
 
 !["hands in chains"](/assets/images/bucket/bound-with-chains.jpg "hands in chains")  
-[image credit](https://simplyconsiderthis.wordpress.com/2013/03/23/how-can-i-be-set-free/)
+[image credit](https://simplyconsiderthis.wordpress.com/2013/03/23/how-can-i-be-set-free/)  
+with thanks to [Dik Downey](https://www.opposablethumbtheatre.com/the-company)
