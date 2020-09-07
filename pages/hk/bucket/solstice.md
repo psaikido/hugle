@@ -26,7 +26,7 @@ paisley waistcoat
 with grass leafs  
 loads of beads  
 a big felt Dr Seuss hat  
-and a big spliff  
+and a mahoosive spliff  
 everything looked  
 brand new
 
