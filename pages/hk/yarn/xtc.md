@@ -62,7 +62,7 @@ the tragedy
 of a nothing life  
 in a nothing town  
 and yet here we were  
-should to shoulder  
+shoulder to shoulder  
 dancing  
 jumping  
 sweating  
