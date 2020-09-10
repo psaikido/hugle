@@ -60,3 +60,6 @@ a heart attack
 clickery tappery  
 is no way  
 to earn a living  
+
+
+!["row of monitors"](/assets/images/bucket/monitors.jpg "row of monitors")  
