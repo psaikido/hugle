@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+
+        <div class="wrap">
+            <div class="header">{{ page.title }}</div>
+
+            {% include navs/main.html %}
+            {% include search.html %}
+
+            <script src="/assets/js/random-hughku.js"></script>
+
+
+            <div class="main-content home">
+                {{ content }}
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

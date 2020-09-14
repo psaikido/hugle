@@ -61,7 +61,8 @@ body {
         }
     }
 
-    .home-text-box {
+    .home-text-box,
+    .random-hughku {
         position: absolute;
         top: 230px;
         left: 168px;
@@ -79,6 +80,13 @@ body {
         td {
             text-align: left;
         }
+    }
+    
+    .random-hughku {
+        top: 161px;
+        left: 168px;
+        padding: 10px;
+        text-align: center;
     }
 }
 
