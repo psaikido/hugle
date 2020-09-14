@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: hughku
 ---
 
@@ -7,6 +7,9 @@ title: hughku
 <div class="home-page">
 
 ![Hughie, wall, door](/assets/images/bio/h-wall-door.jpg "this wall, this door"){: .center-img }
+
+<div class="random-hughku">
+</div>
 
 <div class="home-text-box">
 
