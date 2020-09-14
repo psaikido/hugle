@@ -12,7 +12,7 @@ title: hughku
 
 | [Yarn](/yarn) | [Family](http://family.carrollonline.uk) | 
 | [Sunshine & Shadow](/sun) | [Shop](/shop/) | 
-| [goodreads](https://www.goodreads.com/author/show/20671806.Hughie_Carroll) | [Latest](/bucket/big-wig.html) |
+| [goodreads](https://www.goodreads.com/author/show/20671806.Hughie_Carroll) | [Latest](/bucket/top-dogs.html) |
 
 </div>
 
