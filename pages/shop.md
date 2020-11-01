@@ -17,6 +17,24 @@ permalink: /shop/
 </div>
 </div>
 
+<div class="shop-item">
+##### [Yarn](/yarn) and [Sunshine & Shadow](/sun)
+<div class="graphic">
+![covers](/assets/images/shop/y-sas.png "Yarn and Sunshine & Shadow covers")
+</div>
+
+<div class="info">
+- &pound;10 by hand
+- &pound;12 by post 
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KD2JLZCZPB5JN">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+</form>
+
+</div>
+</div>
 
 <div class="shop-item">
 ##### [Sunshine & Shadow](/sun)
