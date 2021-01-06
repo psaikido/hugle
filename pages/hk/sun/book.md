@@ -45,7 +45,7 @@ raging
 or terrified  
   
 contradictions abound  
-course humour  
+coarse humour  
 yammed up  
 against the ethereal  
 the transcendent  
