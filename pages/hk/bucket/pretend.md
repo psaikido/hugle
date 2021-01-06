@@ -15,5 +15,5 @@ it's them that stab you in the back
 they've got the most to hide  
 we've all constructed facades  
 but falsities offend  
-they say let's all be nice  
+don't they say let's all be nice  
 so pretend pretend pretend
