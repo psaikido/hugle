@@ -27,8 +27,7 @@ gorgeous
 
 the guys were already lairy  
 but in her presence  
-they completely  
-lost their minds  
+they lost their minds  
 
 
 we invited her  
@@ -41,15 +40,19 @@ all the jokes and patter
 well rehearsed  
 with clubs whistling past  
 front and rear  
-she had to stand still  
-"if you're going to laugh  
-do it sideways"  
+she had to stand  
+
+
+still  
 
 
 we asked her  
 to keep her hands  
 by her sides  
-and in a brainwave  
+and told her  
+"if you're going to laugh  
+do it sideways"  
+in a brainwave  
 I asked her  
 to clench  
 her buttocks  
@@ -67,4 +70,6 @@ it was like a cartoon
 they way they went  
 completely  
 and utterly  
+
+
 bananas
