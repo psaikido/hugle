@@ -63,6 +63,9 @@ menu:
         - title: links
           url: /links/
 
+        - title: rotation codes
+          url: /rotation-codes.html
+
 
     - title: sitemap
       url: /pages/sitemap.html
