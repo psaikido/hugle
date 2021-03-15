@@ -51,9 +51,6 @@ menu:
 
     - title: "kites:"
       sub:
-        - title: rotation codes
-          url: /rotation-codes.html
-
 
     - title: "stuff:"
       sub:
@@ -65,6 +62,9 @@ menu:
 
         - title: TV Lutòn
           url: /pages/musings/tvluton.html
+
+        - title: rotation codes
+          url: /rotation-codes.html
 
         - title: links
           url: /links/
