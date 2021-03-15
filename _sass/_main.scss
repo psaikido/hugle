@@ -160,6 +160,22 @@ ul {
     .poem-footer {
         padding-top: 26px;
     }
+
+    .two-cols {
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+
+        .col-left {
+            width: 50%;
+            float: left;
+        }
+
+        .col-right {
+            width: 50%;
+            float: right;
+        }
+    }
 }
 
 .footer {
@@ -205,3 +221,4 @@ ul {
         }
     }
 }
+
