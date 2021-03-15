@@ -49,6 +49,15 @@ menu:
         - title: faves
           url: /pages/pix/faves.html
 
+    - title: "kites:"
+      sub:
+        - title: rotation codes
+          url: /rotation-codes.html
+
+        - title: club38 
+          url: /club38.html
+
+
     - title: "stuff:"
       sub:
         - title: vids
@@ -62,9 +71,6 @@ menu:
 
         - title: links
           url: /links/
-
-        - title: rotation codes
-          url: /rotation-codes.html
 
 
     - title: sitemap
