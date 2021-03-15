@@ -143,3 +143,169 @@ For terminology see [rotation codes](/rotation-codes.html)
 </div>
 
 </div>
+
+
+#### Level 6
+<div class="two-cols">
+
+<div class="col-left">
+<video src="/assets/vids/level-6.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
+</div>
+
+<div class="col-right">
+- launch from +2
+- +3, +1, +1, -6, low right
+- float +2, low left
+- float -2, low centre
+- +1, reverse up to centre
+- -5, mid right
+- -.5, -.5, -.5, -.5, mid left
+- iron cross
+    - slow -1 turn to high centre
+    - slow -1 turn to mid right
+    - slow -1 turn to low centre
+    - slow -1 turn to mid left
+- +1, top
+- +2, divestop, +4, land inverted
+</div>
+
+</div>
+
+
+#### Level 7
+<div class="two-cols">
+
+<div class="col-left">
+<video src="/assets/vids/level-7.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
+</div>
+
+<div class="col-right">
+- launch from 0, top
+- +2, walk forwards
+- divestop, slow +4
+- -.5 x 9, reverse diagonally to mid right
+- +2, slide turn -1.5
+- slow +3, low right
+- slow -4, reverse to centre
+- -5, land
+</div>
+
+</div>
+
+
+#### Level 8
+<div class="two-cols">
+
+<div class="col-left">
+<video src="/assets/vids/level-8.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
+</div>
+
+<div class="col-right">
+- launch from 0, top
+- sequence
+    - slide a few feet, return 
+    - forward a few feet, return
+    - +.5, return, -.5, return
+- -2, divestop, sequence
+- slow +3, mid right, sequence
+- slide circle +2, mid left, sequence
+- +1.5, high right, sequence
+- -2, low left, sequence
+- tip turn +2, tip turn -1, high left, sequence
+- slide circle -2, low right, sequence
+- slow +2.5, top
+- -2, divestop halfway
+- +4, divestop, +2, land
+</div>
+
+</div>
+
+
+#### M 9
+<div class="two-cols">
+
+<div class="col-left">
+<video src="/assets/vids/m-9.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
+</div>
+
+<div class="col-right">
+- launch from 0, top
+- +2, divestop
+- -5, reverse to mid left
+- slide -3, low right, slide -1
+- +6, centre
+- +3, divestop
+- -5, right tip landing
+</div>
+
+</div>
+
+
+#### M 10
+<div class="two-cols">
+
+<div class="col-left">
+<video src="/assets/vids/m-10.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
+</div>
+
+<div class="col-right">
+- launch from 0
+- -3, low right
+- +4, right tip landing
+- relaunch, -6, low left
+- +4, slide up, reverse, centre 
+- +.5 x 6, top
+- +2, divestop halfway, +4
+- divestop, -5, right tip landing
+- slight launch, slow +2, left tip landing
+- slight launch, fake tip landing
+- slide up, centre
+- slide circle +4, slide down
+- -5, land
+</div>
+
+</div>
+
+
+#### M 11
+<div class="two-cols">
+
+<div class="col-left">
+<video src="/assets/vids/m-11.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
+</div>
+
+<div class="col-right">
+- launch from 0, centre
+- +6, reverse up
+- -5, slide down
+- -4, low right, +4, reverse
+- slide -3, low right
+- +1 x 5, low left
+- -3, top, +2
+- divestop, -1 x 4, +4
+- slide circle -4
+- slide circle +2, top
+- -2, divestop halfway
+- -4, divestop
+- +7, right tip landing
+</div>
+
+</div>
