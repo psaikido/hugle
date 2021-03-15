@@ -84,7 +84,7 @@ For terminology see [rotation codes](/rotation-codes.html)
 <div class="col-left">
 <video src="/assets/vids/level-4.mp4"
     width="100%" type="video/m4v" 
-    autoplay="" preload="auto" controls>
+    preload="auto" controls>
 </video>
 </div>
 
@@ -113,7 +113,7 @@ For terminology see [rotation codes](/rotation-codes.html)
 <div class="col-left">
 <video src="/assets/vids/level-5.mp4"
     width="100%" type="video/mp4" 
-    autoplay="" preload="auto" controls>
+    preload="auto" controls>
 </video>
 </div>
 
