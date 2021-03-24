@@ -52,7 +52,13 @@ menu:
     - title: "kites:"
       sub:
         - title: rotation codes
-          url: /rotation-codes.html
+          url: /pages/kites/rotation-codes.html
+
+        - title: eight 
+          url: /pages/kites/eight.html
+
+        - title: anim 
+          url: /pages/kites/anim.html
 
 
     - title: "stuff:"

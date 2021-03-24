@@ -309,3 +309,34 @@ For terminology see [rotation codes](/rotation-codes.html)
 </div>
 
 </div>
+
+
+#### M 12
+<div class="two-cols">
+
+<div class="col-left">
+</div>
+
+<div class="col-right">
+- launch from +2, reverse to centre
+- -5, mid right
+- +6, mid left, -3
+- fox box
+    - up and +1 to hover
+    - right and +1 to hover
+    - down and +1 to hover
+    - left
+- slow -3, top, +2
+- divestop halfway, -4
+- divestop, +7, reverse to low left
+- -7, inv slide right, -4, continue right
+- +4, inv slide left, +4, mid left
+- inv box
+    - up, right, down, left
+- slide circle +3, -3, -6, top
+- +2, divestop halfway
+- +1 x 4, -4
+- divestop, +2, land
+</div>
+
+</div>
