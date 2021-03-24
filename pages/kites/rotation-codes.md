@@ -1,7 +1,6 @@
 ---
 layout: default
 title: rotation codes 
-permalink: /rotation-codes.html/
 ---
 
 In learning to fly a quad-kite pattern we usually use terminology
