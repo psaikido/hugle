@@ -6,7 +6,7 @@ permalink: /club38.html/
 
 
 [Club38](https://revkites.com/club-38/)  
-For terminology see [rotation codes](/rotation-codes.html)
+For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 
 #### Level 1
 <div class="two-cols">
@@ -315,6 +315,10 @@ For terminology see [rotation codes](/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
+<video src="/assets/vids/m-12.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
 </div>
 
 <div class="col-right">
