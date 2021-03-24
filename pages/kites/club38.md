@@ -344,3 +344,27 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 </div>
 
 </div>
+
+
+#### M 13
+<div class="two-cols">
+
+<div class="col-left">
+</div>
+
+<div class="col-right">
+- launch from -2, +3
+- -5, top, +2
+- divestop, slide circle +4
+- -5, low mid right
+- +1 x 5, -5, low right
+- tumbleweed +4
+- low mid left, -3
+- weird box
+    - reverse up mid left, +3
+    - mid right, -4, low right
+    - +5, low left
+- -6, top, +2, divestop, -2, land
+</div>
+
+</div>
