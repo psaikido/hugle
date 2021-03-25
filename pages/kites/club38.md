@@ -353,7 +353,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 </div>
 
 <div class="col-right">
-- launch from -2, +3
+- launch from +2, +3, reverse mid low left
 - -5, top, +2
 - divestop, slide circle +4
 - -5, low mid right
