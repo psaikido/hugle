@@ -1,0 +1,268 @@
+---
+layout: default
+title: anim
+---
+<style>  
+.wind-window {
+    position: relative;
+    height: 400px;
+    width: 800px;
+    border: 1px solid #fff;
+    background-image: url("/assets/images/kilkennySky.png");
+    background-size: 800px 400px;
+}
+
+#kite { 
+    position: relative;
+    top: 90%;
+    left: 385px;
+    width: 45px; 
+    height: 25px; 
+    background-image: url("/assets/images/kite.png");
+    background-size: 45px 25px;
+} 
+</style>
+
+<div class="wind-window">
+    <div id="kite"> </div>
+</div>
+
+<input type="button" value="reset" onclick="reset();" />
+<input type="button" value="L-1" onclick="L1();" />
+<input type="button" value="L-2" onclick="L2();" />
+<input type="button" value="L-3" onclick="L3();" />
+<input type="button" value="M-94" onclick="nuts();" />
+<!--<input type="button" value="test" onclick="test();" />-->
+
+<script>
+    var k = document.getElementById('kite');
+    var yBottom = '90';
+    var yLow = '80';
+    var yMid = '50';
+    var yTop = '10';
+    var xLeft = '10';
+    var xMidLeft = '30';
+    var xMid = '48';
+    var xMidRight = '60';
+    var xRight = '90';
+    var spinFast = '.3';
+    var spinSlow = '1';
+    var spinVSlow = '2.5';
+
+    function getRotationAngle(target) {
+        const obj = window.getComputedStyle(target, null);
+        const matrix = obj.getPropertyValue('-webkit-transform') || 
+            obj.getPropertyValue('-moz-transform') ||
+            obj.getPropertyValue('-ms-transform') ||
+            obj.getPropertyValue('-o-transform') ||
+            obj.getPropertyValue('transform');
+
+        let angle = 0; 
+
+        if (matrix !== 'none') 
+        {
+            const values = matrix.split('(')[1].split(')')[0].split(',');
+            const a = values[0];
+            const b = values[1];
+            angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
+        } 
+
+        return (angle < 0) ? angle +=360 : angle;
+    }
+
+    function moveX(perc, duration) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionTimingFunction = 'ease-in';
+                k.style.transitionDelay = '.5s';
+                k.style.left = perc + '%';
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function moveY(perc, duration) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionTimingFunction = 'ease-in';
+                k.style.transitionDelay = '.5s';
+                k.style.top = perc + '%';
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function rotate(angle, duration, pause) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+
+                if (parseInt(pause) > 1) {
+                    k.style.transitionDelay = pause + 's';
+                } else {
+                    k.style.transitionDelay = '1s';
+                }
+
+                k.style.transform = 'rotate(' + angle + 'deg)'; 
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function reset() {
+        rotate(0, 0);
+        moveY(yBottom, .1).then(k => {
+            moveX(xMid, .1);
+        });
+    }
+
+    function L1() {
+        rotate(0, 0);
+        moveY(yMid, 1.5).then(k => {
+            rotate(-90, spinVSlow).then(k => {
+                moveX(xLeft, 2).then(k => {
+                    rotate(90, spinVSlow).then(k => {
+                        moveX(xRight, 3).then(k => {
+                            rotate(-90, spinVSlow).then(k => {
+                                moveX(xMid, 2).then(k => {
+                                    rotate(0, spinVSlow).then(k => {
+                                        moveY(yBottom, 2);
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    }
+
+    function L2() {
+        rotate(0, 0);
+        moveY(yMid, 1.5).then(k => {
+            rotate(-90, spinSlow).then(k => {
+                moveX(xLeft, 2).then(k => {
+                    rotate(90, spinSlow).then(k => {
+                        moveX(xRight, 2).then(k => {
+                            rotate(-90, spinSlow).then(k => {
+                                moveX(xMid, 2).then(k => {
+                                    rotate(270, spinVSlow).then(k => {
+                                        moveX(xLeft, 2).then(k => {
+                                            rotate(450, spinVSlow).then(k => {
+                                                moveX(xMid, 2).then(k => {
+                                                    rotate(0, spinVSlow).then(k => {
+                                                        moveY(yTop, 1).then(k => {
+                                                            rotate(180, spinSlow).then(k => {
+                                                                moveY(yLow, 2).then(k => {
+                                                                    rotate(0, spinSlow).then(k => {
+                                                                        moveY(yBottom, .5);
+                                                                    });
+                                                                });
+                                                            })
+                                                        });
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    }
+    
+    function L3() {
+        rotate(0, 0);
+        rotate(180, spinSlow, .1).then(k => {
+            moveY(yLow, 1).then(k => {
+                rotate(0, spinSlow, .1).then(k => {
+                    moveY(yMid, 1.5).then(k => {
+                        moveX(xMidLeft, 2).then(k => {
+                            rotate(-720, spinVSlow, .1).then(k => {
+                                moveX(xMidRight, 2).then(k => {
+                                    rotate(0, spinVSlow, .1).then(k => {
+                                        moveX(xMid, 2).then(k => {
+                                            rotate(90, spinSlow).then(k => {
+                                                moveY('65', 1).then(k => {
+                                                    rotate(-90, spinSlow).then(k => {
+                                                        moveY(yBottom, 1);
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    }
+
+    function nuts() {
+        moveY(yLow, .3).then(k => {
+            rotate(450, spinVSlow, '.1').then(k => {
+                moveX(xLeft, 1).then(k => {
+                    rotate(-720, spinSlow, '.1').then(k => {
+                        moveY(yTop, .3).then(k => {
+                            rotate(620, spinFast, '.1').then(k => {
+                                moveX(xRight, 1.5).then(k => {
+                                    rotate(-900, spinFast, '.1').then(k => {
+                                        moveY(yLow, .3).then(k => {
+                                            moveX(xMid, 4).then(k => {
+                                                rotate(1260, spinSlow, '.1').then(k => {
+                                                    moveY(yMid, .3).then(k => {
+                                                        rotate(-1260, spinVSlow, '.1').then(k => {
+                                                            reset();
+                                                        });
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    }
+
+    function test() {
+        rotate(-90, spinSlow).then(k => {
+            rotate(90, spinSlow).then(k => {
+                rotate(-90, spinSlow).then(k => {
+                    rotate(270, spinSlow).then(k => {
+                        rotate(450, spinSlow).then(k => {
+                            rotate(0, spinSlow).then(k => {
+                                rotate(180, spinSlow).then(k => {
+                                    rotate(0, spinSlow).then(k => {
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    }
+</script>
