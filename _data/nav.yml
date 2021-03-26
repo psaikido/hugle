@@ -57,6 +57,9 @@ menu:
         - title: anim 
           url: /pages/kites/anim.html
 
+        - title: patterns 
+          url: /pages/kites/auto/patterns.html
+
 
     - title: "stuff:"
       sub:
