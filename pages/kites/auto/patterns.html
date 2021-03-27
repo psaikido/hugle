@@ -2,12 +2,13 @@
 layout: default
 title: patterns
 ---
+
 <style>  
 .wind-window {
     position: relative;
     height: 400px;
     width: 800px;
-    border: 1px solid #fff;
+    border: 1px solid #586e75;
     background-image: url("/assets/images/kilkennySky.png");
     background-size: 800px 400px;
 }
@@ -32,21 +33,23 @@ title: patterns
 <input type="button" value="L-2" onclick="L2();" />
 <input type="button" value="L-3" onclick="L3();" />
 <input type="button" value="L-4" onclick="L4();" />
+<input type="button" value="L-5" onclick="L5();" />
+<input type="button" value="M-94" onclick="M94();" />
 
 <script>
     var k = document.getElementById('kite');
-    var yBottom = '90';
-    var yLow = '80';
-    var yMid = '50';
-    var yTop = '10';
-    var xLeft = '10';
-    var xMidLeft = '30';
-    var xMid = '48';
-    var xMidRight = '60';
-    var xRight = '90';
-    var spinFast = '.3';
-    var spinSlow = '1';
-    var spinVSlow = '2.5';
+    var yBottom = 90;
+    var yLow = 80;
+    var yMid = 50;
+    var yTop = 10;
+    var xLeft = 10;
+    var xMidLeft = 30;
+    var xMid = 48;
+    var xMidRight = 60;
+    var xRight = 90;
+    var spinFast = .3;
+    var spinSlow = 1;
+    var spinVSlow = 2.5;
 
     function moveX(perc, duration) {
         return new Promise(resolve => {
@@ -80,13 +83,16 @@ title: patterns
         })
     }
 
-    function moveXY(x, y, angle, duration) {
+    function moveXY(x, y, rotCode, duration) {
         return new Promise(resolve => {
             setTimeout(() => {
                 k.style.transition = duration + 's';
                 k.style.transitionTimingFunction = 'ease-in-out';
                 k.style.transitionDelay = '.5s';
-                k.style.transform = 'rotate(' + angle + 'deg)'; 
+
+                var destAngle = rotCodeToAngle(rotCode);
+                k.style.transform = 'rotate(' + destAngle + 'deg)'; 
+
                 k.style.top = y + '%';
                 k.style.left = x + '%';
 
@@ -98,17 +104,13 @@ title: patterns
         })
     }
 
-    function rotate(angle, duration, pause) {
+    function spin(rotCode, duration) {
         return new Promise(resolve => {
             setTimeout(() => {
                 k.style.transition = duration + 's';
-
-                if (parseInt(pause) > 1) {
-                    k.style.transitionDelay = pause + 's';
-                } else {
-                    k.style.transitionDelay = '1s';
-                }
-
+                k.style.transitionDelay = '0s';
+                
+                var angle = rotCodeToAngle(rotCode);
                 k.style.transform = 'rotate(' + angle + 'deg)'; 
 
                 k.addEventListener('transitionend', function handler() {
@@ -119,43 +121,69 @@ title: patterns
         })
     }
 
+    function rotCodeToAngle(rotCode) {
+        var currentRotation = getCurrentRotation();
+        var rotCodeDeg = rotCode * 90;
+        var destAngle = currentRotation + rotCodeDeg;
+        console.log(rotCode, currentRotation, rotCodeDeg, destAngle);
+        return destAngle;
+    }
+
+    function getCurrentRotation() {
+        if (k.style.transform) {
+            // We are expecting a string eg. "rotation(90deg)".
+            var regEx = /\(([^)]+)\)/;
+            var matches = regEx.exec(k.style.transform);
+            if (matches.length > 0) {
+                return parseInt(matches[1].replace('deg', ''));
+            }
+        }
+        return 0;
+    }
+
     function reset() {
         rotate(0, 0);
         moveY(yBottom, .1).then(k => {
             moveX(xMid, .1);
+            k.style.transformOrigin = '50% 50%';
         });
     }
 
     async function patternLooper(pat) {
-        var i, x, y, mvType, dest, angle, duration;
+        var i, x, y, mvType, dest, rotCode, duration;
 
         for (i = 0; i < pat.length; i++) {
             mvType = pat[i][0];
 
-            if (mvType == moveXY) {
-                x = pat[i][1];
-                y = pat[i][2];
-                angle = pat[i][3];
-                duration = pat[i][4];
-                await mvType(x, y, angle, duration);
-            } else {
-                dest = pat[i][1];
-                duration = pat[i][2];
-                await mvType(dest, duration);
+            switch(mvType) {
+                case moveXY:
+                    x = pat[i][1];
+                    y = pat[i][2];
+                    rotCode = pat[i][3];
+                    duration = pat[i][4];
+                    await mvType(x, y, rotCode, duration);
+
+                    break;
+
+                default:
+                    dest = pat[i][1];
+                    duration = pat[i][2];
+                    await mvType(dest, duration);
             }
         }
     }
 
     function L1() {
         var pat = [];
-        pat.push([moveY, yMid, 1.5]);
-        pat.push([rotate, -90, spinSlow]);
+
+        pat.push([moveY, yMid, 1]);
+        pat.push([spin, -1, spinSlow]);
         pat.push([moveX, xLeft, 2]);
-        pat.push([rotate, 90, spinVSlow]);
+        pat.push([spin, 2, spinSlow]);
         pat.push([moveX, xRight, 3]);
-        pat.push([rotate, -90, spinVSlow]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveX, xMid, 2]);
-        pat.push([rotate, 0, spinSlow]);
+        pat.push([spin, 1, spinSlow]);
         pat.push([moveY, yBottom, 2]);
 
         patternLooper(pat);
@@ -163,22 +191,23 @@ title: patterns
 
     function L2() {
         var pat = [];
+
         pat.push([moveY, yMid, 1.5]);
-        pat.push([rotate, -90, spinSlow]);
+        pat.push([spin, -1, spinSlow]);
         pat.push([moveX, xLeft, 2]);
-        pat.push([rotate, 90, spinSlow]);
+        pat.push([spin, 2, spinSlow]);
         pat.push([moveX, xRight, 2]);
-        pat.push([rotate, -90, spinSlow]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveX, xMid, 2]);
-        pat.push([rotate, 270, spinVSlow]);
+        pat.push([spin, 4, spinVSlow]);
         pat.push([moveX, xLeft, 2]);
-        pat.push([rotate, 450, spinVSlow]);
+        pat.push([spin, 2, spinVSlow]);
         pat.push([moveX, xMid, 2]);
-        pat.push([rotate, 0, spinVSlow]);
+        pat.push([spin, -5, spinVSlow]);
         pat.push([moveY, yTop, 1]);
-        pat.push([rotate, 180, spinSlow]);
+        pat.push([spin, 2, spinSlow]);
         pat.push([moveY, yLow, 2]);
-        pat.push([rotate, 0, spinSlow]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveY, yBottom, .5]);
 
         patternLooper(pat);
@@ -186,18 +215,18 @@ title: patterns
     
     function L3() {
         var pat = [];
-        pat.push([rotate, 180, spinFast, .1]);
+        pat.push([spin, 2, spinFast]);
         pat.push([moveY, yLow, 1]);
-        pat.push([rotate, 0, spinSlow, .1]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveY, yMid, 1.5]);
         pat.push([moveX, xMidLeft, 2]);
-        pat.push([rotate, -720, spinVSlow, .1]);
+        pat.push([spin, -8, spinVSlow]);
         pat.push([moveX, xMidRight, 2]);
-        pat.push([rotate, 0, spinVSlow, .1]);
+        pat.push([spin, 8, spinVSlow]);
         pat.push([moveX, xMid, 2]);
-        pat.push([rotate, 90, spinSlow]);
+        pat.push([spin, 1, spinSlow]);
         pat.push([moveY, '65', 1]);
-        pat.push([rotate, -90, spinSlow]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveY, yBottom, 1]);
 
         patternLooper(pat);
@@ -205,33 +234,65 @@ title: patterns
 
     function L4() {
         var pat = [];
-        pat.push([rotate, 180, spinFast, .1]);
+
+        pat.push([spin, 2, spinFast]);
         pat.push([moveY, yLow, 1]);
         pat.push([moveX, xMidLeft, 2]);
-        pat.push([moveXY, xLeft, yMid, 270, 2]);
+        pat.push([moveXY, xLeft, yMid, 1, 2]);
         pat.push([moveX, xMidLeft, 2]);
-        pat.push([rotate, 630, spinSlow, .1]);
-        pat.push([rotate, 270, spinSlow, .1]);
-        pat.push([rotate, 90, spinSlow, .1]);
+        pat.push([spin, 4, spinSlow]);
+        pat.push([spin, -4, spinSlow]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveX, xMidRight, 2]);
-        pat.push([rotate, 450, spinSlow, .1]);
-        pat.push([rotate, 90, spinSlow, .1]);
+        pat.push([spin, 4, spinSlow]);
+        pat.push([spin, -4, spinSlow]);
         pat.push([moveX, xMid, 2]);
         pat.push([moveY, yBottom, 2]);
         pat.push([moveY, yMid, 2]);
-        pat.push([rotate, -90, spinSlow, 0]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveY, yBottom, 2]);
         pat.push([moveY, yMid, 2]);
         pat.push([moveX, xLeft, 2]);
-        pat.push([moveXY, xMidLeft, yLow, -180, 2]);
+        pat.push([moveXY, xMidLeft, yLow, -1, 2]);
         pat.push([moveX, xMidRight, 2]);
-        pat.push([moveXY, xRight, yMid, -270, 2]);
-        pat.push([moveXY, xMidRight, yTop, -360, 2]);
+        pat.push([moveXY, xRight, yMid, -1, 2]);
+        pat.push([moveXY, xMidRight, yTop, -1, 2]);
         pat.push([moveX, xMid, 2]);
-        pat.push([rotate, -180, spinSlow, 0]);
+        pat.push([spin, -2, spinSlow]);
         pat.push([moveY, yLow, 2]);
-        pat.push([rotate, 0, spinSlow, 0]);
+        pat.push([spin, 2, spinSlow]);
         pat.push([moveY, yBottom, 2]);
+
+        patternLooper(pat);
+    }
+
+    function L5() {
+        var pat = [];
+
+        pat.push([spin, -2, spinFast]);
+        pat.push([moveY, yLow, .5]);
+        pat.push([spin, 1, spinSlow]);
+
+        patternLooper(pat);
+    }
+
+    function M94() {
+        var pat = [];
+
+        pat.push([moveY, yLow, .3]);
+        pat.push([spin, 5, spinVSlow]);
+        pat.push([moveX, xLeft, 1]);
+        pat.push([spin, -9, spinSlow]);
+        pat.push([moveY, yTop, .3]);
+        pat.push([spin, 10, spinFast]);
+        pat.push([moveX, xRight, 1.5]);
+        pat.push([spin, -12, spinFast]);
+        pat.push([moveY, yLow, .3]);
+        pat.push([moveX, xMid, 4]);
+        pat.push([spin, 16, spinSlow]);
+        pat.push([moveY, yMid, .3])
+        pat.push([spin, -22, spinVSlow]);
+        pat.push([moveXY, xMid, yBottom, 3, .1])
 
         patternLooper(pat);
     }
