@@ -25,13 +25,7 @@ menu:
         - title: rotation codes
           url: /pages/kites/rotation-codes.html
 
-        - title: anim 
-          url: /pages/kites/anim.html
-
-        - title: patterns 
-          url: /pages/kites/patterns.html
-
-        - title: phaser (test) 
+        - title: phaser (dev) 
           url: /pages/kites/phaser.html
 
 
