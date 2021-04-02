@@ -4,7 +4,7 @@ title: patterns
 ---
 
 <style>  
-.wind-window {
+#wind-window {
     position: relative;
     height: 400px;
     width: 800px;
@@ -19,12 +19,17 @@ title: patterns
     left: 385px;
     width: 45px; 
     height: 25px; 
-    background-image: url("/assets/images/kite.png");
+    background-image: url("/assets/images/tarantulaRedWings.png");
     background-size: 45px 25px;
+    transform-origin: 50% 35%;
 } 
+
+.wrap img {
+    border: none;
+}
 </style>
 
-<div class="wind-window">
+<div id="wind-window">
     <div id="kite"> </div>
 </div>
 
@@ -38,18 +43,84 @@ title: patterns
 
 <script>
     var k = document.getElementById('kite');
-    var yBottom = 90;
-    var yLow = 80;
-    var yMid = 50;
-    var yTop = 10;
-    var xLeft = 10;
-    var xMidLeft = 30;
-    var xMid = 48;
-    var xMidRight = 60;
-    var xRight = 90;
-    var spinFast = .3;
-    var spinSlow = 1;
-    var spinVSlow = 2.5;
+    var starttime;
+    const yBottom = 90;
+    const yLow = 80;
+    const yMid = 50;
+    const yTop = 10;
+    const xLeft = 10;
+    const xMidLeft = 30;
+    const xMid = 48;
+    const xMidRight = 60;
+    const xRight = 90;
+    const spinVSlow = 2.5;
+    const spinSlow = 1.5;
+    const spinFast = .3;
+
+    function multi(x, y, rotCode, duration) {
+        return new Promise(resolve => {
+            /*
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionTimingFunction = 'ease-in-out';
+                k.style.transitionDelay = '.5s';
+
+                var theCSSprop = window.getComputedStyle(k, null).getPropertyValue('left');
+                console.log(theCSSprop);
+                k.style.left = x + '%';
+
+                if (k.style.left < xMidLeft) {
+                    var destAngle = rotCodeToAngle(rotCode);
+                    k.style.transform = 'rotate(' + destAngle + 'deg)'; 
+                    k.style.top = y + '%';
+                }
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+            */
+            var id, lft, currentX, xStep1, xStep2;
+            var tp, currentY, targetY, yStep1, yStep2;
+
+            xStep1 = 150;
+            xStep2 = 80;
+            k.style.transition = 'ease-in-out';
+
+            clearInterval(id);
+            id = setInterval(frame, 10);
+
+            function frame() {
+                //https://www.w3schools.com/howto/howto_js_animate.asp
+                currentX = lft = getCurrentX(k);
+                currentY = tp = getCurrentY(k);
+
+                if (currentX < xStep1) {
+                    clearInterval(id);
+                } else {
+                    lft-= 1;
+                    k.style.left = lft + 'px';
+                }
+            }
+
+            k.addEventListener('transitionend', function handler() {
+                k.removeEventListener('transitionend', handler);
+                resolve(k);
+            });
+        })
+    }
+
+    function getCurrentX(k) {
+        var currentX = window.getComputedStyle(k, null).getPropertyValue('left');
+        return parseInt(currentX.replace('px', ''));
+    }
+
+    function getCurrentY(k) {
+        var currentY = window.getComputedStyle(k, null).getPropertyValue('top');
+        return parseInt(currentY.replace('px', ''));
+    }
+
 
     function moveX(perc, duration) {
         return new Promise(resolve => {
@@ -125,7 +196,6 @@ title: patterns
         var currentRotation = getCurrentRotation();
         var rotCodeDeg = rotCode * 90;
         var destAngle = currentRotation + rotCodeDeg;
-        console.log(rotCode, currentRotation, rotCodeDeg, destAngle);
         return destAngle;
     }
 
@@ -142,11 +212,10 @@ title: patterns
     }
 
     function reset() {
-        rotate(0, 0);
-        moveY(yBottom, .1).then(k => {
-            moveX(xMid, .1);
-            k.style.transformOrigin = '50% 50%';
-        });
+        var pat = [];
+        pat.push([moveXY, xMid, yBottom, 0, .1]);
+        patternLooper(pat);
+        k.style.transform = 'rotate(0deg)'; 
     }
 
     async function patternLooper(pat) {
@@ -156,7 +225,7 @@ title: patterns
             mvType = pat[i][0];
 
             switch(mvType) {
-                case moveXY:
+                case moveXY, multi:
                     x = pat[i][1];
                     y = pat[i][2];
                     rotCode = pat[i][3];
@@ -171,6 +240,16 @@ title: patterns
                     await mvType(dest, duration);
             }
         }
+    }
+
+    function L5() {
+        var pat = [];
+
+        pat.push([spin, -2, spinFast]);
+        pat.push([moveY, yLow, 1]);
+        pat.push([multi, xLeft, yMid, 1, 2]);
+
+        patternLooper(pat);
     }
 
     function L1() {
@@ -262,16 +341,6 @@ title: patterns
         pat.push([moveY, yLow, 2]);
         pat.push([spin, 2, spinSlow]);
         pat.push([moveY, yBottom, 2]);
-
-        patternLooper(pat);
-    }
-
-    function L5() {
-        var pat = [];
-
-        pat.push([spin, -2, spinFast]);
-        pat.push([moveY, yLow, .5]);
-        pat.push([spin, 1, spinSlow]);
 
         patternLooper(pat);
     }

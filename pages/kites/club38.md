@@ -350,6 +350,10 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
+<video src="/assets/vids/m-13.mp4"
+    width="100%" type="video/mp4" 
+    preload="auto" controls>
+</video>
 </div>
 
 <div class="col-right">
@@ -363,8 +367,78 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 - weird box
     - reverse up mid left, +3
     - mid right, -4, low right
-    - +5, low left
-- -6, top, +2, divestop, -2, land
+    - +5, low left, -6
+- top, +2, divestop, -2, land
+</div>
 </div>
 
+
+
+#### M 14
+
+<div class="two-cols">
+##### Snap Combos
+- all sequences can go either + or -
+
+
+###### #1 Shock-snap  
+https://youtu.be/O1x9RS_m0Dg  
+- divestop, +3
+
+###### #2 Shock-snap-tip
+https://www.youtube.com/watch?v=beTPKHYFpZY  
+- divestop, +3 (or 5), tip landing
+
+
+###### #3 Walk it off  
+https://youtu.be/NpPb59pcRvE  
+- Walk it on the ground
+
+
+###### #4 Launch-snaps  
+https://youtu.be/QwpBL_xg9yo  
+- launch from 0, +3 (or 5)
+- launch from 2, +3 (or 5)
+- +3 (or 5), tip landing
+- +3 (or 5), normal landing
+
+
+###### #5 Shock-Clock-Snap   
+https://youtu.be/nesDAjDqw78  
+- divestop, +1 x 4, -5
+
+
+###### #6 Go-Snap-Back-V-slide  
+https://youtu.be/myiEc7uCeMc
+- mid low to rightish
+- +4, reverse
+- -3, inverted slide rightish
+
+
+###### #7 V-snap-V intro
+https://youtu.be/LrdGQ2qj0R8
+- inverted slide right
+- -4, continue inv slide right
+
+
+###### #8 Don Fox Snap Box  
+https://youtu.be/fsCsWIipw5w
+- up and +1 to hover
+- right and +1 to hover
+- down and +1 to hover
+- left and +1 to hover
+
+
+###### #9 Snap-Clock-Snap  
+https://youtu.be/My6oDGTySVQ
+- fly right, -4
+- +1 x 4, -4
+- fly right
+
+
+###### #10  Shock-Circle Slide-Snap  
+https://youtu.be/oaHhpUrynCI
+- divestop, slide circle +4
+- +5, fly right
 </div>
+

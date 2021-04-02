@@ -19,6 +19,22 @@ menu:
         - title: Bucket
           url: /bucket/
 
+
+    - title: "kites:"
+      sub:
+        - title: rotation codes
+          url: /pages/kites/rotation-codes.html
+
+        - title: anim 
+          url: /pages/kites/anim.html
+
+        - title: patterns 
+          url: /pages/kites/patterns.html
+
+        - title: phaser (test) 
+          url: /pages/kites/phaser.html
+
+
     - title: "stories:"
       sub:
         - title: Mahabodhi Moonlight
@@ -48,17 +64,6 @@ menu:
 
         - title: faves
           url: /pages/pix/faves.html
-
-    - title: "kites:"
-      sub:
-        - title: rotation codes
-          url: /pages/kites/rotation-codes.html
-
-        - title: anim 
-          url: /pages/kites/anim.html
-
-        - title: patterns 
-          url: /pages/kites/auto/patterns.html
 
 
     - title: "stuff:"

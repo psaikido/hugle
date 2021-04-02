@@ -23,7 +23,7 @@ Some benefits of a system like this is that it is easier to understand than say 
 less ambiguous and you can keep a running total of the twisting of the lines.  
 
 
-Consider this clip, the start of the M11 pattern in [Club38](https://revkites.com/club-38/)
+Consider this clip, the start of the M10 pattern in [Club38](https://revkites.com/club-38/)
 
 <video src="/assets/vids/rotation-codes.mp4" width="60%" type="video/mp4" 
     autoplay="" preload="auto" controls>
