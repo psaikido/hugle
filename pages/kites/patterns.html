@@ -1,0 +1,339 @@
+---
+layout: default
+title: patterns
+---
+
+<style>  
+#wind-window {
+    position: relative;
+    height: 400px;
+    width: 800px;
+    border: 1px solid #586e75;
+    background-image: url("/assets/images/kilkennySky.png");
+    background-size: 800px 400px;
+}
+
+#kite { 
+    position: absolute;
+    top: 365px;
+    left: 385px;
+    width: 45px; 
+    height: 25px; 
+    background-image: url("/assets/images/kite.png");
+    background-size: 45px 25px;
+    transform-origin: 50% 35%;
+} 
+
+.wrap img {
+    border: none;
+}
+</style>
+
+<div id="wind-window">
+    <div id="kite"> </div>
+</div>
+
+<input type="button" value="reset" onclick="reset();" />
+<input type="button" value="L-1" onclick="L1();" />
+<input type="button" value="L-2" onclick="L2();" />
+<input type="button" value="L-3" onclick="L3();" />
+<input type="button" value="L-4" onclick="L4();" />
+<input type="button" value="L-5" onclick="L5();" />
+<input type="button" value="M-94" onclick="M94();" />
+
+<script>
+    var k = document.getElementById('kite');
+    var starttime;
+    const yBottom = 365;
+    const yLow = 325;
+    const yMid = 200;
+    const yTop = 30;
+    const xLeft = 50;
+    const xMidLeft = 250;
+    const xMid = 385;
+    const xMidRight = 520;
+    const xRight = 700;
+    const spinVSlow = 2.5;
+    const spinSlow = 1.5;
+    const spinFast = .3;
+
+    function getCurrentX(k) {
+        var currentX = window.getComputedStyle(k, null).getPropertyValue('left');
+        return parseInt(currentX.replace('px', ''));
+    }
+
+    function getCurrentY(k) {
+        var currentY = window.getComputedStyle(k, null).getPropertyValue('top');
+        return parseInt(currentY.replace('px', ''));
+    }
+
+
+    function moveX(destX, duration) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionTimingFunction = 'ease-in-out';
+                k.style.transitionDelay = '0s';
+                k.style.left = destX + 'px';
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function moveY(destY, duration) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionTimingFunction = 'ease-in-out';
+                k.style.transitionDelay = '0s';
+                k.style.top = destY + 'px';
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function moveXY(destX, destY, rotCode, duration) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionTimingFunction = 'ease-in-out';
+                k.style.transitionDelay = '0s';
+                k.style.left = destX + 'px';
+                k.style.top = destY + 'px';
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+
+                var angle = rotCodeToAngle(rotCode);
+                k.style.transform = 'rotate(' + angle + 'deg)'; 
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function spin(rotCode, duration) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionDelay = '0s';
+                
+                var angle = rotCodeToAngle(rotCode);
+                k.style.transform = 'rotate(' + angle + 'deg)'; 
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function rotCodeToAngle(rotCode) {
+        var currentRotation = getCurrentRotation();
+        var rotCodeDeg = rotCode * 90;
+        var destAngle = currentRotation + rotCodeDeg;
+        return destAngle;
+    }
+
+    function getCurrentRotation() {
+        if (k.style.transform) {
+            // We are expecting a string eg. "rotation(90deg)".
+            var regEx = /\(([^)]+)\)/;
+            var matches = regEx.exec(k.style.transform);
+            if (matches.length > 0) {
+                return parseInt(matches[1].replace('deg', ''));
+            }
+        }
+        return 0;
+    }
+
+    function strange(x, y, rotCode, duration) {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                k.style.transition = duration + 's';
+                k.style.transitionTimingFunction = 'ease-in-out';
+                k.style.transitionDelay = '.5s';
+
+                var destAngle = rotCodeToAngle(rotCode);
+                k.style.transform = 'rotate(' + destAngle + 'deg)'; 
+
+                k.style.top = y + 'px';
+                k.style.left = x + 'px';
+
+                k.addEventListener('transitionend', function handler() {
+                    k.removeEventListener('transitionend', handler);
+                    resolve(k);
+                });
+            }, 0);
+        })
+    }
+
+    function reset() {
+        var pat = [];
+        pat.push([moveXY, xMid, yBottom, 0, .1]);
+        patternLooper(pat);
+        k.style.transform = 'rotate(0deg)'; 
+    }
+
+    async function patternLooper(pat) {
+        var i, x, y, mvType, dest, rotCode, duration;
+
+        for (i = 0; i < pat.length; i++) {
+            mvType = pat[i][0];
+
+            switch(mvType) {
+                case moveXY:
+                    x = pat[i][1];
+                    y = pat[i][2];
+                    rotCode = pat[i][3];
+                    duration = pat[i][4];
+                    await mvType(x, y, rotCode, duration);
+
+                    break;
+
+                default:
+                    dest = pat[i][1];
+                    duration = pat[i][2];
+                    await mvType(dest, duration);
+            }
+        }
+    }
+
+    function L5() {
+        var pat = [];
+
+        pat.push([spin, 2, spinFast]);
+        pat.push([moveY, yLow, 1]);
+        pat.push([strange, xLeft, yMid, 1, 2]);
+
+        patternLooper(pat);
+    }
+
+    function L1() {
+        var pat = [];
+
+        pat.push([moveY, yMid, 1]);
+        pat.push([spin, -1, spinSlow]);
+        pat.push([moveX, xLeft, 2]);
+        pat.push([spin, 2, spinSlow]);
+        pat.push([moveX, xRight, 3]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveX, xMid, 2]);
+        pat.push([spin, 1, spinSlow]);
+        pat.push([moveY, yBottom, 2]);
+
+        patternLooper(pat);
+    }
+
+    function L2() {
+        var pat = [];
+
+        pat.push([moveY, yMid, 1.5]);
+        pat.push([spin, -1, spinSlow]);
+        pat.push([moveX, xLeft, 2]);
+        pat.push([spin, 2, spinSlow]);
+        pat.push([moveX, xRight, 2]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveX, xMid, 2]);
+        pat.push([spin, 4, spinVSlow]);
+        pat.push([moveX, xLeft, 2]);
+        pat.push([spin, 2, spinVSlow]);
+        pat.push([moveX, xMid, 2]);
+        pat.push([spin, -5, spinVSlow]);
+        pat.push([moveY, yTop, 1]);
+        pat.push([spin, 2, spinSlow]);
+        pat.push([moveY, yLow, 2]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveY, yBottom, .5]);
+
+        patternLooper(pat);
+    }
+    
+    function L3() {
+        var pat = [];
+        pat.push([spin, 2, spinFast]);
+        pat.push([moveY, yLow, 1]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveY, yMid, 1.5]);
+        pat.push([moveX, xMidLeft, 2]);
+        pat.push([spin, -8, spinVSlow]);
+        pat.push([moveX, xMidRight, 2]);
+        pat.push([spin, 8, spinVSlow]);
+        pat.push([moveX, xMid, 2]);
+        pat.push([spin, 1, spinSlow]);
+        pat.push([moveY, yLow, 1]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveY, yBottom, 1]);
+
+        patternLooper(pat);
+    }
+
+    function L4() {
+        var pat = [];
+
+        pat.push([spin, 2, spinFast]);
+        pat.push([moveY, yLow, 1]);
+        pat.push([moveX, xMidLeft, 2]);
+        pat.push([moveXY, xLeft, yMid, 1, 2]);
+        pat.push([moveX, xMidLeft, 2]);
+        pat.push([spin, 4, spinSlow]);
+        pat.push([spin, -4, spinSlow]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveX, xMidRight, 2]);
+        pat.push([spin, 4, spinSlow]);
+        pat.push([spin, -4, spinSlow]);
+        pat.push([moveX, xMid, 2]);
+        pat.push([moveY, yBottom, 2]);
+        pat.push([moveY, yMid, 2]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveY, yBottom, 2]);
+        pat.push([moveY, yMid, 2]);
+        pat.push([moveX, xLeft, 2]);
+        pat.push([moveXY, xMidLeft, yLow, -1, 2]);
+        pat.push([moveX, xMidRight, 2]);
+        pat.push([moveXY, xRight, yMid, -1, 2]);
+        pat.push([moveXY, xMidRight, yTop, -1, 2]);
+        pat.push([moveX, xMid, 2]);
+        pat.push([spin, -2, spinSlow]);
+        pat.push([moveY, yLow, 2]);
+        pat.push([spin, 2, spinSlow]);
+        pat.push([moveY, yBottom, 2]);
+
+        patternLooper(pat);
+    }
+
+    function M94() {
+        var pat = [];
+
+        pat.push([moveY, yLow, .3]);
+        pat.push([spin, 5, spinVSlow]);
+        pat.push([moveX, xLeft, 1]);
+        pat.push([spin, -9, spinSlow]);
+        pat.push([moveY, yTop, .3]);
+        pat.push([spin, 10, spinFast]);
+        pat.push([moveX, xRight, 1.5]);
+        pat.push([spin, -12, spinFast]);
+        pat.push([moveY, yLow, .3]);
+        pat.push([moveX, xMid, 4]);
+        pat.push([spin, 16, spinSlow]);
+        pat.push([moveY, yMid, .3])
+        pat.push([spin, -22, spinVSlow]);
+        pat.push([moveXY, xMid, yBottom, 3, .1])
+
+        patternLooper(pat);
+    }
+</script>

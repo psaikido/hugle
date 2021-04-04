@@ -4,13 +4,8 @@
     <script src="/assets/js/phaser-arcade-physics.min.js"></script>
 
     <style>
-        body {
-            background-color: #343a40;
-        }
-
-        canvas {
-            border: 1px solid #586e75;
-        }
+        body { background-color: #343a40; }
+        canvas { border: 1px solid #586e75; }
     </style>
 </head>
 <body>
@@ -35,10 +30,10 @@
     };
 
     var game = new Phaser.Game(config);
-    var path;
-    var curve;
-    var graphics;
     var patterns = [];
+    var curve;
+    var bounds = [];
+    var path, skip;
 
     // x values
     const left = 50;
@@ -64,27 +59,11 @@
     function create ()
     {
         this.physics.world.setBounds(0, 0, 800, 390);
+        this.graphics = this.add.graphics();
         this.add.image(400, 200, 'sky').setDisplaySize(800, 400);
         this.kite = this.physics.add.sprite(400, 380, 'kite').setDisplaySize(45, 25);
         this.kite.setCollideWorldBounds(true);
         patterns = makePatterns(this);
-
-        graphics = this.add.graphics();
-        path = { t: 0, vec: new Phaser.Math.Vector2() };
-        var startPoint = new Phaser.Math.Vector2(centre, ground);
-        var controlPoint1 = new Phaser.Math.Vector2(leftish, low);
-        var controlPoint2 = new Phaser.Math.Vector2(left, lowish);
-        var endPoint = new Phaser.Math.Vector2(left, mid);
-
-        curve = new Phaser.Curves.CubicBezier(startPoint, controlPoint1, controlPoint2, endPoint);
-        this.tweens.add({
-            targets: path,
-            t: 1,
-            ease: 'Sine.easeInOut',
-            duration: 2000,
-            yoyo: false,
-            repeat: 0
-        });
 
         const btnL1 = this.add.text(760, 10, 'L-1', { fill: '#000' });
         btnL1.setInteractive();
@@ -100,11 +79,74 @@
 
         const btnL4 = this.add.text(760, 70, 'L-4', { fill: '#000' });
         btnL4.setInteractive();
-        btnL4.on('pointerdown', () => fly(this, patterns[3]));
+        //btnL4.on('pointerdown', () => fly(this, patterns[3]));
+        btnL4.on('pointerdown', () => L4(this));
 
         const btnL5 = this.add.text(760, 90, 'test', { fill: '#000' });
         btnL5.setInteractive();
         btnL5.on('pointerdown', () => test(this));
+    }
+
+    function L4(ths) {
+        var active = 0;
+        path = { t: 0, vec: new Phaser.Math.Vector2() };
+        bounds[0] = new Phaser.Geom.Rectangle();
+
+        var startPoint = new Phaser.Math.Vector2(leftish, low);
+        var controlPoint1 = new Phaser.Math.Vector2(left, low);
+        var controlPoint2 = new Phaser.Math.Vector2(left, lowish);
+        var controlPoint3 = new Phaser.Math.Vector2(left, highish);
+        var controlPoint4 = new Phaser.Math.Vector2(leftish, highish);
+        var endPoint = new Phaser.Math.Vector2(left, mid);
+        var endPoint2 = new Phaser.Math.Vector2(centre, high);
+
+        curve = new Phaser.Curves.CubicBezier(startPoint, controlPoint1, controlPoint2, endPoint);
+        curve.getBounds(bounds[0]);
+
+        var timeline = ths.tweens.timeline({
+            tweens: [
+                {
+                    targets: ths.kite,
+                    x: centre,
+                    y: ground,
+                    yoyo: false,
+                    angle: 180,
+                    duration: 500,
+                    ease: 'Sine.easeInOut'
+                },
+                {
+                    targets: ths.kite,
+                    x: centre,
+                    y: low,
+                    yoyo: false,
+                    duration: 1000,
+                    ease: 'Sine.easeInOut'
+                },
+                {
+                    targets: ths.kite,
+                    x: leftish,
+                    y: low,
+                    yoyo: false,
+                    duration: 1500,
+                    ease: 'Sine.easeInOut'
+                },
+                {
+                    targets: path,
+                    t: 1,
+                    ease: 'Sine.easeInOut',
+                    duration: 3000,
+                    yoyo: false,
+                    onUpdate: () => {
+                        curve.getPoint(path.t, path.vec);
+                        ths.kite.x = path.vec.x;
+                        ths.kite.y = path.vec.y;
+                        if (ths.kite.angle < 270) {
+                            ths.kite.angle += 1;
+                        }
+                    },
+                },
+            ]
+        });
     }
 
     function fly(t, pattern) {
@@ -172,15 +214,13 @@
         var lvl4 = [
             [centre, ground,     -2,  500],
             [centre, low,      null, 1000],
-            [centre, low,      null, 1000, 'path'],
+            [centre, low,      null, 1000, 'test'],
         ];
         patterns.push(lvl4);
         return patterns;
     }
 
     function convertToTweens(t, pattern) {
-        var follower;
-
         timeline = t.tweens.createTimeline();
 
         for (var pCount = 0; pCount < pattern.length; pCount++) {
@@ -204,30 +244,7 @@
             if (es == null) { es = 'Sine.easeInOut'; }
 
             if (path != null) {
-                follower = { t: 0, vec: new Phaser.Math.Vector2() };
-                var startPoint = new Phaser.Math.Vector2(100, 500);
-                var controlPoint1 = new Phaser.Math.Vector2(50, 100);
-                var endPoint = new Phaser.Math.Vector2(700, 500);
-
-                curve = new Phaser.Curves.QuadraticBezier(startPoint, controlPoint1, endPoint);
-                t.tweens.add({
-                    targets: follower,
-                    t: 1,
-                    ease: 'Sine.easeInOut',
-                    duration: 2000,
-                    yoyo: true,
-                    repeat: -1
-                });
-                /*
-
-                timeline.add({
-                    targets: follower,
-                    t: 1,
-                    angle: ang,
-                    duration: dur,
-                    ease: es 
-                });
-                */
+                test(t);
             } else {
                 if (ang != null) {
                     timeline.add({
@@ -251,19 +268,6 @@
         }
 
         return timeline;
-    }
-
-    function test(t) {
-        var timeline = t.tweens.createTimeline();
-
-        timeline.add({
-            targets: t.kite,
-            y: 200,
-            ease: 'Sine.easeInOut',
-            duration: 1000
-        });
-
-        timeline.play();
     }
 
     function makePatternsOrig(t) {
@@ -336,14 +340,6 @@
     }
 
     function update() {
-        /*
-        graphics.clear();
-        graphics.lineStyle(1, 0x00ff00, 1);
-        curve.draw(graphics);
-        curve.getPoint(path.t, path.vec);
-        graphics.fillStyle(0xff0000, 1);
-        graphics.fillCircle(path.vec.x, path.vec.y, 16);
-        */
     }
 </script>
 
