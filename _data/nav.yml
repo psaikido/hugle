@@ -26,12 +26,6 @@ menu:
           url: /pages/kites/rotation-codes.html
 
         - title: patterns (dev) 
-          url: /pages/kites/patterns.html
-
-        - title: phaser (dev) 
-          url: /pages/kites/phaser.html
-
-        - title: gsap (dev) 
           url: /pages/kites/gsap.html
 
 
