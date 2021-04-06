@@ -7,7 +7,7 @@
 }
 
 /* Most mobiles */
-@media only screen and (max-device-width: 440px) {
+@media only screen and (max-device-width: 380px) {
     body {
         font-size: 1em;
     }
@@ -22,13 +22,13 @@
             .home-text-box {
                 top: 155px;
                 left: 18px;
-                width: 90%;
+                width: 84%;
                 font-size: 12px;
             }
         }
 
         left: 18px;
-        min-width: 362px;
+        min-width: 323px;
 
         &.subMenu {
             left: 140px;
