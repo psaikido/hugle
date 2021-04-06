@@ -1,0 +1,161 @@
+---
+layout: default
+title: gsap
+---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
+
+<style>  
+#wind-window {
+    position: relative;
+    height: 400px;
+    width: 800px;
+    border: 1px solid #586e75;
+    background-image: url("/assets/images/kilkennySky.png");
+    background-size: 800px 400px;
+}
+
+#kite { 
+    position: absolute;
+    top: 365px;
+    left: 385px;
+    width: 45px; 
+    height: 25px; 
+    background-image: url("/assets/images/kite.png");
+    background-size: 45px 25px;
+    transform-origin: 50% 35%;
+} 
+
+.wrap img {
+    border: none;
+}
+</style>
+
+<div id="wind-window">
+    <div id="kite"> </div>
+</div>
+
+<input type="button" value="reset" onclick="reset();" />
+<input type="button" value="L-1" onclick="L1();" />
+<input type="button" value="L-2" onclick="L2();" />
+<input type="button" value="L-3" onclick="L3();" />
+<input type="button" value="L-4" onclick="L4();" />
+
+<script>
+    var k = document.getElementById('kite');
+    var scene = document.getElementById('wind-window');
+
+    const yBottom = 365;
+    const yLow = 325;
+    const yMid = 200;
+    const yTop = 30;
+    const xLeft = 50;
+    const xMidLeft = 250;
+    const xMid = 385;
+    const xMidRight = 520;
+    const xRight = 700;
+    const spinVSlow = 2.5;
+    const spinSlow = 1.5;
+    const spinFast = .3;
+
+    gsap.registerPlugin(MotionPathPlugin);
+    var timeline = gsap.timeline({defaults: {duration: 1, ease: 'sine.inOut', delay: .5}});
+
+    function reset() {
+        gsap.set(k, {
+            x: 0,
+            y: 0,
+            rotation: 0
+        });
+    }
+
+    function L1() {
+        timeline
+            .to(k, {y: -(yBottom - yMid)})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: -(xMid - xLeft), duration: 2})
+            .to(k, {rotation: '90_cw'})
+            .to(k, {x: (xRight - xMid), duration: 3})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: 0, duration: 1.5})
+            .to(k, {rotation: '0_cw'})
+            .to(k, {y: 0, duration: 2})
+    }
+
+    function L2() {
+        //.to(k, { x: 0, y: -165, rotation: '90_cw' })
+
+        timeline
+            .to(k, {y: -(yBottom - yMid)})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: -(xMid - xLeft), duration: 2})
+            .to(k, {rotation: '90_cw'})
+            .to(k, {x: (xRight - xMid), duration: 3})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: 0, duration: 1.5})
+            .to(k, {rotation: '270_cw'})
+            .to(k, {x: -(xMid - xLeft), duration: 2})
+            .to(k, {rotation: '90_cw'})
+            .to(k, {x: 0, duration: 1.5})
+            .to(k, {rotation: '450_ccw'})
+            .to(k, {rotation: '360_shortest', delay: 0})
+            .to(k, {y: -(yBottom - yTop)})
+            .to(k, {rotation: '180_cw'})
+            .to(k, {
+                y: -(yBottom - yLow),
+                duration: .5,
+                ease: 'sine.in'
+            })
+            .to(k, {rotation: '0_cw'})
+            .to(k, {y: 0})
+    }
+
+    function L3() {
+        timeline
+            .to(k, {y: -(yBottom - yMid)})
+            .to(k, {x: -(xMid - xMidLeft)})
+            .to(k, {rotation: '-720_ccw', duration: 2})
+            .to(k, {x: (xMidRight - xMid), duration: 2})
+            .to(k, {rotation: '0_cw', duration: 2})
+            .to(k, {x: 0, duration: 1})
+            .to(k, {rotation: '90_cw', duration: 1})
+            .to(k, {y: -(yBottom - yLow), duration: 1.5})
+            .to(k, {rotation: '-90_ccw', duration: 1})
+            .to(k, {y: 0})
+    }
+
+    function L4() {
+        timeline
+            .to(k, {rotation: '-180_cw'})
+            .to(k, {y: -40})
+            .to (k, {
+                duration: 4,
+                ease: 'sine.inOut', 
+                motionPath: { 
+                    path: [
+                        {x: -262, y: -25},
+                        {x: -310, y: -165},
+                    ],
+                    autoRotate: true,
+                    start: 0,
+                    end: 1,
+                    curviness: .3
+                }
+            })
+            .to(k, {x: -125, duration: 2})
+            .to(k, {rotation: '270_cw'})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {rotation: '90_ccw'})
+            .to(k, {x: 135, duration: 2})
+            .to(k, {rotation: '450_cw'})
+            .to(k, {rotation: '90_ccw'})
+            .to(k, {x: 0, duration: 2})
+            .to(k, {y: 0, duration: 2.5})
+            .to(k, {y: -165, duration: 3})
+            .to(k, {rotation: '-90_ccw', delay: 0})
+            .to(k, {y: 0, duration: 2.5})
+            .to(k, {y: -165, duration: 3})
+            .to(k, {x: -315, duration: 2})
+    }
+</script>

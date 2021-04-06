@@ -43,7 +43,8 @@ title: patterns
 
 <script>
     var k = document.getElementById('kite');
-    var starttime;
+    var scene = document.getElementById('wind-window');
+
     const yBottom = 365;
     const yLow = 325;
     const yMid = 200;
@@ -125,6 +126,43 @@ title: patterns
         })
     }
 
+    function strange(destX, destY, rotCode, duration) {
+        return new Promise(resolve => {
+            window.requestAnimationFrame = window.requestAnimationFrame || 
+                window.mozRequestAnimationFrame || 
+                window.webkitRequestAnimationFrame || 
+                window.msRequestAnimationFrame;
+
+            var maxX = scene.clientWidth - k.offsetWidth;
+            var maxY = scene.clientHeight - k.offsetHeight;
+
+            var duration = 5; // seconds
+            var gridSize = 50; // pixels
+
+            var start = null;
+
+            function step(timestamp) {
+                var progress, x, y, y2;
+                if(start === null) start = timestamp;
+
+                progress = (timestamp - start) / duration / 1000; // percent
+
+                x = progress * maxX/gridSize; // x = ƒ(t)
+                y = 2 * Math.sin(x); // y = ƒ(x)
+                y2 = 2 * Math.cos(x);
+
+                k.style.left = Math.min(maxX, gridSize * x) + "px";
+                k.style.bottom = maxY/2 + (gridSize * y) + "px";
+
+                if(progress >= 1) start = null; // reset to start position
+                requestAnimationFrame(step);
+            }
+
+            requestAnimationFrame(step);
+        })
+    }
+
+
     function spin(rotCode, duration) {
         return new Promise(resolve => {
             setTimeout(() => {
@@ -161,26 +199,6 @@ title: patterns
         return 0;
     }
 
-    function strange(x, y, rotCode, duration) {
-        return new Promise(resolve => {
-            setTimeout(() => {
-                k.style.transition = duration + 's';
-                k.style.transitionTimingFunction = 'ease-in-out';
-                k.style.transitionDelay = '.5s';
-
-                var destAngle = rotCodeToAngle(rotCode);
-                k.style.transform = 'rotate(' + destAngle + 'deg)'; 
-
-                k.style.top = y + 'px';
-                k.style.left = x + 'px';
-
-                k.addEventListener('transitionend', function handler() {
-                    k.removeEventListener('transitionend', handler);
-                    resolve(k);
-                });
-            }, 0);
-        })
-    }
 
     function reset() {
         var pat = [];
@@ -197,6 +215,7 @@ title: patterns
 
             switch(mvType) {
                 case moveXY:
+                case strange:
                     x = pat[i][1];
                     y = pat[i][2];
                     rotCode = pat[i][3];
