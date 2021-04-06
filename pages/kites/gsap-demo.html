@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
+
+    <style>
+        body { background-color: #343a40; }
+
+        #wind-window {
+            position: relative;
+            height: 400px;
+            width: 800px;
+            border: 1px solid #586e75;
+            background-image: url("/assets/images/kilkennySky.png");
+            background-size: 800px 400px;
+        }
+
+        #kite { 
+            position: absolute;
+            top: 365px;
+            left: 385px;
+            width: 45px; 
+            height: 25px; 
+            background-image: url("/assets/images/kite.png");
+            background-size: 45px 25px;
+            transform-origin: 50% 35%;
+        } 
+
+        .wrap img {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wind-window">
+    <div id="kite"> </div>
+</div>
+
+<input type="button" value="reset" onclick="reset();" />
+<input type="button" value="demo" onclick="demo();" />
+
+<script>
+    var k = document.getElementById('kite');
+    var scene = document.getElementById('wind-window');
+
+    const yBottom = 365;
+    const yLow = 325;
+    const yMid = 200;
+    const yTop = 30;
+    const xLeft = 50;
+    const xMidLeft = 250;
+    const xMid = 385;
+    const xMidRight = 520;
+    const xRight = 700;
+    const spinVSlow = 2.5;
+    const spinSlow = 1.5;
+    const spinFast = .3;
+
+    gsap.registerPlugin(MotionPathPlugin);
+    var timeline = gsap.timeline({defaults: {duration: 1, ease: 'sine.inOut', delay: .5}});
+
+    function reset() {
+        gsap.set(k, {
+            x: 0,
+            y: 0,
+            rotation: 0
+        });
+    }
+
+    function demo() {
+        timeline
+            .to(k, {
+                x: -(xMid - xLeft),
+                y: -(yBottom - yMid),
+                rotation: '-90'
+            })
+            .to (k, {
+                duration: 8,
+                ease: 'sine.inOut', 
+                motionPath: { 
+                    path: [
+                        {x: -(xMid - xLeft), y: -(yBottom - yMid)},
+                        {x: -(xMid - xLeft), y: -(yBottom - yLow)},
+                        {x: (xRight - xMid), y: -(yBottom - yLow)},
+                        {x: (xRight - xMid), y: -(yBottom - yMid)},
+                        {x: (xMidRight - xMid), y: -(yBottom - yTop)},
+                        {x: 0, y: -(yBottom - yTop)},
+                    ],
+                    autoRotate: true,
+                    start: 0,
+                    end: 1,
+                    curviness: .4
+                }
+            })
+    }
+</script>
