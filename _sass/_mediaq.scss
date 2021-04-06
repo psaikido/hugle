@@ -9,15 +9,14 @@
 /* Most mobiles */
 @media only screen
   and (min-device-width: 360px)
-  and (max-device-width: 740px)
-  and (-webkit-min-device-pixel-ratio: 4) {
+  and (max-device-width: 740px) {
     body {
         font-size: 1em;
     }
 
     .main-content {
         left: 16px;
-        min-width: 326px;
+        min-width: 327px;
 
         .home-page {
             .random-hughku {
@@ -101,4 +100,3 @@
         font-size: 1em;
     }
 }
-
