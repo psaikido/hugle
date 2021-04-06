@@ -7,7 +7,10 @@
 }
 
 /* Most mobiles */
-@media only screen and (max-device-width: 380px) {
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 740px)
+  and (-webkit-min-device-pixel-ratio: 4) {
     body {
         font-size: 1em;
     }
