@@ -13,11 +13,18 @@
     }
 
     .main-content {
-        .home-page .home-text-box {
-            top: 97px;
-            left: 18px;
-            width: 90%;
-            font-size: 12px;
+        .home-page {
+            .random-hughku {
+                top: 80px;
+                left: 68px;
+            }
+
+            .home-text-box {
+                top: 155px;
+                left: 18px;
+                width: 90%;
+                font-size: 12px;
+            }
         }
 
         left: 18px;
