@@ -24,9 +24,9 @@ class Patterns {
     this.hi = -335;
 
     let path = [
-            {x: this.lfIsh, y: this.hiIsh},
-            {x: this.lfIsh + 20, y: this.hi + 10},
-            {x: 0, y: this.hi},
+            {x: this.lfIsh, y: this.yMid},
+            {x: this.lfIsh + 40, y: this.low - 40},
+            {x: 0, y: this.low},
     ];
     //this.testPath(path);
   }
@@ -543,5 +543,121 @@ class Patterns {
       })
       .to(this.k, {rotation: '+=360_cw'})
       .to(this.k, {y: 0})
+  }
+
+  L7() {
+    this.reset();
+
+    this.timeline
+      .to(this.k, {
+        y: this.hi,
+        duration: 2,
+      })
+      .to(this.k, {
+        rotation: '180_cw',
+        duration: .5,
+      })
+      .to(this.k, {
+        y: this.low,
+        duration: 3,
+        delay: 1,
+        ease: 'power3.in'
+      })
+      .to(this.k, {
+        rotation: '+=360_cw',
+        duration: 2.5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        x: this.lfIsh,
+        y: this.yMid,
+        duration: 2.5,
+      })
+      .to(this.k, {
+        rotation: '-=225_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        duration: 3,
+        ease: 'sine.inOut', 
+        motionPath: { 
+          path: [
+            {x: this.lfIsh, y: this.yMid},
+            {x: this.lfIsh + 40, y: this.low - 40},
+            {x: 0, y: this.low},
+          ],
+          start: 0,
+          end: 1,
+          curviness: .4,
+          autoRotation: -90,
+        }
+      }, 'underSweep')
+      .to(this.kImg, {
+        rotation: '-90_ccw',
+        duration: 2.5,
+      }, "underSweep+=1.1")
+      .to(this.k, {
+        rotation: '+=180_cw',
+        duration: 2.5,
+      }, 'slowTurn')
+      .to(this.kImg, {
+        rotation: 0,
+        duration: 2.5,
+      }, '<slowTurn')
+      .to(this.k, {
+        x: this.rtIsh,
+        duration: 1,
+      })
+      .to(this.k, {
+        rotation: '-=360_ccw',
+        duration: 2.5,
+      })
+      .to(this.k, {
+        x: 0,
+        duration: 1.5,
+      })
+      .to(this.k, {
+        rotation: '-=450_ccw',
+        duration: .5,
+      })
+      .to(this.k, {
+        y: 0,
+        duration: 1,
+      })
   }
 }
