@@ -168,7 +168,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 - launch from 0, top
 - +2, walk forwards
 - divestop, slow +4
-- -.5 x 9, reverse diagonally to mid right
+- -.5 x 9, reverse diagonally to mid left
 - +2, slide turn -1.5
 - slow +3, low right
 - slow -4, reverse to centre
