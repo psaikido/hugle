@@ -1,6 +1,6 @@
 ---
 layout: default
-title: gsap
+title: club38 patterns
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
@@ -46,6 +46,7 @@ title: gsap
 <input type="button" value="L-2" onclick="L2();" />
 <input type="button" value="L-3" onclick="L3();" />
 <input type="button" value="L-4" onclick="L4();" />
+<input type="button" value="L-5" onclick="L5();" />
 
 <script>
     var k = document.getElementById('kite-wrap');
@@ -69,43 +70,149 @@ title: gsap
     var timeline = gsap.timeline({defaults: {duration: 1, ease: 'sine.inOut', delay: .5}});
 
     function reset() {
-        gsap.set(k, {
+        gsap.set([k, kImg], {
             x: 0,
             y: 0,
             rotation: 0
         });
     }
 
-    function L1() {
-        timeline
-            .to(k, {y: -(yBottom - yMid)})
-            .to(k, {rotation: '-90_ccw'})
-            .to(k, {x: -(xMid - xLeft), duration: 2})
-            .to(k, {rotation: '90_cw'})
-            .to(k, {x: (xRight - xMid), duration: 3})
-            .to(k, {rotation: '-90_ccw'})
-            .to(k, {x: 0, duration: 1.5})
-            .to(k, {rotation: '0_cw'})
-            .to(k, {y: 0, duration: 2})
-    }
+    function L5() {
+        reset();
 
-    function L2() {
         timeline
-            .to(k, {y: -(yBottom - yMid)})
-            .to(k, {rotation: '-90_ccw'})
-            .to(k, {x: -(xMid - xLeft), duration: 2})
-            .to(k, {rotation: '90_cw'})
-            .to(k, {x: (xRight - xMid), duration: 3})
-            .to(k, {rotation: '-90_ccw'})
-            .to(k, {x: 0, duration: 1.5})
-            .to(k, {rotation: '270_cw'})
-            .to(k, {x: -(xMid - xLeft), duration: 2})
-            .to(k, {rotation: '90_cw'})
-            .to(k, {x: 0, duration: 1.5})
-            .to(k, {rotation: '450_ccw'})
-            .to(k, {rotation: '360_shortest', delay: 0})
-            .to(k, {y: -(yBottom - yTop)})
-            .to(k, {rotation: '180_cw'})
+            .to(k, {
+                rotation: '-180_cw',
+                duration: .5,
+                delay: 0
+            })
+            .to(k, {y: -40})
+            .to(k, {
+                rotation: '-90_cw',
+                duration: .5
+            })
+            .to(k, {
+                x: -(xMid - xLeft),
+                duration: 2
+            })
+            .to(k, {rotation: '90_ccw'})
+            .to(k, {
+                x: (xRight - xMid),
+                duration: 3,
+            })
+            .to(k, {
+                rotation: '-90_cw',
+                duration: 1
+            })
+            .to(k, {
+                duration: 11,
+                ease: 'sine.inOut', 
+                motionPath: { 
+                    path: [
+                        {x: -(xMid - xMidLeft), y: -(yBottom - yTop)},
+                        {x: -(xMid - xLeft), y: -(yBottom - yMid)},
+                        {x: -(xMid - xMidLeft), y: -(yBottom - yLow)},
+                        {x: -(xMid - xMidRight), y: -(yBottom - yTop)},
+                        {x: -(xMid - xRight), y: -(yBottom - yMid)},
+                        {x: -(xMid - xMidRight), y: -(yBottom - yLow)},
+                        {x: -(xMid - xMidLeft), y: -(yBottom - yTop)},
+                        {x: -(xMid - xLeft), y: -(yBottom - yMid)},
+                        {x: -(xMid - xMidLeft), y: -(yBottom - yLow)},
+                        {x: -(xMid - xMidRight), y: -(yBottom - yTop)},
+                    ],
+                    start: 0,
+                    end: 1,
+                    curviness: .9,
+                    autoRotate: 90,
+                }
+            })
+            .to(k, {
+                rotation: '90_shortest',
+                duration: .5
+            })
+            .to(k, {
+                x: (xMidRight - xMid),
+                y: -(yBottom - yTop),
+                rotation: 90,
+                duration: .5,
+            })
+            .to(k, {
+                x: (xMidRight - xMid),
+                y: -(yBottom - yMid),
+                duration: 1,
+            })
+            .to(k, {
+                x: 0,
+                y: -(yBottom - yMid),
+                duration: 1,
+            })
+            .to(k, {
+                x: 0,
+                y: -(yBottom - yTop),
+                duration: 1,
+            })
+            .to(k, {
+                x: (xMidRight - xMid),
+                y: -(yBottom - yTop),
+                duration: 1,
+            })
+            .to(k, {
+                duration: 6,
+                ease: 'sine.inOut', 
+                motionPath: { 
+                    path: [
+                        {x: xMidRight - xMid, y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yLow)},
+                        {x: xMidLeft - xMid, y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yTop)},
+                        {x: xMidRight - xMid - 80, y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yLow + 80)},
+                        {x: -(xMid - xMidLeft - 80), y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yTop - 80)},
+                        {x: 35, y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yTop - 160)},
+                    ],
+                    start: 0,
+                    end: 1,
+                    curviness: 1,
+                    autoRotate: 90,
+                }
+            })
+            .to(k, {
+                rotation: 90,
+                duration: .5,
+            })
+            .to(k, {
+                rotation: '0_shortest',
+                duration: .5,
+            })
+            .to(k, {
+                delay: 0,
+                duration: 6,
+                ease: 'sine.inOut', 
+                motionPath: { 
+                    path: [
+                        {x: -20, y: -(yBottom - yMid + 60)},
+                        {x: -65, y: -(yBottom - yMid + 20)},
+                        {x: 0, y: -(yBottom - yMid - 60)},
+                        {x: 60, y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yMid + 60)},
+                        {x: -160, y: -(yBottom - yMid)},
+                        {x: 0, y: -50},
+                        {x: xMidRight - xMid, y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yTop)},
+                        {x: -(xMid - xMidLeft + 50), y: -(yBottom - yMid)},
+                        {x: 0, y: 0},
+                        {x: xMidRight - xMid + 30, y: -(yBottom - yMid)},
+                        {x: 0, y: -(yBottom - yTop)},
+                    ],
+                    start: 0,
+                    end: 1,
+                    curviness: 1,
+                    autoRotate: 90,
+                }
+            })
+            .to(k, {rotation: '-180_ccw'})
             .to(k, {
                 y: -(yBottom - yLow),
                 duration: .5,
@@ -115,21 +222,9 @@ title: gsap
             .to(k, {y: 0})
     }
 
-    function L3() {
-        timeline
-            .to(k, {y: -(yBottom - yMid)})
-            .to(k, {x: -(xMid - xMidLeft)})
-            .to(k, {rotation: '-720_ccw', duration: 2})
-            .to(k, {x: (xMidRight - xMid), duration: 2})
-            .to(k, {rotation: '0_cw', duration: 2})
-            .to(k, {x: 0, duration: 1})
-            .to(k, {rotation: '90_cw', duration: 1})
-            .to(k, {y: -(yBottom - yLow), duration: 1.5})
-            .to(k, {rotation: '-90_ccw', duration: 1})
-            .to(k, {y: 0})
-    }
-
     function L4() {
+        reset();
+
         timeline
             .to(kImg, {rotation: '-180_cw'})
             .to(k, {y: -40})
@@ -162,7 +257,7 @@ title: gsap
             .to(k, {y: 0, duration: 2.5})
             .to(k, {y: -165, duration: 3})
             .to(k, {x: -315, duration: 2})
-            .to (k, {
+            .to(k, {
                 duration: 8,
                 ease: 'sine.inOut', 
                 motionPath: { 
@@ -193,4 +288,64 @@ title: gsap
             .to(kImg, {rotation: '0_cw'})
             .to(k, {y: 0})
     }
+
+    function L3() {
+        reset();
+
+        timeline
+            .to(k, {y: -(yBottom - yMid)})
+            .to(k, {x: -(xMid - xMidLeft)})
+            .to(k, {rotation: '-720_ccw', duration: 2})
+            .to(k, {x: (xMidRight - xMid), duration: 2})
+            .to(k, {rotation: '0_cw', duration: 2})
+            .to(k, {x: 0, duration: 1})
+            .to(k, {rotation: '90_cw', duration: 1})
+            .to(k, {y: -(yBottom - yLow), duration: 1.5})
+            .to(k, {rotation: '-90_ccw', duration: 1})
+            .to(k, {y: 0})
+    }
+
+    function L2() {
+        reset();
+
+        timeline
+            .to(k, {y: -(yBottom - yMid)})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: -(xMid - xLeft), duration: 2})
+            .to(k, {rotation: '90_cw'})
+            .to(k, {x: (xRight - xMid), duration: 3})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: 0, duration: 1.5})
+            .to(k, {rotation: '270_cw'})
+            .to(k, {x: -(xMid - xLeft), duration: 2})
+            .to(k, {rotation: '90_cw'})
+            .to(k, {x: 0, duration: 1.5})
+            .to(k, {rotation: '450_ccw'})
+            .to(k, {rotation: '360_shortest', delay: 0})
+            .to(k, {y: -(yBottom - yTop)})
+            .to(k, {rotation: '180_cw'})
+            .to(k, {
+                y: -(yBottom - yLow),
+                duration: .5,
+                ease: 'sine.in'
+            })
+            .to(k, {rotation: '0_cw'})
+            .to(k, {y: 0})
+    }
+
+    function L1() {
+        reset();
+
+        timeline
+            .to(k, {y: -(yBottom - yMid)})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: -(xMid - xLeft), duration: 2})
+            .to(k, {rotation: '90_cw'})
+            .to(k, {x: (xRight - xMid), duration: 3})
+            .to(k, {rotation: '-90_ccw'})
+            .to(k, {x: 0, duration: 1.5})
+            .to(k, {rotation: '0_cw'})
+            .to(k, {y: 0, duration: 2})
+    }
+
 </script>
