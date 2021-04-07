@@ -23,6 +23,12 @@ class Patterns {
     this.hiIsh = -280; 
     this.hi = -335;
 
+    let path = [
+            {x: this.lfIsh, y: this.hiIsh},
+            {x: this.lfIsh + 20, y: this.hi + 10},
+            {x: 0, y: this.hi},
+    ];
+    //this.testPath(path);
   }
 
   reset() {
@@ -365,8 +371,8 @@ class Patterns {
         delay: 0
       })
       .to(this.k, {
-        y: this.low,
-        duration: .5,
+        y: this.lowIsh,
+        duration: 1,
       })
       .to(this.k, {
         rotation: '90_cw',
@@ -390,7 +396,8 @@ class Patterns {
       })
       .to(this.k, {
         rotation: -90,
-        duration: .5,
+        duration: 1.5,
+        delay: 0,
       })
       .to(this.k, {
         x: this.lf,
@@ -398,13 +405,15 @@ class Patterns {
       })
       .to(this.k, {
         rotation: '90_ccw',
-        duration: .5,
+        delay: 0,
+        duration: 1.5,
       })
       .to(this.k, {
         x: 0,
         duration: 1.5,
       })
       .to(this.k, {
+        y: this.low,
         rotation: '180_cw',
         duration: .5,
       })
@@ -440,5 +449,99 @@ class Patterns {
         x: this.lfIsh,
         duration: 1,
       })
+      .to(this.k, {
+        delay: 0,
+        duration: 2,
+        ease: 'sine.inOut', 
+        motionPath: { 
+          path: [
+            {x: this.lfIsh, y: this.yMid},
+            {x: -30, y: this.yMid - 30},
+            {x: 0, y: this.hiIsh},
+          ],
+          start: 0,
+          end: 1,
+          curviness: 1,
+          type: 'soft',
+          autoRotate: -90,
+        }
+      })
+      .to(this.k, {
+        delay: 0,
+        duration: 2,
+        ease: 'sine.inOut', 
+        motionPath: { 
+          path: [
+            {x: 30, y: this.yMid - 30},
+            {x: this.rtIsh, y: this.yMid},
+          ],
+          start: 0,
+          end: 1,
+          curviness: 1,
+          type: 'soft',
+          autoRotate: 90,
+        }
+      })
+      .to(this.k, {
+        delay: 0,
+        duration: 2,
+        ease: 'sine.inOut', 
+        motionPath: { 
+          path: [
+            {x: 30, y: this.yMid + 30},
+            {x: 0, y: this.lowIsh},
+          ],
+          start: 0,
+          end: 1,
+          curviness: 1,
+          type: 'soft',
+          autoRotate: -90,
+        }
+      })
+      .to(this.k, {
+        delay: 0,
+        duration: 2,
+        ease: 'sine.inOut', 
+        motionPath: { 
+          path: [
+            {x: -30, y: this.yMid + 30},
+            {x: this.lfIsh, y: this.yMid},
+          ],
+          start: 0,
+          end: 1,
+          curviness: 1,
+          type: 'soft',
+          autoRotate: 90,
+        }
+      })
+      .to(this.k, {
+        delay: 0,
+        duration: 2,
+        ease: 'sine.inOut', 
+        motionPath: { 
+          path: [
+            {x: this.lfIsh, y: this.hiIsh},
+            {x: this.lfIsh + 20, y: this.hi + 10},
+            {x: 0, y: this.hi},
+          ],
+          start: 0,
+          end: 1,
+          curviness: 1,
+          type: 'soft',
+          autoRotate: 90,
+        }
+      })
+      .to(this.k, {
+        rotation: '180_shortest',
+        delay: 0,
+        duration: .5,
+      })
+      .to(this.k, {
+        y: this.low,
+        duration: .5,
+        ease: 'sine.in'
+      })
+      .to(this.k, {rotation: '+=360_cw'})
+      .to(this.k, {y: 0})
   }
 }
