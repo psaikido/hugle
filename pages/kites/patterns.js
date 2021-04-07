@@ -660,4 +660,95 @@ class Patterns {
         duration: 1,
       })
   }
+
+  L8() {
+    this.reset();
+
+    this.timeline
+    /*
+      .to(this.k, {
+        y: this.hiIsh,
+        duration: 2,
+      })
+      .to(this.k, {
+        x: -60
+      })
+      .to(this.k, {
+        x: 0
+      })
+      .to(this.k, {
+        y: this.hi,
+        duration: 1,
+      })
+      .to(this.k, {
+        y: this.hiIsh,
+        duration: 1,
+      })
+      .to(this.k, {
+        rotation: -45
+      })
+      .to(this.k, {
+        rotation: 45
+      })
+      .to(this.k, {
+        rotation: 0
+      })
+      .to(this.k, {
+        rotation: 180 
+      })
+      .to(this.k, {
+        y: this.low
+      })
+      .to(this.k, {
+        x: -60
+      })
+      .to(this.k, {
+        x: 0
+      })
+      .to(this.k, {
+        y: this.lowIsh,
+        duration: 1,
+      })
+      .to(this.k, {
+        y: this.low,
+        duration: 1,
+      })
+      .to(this.k, {
+        rotation: '-=45_ccw'
+      })
+      .to(this.k, {
+        rotation: 225 
+      })
+      .to(this.k, {
+        rotation: 180 
+      })
+      */
+      .to(this.k, {
+        rotation: '90_cw',
+        x: this.rtIsh,
+        y: this.yMid,
+        duration: 1.8,
+      })
+      .to(this.k, {
+        y: this.hiIsh,
+      })
+      .to(this.k, {
+        y: this.yMid,
+      })
+      .to(this.k, {
+        x: this.rtIsh + 60,
+      })
+      .to(this.k, {
+        x: this.rtIsh,
+      })
+      .to(this.k, {
+        rotation: '-=45'
+      })
+      .to(this.k, {
+        rotation: '+=90'
+      })
+      .to(this.k, {
+        rotation: 90 
+      })
+  }
 }
