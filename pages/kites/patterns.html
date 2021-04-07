@@ -55,6 +55,11 @@ title: club38 patterns
     var kImg = document.getElementById('kite');
     var timeline = gsap.timeline({defaults: {duration: 1, ease: 'sine.inOut', delay: .5}});
     let patterns = new Patterns(gsap, k, kImg, timeline);
+    let path = [
+            {x: -262, y: -25},
+            {x: -310, y: -165},
+    ];
+    //patterns.testPath(path);
 </script>
 
 <input type="button" value="reset" onclick="patterns.reset();" />

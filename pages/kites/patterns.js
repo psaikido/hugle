@@ -23,9 +23,6 @@ class Patterns {
     this.hiIsh = -280; 
     this.hi = -335;
 
-    let path = [
-    ];
-    //this.testPath(path);
   }
 
   reset() {
@@ -37,16 +34,16 @@ class Patterns {
   }
 
   testPath(path) {
-    for (point in path) {
-      var x = this.xMid + path[point].x;
-      var y = 400 - Math.abs(path[point].y);
+    for (var i = 0; i < path.length; i++) {
+      var x = this.xMid + path[i].x;
+      var y = 400 - Math.abs(path[i].y);
 
       var dv = $('<div class="pathTestPoint"/>')
         .css({
           left: x,
           top: y
         })
-        .attr('title', point)
+        .attr('title', i)
         .appendTo('#wind-window');
     }
   }
@@ -221,7 +218,7 @@ class Patterns {
             {x: this.lfIsh, y: this.hi},
             {x: this.lf, y: this.yMid},
             {x: this.lfIsh, y: this.low},
-            {x: this.rtIsh, y: this.hi},
+            {x: this.rtIsh, y: this.hiIsh},
           ],
           start: 0,
           end: 1,
@@ -236,28 +233,28 @@ class Patterns {
     // Slide Box.
       .to(this.k, {
         x: this.rtIsh,
-        y: this.hi,
+        y: this.hiIsh,
         rotation: 90,
         duration: .5,
       })
       .to(this.k, {
         x: this.rtIsh,
-        y: this.yMid,
+        y: this.lowIsh,
         duration: 1,
       })
       .to(this.k, {
-        x: 0,
-        y: this.yMid,
+        x: this.lfIsh,
+        y: this.lowIsh,
         duration: 1,
       })
       .to(this.k, {
-        x: 0,
-        y: this.hi,
+        x: this.lfIsh,
+        y: this.hiIsh,
         duration: 1,
       })
       .to(this.k, {
         x: this.rtIsh,
-        y: this.hi,
+        y: this.hiIsh,
         duration: 1,
       })
     // Spiral in.
@@ -344,7 +341,11 @@ class Patterns {
           autoRotate: 90,
         }
       })
-      .to(this.k, {rotation: '-180_ccw'})
+      .to(this.k, {
+        rotation: '-180_ccw',
+        delay: 0,
+        duration: .5,
+      })
       .to(this.k, {
         y: this.low,
         duration: .5,
