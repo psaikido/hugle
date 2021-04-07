@@ -31,7 +31,7 @@ title: vids
 <div class="col-left">
 <video src="/assets/vids/level-3.mp4"
     width="100%" type="video/mp4" 
-    autoplay="" preload="auto" controls>
+    preload="auto" controls>
 </video>
 </div>
 </div>
