@@ -58,7 +58,7 @@ function L8() {
       rotation: '+=90_cw'
     })
     .to(k, {
-      rotation: '+=45_ccw'
+      rotation: '-=45_ccw'
     })
     // East
     .to(k, {
