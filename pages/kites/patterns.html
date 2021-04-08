@@ -3,7 +3,15 @@ layout: default
 title: club38 patterns
 ---
 
-<script src="patterns.js"></script>
+<script src="patterns/reset.js"></script>
+<script src="patterns/l1.js"></script>
+<script src="patterns/l2.js"></script>
+<script src="patterns/l3.js"></script>
+<script src="patterns/l4.js"></script>
+<script src="patterns/l5.js"></script>
+<script src="patterns/l6.js"></script>
+<script src="patterns/l7.js"></script>
+<script src="patterns/l8.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
 
@@ -54,16 +62,55 @@ title: club38 patterns
     var k = document.getElementById('kite-wrap');
     var kImg = document.getElementById('kite');
     var timeline = gsap.timeline({defaults: {duration: 1, ease: 'sine.inOut', delay: .5}});
-    let patterns = new Patterns(gsap, k, kImg, timeline);
+
+    // Gsap movements are measured from an objects starting position.
+    // For left/right values we decrease/increase from the 'centre' of 385px.
+    const lf = -335;
+    const lfIsh = -135;
+    const xMid = 385;
+    const rtIsh = 135;
+    const rt = 315;
+
+    // y values are 0 at the top and 400 at the bottom.
+    // The displacement values are negative because the kite's 
+    // starting position is 365px.
+    const ground = -35;
+    const low = -45;
+    const lowIsh = -125;
+    const yMid = -200;
+    const hiIsh = -280; 
+    const hi = -335;
+
+    let path = [
+            {x: lfIsh, y: yMid},
+            {x: lfIsh + 40, y: low - 40},
+            {x: 0, y: low},
+    ];
+    //testPath(path);
+
+    function testPath(path) {
+        for (var i = 0; i < path.length; i++) {
+            var x = xMid + path[i].x;
+            var y = 400 - Math.abs(path[i].y);
+
+            var dv = $('<div class="pathTestPoint"/>')
+                .css({
+                    left: x,
+                    top: y
+                })
+                .attr('title', i)
+                .appendTo('#wind-window');
+        }
+    }
 </script>
 
-<input type="button" value="reset" onclick="patterns.reset();" />
-<input type="button" value="L-1" onclick="patterns.L1();" />
-<input type="button" value="L-2" onclick="patterns.L2();" />
-<input type="button" value="L-3" onclick="patterns.L3();" />
-<input type="button" value="L-4" onclick="patterns.L4();" />
-<input type="button" value="L-5" onclick="patterns.L5();" />
-<input type="button" value="L-6" onclick="patterns.L6();" />
-<input type="button" value="L-7" onclick="patterns.L7();" />
-<input type="button" value="L-8" onclick="patterns.L8();" />
+<input type="button" value="reset" onclick="reset();" />
+<input type="button" value="L-1" onclick="L1();" />
+<input type="button" value="L-2" onclick="L2();" />
+<input type="button" value="L-3" onclick="L3();" />
+<input type="button" value="L-4" onclick="L4();" />
+<input type="button" value="L-5" onclick="L5();" />
+<input type="button" value="L-6" onclick="L6();" />
+<input type="button" value="L-7" onclick="L7();" />
+<input type="button" value="L-8" onclick="L8();" />
 
