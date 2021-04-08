@@ -76,15 +76,16 @@ title: club38 patterns
     // starting position is 365px.
     const ground = -35;
     const low = -45;
-    const lowIsh = -125;
+    const lowIsh = -100;
     const yMid = -200;
     const hiIsh = -280; 
     const hi = -335;
 
     let path = [
-            {x: lfIsh, y: yMid},
-            {x: lfIsh + 40, y: low - 40},
+            {x: rtIsh - 40 , y: lowIsh},
             {x: 0, y: low},
+            {x: lfIsh + 40 , y: lowIsh},
+            {x: lfIsh, y: yMid},
     ];
     //testPath(path);
 
