@@ -12,6 +12,7 @@ title: club38 patterns
 <script src="patterns/l6.js"></script>
 <script src="patterns/l7.js"></script>
 <script src="patterns/l8.js"></script>
+<script src="patterns/m9.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
 
@@ -48,6 +49,22 @@ title: club38 patterns
         height: 6px;
         width: 6px;
         background-color: #f00;
+    }
+
+    .button-bank {
+        position: absolute;
+        top: 0px;
+        left: -85px;
+        width: 78px;
+    }
+
+    .button-bank.right {
+        left: 810px;
+    }
+
+    .button-bank input {
+        float: left;
+        width: 90%;
     }
 </style>
 
@@ -101,12 +118,18 @@ title: club38 patterns
     }
 </script>
 
-<input type="button" value="reset" onclick="reset();" />
-<input type="button" value="L-1" onclick="L1();" />
-<input type="button" value="L-2" onclick="L2();" />
-<input type="button" value="L-3" onclick="L3();" />
-<input type="button" value="L-4" onclick="L4();" />
-<input type="button" value="L-5" onclick="L5();" />
-<input type="button" value="L-6" onclick="L6();" />
-<input type="button" value="L-7" onclick="L7();" />
-<input type="button" value="L-8" onclick="L8();" />
+<div class="button-bank left">
+<input type="button" value="reset" onclick="reset();" />  
+<input type="button" value="L-1" onclick="L1();" />  
+<input type="button" value="L-2" onclick="L2();" />  
+<input type="button" value="L-3" onclick="L3();" />  
+<input type="button" value="L-4" onclick="L4();" />  
+<input type="button" value="L-5" onclick="L5();" />  
+<input type="button" value="L-6" onclick="L6();" />  
+<input type="button" value="L-7" onclick="L7();" />  
+<input type="button" value="L-8" onclick="L8();" />  
+</div>
+
+<div class="button-bank right">
+<input type="button" value="M-9" onclick="M9();" />  
+</div>
