@@ -1,13 +1,58 @@
 function L5() {
   reset();
 
+  const spiralIn = [
+      {x: rtIsh - 40, y: yMid + 100},
+      {x: lfIsh + 40, y: yMid + 100},
+      {x: lfIsh + 40, y: yMid - 85},
+      {x: rtIsh - 80, y: yMid - 85},
+      {x: rtIsh - 85, y: yMid + 45},
+      {x: lfIsh + 85, y: yMid + 45},
+      {x: lfIsh + 85, y: yMid - 45},
+      {x: rtIsh - 95, y: yMid - 45},
+      {x: 30, y: yMid},
+      {x: 0, y: yMid + 30},
+      {x: -15, y: yMid + 10},
+      {x: 0, y: yMid},
+  ];
+
+  const spiralOut = [
+      {x: 0, y: yMid},
+      {x: -15, y: yMid + 10},
+      {x: 0, y: yMid + 30},
+      {x: 30, y: yMid},
+      {x: rtIsh - 95, y: yMid - 45},
+      {x: lfIsh + 85, y: yMid - 45},
+      {x: lfIsh + 85, y: yMid + 45},
+      {x: rtIsh - 85, y: yMid + 45},
+      {x: rtIsh - 80, y: yMid - 85},
+      {x: lfIsh + 40, y: yMid - 85},
+      {x: lfIsh + 40, y: yMid + 100},
+      {x: rtIsh - 40, y: yMid + 100},
+      {x: rtIsh, y: hiIsh},
+      {x: 0, y: hi},
+  ];
+
+  const figure8 =  [
+    {x: lfIsh, y: hi},
+    {x: lf, y: yMid},
+    {x: lfIsh, y: low},
+    {x: rtIsh, y: hi},
+    {x: rt, y: yMid},
+    {x: rtIsh, y: low},
+    {x: lfIsh, y: hi},
+    {x: lf, y: yMid},
+    {x: lfIsh, y: low},
+    {x: rtIsh, y: hiIsh},
+  ];
+
   timeline
     .to(k, {
       rotation: '-180_cw',
       duration: .5,
       delay: 0
     })
-    .to(k, {y: -40})
+    .to(k, {y: low})
     .to(k, {
       rotation: '-90_cw',
       duration: .5
@@ -22,26 +67,15 @@ function L5() {
       duration: 3,
     })
     .to(k, {
-      rotation: '-90_cw',
+      rotation: '-35_cw',
       duration: 1
     })
-  // Figure eight.
+    // Figure eight.
     .to(k, {
       duration: 11,
       ease: 'sine.inOut', 
       motionPath: { 
-        path: [
-          {x: lfIsh, y: hi},
-          {x: lf, y: yMid},
-          {x: lfIsh, y: low},
-          {x: rtIsh, y: hi},
-          {x: rt, y: yMid},
-          {x: rtIsh, y: low},
-          {x: lfIsh, y: hi},
-          {x: lf, y: yMid},
-          {x: lfIsh, y: low},
-          {x: rtIsh, y: hiIsh},
-        ],
+        path: figure8,
         start: 0,
         end: 1,
         curviness: .9,
@@ -52,7 +86,7 @@ function L5() {
       rotation: '90_shortest',
       duration: .5
     })
-  // Slide Box.
+    // Slide Box.
     .to(k, {
       x: rtIsh,
       y: hiIsh,
@@ -67,106 +101,52 @@ function L5() {
     .to(k, {
       x: lfIsh,
       y: lowIsh,
-      duration: 1,
+      duration: 1.5,
     })
     .to(k, {
       x: lfIsh,
       y: hiIsh,
-      duration: 1,
+      duration: 1.5,
     })
     .to(k, {
       x: rtIsh,
       y: hiIsh,
       duration: 1,
     })
-  // Spiral in.
+    .to(k, {
+      rotation: '+=85_cw',
+      delay: 1,
+    })
+    // Spiral in.
+    .to(k, {
+        duration: 6,
+        ease: 'sine.in', 
+        motionPath: { 
+            path: spiralIn,
+            start: 0,
+            end: 1,
+            autoRotate: 90,
+            curviness: .8,
+        }
+    })
+    .to(k, {
+      rotation: '-90_ccw',
+      delay: 1,
+    })
+    // Spiral out.
     .to(k, {
       duration: 6,
-      ease: 'sine.inOut', 
+      ease: 'sine.in', 
       motionPath: { 
-        path: [
-          {x: rtIsh, y: yMid},
-          {x: rtIsh - 40, y: yMid + 100},
-          {x: 0, y: low},
-          {x: lfIsh + 40, y: yMid + 100},
-          {x: lfIsh, y: yMid},
-          {x: lfIsh + 40, y: yMid - 85},
-          {x: 0, y: hi},
-          {x: rtIsh - 80, y: yMid - 85},
-          {x: rtIsh - 60, y: yMid},
-          {x: rtIsh - 85, y: yMid + 45},
-          {x: 0, y: lowIsh},
-          {x: lfIsh + 85, y: yMid + 45},
-          {x: lfIsh + 60, y: yMid},
-          {x: lfIsh + 85, y: yMid - 45},
-          {x: 0, y: hiIsh},
-          {x: rtIsh - 95, y: yMid - 45},
-          {x: 30, y: yMid},
-          {x: 0, y: yMid + 30},
-          {x: 0, y: yMid},
-        ],
+        path: spiralOut,
         start: 0,
         end: 1,
-        curviness: .5,
-        type: 'soft',
+        curviness: .8,
         autoRotate: 90,
       }
     })
     .to(k, {
-      rotation: 90,
-      duration: .5,
-      delay: 0
-    })
-    .to(k, {
-      rotation: '0_shortest',
-      duration: .5,
-      delay: 1
-    })
-    .to(k, {
-      rotation: '180_ccw',
-      duration: .5,
-      delay: 0
-    })
-  // Spiral out.
-    .to(k, {
-      delay: 0,
-      duration: 6,
-      ease: 'sine.inOut', 
-      motionPath: { 
-        path: [
-          {x: 0, y: yMid},
-          {x: 0, y: yMid + 30},
-          {x: 30, y: yMid},
-          {x: rtIsh - 95, y: yMid - 45},
-          {x: 0, y: hiIsh},
-          {x: lfIsh + 85, y: yMid - 45},
-          {x: lfIsh + 60, y: yMid},
-          {x: lfIsh + 85, y: yMid + 45},
-          {x: 0, y: lowIsh},
-          {x: rtIsh - 85, y: yMid + 45},
-          {x: rtIsh - 60, y: yMid},
-          {x: rtIsh - 80, y: yMid - 85},
-          {x: 0, y: hi},
-          {x: lfIsh + 40, y: yMid - 85},
-          {x: lfIsh, y: yMid},
-          {x: lfIsh + 40, y: yMid + 100},
-          {x: 0, y: low},
-          {x: rtIsh - 40, y: yMid + 100},
-          {x: rtIsh, y: yMid},
-          {x: rtIsh - 20, y: hiIsh},
-          {x: 0, y: hi},
-        ],
-        start: 0,
-        end: 1,
-        curviness: .5,
-        type: 'soft',
-        autoRotate: 90,
-      }
-    })
-    .to(k, {
-      rotation: '-180_ccw',
-      delay: 0,
-      duration: .5,
+      rotation: '-=90_ccw',
     })
     .to(k, {
       y: low,
