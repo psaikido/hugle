@@ -151,7 +151,7 @@ function L5() {
     .to(k, {
       y: low,
       duration: .5,
-      ease: 'sine.in'
+      ease: 'power3.in'
     })
     .to(k, {rotation: '0_cw'})
     .to(k, {y: 0})
