@@ -15,4 +15,5 @@ function L3() {
     .to(k, {y: lowIsh, duration: 1.5})
     .to(k, {rotation: '-90_ccw', duration: 1, delay: 0})
     .to(k, {y: 0 - 5, duration: 1.5, delay: 0})
+  timeline.play();
 }

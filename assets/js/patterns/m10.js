@@ -90,4 +90,5 @@ function M10() {
     .to(k, {
       y: ground,
     })
+  timeline.play();
 }

@@ -130,4 +130,5 @@ function M11() {
       rotation: '+=630_cw',
     })
     .to(k, {y: ground})
+  timeline.play();
 }

@@ -99,6 +99,12 @@ permalink: /patterns.html/
 <input type="button" value="M-11" onclick="M11();" />  
 <input type="button" value="M-12" onclick="M12();" />  
 <input type="button" value="M-13" onclick="M13();" />  
-<input id="reset" type="button" value="reset" onclick="reset();" />  
 </div>
-<input type="button" value="step" onclick="stepForward();" />
+
+<div class="button-bank player">
+<input type="button" value="<" onclick="stepBack(stepCount);" title="step back" />
+<input type="button" value="||" onclick="stop();" title="pause" />
+<input type="button" value=">" onclick="stepForward(stepCount);" title="step forward" />
+<input type="button" value=">>" onclick="playTimeline();" title="play" />
+<input id="reset" type="button" value="reset" onclick="reset();" title="stop & reset" />  
+</div>

@@ -155,4 +155,5 @@ function L5() {
     })
     .to(k, {rotation: '0_cw'})
     .to(k, {y: 0})
+  timeline.play();
 }

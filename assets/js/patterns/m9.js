@@ -36,4 +36,5 @@ function M9() {
     })
     .to(k, {rotation: '-=450_ccw'})
     .to(k, {y: ground})
+  timeline.play();
 }
