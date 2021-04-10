@@ -1,0 +1,68 @@
+---
+# kite patterns 
+---
+
+#wind-window {
+    position: relative;
+    height: 400px;
+    width: 800px;
+    border: 1px solid #586e75;
+    background-image: url("/assets/images/kilkennySky.png");
+    background-size: 800px 400px;
+}
+
+#kite-wrap, #kite { 
+    position: absolute;
+    top: 365px;
+    left: 385px;
+    width: 45px; 
+    height: 25px; 
+    background-size: 45px 25px;
+} 
+
+#kite { 
+    background-image: url("/assets/images/kite.png");
+    transform-origin: 50% 35%;
+    top: 0;
+    left: 0;
+}
+
+.wrap img {border: none;}
+
+.pathTestPoint {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #f00;
+}
+
+.button-bank {
+    position: absolute;
+    top: 0px;
+    left: -85px;
+    width: 78px;
+}
+
+.button-bank.right {
+    left: 810px;
+}
+
+.button-bank input {
+    float: left;
+    width: 90%;
+}
+
+.button-bank input#reset {
+    position: absolute;
+    top: 370px;
+    left: 0;
+}
+
+#timeline-msg {
+    border: 1px solid #586e75;
+    height: 45px;
+    width: 800px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
