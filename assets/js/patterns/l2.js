@@ -23,4 +23,6 @@ function L2() {
     })
     .to(k, {rotation: '0_cw'})
     .to(k, {y: 0})
+
+  timeline.play();
 }
