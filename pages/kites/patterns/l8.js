@@ -288,6 +288,7 @@ function L8() {
     .to(k, {
       x: 0,
       y: low,
+      ease: 'power3.in',
     })
     .to(k, {
       rotation: '-=180',
