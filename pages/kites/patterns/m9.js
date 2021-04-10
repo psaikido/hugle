@@ -4,7 +4,10 @@ function M9() {
   timeline
     .to(k, {y: hi})
     .to(k, {rotation: '180_cw'})
-    .to(k, {y: lowIsh})
+    .to(k, {
+      y: lowIsh,
+      ease: 'power3.in',
+    })
     .to(k, {rotation: '-=450_ccw'})
     .to(k, {x: lfIsh})
     .to(k, {rotation: '-=270_ccw'})
@@ -27,7 +30,10 @@ function M9() {
     .to(k, {rotation: '+=450_cw'}, '<')
     .to(k, {x: 0})
     .to(k, {rotation: '+=270_cw', delay: 0})
-    .to(k, {y: low})
+    .to(k, {
+      y: low,
+      ease: 'power3.in',
+    })
     .to(k, {rotation: '-=450_ccw'})
     .to(k, {y: ground})
 }
