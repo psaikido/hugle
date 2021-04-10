@@ -138,15 +138,19 @@ function M12() {
     })
     .to(k, {
       rotation: '+=90_cw',
+      duration: .3,
     })
     .to(k, {
       rotation: '+=90_cw',
+      duration: .3,
     })
     .to(k, {
       rotation: '+=90_cw',
+      duration: .3,
     })
     .to(k, {
       rotation: '+=90_cw',
+      duration: .3,
     })
     .to(k, {
       rotation: '-=360_ccw',
