@@ -21,24 +21,55 @@ function M11() {
       y: lowIsh + 20,
       rotation: '-=270_ccw',
     })
-    .to(k, {rotation: '+=90_cw'})
-    .to(k, {rotation: '+=90_cw'})
-    .to(k, {rotation: '+=90_cw'})
-    .to(k, {rotation: '+=90_cw'})
-    .to(k, {rotation: '+=90_cw'})
+    .to(k, {
+      rotation: '+=90_cw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '+=90_cw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '+=90_cw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '+=90_cw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '+=90_cw',
+      duration: .3,
+    })
     .to(k, {x: lfIsh,})
     .to(k, {rotation: '-=270_ccw'})
     .to(k, {y: hiIsh,})
     .to(k, {
       x: 0,
       y: hi,
-      rotation: '+=180_cs'
+      rotation: '+=180_cs',
+      delay: 0,
     })
-    .to(k, {y: lowIsh,})
-    .to(k, {rotation: '-=90_ccw'})
-    .to(k, {rotation: '-=90_ccw'})
-    .to(k, {rotation: '-=90_ccw'})
-    .to(k, {rotation: '-=90_ccw'})
+    .to(k, {
+      y: lowIsh,
+      ease: 'power3.in',
+    })
+    .to(k, {
+      rotation: '-=90_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=90_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=90_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=90_ccw',
+      duration: .3,
+    })
     .to(k, {rotation: '+=360_cw'})
     // Slide circle.
     .to(k, {
@@ -84,11 +115,17 @@ function M11() {
     .to(kImg, {
       rotation: '-=180_ccw',
     })
-    .to(k, {y: yMid})
+    .to(k, {
+      y: yMid,
+      ease: 'power3.in',
+    })
     .to(kImg, {
       rotation: '-=360_ccw',
     })
-    .to(k, {y: low})
+    .to(k, {
+      y: low,
+      ease: 'power3.in',
+    })
     .to(kImg, {
       rotation: '+=630_cw',
     })
