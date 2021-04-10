@@ -13,17 +13,41 @@ function M10() {
     .to(k, {rotation: '+=360_cw'})
     .to(k, {y: hiIsh})
     .to(k, {x: 0})
-    .to(k, {rotation: '-=45_ccw, duration: .3,'})
-    .to(k, {rotation: '-=45_ccw, duration: .3,'})
-    .to(k, {rotation: '-=45_ccw, duration: .3,'})
-    .to(k, {rotation: '-=45_ccw, duration: .3,'})
-    .to(k, {rotation: '-=45_ccw, duration: .3,'})
-    .to(k, {rotation: '-=45_ccw, duration: .3,'})
+    .to(k, {
+      rotation: '-=45_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=45_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=45_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=45_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=45_ccw',
+      duration: .3,
+    })
+    .to(k, {
+      rotation: '-=45_ccw',
+      duration: .3,
+    })
     .to(k, {y: hi})
     .to(k, {rotation: '+=180_cw'})
-    .to(k, {y: yMid})
+    .to(k, {
+      y: yMid,
+      ease: 'power3.in',
+    })
     .to(k, {rotation: '+=360_cw'})
-    .to(k, {y: low})
+    .to(k, {
+      y: low,
+      ease: 'power3.in',
+    })
     .to(k, {rotation: '-=450_ccw'})
     .to(k, {y: ground})
     .to(k, {y: low})
@@ -64,7 +88,6 @@ function M10() {
       rotation: '-=450_ccs',
     })
     .to(k, {
-      x: 0,
       y: ground,
     })
 }
