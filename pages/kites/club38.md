@@ -286,7 +286,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 </div>
 
 <div class="col-right">
-- launch from +2, reverse to centre
+- launch from +2, reverse to low
 - -5, mid right
 - +6, mid left, -3
 - fox box
