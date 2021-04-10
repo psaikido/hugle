@@ -180,4 +180,5 @@ function L6() {
     })
     .to(k, {rotation: '+=360_cw'})
     .to(k, {y: 0})
+  timeline.play();
 }

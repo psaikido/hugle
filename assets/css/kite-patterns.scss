@@ -41,28 +41,38 @@
     top: 0px;
     left: -85px;
     width: 78px;
-}
 
-.button-bank.right {
-    left: 810px;
-}
+    input {
+        float: left;
+        width: 90%;
 
-.button-bank input {
-    float: left;
-    width: 90%;
-}
+        &#reset {
+            float: right;
+            width: auto;
+        }
+    }
 
-.button-bank input#reset {
-    position: absolute;
-    top: 370px;
-    left: 0;
+    &.right {
+        left: 810px;
+    }
+
+    &.player {
+        top: 410px;
+        left: 400px;
+        width: 401px;
+
+        input {
+            width: 50px;
+        }
+    }
 }
 
 #timeline-msg {
     border: 1px solid #586e75;
-    height: 45px;
-    width: 800px;
+    height: 31px;
+    width: 390px;
     margin-top: 10px;
-    padding: 5px;
+    padding: 2px 5px 5px 5px;
+    font-size: .9em;
 }
 

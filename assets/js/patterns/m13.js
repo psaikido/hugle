@@ -149,4 +149,5 @@ function M13() {
     .to(k, {
       y: ground,
     })
+  timeline.play();
 }

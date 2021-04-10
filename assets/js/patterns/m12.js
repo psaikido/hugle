@@ -165,4 +165,5 @@ function M12() {
     .to(k, {
       y: ground,
     })
+  timeline.play();
 }

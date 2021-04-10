@@ -297,4 +297,5 @@ function L8() {
       x: 0,
       y: 0,
     })
+  timeline.play();
 }

@@ -63,4 +63,5 @@ function L4() {
     })
     .to(kImg, {rotation: '0_cw'})
     .to(k, {y: 0})
+  timeline.play();
 }

@@ -116,4 +116,5 @@ function L7() {
       y: 0,
       duration: 1,
     })
+  timeline.play();
 }
