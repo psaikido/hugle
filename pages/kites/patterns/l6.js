@@ -54,6 +54,7 @@ function L6() {
       y: low,
       rotation: '180_cw',
       duration: .5,
+      delay: 0,
     })
     // Reverse up, spin, go right.
     .to(k, {
@@ -155,41 +156,27 @@ function L6() {
           {x: lfIsh, y: yMid},
           {x: lfIsh - 80, y: yMid},
         ],
-        start: .20,
+        start: .13,
         end: .9,
         curviness: .5,
         autoRotate: 90,
       }
     })
     .to(k, {
-      rotation: 0,
+      rotation: '+=90_cw',
       duration: .5,
     })
+    .to(k, {y: hiIsh,})
     .to(k, {
+      x: 0,
+      y: hi,
+      rotation: '+=180_cw',
       delay: 0,
-      duration: 2,
-      ease: 'sine.inOut', 
-      motionPath: { 
-        path: [
-          {x: lfIsh, y: hiIsh},
-          {x: lfIsh + 20, y: hi + 10},
-          {x: 0, y: hi},
-        ],
-        start: 0,
-        end: 1,
-        curviness: .5,
-        autoRotate: 90,
-      }
-    })
-    .to(k, {
-      rotation: '180_shortest',
-      delay: 0,
-      duration: .5,
     })
     .to(k, {
       y: low,
       duration: .5,
-      ease: 'sine.in'
+      ease: 'power3.in'
     })
     .to(k, {rotation: '+=360_cw'})
     .to(k, {y: 0})
