@@ -30,7 +30,7 @@ function L4() {
     .to(k, {y: 0 - 5, duration: 2.5})
     .to(k, {y: yMid, duration: 3})
     .to(kImg, {rotation: '-90_ccw', delay: 0})
-    .to(k, {y: 0 - 5, duration: 2.5})
+    .to(k, {y: 0 - 5, duration: 2.5, delay: 0})
     .to(k, {y: yMid, duration: 3})
     .to(k, {x: lf, duration: 2})
     .to(k, {
@@ -55,11 +55,11 @@ function L4() {
       rotation: '-90_ccw',
       duration: 3,
     }, "underSweep+=3.7")
-    .to(kImg, {rotation: '-180_ccw'})
+    .to(kImg, {rotation: '-180_ccw', delay: 0,})
     .to(k, {
       y: low,
       duration: .5,
-      ease: 'sine.in'
+      ease: 'power3.in'
     })
     .to(kImg, {rotation: '0_cw'})
     .to(k, {y: 0})
