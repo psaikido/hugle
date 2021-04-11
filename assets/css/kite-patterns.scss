@@ -14,7 +14,7 @@
 #kite-wrap, #kite { 
     position: absolute;
     top: 365px;
-    left: 385px;
+    left: 380px;
     width: 45px; 
     height: 25px; 
     background-size: 45px 25px;
@@ -47,32 +47,13 @@
         width: 90%;
 
         &#reset {
-            float: right;
-            width: auto;
+            position: absolute;
+            top: 370px;
+            left: 0;
         }
     }
 
     &.right {
         left: 810px;
     }
-
-    &.player {
-        top: 410px;
-        left: 400px;
-        width: 401px;
-
-        input {
-            width: 50px;
-        }
-    }
 }
-
-#timeline-msg {
-    border: 1px solid #586e75;
-    height: 31px;
-    width: 390px;
-    margin-top: 10px;
-    padding: 2px 5px 5px 5px;
-    font-size: .9em;
-}
-

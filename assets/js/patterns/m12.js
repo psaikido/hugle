@@ -43,14 +43,14 @@ function M12() {
     })
     .to(k, {
       y: yMid,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {
       rotation: '-=360_ccw',
     })
     .to(k, {
       y: low,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {
       rotation: '+=630_cw',
@@ -134,7 +134,7 @@ function M12() {
     })
     .to(k, {
       y: yMid,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {
       rotation: '+=90_cw',
@@ -157,7 +157,7 @@ function M12() {
     })
     .to(k, {
       y: low,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {
       rotation: '+=180_cw',

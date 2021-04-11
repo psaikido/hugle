@@ -59,7 +59,7 @@ function L4() {
     .to(k, {
       y: low,
       duration: .5,
-      ease: 'power3.in'
+      ease: 'power1.in'
     })
     .to(kImg, {rotation: '0_cw'})
     .to(k, {y: 0})

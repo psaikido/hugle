@@ -6,7 +6,7 @@ function M9() {
     .to(k, {rotation: '180_cw'})
     .to(k, {
       y: lowIsh,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {rotation: '-=450_ccw'})
     .to(k, {x: lfIsh})
@@ -32,7 +32,7 @@ function M9() {
     .to(k, {rotation: '+=270_cw', delay: 0})
     .to(k, {
       y: low,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {rotation: '-=450_ccw'})
     .to(k, {y: ground})
