@@ -6,6 +6,12 @@ function reset() {
     y: 0,
     rotation: 0,
   });
+}
 
-  timeline.clear();
+function startDude() {
+  dudeTimeline.resume();
+}
+
+function stopDude() {
+  dudeTimeline.pause();
 }
