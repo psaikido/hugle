@@ -27,6 +27,9 @@ permalink: /patterns.html/
     <div id="kite-wrap">
         <div id="kite"></div>
     </div>
+    <div id="dude-wrap">
+        <div id="dude"></div>
+    </div>
 </div>
 
 <script>
@@ -41,7 +44,17 @@ permalink: /patterns.html/
         }
     });
 
-    // Gsap movements are measured from an objects starting position.
+    var dude = document.getElementById('dude');
+    var dudeTimeline = gsap.timeline({repeat:-1,});
+
+    dudeTimeline.to(dude, {
+        backgroundPosition: "-1022px 0",
+        ease: "steps(14)",
+        repeat: -1, 
+        duration: 6,
+    });
+
+    // Gsap movements are measured from an object's starting position.
     // For left/right values we decrease/increase from the 'centre' of 385px.
     const lf = -335;
     const lfIsh = -135;

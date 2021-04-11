@@ -7,7 +7,7 @@
     height: 400px;
     width: 800px;
     border: 1px solid #586e75;
-    background-image: url("/assets/images/kilkennySky.png");
+    background-image: url("/assets/images/kilkennySkyBg.png");
     background-size: 800px 400px;
 }
 
@@ -25,6 +25,24 @@
     transform-origin: 50% 35%;
     top: 0;
     left: 0;
+}
+
+#dude-wrap {
+    position: absolute;
+    top: 282px;
+    left: 32px;
+    width: 73px;
+    height: 113px;
+    opacity: .7;
+    overflow: hidden;
+}
+
+#dude {
+    background-image: url("/assets/images/spriteWind.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 1095px;
+    height: 113px;
 }
 
 .wrap img {border: none;}
