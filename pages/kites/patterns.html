@@ -36,22 +36,27 @@ permalink: /patterns.html/
     gsap.registerPlugin(MotionPathPlugin);
     var k = document.getElementById('kite-wrap');
     var kImg = document.getElementById('kite');
-    var timeline = gsap.timeline({
-        defaults: {
-            duration: 1,
-            ease: 'sine.inOut',
-            delay: .5
-        }
-    });
-
     var dude = document.getElementById('dude');
-    var dudeTimeline = gsap.timeline({repeat:-1,});
+    var dudeTimeline = gsap.timeline({
+        repeat:-1,
+        paused: true
+    });
 
     dudeTimeline.to(dude, {
         backgroundPosition: "-1022px 0",
         ease: "steps(14)",
         repeat: -1, 
         duration: 6,
+    });
+
+    var timeline = gsap.timeline({
+        defaults: {
+            duration: 1,
+            ease: 'sine.inOut',
+            delay: .5,
+            onStart: startDude,
+            onComplete: stopDude,
+        }
     });
 
     // Gsap movements are measured from an object's starting position.
