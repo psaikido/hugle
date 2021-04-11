@@ -18,7 +18,7 @@ function L7() {
     .to(k, {
       y: low,
       duration: 3,
-      ease: 'power3.in'
+      ease: 'power1.in'
     })
     .to(k, {
       rotation: '+=360_cw',

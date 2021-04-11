@@ -52,7 +52,7 @@ function M11() {
     })
     .to(k, {
       y: lowIsh,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {
       rotation: '-=90_ccw',
@@ -117,14 +117,14 @@ function M11() {
     })
     .to(k, {
       y: yMid,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(kImg, {
       rotation: '-=360_ccw',
     })
     .to(k, {
       y: low,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(kImg, {
       rotation: '+=630_cw',

@@ -18,7 +18,7 @@ function M13() {
     })
     .to(k, {
       y: low,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     // Slide circle
     .to(k, {
@@ -141,7 +141,7 @@ function M13() {
     })
     .to(k, {
       y: low,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {
       rotation: '-=180_ccw',

@@ -41,12 +41,12 @@ function M10() {
     .to(k, {rotation: '+=180_cw'})
     .to(k, {
       y: yMid,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {rotation: '+=360_cw'})
     .to(k, {
       y: low,
-      ease: 'power3.in',
+      ease: 'power1.in',
     })
     .to(k, {rotation: '-=450_ccw'})
     .to(k, {y: ground})
