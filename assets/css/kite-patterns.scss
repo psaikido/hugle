@@ -11,6 +11,13 @@
     background-size: 800px 400px;
 }
 
+#msg {
+    height: 30px;
+    width: 800px;
+    border: 1px solid #586e75;
+    margin-top: 5px;
+}
+
 #kite-wrap, #kite { 
     position: absolute;
     top: 365px;

@@ -1,33 +1,18 @@
 function L1() {
   reset();
 
-  timeline
-    .to(k, {
-      y: yMid,
-    })
-    .to(k, {
-      rotation: '-90_ccw',
-    })
-    .to(k, {
-      x: lf, duration: 2,
-    })
-    .to(k, {
-      rotation: '90_cw',
-    })
-    .to(k, {
-      x: rt, duration: 3,
-    })
-    .to(k, {
-      rotation: '-90_ccw',
-    })
-    .to(k, {
-      x: 0, duration: 1.5,
-    })
-    .to(k, {
-      rotation: '0_cw',
-    })
-    .to(k, {
-      y: 0, duration: 2,
-    })
+  let s = new Stepper()
+    .setStart(k, kImg)
+    .launch(yMid, 2)
+    .spin(-1)
+    .fly(lf,yMid,2)
+    .spin(2)
+    .fly(rt,yMid,3)
+    .spin(-2)
+    .fly(0,yMid,1.5)
+    .spin(1)
+    .land(2)
+
+  doTimeline(s.ptn);
 }
 

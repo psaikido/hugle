@@ -1,66 +1,23 @@
 function L2() {
-  reset();
+  let s = new Stepper()
+    .setStart(k, kImg)
+    .launch(yMid, 1.5)
+    .spin(-1)
+    .fly(lf,yMid,2)
+    .spin(2)
+    .fly(rt,yMid,3)
+    .spin(-2)
+    .fly(0,yMid,1.5)
+    .spin(4)
+    .fly(lf,yMid,2)
+    .spin(2)
+    .fly(0,yMid,1.5)
+    .spin(-5)
+    .fly(0,hi)
+    .spin(2)
+    .diveStop(low)
+    .spin(2, 1)
+    .land(1)
 
-  timeline
-    .to(k, {
-      y: yMid,
-    })
-    .to(k, {
-      rotation: '-90_ccw',
-    })
-    .to(k, {
-      x: lf,
-      duration: 2,
-    })
-    .to(k, {
-      rotation: '90_cw',
-    })
-    .to(k, {
-      x: rt,
-      duration: 3,
-    })
-    .to(k, {
-      rotation: '-90_ccw',
-    })
-    .to(k, {
-      x: 0,
-      duration: 1.5,
-    })
-    .to(k, {
-      rotation: '+=360_cw',
-      delay: 0,
-    })
-    .to(k, {
-      x: lf,
-      duration: 2,
-      delay: 0,
-    })
-    .to(k, {
-      rotation: '90_cw',
-    })
-    .to(k, {
-      x: 0,
-      duration: 1.5,
-    })
-    .to(k, {
-      rotation: '-=450_ccw',
-      delay: 0,
-    })
-    .to(k, {
-      y: hi,
-    })
-    .to(k, {
-      rotation: '+=180_cw',
-    })
-    .to(k, {
-      y: low,
-      duration: .5,
-      ease: 'power1.in',
-    })
-    .to(k, {
-      rotation: '0_cw',
-    })
-    .to(k, {
-      y: 0,
-    })
+  doTimeline(s.ptn);
 }

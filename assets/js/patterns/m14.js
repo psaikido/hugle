@@ -1,4 +1,4 @@
-function L4() {
+function M14() {
   reset();
 
   let mp1 = { 
@@ -25,6 +25,40 @@ function L4() {
     end: 1,
     curviness: .4
   };
+
+  let ptn = [
+    //[obj, x, y, rotation, duration, delay, motionPath, label]
+    [kImg,   , ,-2,  , ,      ],
+    [k,  ,-40, ,  ,   ,,      ],
+    [k,  ,   , ,4 ,,mp1,   ,  ],
+    [kImg,   , ,1 ,   , 2,,'<'],
+    /*
+    [k, lfIsh, , , 2],
+    [kImg, , , 4],
+    [kImg, , , -4],
+    [kImg, , , -2],
+    [k, rtIsh,,,2],
+    [kImg, , , 4],
+    [kImg, , , -4],
+    [k, 0,,,2],
+    [k, , ground,,2.5],
+    [k, , yMid,,3],
+    [kImg, , , -2,,0],
+    [k, , ground,,2.5,0],
+    [k, , yMid,,3],
+    [k, lf,,,2],
+    [k,  ,   , ,8 ,,mp2,   ,  ],
+    [kImg, ,,-1,,,,'<+.9'],
+    [kImg, ,,-3,3,,,'<+1.6'],
+    [kImg, ,,-1,,0],
+    [k,,low,,.5],
+    [kImg,,,2],
+    [k,,ground],
+    */
+  ];
+  //console.log(ptn);
+  //doTimeline(ptn);
+
 
   let s = new Stepper()
     .setStart(k, kImg, -2)
