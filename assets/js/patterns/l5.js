@@ -1,7 +1,27 @@
 function L5() {
   reset();
 
-  const spiralIn = [
+  let figure8 = {
+    path: [
+      {x: lfIsh, y: hi},
+      {x: lf, y: yMid},
+      {x: lfIsh, y: low},
+      {x: rtIsh, y: hi},
+      {x: rt, y: yMid},
+      {x: rtIsh, y: low},
+      {x: lfIsh, y: hi},
+      {x: lf, y: yMid},
+      {x: lfIsh, y: low},
+      {x: rtIsh, y: hiIsh},
+    ],
+    start: 0,
+    end: 1,
+    curviness: .9,
+    autoRotate: 90,
+  }
+
+  let spiralIn = {
+    path: [
       {x: rtIsh - 40, y: yMid + 100},
       {x: lfIsh + 40, y: yMid + 100},
       {x: lfIsh + 40, y: yMid - 85},
@@ -14,9 +34,15 @@ function L5() {
       {x: 0, y: yMid + 30},
       {x: -15, y: yMid + 10},
       {x: 0, y: yMid},
-  ];
+    ],
+    start: 0,
+    end: 1,
+    autoRotate: 90,
+    curviness: .8,
+  };
 
-  const spiralOut = [
+  let spiralOut = {
+    path: [
       {x: 0, y: yMid},
       {x: -15, y: yMid + 10},
       {x: 0, y: yMid + 30},
@@ -31,129 +57,35 @@ function L5() {
       {x: rtIsh - 40, y: yMid + 100},
       {x: rtIsh, y: hiIsh},
       {x: 0, y: hi},
-  ];
+    ],
+    start: 0,
+    end: 1,
+    curviness: .8,
+    autoRotate: 90,
+  };
 
-  const figure8 =  [
-    {x: lfIsh, y: hi},
-    {x: lf, y: yMid},
-    {x: lfIsh, y: low},
-    {x: rtIsh, y: hi},
-    {x: rt, y: yMid},
-    {x: rtIsh, y: low},
-    {x: lfIsh, y: hi},
-    {x: lf, y: yMid},
-    {x: lfIsh, y: low},
-    {x: rtIsh, y: hiIsh},
-  ];
-
-  timeline
-    .to(k, {
-      rotation: '-180_cw',
-      duration: .5,
-      delay: 0
-    })
-    .to(k, {y: low})
-    .to(k, {
-      rotation: '-90_cw',
-      duration: .5
-    })
-    .to(k, {
-      x: lf,
-      duration: 2
-    })
-    .to(k, {rotation: '90_ccw'})
-    .to(k, {
-      x: rt,
-      duration: 3,
-    })
-    .to(k, {
-      rotation: '-35_cw',
-      duration: 1
-    })
-    // Figure eight.
-    .to(k, {
-      duration: 11,
-      ease: 'sine.inOut', 
-      motionPath: { 
-        path: figure8,
-        start: 0,
-        end: 1,
-        curviness: .9,
-        autoRotate: 90,
-      }
-    })
-    .to(k, {
-      rotation: '90_shortest',
-      duration: .5
-    })
-    // Slide Box.
-    .to(k, {
-      x: rtIsh,
-      y: hiIsh,
-      rotation: 90,
-      duration: .5,
-    })
-    .to(k, {
-      x: rtIsh,
-      y: lowIsh,
-      duration: 1,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: lowIsh,
-      duration: 1.5,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: hiIsh,
-      duration: 1.5,
-    })
-    .to(k, {
-      x: rtIsh,
-      y: hiIsh,
-      duration: 1,
-    })
-    .to(k, {
-      rotation: '+=85_cw',
-      delay: 1,
-    })
-    // Spiral in.
-    .to(k, {
-        duration: 6,
-        ease: 'sine.in', 
-        motionPath: { 
-            path: spiralIn,
-            start: 0,
-            end: 1,
-            autoRotate: 90,
-            curviness: .8,
-        }
-    })
-    .to(k, {
-      rotation: '-90_ccw',
-      delay: 1,
-    })
-    // Spiral out.
-    .to(k, {
-      duration: 6,
-      ease: 'sine.in', 
-      motionPath: { 
-        path: spiralOut,
-        start: 0,
-        end: 1,
-        curviness: .8,
-        autoRotate: 90,
-      }
-    })
-    .to(k, {
-      rotation: '-=90_ccw',
-    })
-    .to(k, {
-      y: low,
-      duration: .5,
-      ease: 'power1.in'
-    })
-    .to(k, {rotation: '0_cw'})
-    .to(k, {y: 0})
-  timeline.play();
+  let s = new Stepper()
+    .setStart(k, kImg, -2)
+    .launch(low)
+    .spin(1, .5)
+    .fly(lf, low, 2)
+    .spin(-2, .5)
+    .fly(rt, low, 3)
+    .spin('-35_cw', .5)
+    .path(figure8, 11)
+    .fly(rtIsh, hiIsh, .5, '90_shortest')
+    .fly(rtIsh, lowIsh, 2)
+    .fly(lfIsh, lowIsh, 2)
+    .fly(lfIsh, hiIsh, 2)
+    .fly(rtIsh, hiIsh, 2)
+    .spin('+=82_cw', .5, 1)
+    .path(spiralIn, 6)
+    .spin('-92_ccw', .5, 1)
+    .path(spiralOut, 6)
+    .spin('-=90_ccw')
+    .diveStop(low)
+    .spin(2, .5)
+    .land()
+    
+  doTimeline(s.ptn);
 }

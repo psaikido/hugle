@@ -35,7 +35,7 @@ function doTimeline(ptn) {
 }
 
 function makeTweenObj(step) {
-  // A 'step' is [obj, x, y, rotation, duration, delay, motionPath, ease, label]
+  //a 'step' - obj, x, y, rotation, duration, delay, motionPath, ease, label
   let twnObj = {};
 
   if (step[1] !== undefined) {
@@ -73,14 +73,21 @@ function makeTweenObj(step) {
 
 function convertRotCode(code) {
   let retStr = '';
-  let absVal = Math.abs(code) * 90;
 
-  if (code > 0) {
-    // clockwise
-    return '+=' + absVal + '_cw';
+  // We might have a gsap type of string for fine tuning
+  // but usually it will be a whole number.
+  if (Number.isInteger(code)) {
+    let absVal = Math.abs(code) * 90;
+
+    if (code > 0) {
+      // clockwise
+      return '+=' + absVal + '_cw';
+    } else {
+      // anti-clockwise
+      return '-=' + absVal + '_ccw';
+    }
   } else {
-    // anti-clockwise
-    return '-=' + absVal + '_ccw';
+    return code;
   }
 }
 
