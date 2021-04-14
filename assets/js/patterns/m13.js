@@ -1,153 +1,55 @@
 function M13() {
   reset();
 
-  timeline
-    .to(k, {rotation: 180, delay: 0, duration: 0,})
-    .to(k, {y: low})
-    .to(k, {rotation: '+=270_cw', duration: .5})
-    .to(k, {
-      x: lfIsh,
-    })
-    .to(k, {rotation: '-=450_ccw'})
-    .to(k, {y: hiIsh})
-    .to(k, {
-      x: 0,
-      y: hi,
-      rotation: '+=180_cw',
-      delay: 0,
-    })
-    .to(k, {
-      y: low,
-      ease: 'power1.in',
-    })
-    // Slide circle
-    .to(k, {
-      delay: .5,
-      duration: 6,
-      ease: 'linear', 
-      motionPath: { 
-        path: [
-          {x: lfIsh, y: mid},
-          {x: 0, y: hiIsh},
-          {x: rtIsh, y: mid},
-          {x: 0, y: low},
-        ],
-        start: 0,
-        end: 1,
-        curviness: 1,
-      }
-    })
-    .to(kImg, {
-      rotation: '+=360_cw',
-      duration: 6,
-      delay: 0,
-    }, '<')
-    .to(k, {
-      rotation: '-=450_ccw',
-      delay: 0,
-      duration: .7,
-    })
-    .to(k, {
-      x: rtIsh,
-    })
-    .to(k, {
-      rotation: '+=90_cw',
-      duration: .3,
-    })
-    .to(k, {
-      rotation: '+=90_cw',
-      duration: .3,
-    })
-    .to(k, {
-      rotation: '+=90_cw',
-      duration: .3,
-    })
-    .to(k, {
-      rotation: '+=90_cw',
-      duration: .3,
-    })
-    .to(k, {
-      rotation: '+=90_cw',
-      duration: .3,
-    })
-    .to(k, {
-      rotation: '-=450_ccw',
-    })
-    // Tumbleweed
-    .to(k, {
-      x: rt,
-      y: lowIsh,
-    })
-    .to(k, {
-      x: lf,
-      duration: 6,
-    })
-    .to(kImg, {
-      delay: 0,
-      duration: 6,
-      rotation: '+=360_cw',
-    }, '<')
-    .to(k, {
-      x: lfIsh,
-    })
-    .to(kImg, {
-      rotation: '-=270_ccw',
-      duration: .7,
-      delay: 0,
-    })
-    // Weird box
-    .to(k, {y: hiIsh,})
-    .to(k, {
-      rotation: -180,
-      duration: 0,
-      delay: 0,
-    }, '<')
-    .to(kImg, {
-      rotation: 0,
-      duration: 0,
-      delay: 0,
-    }, '<')
-    .to(k, {
-      rotation: '+=270_cw',
-      duration: .5,
-    })
-    .to(k, {
-      x: rtIsh,
-    })
-    .to(k, {
-      rotation: '-=360_ccw',
-    })
-    .to(k, {
-      y: lowIsh,
-    })
-    .to(k, {
-      rotation: '+=450_cw',
-      duration: .8,
-    })
-    .to(k, {
-      x: lfIsh,
-    })
-    .to(k, {
-      rotation: '-=540_ccw',
-    })
-    .to(k, {
-      y: hiIsh,
-    })
-    .to(k, {
-      x: 0,
-      y: hi,
-      rotation: '+=180_cw',
-      delay: 0,
-    })
-    .to(k, {
-      y: low,
-      ease: 'power1.in',
-    })
-    .to(k, {
-      rotation: '-=180_ccw',
-    })
-    .to(k, {
-      y: ground,
-    })
-  timeline.play();
+  let slideCircle = {
+    path: [
+      {x: lfIsh, y: mid},
+      {x: 0, y: hiIsh},
+      {x: rtIsh, y: mid},
+      {x: 0, y: low},
+    ],
+    start: 0,
+    end: 1,
+    curviness: 1,
+  }
+
+  let s = new Stepper()
+    .setStart(k, kImg, 2)
+    .launch(low)
+    .spin(3, .5, .5)
+    .fly(lfIsh)
+    .spin(-5)
+    .fly(lfIsh, hiIsh)
+    .fly(centre, hi, .7, 2, 0)
+    .diveStop(low)
+    .path(slideCircle, 6)
+    .innerSpin(4, 0, 6, '<')
+    .spin(-5, 0, .7)
+    .fly(rtIsh, low)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(-5, .5, .5)
+    .fly(rt, lowIsh)
+    .fly(lf, lowIsh, 6)
+    .innerSpin(4, 0, 6, '<')
+    .fly(lfIsh, lowIsh, .7)
+    .spin(-3, 0, .7)
+    .fly(lfIsh, hiIsh)
+    .spin(3, .5, .5)
+    .fly(rtIsh, hiIsh)
+    .spin(-4, .5, .7)
+    .fly(rtIsh, lowIsh)
+    .spin(5, .5, .9)
+    .fly(lfIsh, lowIsh)
+    .spin(-6, .5)
+    .fly(lfIsh, hiIsh)
+    .fly(centre, hi, .8, 2, 0)
+    .diveStop(low, .7)
+    .spin(-2, .5, .3)
+    .land()
+
+  doTimeline(s.ptn);
 }
