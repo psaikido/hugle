@@ -3,21 +3,10 @@ function dev() {
 
   let slideCircle = {
     path: [
+      {x: lfIsh, y: mid},
+      {x: 0, y: hiIsh},
       {x: rtIsh, y: mid},
-      {x: 0, y: hiIsh},
-      {x: lfIsh, y: mid},
-      {x: 0, y: lowIsh},
-    ],
-    start: 0,
-    end: 1,
-    curviness: 1,
-  }
-
-  let slideHalfCircle = {
-    path: [
-      {x: 0, y: lowIsh},
-      {x: lfIsh, y: mid},
-      {x: 0, y: hiIsh},
+      {x: 0, y: low},
     ],
     start: 0,
     end: 1,
@@ -25,46 +14,42 @@ function dev() {
   }
 
   let s = new Stepper()
-    .setStart(k, kImg)
-    .launch(lowIsh)
-    .spin(6)
-    .fly(centre, hiIsh)
+    .setStart(k, kImg, 2)
+    .launch(low)
+    .spin(3, .5, .5)
+    .fly(lfIsh)
     .spin(-5)
-    .fly(centre, lowIsh)
+    .fly(lfIsh, hiIsh)
+    .fly(centre, hi, .7, 2, 0)
+    .diveStop(low)
+    .path(slideCircle, 6)
+    .innerSpin(4, 0, 6, '<')
+    .spin(-5, 0, .7)
+    .fly(rtIsh, low)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(1, .5, .3)
+    .spin(-5, .5, .5)
+    .fly(rt, lowIsh)
+    .fly(lf, lowIsh, 6)
+    .innerSpin(4, 0, 6, '<')
+    .fly(lfIsh, lowIsh, .7)
+    .spin(-3, 0, .7)
+    .fly(lfIsh, hiIsh)
+    .spin(3, .5, .5)
+    .fly(rtIsh, hiIsh)
     .spin(-4, .5, .7)
     .fly(rtIsh, lowIsh)
-    .spin(4, .5, .7)
-    .fly(centre, lowIsh, 1, 0, 0)
-    .spin(-2, .5, .3)
-    .fly(rtIsh, lowIsh + 20, 1, -1, 0)
-    .spin(1, .5, .3)
-    .spin(1, .5, .3)
-    .spin(1, .5, .3)
-    .spin(1, .5, .3)
-    .spin(1, .5, .3)
+    .spin(5, .5, .9)
     .fly(lfIsh, lowIsh)
-    .spin(-3, .5, .5)
+    .spin(-6, .5)
     .fly(lfIsh, hiIsh)
-    .fly(centre, hi, 1, 2, 0)
-    .diveStop(lowIsh)
-    .spin(-1, .5, .3)
-    .spin(-1, .5, .3)
-    .spin(-1, .5, .3)
-    .spin(-1, .5, .3)
-    .spin(4, .5, .7)
-    .path(slideCircle, 6)
-    .innerSpin(-4, 0, 6, '<')
-    .path(slideHalfCircle, 3)
-    .innerSpin(2, 0, 3, '<')
-    .fly(centre, hi)
-    .innerSpin(-2)
-    .diveStop(mid, .7)
-    .spin(-4, .7)
+    .fly(centre, hi, .8, 2, 0)
     .diveStop(low, .7)
-    .spin(7)
+    .spin(-2, .5, .3)
     .land()
-    //.innerSpin(2, 0, 3, '<')
-    //.land(1.5, .5)
 
   doTimeline(s.ptn);
 }
