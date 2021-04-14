@@ -1,120 +1,44 @@
 function L7() {
-  // reset(); //glitching in this context, don't yet know why
-  timeline
-    .to(k, {
-      x: 0,
-      y: 0,
-      rotation: 0,
-      duration: 0,
-    })
-    .to(k, {
-      y: hi,
-      duration: 2,
-    })
-    .to(k, {
-      rotation: '180_cw',
-      duration: .5,
-    })
-    .to(k, {
-      y: low,
-      duration: 3,
-      ease: 'power1.in'
-    })
-    .to(k, {
-      rotation: '+=360_cw',
-      duration: 2.5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      rotation: '-=45_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: yMid,
-      duration: 2.5,
-    })
-    .to(k, {
-      rotation: '-=225_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      duration: 3,
-      ease: 'sine.inOut', 
-      motionPath: { 
-        path: [
-          {x: lfIsh, y: yMid},
-          {x: lfIsh + 40, y: low - 40},
-          {x: 0, y: low},
-        ],
-        start: 0,
-        end: 1,
-        curviness: .4,
-        autoRotation: -90,
-      }
-    }, 'underSweep')
-    .to(kImg, {
-      rotation: '-90_ccw',
-      duration: 2.5,
-    }, "underSweep+=1.1")
-    .to(k, {
-      rotation: '+=180_cw',
-      duration: 2.5,
-    }, 'slowTurn')
-    .to(kImg, {
-      rotation: 0,
-      duration: 2.5,
-    }, '<slowTurn')
-    .to(k, {
-      x: rtIsh,
-      duration: 1,
-    })
-    .to(k, {
-      rotation: '-=360_ccw',
-      duration: 2.5,
-    })
-    .to(k, {
-      x: 0,
-      duration: 1.5,
-    })
-    .to(k, {
-      rotation: '-=450_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      y: 0,
-      duration: 1,
-    })
-  timeline.play();
+  reset();
+
+  let mp1 = {
+    path: [
+      {x: lfIsh, y: yMid},
+      {x: lfIsh + 40, y: low - 40},
+      {x: 0, y: low},
+    ],
+    start: 0,
+    end: 1,
+    curviness: .4,
+    autoRotation: -90,
+  }
+
+  let s = new Stepper()
+    .setStart(k, kImg)
+    .launch(hi, 2)
+    .spin(2, .5)
+    .diveStop(low, 3)
+    .spin(4, .5, 3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .fly(lfIsh, yMid, 2.5)
+    .spin('-=225_ccw', 0, .5)
+    .path(mp1, 3)
+    .innerSpin('-90_ccw', 0, 2.5, '<+=1.1')
+    .spin(3, .5, 2.5)
+    .innerSpin(0, .5, 2.5, '<')
+    .fly(rtIsh, low)
+    .spin('-=360_ccw', .5, 2.5)
+    .fly(0, low, 1.5)
+    .spin('-=450_ccw', .5, .8)
+    .land()
+
+  doTimeline(s.ptn);
 }
