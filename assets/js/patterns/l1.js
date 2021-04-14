@@ -9,7 +9,7 @@ function L1() {
     .spin(2)
     .fly(rt,yMid,3)
     .spin(-2)
-    .fly(0,yMid,1.5)
+    .fly(centre,yMid,1.5)
     .spin(1)
     .land(2)
 

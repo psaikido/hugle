@@ -36,7 +36,7 @@ function L7() {
     .innerSpin(0, .5, 2.5, '<')
     .fly(rtIsh, low)
     .spin('-=360_ccw', .5, 2.5)
-    .fly(0, low, 1.5)
+    .fly(centre, low, 1.5)
     .spin('-=450_ccw', .5, .8)
     .land()
 
