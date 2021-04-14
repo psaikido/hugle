@@ -10,7 +10,7 @@ const rt = 315;
 // y values are 0 at the top and 400 at the bottom.
 // The displacement values are negative because the kite's 
 // starting position is 365px.
-const ground = -15;
+const ground = -5;
 const low = -45;
 const lowIsh = -100;
 const mid = -200;
