@@ -1,3 +1,21 @@
+// Gsap movements are measured from an object's starting position.
+// For left/right values we decrease/increase from the 'centre' of 385px.
+const lf = -335;
+const lfIsh = -135;
+const xMid = 380;
+const rtIsh = 135;
+const rt = 315;
+
+// y values are 0 at the top and 400 at the bottom.
+// The displacement values are negative because the kite's 
+// starting position is 365px.
+const ground = -15;
+const low = -45;
+const lowIsh = -100;
+const yMid = -200;
+const hiIsh = -280; 
+const hi = -335;
+
 class Stepper {
   constructor() {
     this.obj;
@@ -91,6 +109,21 @@ class Stepper {
     return this;
   }
 
+  testPath(path) {
+    for (var i = 0; i < path.length; i++) {
+      var x = xMid + path[i].x;
+      var y = 400 - Math.abs(path[i].y);
+
+      var dv = $('<div class="pathTestPoint"/>')
+        .css({
+          left: x,
+          top: y
+        })
+        .attr('title', i)
+        .appendTo('#wind-window');
+    }
+  }
+
   _addStep() {
     let step = [
       this.objCurrent,
@@ -118,4 +151,5 @@ class Stepper {
     this.ease = undefined;
     this.label = undefined;
   }
+
 }
