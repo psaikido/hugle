@@ -1,301 +1,121 @@
 function L8() {
   reset();
 
-  timeline
+  const aBit = 60;
+
+  let invSlide1 = {
+    path: [
+      {x: rtIsh - 40 , y: lowIsh},
+      {x: 0, y: low},
+      {x: lfIsh + 40 , y: lowIsh},
+      {x: lfIsh, y: yMid},
+    ],
+    start: 0,
+    end: 1,
+    curviness: .4,
+    align: 'self',
+  }
+
+  let invSlide2 = {
+    path: [
+      {x: lfIsh, y: yMid},
+      {x: lfIsh + 40 , y: lowIsh},
+      {x: 0, y: low},
+      {x: rtIsh - 40 , y: lowIsh},
+      {x: rtIsh, y: lowIsh},
+    ],
+    start: 0,
+    end: 1,
+    curviness: .4,
+    align: 'self',
+  }
+
+  let s = new Stepper()
+    .setStart(k, kImg)
+    .launch(hiIsh, 2)
     // North
-    .to(k, {
-      y: hiIsh,
-      duration: 2,
-    })
-    .to(k, {
-      x: -60
-    })
-    .to(k, {
-      x: 0
-    })
-    .to(k, {
-      y: hi,
-      duration: 1,
-    })
-    .to(k, {
-      y: hiIsh,
-      duration: 1,
-    })
-    .to(k, {
-      rotation: -45
-    })
-    .to(k, {
-      rotation: 45
-    })
-    .to(k, {
-      rotation: 0
-    })
-    .to(k, {
-      rotation: 180 
-    })
-    //South
-    .to(k, {
-      y: low
-    })
-    .to(k, {
-      x: -60
-    })
-    .to(k, {
-      x: 0
-    })
-    .to(k, {
-      y: lowIsh,
-      duration: 1,
-    })
-    .to(k, {
-      y: low,
-      duration: 1,
-    })
-    .to(k, {
-      rotation: '-=45_ccw'
-    })
-    .to(k, {
-      rotation: '+=90_cw'
-    })
-    .to(k, {
-      rotation: '-=45_ccw'
-    })
+    .fly(-aBit, hiIsh)
+    .fly(0, hiIsh)
+    .fly(0, hi)
+    .fly(0, hiIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    .spin(2, .5)
+    // South
+    .diveStop(low)
+    .fly(-aBit, low)
+    .fly(0, low)
+    .fly(0, lowIsh)
+    .fly(0, low)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
     // East
-    .to(k, {
-      rotation: '90_cw',
-      x: rtIsh,
-      y: yMid,
-      duration: 1.8,
-    })
-    .to(k, {
-      y: hiIsh,
-    })
-    .to(k, {
-      y: yMid,
-    })
-    .to(k, {
-      x: rtIsh + 60,
-    })
-    .to(k, {
-      x: rtIsh,
-    })
-    .to(k, {
-      rotation: '-=45'
-    })
-    .to(k, {
-      rotation: '+=90'
-    })
-    .to(k, {
-      rotation: 90 
-    })
-    .to(k, {
-      duration: 3,
-      motionPath: { 
-        path: [
-          {x: rtIsh - 40 , y: lowIsh},
-          {x: 0, y: low},
-          {x: lfIsh + 40 , y: lowIsh},
-          {x: lfIsh, y: yMid},
-        ],
-        start: 0,
-        end: 1,
-        curviness: .4,
-        align: 'self',
-      }
-    }, 'slideTurn')
-    .to(kImg, {
-      rotation: '-180_cw',
-      duration: 3,
-      delay: 0,
-    }, "<slideTurn")
-    //West
-    .to(k, { y: hiIsh })
-    .to(k, { y: yMid })
-    .to(k, { x: lfIsh - 80 })
-    .to(k, { x: lfIsh })
-    .to(k, { rotation: '-=45_ccw' })
-    .to(k, { rotation: '+=90_cw' })
-    .to(k, { rotation: '-=45_ccw' })
-    .to(kImg, {
-      rotation: 0,
-    })
+    .fly(rtIsh, yMid, 1.8, 3)
+    .fly(rtIsh, hiIsh)
+    .fly(rtIsh, yMid)
+    .fly(rtIsh + aBit, yMid)
+    .fly(rtIsh, yMid)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // West
+    .path(invSlide1, 3)
+    .innerSpin(2, 0, 3, '<')
+    .fly(lfIsh, hiIsh)
+    .fly(lfIsh, yMid)
+    .fly(lfIsh - aBit, yMid)
+    .fly(lfIsh, yMid)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
     // North East
-    .to(k, {
-      x: rtIsh,
-      y: hiIsh,
-      rotation: '-=45',
-    })
-    .to(k, {
-      x: rtIsh - 70,
-      y: hi,
-    })
-    .to(k, {
-      x: rtIsh,
-      y: hiIsh,
-    })
-    .to(k, {
-      x: rtIsh + 70,
-      y: hiIsh - 70,
-    })
-    .to(k, {
-      x: rtIsh,
-      y: hiIsh,
-    })
-    .to(k, {
-      rotation: '-=45'
-    })
-    .to(k, {
-      rotation: '+=90'
-    })
-    .to(k, {
-      rotation: '-=45'
-    })
+    .fly(rtIsh, hiIsh, 1.5, '+=135')
+    .fly(rtIsh - aBit, hi)
+    .fly(rtIsh, hiIsh)
+    .fly(rtIsh + aBit, hiIsh - aBit)
+    .fly(rtIsh, hiIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
     // South West
-    .to(k, {
-      x: lfIsh,
-      y: lowIsh,
-      rotation: '-=180',
-      duration: 2,
-    })
-    .to(k, {
-      x: lfIsh - 70,
-      y: lowIsh - 70,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: lowIsh,
-    })
-    .to(k, {
-      x: lfIsh - 70,
-      y: lowIsh + 70,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: lowIsh,
-    })
-    .to(k, {
-      rotation: '+=45'
-    })
-    .to(k, {
-      rotation: '-=90'
-    })
-    .to(k, {
-      rotation: '+=45'
-    })
+    .fly(lfIsh, lowIsh, 1.5, -2)
+    .fly(lfIsh - aBit, lowIsh - aBit)
+    .fly(lfIsh, lowIsh)
+    .fly(lfIsh - aBit, lowIsh + aBit)
+    .fly(lfIsh, lowIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
     // North West
-    .to(k, {
-      x: lfIsh - 20,
-      y: lowIsh - 32,
-      rotation: '+=180',
-      duration: 2,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: hiIsh,
-      rotation: '-=90',
-      duration: 2,
-    })
-    .to(k, {
-      x: lfIsh + 70,
-      y: hiIsh - 70,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: hiIsh,
-    })
-    .to(k, {
-      x: lfIsh - 70,
-      y: hiIsh - 70,
-    })
-    .to(k, {
-      x: lfIsh,
-      y: hiIsh,
-    })
-    .to(k, {
-      rotation: '-=45'
-    })
-    .to(k, {
-      rotation: '+=90'
-    })
-    .to(k, {
-      rotation: '-=45'
-    })
+    .fly(lfIsh - 30, lowIsh - 35, 1, 2)
+    .fly(lfIsh, hiIsh, 1, -1)
+    .fly(lfIsh + aBit, hiIsh - aBit)
+    .fly(lfIsh, hiIsh)
+    .fly(lfIsh - aBit, hiIsh - aBit)
+    .fly(lfIsh, hiIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
     // South East
-    .to(k, {
-      duration: 3,
-      motionPath: { 
-        path: [
-          {x: lfIsh, y: yMid},
-          {x: lfIsh + 40 , y: lowIsh},
-          {x: 0, y: low},
-          {x: rtIsh - 40 , y: lowIsh},
-          {x: rtIsh, y: lowIsh},
-        ],
-        start: 0,
-        end: 1,
-        curviness: .4,
-        align: 'self',
-      }
-    }, 'slideTurn1')
-    .to(kImg, {
-      rotation: '-=180_ccw',
-      duration: 3,
-      delay: 0,
-    }, "<slideTurn1")
-    .to(k, {
-      x: rtIsh + 70,
-      y: lowIsh - 70,
-    })
-    .to(k, {
-      x: rtIsh,
-      y: lowIsh,
-    })
-    .to(k, {
-      x: rtIsh + 70,
-      y: lowIsh + 70,
-    })
-    .to(k, {
-      x: rtIsh,
-      y: lowIsh,
-    })
-    .to(k, {
-      rotation: '-=45'
-    })
-    .to(k, {
-      rotation: '+=90'
-    })
-    .to(k, {
-      rotation: '-=45'
-    })
+    .path(invSlide2, 3)
+    .innerSpin(-2, 0, 3, '<')
+    .fly(rtIsh + aBit, lowIsh - aBit)
+    .fly(rtIsh, lowIsh)
+    .fly(rtIsh + aBit, lowIsh + aBit)
+    .fly(rtIsh, lowIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
     // Finish
-    .to(k, {
-      x: 0,
-      y: hi,
-      rotation: '+=225_cw',
-      duration: 2,
-    })
-    .to(k, {
-      rotation: '-=180_ccw',
-      duration: .5,
-    })
-    .to(k, {
-      x: 0,
-      y: yMid,
-    })
-    .to(k, {
-      rotation: '+=360',
-    })
-    .to(k, {
-      x: 0,
-      y: low,
-      ease: 'power1.in',
-    })
-    .to(k, {
-      rotation: '-=180',
-    })
-    .to(k, {
-      x: 0,
-      y: 0,
-    })
-  timeline.play();
+    .fly(0, hi, 2, '+=225_cw')
+    .spin(-2, .5)
+    .diveStop(yMid, 1)
+    .spin(4, .5)
+    .diveStop(low)
+    .spin(-2, .5)
+    .land()
+
+  doTimeline(s.ptn);
 }
