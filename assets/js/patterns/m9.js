@@ -1,40 +1,34 @@
 function M9() {
   reset();
 
-  timeline
-    .to(k, {y: hi})
-    .to(k, {rotation: '180_cw'})
-    .to(k, {
-      y: lowIsh,
-      ease: 'power1.in',
-    })
-    .to(k, {rotation: '-=450_ccw'})
-    .to(k, {x: lfIsh})
-    .to(k, {rotation: '-=270_ccw'})
-    .to(k, {
-      delay: 0,
-      duration: 4,
-      ease: 'sine.inOut', 
-      motionPath: { 
-        path: [
-          {x: 0, y: low},
-          {x: rtIsh, y: lowIsh},
-        ],
-        start: 0,
-        end: 1,
-        curviness: .5,
-      }
-    }, 'vslide')
-    .to(kImg, {rotation: '-=90_ccw'}, "vslide+=2")
-    .to(kImg, {rotation: '+=90_cw'})
-    .to(k, {rotation: '+=450_cw'}, '<')
-    .to(k, {x: 0})
-    .to(k, {rotation: '+=270_cw', delay: 0})
-    .to(k, {
-      y: low,
-      ease: 'power1.in',
-    })
-    .to(k, {rotation: '-=450_ccw'})
-    .to(k, {y: ground})
-  timeline.play();
+  let invSlide = {
+    path: [
+      {x: 0, y: low},
+      {x: rtIsh, y: lowIsh},
+    ],
+    start: 0,
+    end: 1,
+    delay: 0,
+    curviness: .5,
+  }
+
+  let s = new Stepper()
+    .setStart(k, kImg)
+    .launch(hi, 1.5)
+    .spin(2, 0, .5)
+    .diveStop(lowIsh)
+    .spin(-5)
+    .fly(lfIsh, lowIsh, 1, 0)
+    .spin(-3)
+    .path(invSlide, 4)
+    .innerSpin(-1, 2, 2, '<')
+    .innerSpin(1, 0, .3)
+    .spin(5, 0, 1)
+    .fly(centre, lowIsh)
+    .spin(3, 0, .3)
+    .diveStop(low, .5)
+    .spin(-5, .5, 1)
+    .land()
+
+  doTimeline(s.ptn);
 }
