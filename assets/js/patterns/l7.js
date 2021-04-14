@@ -3,7 +3,7 @@ function L7() {
 
   let mp1 = {
     path: [
-      {x: lfIsh, y: yMid},
+      {x: lfIsh, y: mid},
       {x: lfIsh + 40, y: low - 40},
       {x: 0, y: low},
     ],
@@ -28,7 +28,7 @@ function L7() {
     .spin('-=45_ccw', .5, .3)
     .spin('-=45_ccw', .5, .3)
     .spin('-=45_ccw', .5, .3)
-    .fly(lfIsh, yMid, 2.5)
+    .fly(lfIsh, mid, 2.5)
     .spin('-=225_ccw', 0, .5)
     .path(mp1, 3)
     .innerSpin('-90_ccw', 0, 2.5, '<+=1.1')

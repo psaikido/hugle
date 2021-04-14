@@ -3,9 +3,9 @@ function L6() {
 
   let ironCrossNW = {
     path: [
-      {x: lfIsh - 80, y: yMid},
-      {x: lfIsh, y: yMid},
-      {x: -40, y: yMid - 30},
+      {x: lfIsh - 80, y: mid},
+      {x: lfIsh, y: mid},
+      {x: -40, y: mid - 30},
       {x: 0, y: hiIsh},
       {x: 0, y: hi},
     ],
@@ -18,9 +18,9 @@ function L6() {
 
   let ironCrossNE = {
     path: [
-      {x: 30, y: yMid - 30},
-      {x: rtIsh, y: yMid},
-      {x: rt, y: yMid},
+      {x: 30, y: mid - 30},
+      {x: rtIsh, y: mid},
+      {x: rt, y: mid},
     ],
     start: 0,
     end: .7,
@@ -30,9 +30,9 @@ function L6() {
 
   let ironCrossSE = {
     path: [
-      {x: rtIsh + 80, y: yMid},
-      {x: rtIsh, y: yMid},
-      {x: 40, y: yMid + 30},
+      {x: rtIsh + 80, y: mid},
+      {x: rtIsh, y: mid},
+      {x: 40, y: mid + 30},
       {x: 0, y: lowIsh},
       {x: 0, y: 0},
     ],
@@ -47,8 +47,8 @@ function L6() {
       {x: 0, y: ground},
       {x: 0, y: lowIsh},
       {x: - 40, y: lowIsh - 60},
-      {x: lfIsh, y: yMid},
-      {x: lfIsh - 80, y: yMid},
+      {x: lfIsh, y: mid},
+      {x: lfIsh - 80, y: mid},
     ],
     start: .13,
     end: .9,
@@ -69,14 +69,14 @@ function L6() {
     .spin(-2, 0, 2)
     .fly(centre, lowIsh, 1.5, 0, 0)
     .fly(centre, low, .7, 1, 0)
-    .fly(centre, yMid, 1.5)
+    .fly(centre, mid, 1.5)
     .spin(-5, .5, 1)
-    .fly(rtIsh, yMid, 1)
+    .fly(rtIsh, mid, 1)
     .spin('+=45_cw', .5, .3)
     .spin('+=45_cw', .5, .3)
     .spin('+=45_cw', .5, .3)
     .spin('+=45_cw', .5, .3)
-    .fly(lfIsh, yMid, 1)
+    .fly(lfIsh, mid, 1)
     .path(ironCrossNW, 2)
     .path(ironCrossNE, 2)
     .path(ironCrossSE, 2)

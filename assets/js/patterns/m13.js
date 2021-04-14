@@ -27,9 +27,9 @@ function M13() {
       ease: 'linear', 
       motionPath: { 
         path: [
-          {x: lfIsh, y: yMid},
+          {x: lfIsh, y: mid},
           {x: 0, y: hiIsh},
-          {x: rtIsh, y: yMid},
+          {x: rtIsh, y: mid},
           {x: 0, y: low},
         ],
         start: 0,

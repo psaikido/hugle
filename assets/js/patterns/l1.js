@@ -3,13 +3,13 @@ function L1() {
 
   let s = new Stepper()
     .setStart(k, kImg)
-    .launch(yMid, 2)
+    .launch(mid, 2)
     .spin(-1)
-    .fly(lf,yMid,2)
+    .fly(lf,mid,2)
     .spin(2)
-    .fly(rt,yMid,3)
+    .fly(rt,mid,3)
     .spin(-2)
-    .fly(centre,yMid,1.5)
+    .fly(centre,mid,1.5)
     .spin(1)
     .land(2)
 

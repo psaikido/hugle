@@ -1,5 +1,6 @@
 // Gsap movements are measured from an object's starting position.
-// For left/right values we decrease/increase from the 'centre' of 385px.
+// For left/right values we decrease/increase from the 'centre' of 380px.
+const centre = 0;
 const lf = -335;
 const lfIsh = -135;
 const xMid = 380;
@@ -12,7 +13,7 @@ const rt = 315;
 const ground = -15;
 const low = -45;
 const lowIsh = -100;
-const yMid = -200;
+const mid = -200;
 const hiIsh = -280; 
 const hi = -335;
 
@@ -86,7 +87,7 @@ class Stepper {
   }
 
   land(duration = 1) {
-    this.fly(0, 0, duration, 0, 0);
+    this.fly(centre, 0, duration, 0, 0);
     return this;
   }
 
