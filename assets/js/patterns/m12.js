@@ -42,7 +42,7 @@ function M12() {
       delay: 0,
     })
     .to(k, {
-      y: yMid,
+      y: mid,
       ease: 'power1.in',
     })
     .to(k, {
@@ -100,9 +100,9 @@ function M12() {
       motionPath: { 
         path: [
           {x: 0, y: lowIsh},
-          {x: lfIsh + 80, y: yMid},
+          {x: lfIsh + 80, y: mid},
           {x: 40, y: hiIsh},
-          {x: rtIsh, y: yMid},
+          {x: rtIsh, y: mid},
           {x: rtIsh, y: lowIsh},
         ],
         start: 0,
@@ -133,7 +133,7 @@ function M12() {
       delay: 0,
     })
     .to(k, {
-      y: yMid,
+      y: mid,
       ease: 'power1.in',
     })
     .to(k, {

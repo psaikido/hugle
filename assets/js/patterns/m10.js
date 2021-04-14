@@ -40,7 +40,7 @@ function M10() {
     .to(k, {y: hi})
     .to(k, {rotation: '+=180_cw'})
     .to(k, {
-      y: yMid,
+      y: mid,
       ease: 'power1.in',
     })
     .to(k, {rotation: '+=360_cw'})
@@ -68,8 +68,8 @@ function M10() {
       motionPath: { 
         path: [
           {x: lfIsh + 20, y: lowIsh},
-          {x: lfIsh , y: yMid},
-          {x: 0, y: yMid},
+          {x: lfIsh , y: mid},
+          {x: 0, y: mid},
           {x: 0, y: lowIsh},
         ],
         start: 0,

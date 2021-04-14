@@ -8,7 +8,7 @@ function M14() {
       {x: rtIsh - 40 , y: lowIsh},
       {x: 0, y: low},
       {x: lfIsh + 40 , y: lowIsh},
-      {x: lfIsh, y: yMid},
+      {x: lfIsh, y: mid},
     ],
     start: 0,
     end: 1,
@@ -18,7 +18,7 @@ function M14() {
 
   let invSlide2 = {
     path: [
-      {x: lfIsh, y: yMid},
+      {x: lfIsh, y: mid},
       {x: lfIsh + 40 , y: lowIsh},
       {x: 0, y: low},
       {x: rtIsh - 40 , y: lowIsh},
@@ -52,11 +52,11 @@ function M14() {
     .spin('+=90_cw', .5, .3)
     .spin('-=45_ccw', .5, .3)
     // East
-    .fly(rtIsh, yMid, 1.8, 3)
+    .fly(rtIsh, mid, 1.8, 3)
     .fly(rtIsh, hiIsh)
-    .fly(rtIsh, yMid)
-    .fly(rtIsh + aBit, yMid)
-    .fly(rtIsh, yMid)
+    .fly(rtIsh, mid)
+    .fly(rtIsh + aBit, mid)
+    .fly(rtIsh, mid)
     .spin('-=45_ccw', .5, .3)
     .spin('+=90_cw', .5, .3)
     .spin('-=45_ccw', .5, .3)
@@ -64,9 +64,9 @@ function M14() {
     .path(invSlide1, 3)
     .innerSpin(2, 0, 3, '<')
     .fly(lfIsh, hiIsh)
-    .fly(lfIsh, yMid)
-    .fly(lfIsh - aBit, yMid)
-    .fly(lfIsh, yMid)
+    .fly(lfIsh, mid)
+    .fly(lfIsh - aBit, mid)
+    .fly(lfIsh, mid)
     .spin('-=45_ccw', .5, .3)
     .spin('+=90_cw', .5, .3)
     .spin('-=45_ccw', .5, .3)
@@ -111,7 +111,7 @@ function M14() {
     // Finish
     .fly(centre, hi, 2, '+=225_cw')
     .spin(-2, .5)
-    .diveStop(yMid, 1)
+    .diveStop(mid, 1)
     .spin(4, .5)
     .diveStop(low)
     .spin(-2, .5)

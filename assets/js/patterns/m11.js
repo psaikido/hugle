@@ -78,9 +78,9 @@ function M11() {
       ease: 'linear', 
       motionPath: { 
         path: [
-          {x: rtIsh, y: yMid},
+          {x: rtIsh, y: mid},
           {x: 0, y: hiIsh},
-          {x: lfIsh, y: yMid},
+          {x: lfIsh, y: mid},
           {x: 0, y: lowIsh},
         ],
         start: 0,
@@ -99,7 +99,7 @@ function M11() {
       motionPath: { 
         path: [
           {x: 0, y: lowIsh},
-          {x: lfIsh, y: yMid},
+          {x: lfIsh, y: mid},
           {x: 0, y: hiIsh},
         ],
         start: 0,
@@ -116,7 +116,7 @@ function M11() {
       rotation: '-=180_ccw',
     })
     .to(k, {
-      y: yMid,
+      y: mid,
       ease: 'power1.in',
     })
     .to(kImg, {
