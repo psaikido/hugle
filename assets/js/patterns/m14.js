@@ -1,90 +1,120 @@
 function M14() {
   reset();
 
-  let mp1 = { 
+  const aBit = 60;
+
+  let invSlide1 = {
     path: [
-      {x: -262, y: -25},
-      {x: -310, y: yMid},
+      {x: rtIsh - 40 , y: lowIsh},
+      {x: 0, y: low},
+      {x: lfIsh + 40 , y: lowIsh},
+      {x: lfIsh, y: yMid},
     ],
-    autoRotation: false,
     start: 0,
     end: 1,
-    curviness: .3
+    curviness: .4,
+    align: 'self',
   }
 
-  let mp2 = {
+  let invSlide2 = {
     path: [
-      {x: lf, y: yMid},
-      {x: lf, y: low},
-      {x: rt, y: low},
-      {x: rt, y: yMid},
-      {x: rtIsh, y: hi},
-      {x: 0, y: hi},
+      {x: lfIsh, y: yMid},
+      {x: lfIsh + 40 , y: lowIsh},
+      {x: 0, y: low},
+      {x: rtIsh - 40 , y: lowIsh},
+      {x: rtIsh, y: lowIsh},
     ],
     start: 0,
     end: 1,
-    curviness: .4
-  };
-
-  let ptn = [
-    //[obj, x, y, rotation, duration, delay, motionPath, label]
-    [kImg,   , ,-2,  , ,      ],
-    [k,  ,-40, ,  ,   ,,      ],
-    [k,  ,   , ,4 ,,mp1,   ,  ],
-    [kImg,   , ,1 ,   , 2,,'<'],
-    /*
-    [k, lfIsh, , , 2],
-    [kImg, , , 4],
-    [kImg, , , -4],
-    [kImg, , , -2],
-    [k, rtIsh,,,2],
-    [kImg, , , 4],
-    [kImg, , , -4],
-    [k, 0,,,2],
-    [k, , ground,,2.5],
-    [k, , yMid,,3],
-    [kImg, , , -2,,0],
-    [k, , ground,,2.5,0],
-    [k, , yMid,,3],
-    [k, lf,,,2],
-    [k,  ,   , ,8 ,,mp2,   ,  ],
-    [kImg, ,,-1,,,,'<+.9'],
-    [kImg, ,,-3,3,,,'<+1.6'],
-    [kImg, ,,-1,,0],
-    [k,,low,,.5],
-    [kImg,,,2],
-    [k,,ground],
-    */
-  ];
-  //console.log(ptn);
-  //doTimeline(ptn);
-
+    curviness: .4,
+    align: 'self',
+  }
 
   let s = new Stepper()
-    .setStart(k, kImg, -2)
-    .launch(low)
-    .path(mp1, 4)
-    .innerSpin(1, 2, 1, '<')
-    .fly(lfIsh, yMid, 2)
-    .innerSpin(4, .5, 1)
-    .innerSpin(-4, .5, 1)
-    .innerSpin(-2, .5, 1)
-    .fly(rtIsh)
-    .innerSpin(4, .5, 1)
-    .innerSpin(-4, .5, 1)
-    .fly(0, yMid, 1)
-    .fly(0, ground, 2)
-    .fly(0, yMid, 2)
-    .spin(-2)
-    .fly(0, ground, 2, 0, 0)
-    .fly(0, yMid, 2)
-    .fly(lf, yMid, 1.5)
-    .path(mp2, 8)
-    .innerSpin(-1, 0, 1, '<+1')
-    .innerSpin(-3, 0, 3, '<+2.6')
-    .spin(-1)
-    .diveStop(low)
+    .setStart(k, kImg)
+    .launch(hiIsh, 2)
+    // North
+    .fly(-aBit, hiIsh)
+    .fly(centre, hiIsh)
+    .fly(centre, hi)
+    .fly(centre, hiIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
     .spin(2, .5)
+    // South
+    .diveStop(low)
+    .fly(-aBit, low)
+    .fly(centre, low)
+    .fly(centre, lowIsh)
+    .fly(centre, low)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // East
+    .fly(rtIsh, yMid, 1.8, 3)
+    .fly(rtIsh, hiIsh)
+    .fly(rtIsh, yMid)
+    .fly(rtIsh + aBit, yMid)
+    .fly(rtIsh, yMid)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // West
+    .path(invSlide1, 3)
+    .innerSpin(2, 0, 3, '<')
+    .fly(lfIsh, hiIsh)
+    .fly(lfIsh, yMid)
+    .fly(lfIsh - aBit, yMid)
+    .fly(lfIsh, yMid)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // North East
+    .fly(rtIsh, hiIsh, 1.5, '+=135')
+    .fly(rtIsh - aBit, hi)
+    .fly(rtIsh, hiIsh)
+    .fly(rtIsh + aBit, hiIsh - aBit)
+    .fly(rtIsh, hiIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // South West
+    .fly(lfIsh, lowIsh, 1.5, -2)
+    .fly(lfIsh - aBit, lowIsh - aBit)
+    .fly(lfIsh, lowIsh)
+    .fly(lfIsh - aBit, lowIsh + aBit)
+    .fly(lfIsh, lowIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // North West
+    .fly(lfIsh - 30, lowIsh - 35, 1, 2)
+    .fly(lfIsh, hiIsh, 1, -1)
+    .fly(lfIsh + aBit, hiIsh - aBit)
+    .fly(lfIsh, hiIsh)
+    .fly(lfIsh - aBit, hiIsh - aBit)
+    .fly(lfIsh, hiIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // South East
+    .path(invSlide2, 3)
+    .innerSpin(-2, 0, 3, '<')
+    .fly(rtIsh + aBit, lowIsh - aBit)
+    .fly(rtIsh, lowIsh)
+    .fly(rtIsh + aBit, lowIsh + aBit)
+    .fly(rtIsh, lowIsh)
+    .spin('-=45_ccw', .5, .3)
+    .spin('+=90_cw', .5, .3)
+    .spin('-=45_ccw', .5, .3)
+    // Finish
+    .fly(centre, hi, 2, '+=225_cw')
+    .spin(-2, .5)
+    .diveStop(yMid, 1)
+    .spin(4, .5)
+    .diveStop(low)
+    .spin(-2, .5)
     .land()
 
   doTimeline(s.ptn);
