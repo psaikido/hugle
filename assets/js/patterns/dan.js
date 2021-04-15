@@ -1,5 +1,6 @@
 function M9() {
   reset();
+  $('#msg').text('Club38 Master Level 9');
 
   let invSlide = {
     path: [
@@ -35,6 +36,7 @@ function M9() {
 
 function M10() {
   reset();
+  $('#msg').text('Club38 Master Level 10');
 
   let slideTurn = {
     path: [
@@ -92,6 +94,7 @@ function M10() {
 
 function M11() {
   reset();
+  $('#msg').text('Club38 Master Level 11');
 
   let slideCircle = {
     path: [
@@ -162,6 +165,7 @@ function M11() {
 
 function M12() {
   reset();
+  $('#msg').text('Club38 Master Level 12');
 
   let slideCircle = {
     path: [
@@ -230,6 +234,7 @@ function M12() {
 
 function M13() {
   reset();
+  $('#msg').text('Club38 Master Level 13');
 
   let slideCircle = {
     path: [
