@@ -12,7 +12,8 @@
 }
 
 #msg {
-    height: 30px;
+    min-height: 30px;
+    height: auto;
     width: 800px;
     border: 1px solid #586e75;
     margin-top: 10px;
