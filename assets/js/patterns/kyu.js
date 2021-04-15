@@ -1,6 +1,5 @@
 function L1() {
   reset();
-  $('#msg').text('Club38 Level 1');
   
   let s = new Stepper()
     .setStart(k, kImg)
