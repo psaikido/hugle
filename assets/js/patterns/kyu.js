@@ -1,6 +1,7 @@
 function L1() {
   reset();
-
+  $('#msg').text('Club38 Level 1');
+  
   let s = new Stepper()
     .setStart(k, kImg)
     .launch(mid, 2)
@@ -17,6 +18,9 @@ function L1() {
 }
 
 function L2() {
+  reset();
+  $('#msg').text('Club38 Level 2');
+
   let s = new Stepper()
     .setStart(k, kImg)
     .launch(mid, 1.5)
@@ -42,6 +46,7 @@ function L2() {
 
 function L3() {
   reset();
+  $('#msg').text('Club38 Level 3');
 
   let s = new Stepper()
     .setStart(k, kImg, 2)
@@ -63,6 +68,7 @@ function L3() {
 
 function L4() {
   reset();
+  $('#msg').text('Club38 Level 4');
 
   let mp1 = { 
     path: [
@@ -121,6 +127,7 @@ function L4() {
 
 function L5() {
   reset();
+  $('#msg').text('Club38 Level 5');
 
   let figure8 = {
     path: [
@@ -213,6 +220,7 @@ function L5() {
 
 function L6() {
   reset();
+  $('#msg').text('Club38 Level 6');
 
   let ironCrossNW = {
     path: [
@@ -306,6 +314,7 @@ function L6() {
 
 function L7() {
   reset();
+  $('#msg').text('Club38 Level 7');
 
   let mp1 = {
     path: [
@@ -351,6 +360,7 @@ function L7() {
 
 function L8() {
   reset();
+  $('#msg').text('Club38 Level 8 "Enigma Omega"');
 
   const aBit = 60;
 
