@@ -34,11 +34,11 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 </div>
 
 <div class="col-right">
-- launch from 0
-- -1, mid left
-- +2, mid right
+- launch from 0 to centre
+- -1, left
+- +2, right
 - -2, centre
-- +4, mid left
+- +4, left
 - +2, centre
 - -5, top
 - +2, divestop
