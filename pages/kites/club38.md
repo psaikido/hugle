@@ -56,7 +56,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 </div>
 
 <div class="col-right">
-- launch from +2
+- launch from +2, low
 - -2, centre
 - slide left
 - -8, slide right
