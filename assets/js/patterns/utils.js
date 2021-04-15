@@ -22,7 +22,7 @@ function doTimeline(ptn) {
   let obj, lbl;
 
   for (i = 0; i < ptn.length; i++) {
-    doMessage(ptn[i]);
+    //doMessage(ptn[i]);
 
     obj = ptn[i][0];
     if (ptn[i][8] !== undefined) {
