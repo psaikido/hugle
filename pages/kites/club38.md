@@ -77,7 +77,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 </div>
 
 <div class="col-right">
-- launch from +2
+- launch from +2, low
 - inverted slide left
 - +1, slide up to mid height
 - reverse to centre
