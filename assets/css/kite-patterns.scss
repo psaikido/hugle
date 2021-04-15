@@ -70,6 +70,7 @@
     input {
         float: left;
         width: 90%;
+        font-size: .7em;
 
         &#reset {
             position: absolute;
@@ -80,5 +81,13 @@
 
     &.right {
         left: 810px;
+    }
+
+    &.combos {
+        left: 888px;
+
+        input {
+            width: 180%;
+        }
     }
 }
