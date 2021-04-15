@@ -115,7 +115,7 @@ function L4() {
     .innerSpin(-3, 0, 3, '<+2.6')
     .spin(-1)
     .diveStop(low)
-    .spin(2, .5)
+    .innerSpin(2, .5)
     .land()
 
   doTimeline(s.ptn);
