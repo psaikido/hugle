@@ -18,7 +18,6 @@ function L1() {
 
 function L2() {
   reset();
-  $('#msg').text('Club38 Level 2');
 
   let s = new Stepper()
     .setStart(k, kImg)
@@ -45,7 +44,6 @@ function L2() {
 
 function L3() {
   reset();
-  $('#msg').text('Club38 Level 3');
 
   let s = new Stepper()
     .setStart(k, kImg, 2)
@@ -67,7 +65,6 @@ function L3() {
 
 function L4() {
   reset();
-  $('#msg').text('Club38 Level 4');
 
   let mp1 = { 
     path: [
@@ -126,7 +123,6 @@ function L4() {
 
 function L5() {
   reset();
-  $('#msg').text('Club38 Level 5');
 
   let figure8 = {
     path: [
@@ -219,7 +215,6 @@ function L5() {
 
 function L6() {
   reset();
-  $('#msg').text('Club38 Level 6');
 
   let ironCrossNW = {
     path: [
@@ -313,11 +308,11 @@ function L6() {
 
 function L7() {
   reset();
-  $('#msg').text('Club38 Level 7');
 
   let mp1 = {
     path: [
-      {x: lfIsh, y: mid},
+      {x: -135, y: -200},
+      {x: lfIsh, y: mid + 60},
       {x: lfIsh + 40, y: low - 40},
       {x: 0, y: low},
     ],
@@ -343,15 +338,14 @@ function L7() {
     .spin('-=45_ccw', .5, .3)
     .spin('-=45_ccw', .5, .3)
     .fly(lfIsh, mid, 2.5)
-    .spin('-=225_ccw', 0, .5)
+    .spin('-=180_ccw', 0, .7)
     .path(mp1, 3)
-    .innerSpin('-90_ccw', 0, 2.5, '<+=1.1')
-    .spin(3, .5, 2.5)
-    .innerSpin(0, .5, 2.5, '<')
+    .innerSpin('-135_ccw', 0, 2.5, '<+=1.1')
+    .innerSpin(3, .5, 2.5)
     .fly(rtIsh, low)
-    .spin('-=360_ccw', .5, 2.5)
+    .innerSpin('-=360_ccw', .5, 2.5)
     .fly(centre, low, 1.5)
-    .spin('-=450_ccw', .5, .8)
+    .innerSpin('-=450_ccw', .5, .8)
     .land()
 
   doTimeline(s.ptn);
@@ -359,7 +353,6 @@ function L7() {
 
 function L8() {
   reset();
-  $('#msg').text('Club38 Level 8 "Enigma Omega"');
 
   const aBit = 60;
 
