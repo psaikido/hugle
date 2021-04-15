@@ -120,3 +120,7 @@ function doMessage(m) {
 
   //console.log(msg);
 }
+
+function showCombos() {
+  $('.button-bank.combos').attr('style', 'display: block');
+}
