@@ -54,10 +54,11 @@ class Stepper {
     return this;
   }
 
-  spin(rot, delay = 0, duration = 1) {
+  spin(rot, delay = 0, duration = 1, label) {
     this.rotation = rot;
     this.delay = delay;
     this.duration = duration;
+    this.label = label;
 
     this._addStep();
     return this;
