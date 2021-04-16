@@ -1,4 +1,3 @@
-/* eslint-env */
 function combos(combo) {
   let s;
 
