@@ -1,0 +1,73 @@
+---
+layout: solo
+title: club38 patterns
+permalink: /91j5t.html/
+---
+
+<script src="/assets/js/patterns/stepper.cls.js"></script>
+<script src="/assets/js/patterns/utils.js"></script>
+<script src="/assets/js/patterns/dan.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
+
+<link rel="stylesheet" href="/assets/css/kite-patterns.css">
+
+<div id="wind-window">
+    <div id="kite-wrap">
+        <div id="kite"></div>
+    </div>
+    <div id="dude-wrap">
+        <div id="dude"></div>
+    </div>
+</div>
+<div id="msg">
+    <ul>
+        <li>launch from 0, low</li>
+        <li>-3, low right</li>
+        <li>+4, right tip landing</li>
+        <li>relaunch, -6, low left</li>
+        <li>+4, slide up, reverse, centre </li>
+        <li>+.5 x 6, top</li>
+        <li>+2, divestop halfway, +4</li>
+        <li>divestop, -5, right tip landing</li>
+        <li>slight launch, slow +2, left tip landing</li>
+        <li>slight launch, fake tip landing</li>
+        <li>slide up, centre</li>
+        <li>slide circle +4, slide down</li>
+        <li>-5, land</li>
+    </ul>
+
+    <h6>*Numbers are quarter turns. + means clockwise</h6>
+</div>
+
+<script>
+    gsap.registerPlugin(MotionPathPlugin);
+    var k = document.getElementById('kite-wrap');
+    var kImg = document.getElementById('kite');
+    var dude = document.getElementById('dude');
+    var dudeTimeline = gsap.timeline({
+        repeat:-1,
+        paused: true
+    });
+
+    dudeTimeline.to(dude, {
+        backgroundPosition: "-1022px 0",
+        ease: "steps(14)",
+        repeat: -1, 
+        duration: 6,
+    });
+
+    var timeline = gsap.timeline({
+        defaults: {
+            duration: 1,
+            ease: 'sine.inOut',
+            delay: .5,
+            onStart: startDude,
+            onComplete: stopDude,
+        }
+    });
+</script>
+
+<div class="button-bank left">
+<input type="button" value="M-10" onclick="M10();" />  
+</div>
