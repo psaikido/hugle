@@ -234,7 +234,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 </div>
 
 <div class="col-right">
-- launch from 0
+- launch from 0, low
 - -3, low right
 - +4, right tip landing
 - relaunch, -6, low left
@@ -289,7 +289,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 - launch from +2, reverse to low
 - -5, mid right
 - +6, mid left, -3
-- fox box
+- Don Fox snap box
     - up and +1 to hover
     - right and +1 to hover
     - down and +1 to hover
