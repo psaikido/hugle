@@ -3,52 +3,42 @@ function combos(combo) {
 
   switch (combo) {
     case 1:
-      $('#msg').text('combo #1 Shock Snap');
       s = combo1();
       break;
 
     case 2:
-      $('#msg').text('combo #2 Shock Snap Tip Landing');
       s = combo2();
       break;
 
     case 3:
-      $('#msg').text('combo #3 Walk it Off');
       s = combo3();
       break;
 
     case 4:
-      $('#msg').text('combo #4 Launch Snaps');
       s = combo4();
       break;
 
     case 5:
-      $('#msg').text('combo #5 Shock Clock Snap');
       s = combo5();
       break;
 
     case 6:
-      $('#msg').text('combo #6 Go Snap Back Vslide');
       s = combo6();
       break;
 
     case 7:
-      $('#msg').text('combo #7 V Slide V');
       s = combo7();
       break;
 
     case 8:
-      $('#msg').text('combo #8 Don Fox Snap Box');
       s = combo8();
       break;
 
     case 9:
-      $('#msg').text('combo #9 Snap Clock Snap');
       s = combo9();
       break;
 
     case 10:
-      $('#msg').text('combo #10 Shock Circle Slide Snap');
       s = combo10();
       break;
 
