@@ -90,6 +90,14 @@
             width: 180%;
         }
     }
+
+    &.solo {
+        left: -152px;
+
+        input {
+            width: 180%; 
+        }
+    }
 }
 
 .individualPatternLinks {
