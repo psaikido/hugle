@@ -36,7 +36,7 @@ function L2() {
     .fly(centre,hi)
     .spin(2)
     .diveStop(low)
-    .spin(2, 1)
+    .spin(-2, 1)
     .land(1)
 
   doTimeline(s.ptn);
