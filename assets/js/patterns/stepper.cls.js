@@ -153,5 +153,4 @@ class Stepper {
     this.ease = undefined;
     this.label = undefined;
   }
-
 }
