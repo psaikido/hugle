@@ -49,6 +49,7 @@ function combos(combo) {
 }
 
 function combo1() {
+  // shock-snap
   reset();
 
   let s = new Stepper()
@@ -62,6 +63,7 @@ function combo1() {
 }
 
 function combo2() {
+  // shock-snap-tip
   reset();
 
   let s = new Stepper()
@@ -76,6 +78,7 @@ function combo2() {
 }
 
 function combo3() {
+  // walk-it-off
   reset();
 
   let s = new Stepper()
@@ -91,6 +94,7 @@ function combo3() {
 }
 
 function combo4() {
+  // launch-snaps
   reset();
 
   let s = new Stepper()
@@ -115,6 +119,7 @@ function combo4() {
 }
 
 function combo5() {
+  // shock-clock-snap
   reset();
 
   let s = new Stepper()
@@ -132,6 +137,7 @@ function combo5() {
 }
 
 function combo6() {
+  // go-snap-back-vslide
   reset();
 
   let s = new Stepper()
@@ -148,6 +154,7 @@ function combo6() {
 }
 
 function combo7() {
+  // v-slide-v
   reset();
 
   let s = new Stepper()
@@ -165,6 +172,7 @@ function combo7() {
 }
 
 function combo8() {
+  // don-fox-snap-box
   reset();
 
   let s = new Stepper()
@@ -186,6 +194,7 @@ function combo8() {
 }
 
 function combo9() {
+  // snap-clock-snap
   reset();
 
   let s = new Stepper()
@@ -207,6 +216,7 @@ function combo9() {
 }
 
 function combo10() {
+  // shock-circle-snap
   reset();
 
   let slideCircle = {
