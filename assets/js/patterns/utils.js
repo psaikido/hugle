@@ -1,3 +1,5 @@
+let rotationCount = 0;
+
 function reset() {
   timeline.clear();
 
@@ -79,15 +81,42 @@ function convertRotCode(code) {
   if (Number.isInteger(code)) {
     let absVal = Math.abs(code) * 90;
 
-    if (code > 0) {
+    if (code >= 0) {
       // clockwise
-      return '+=' + absVal + '_cw';
+      retStr =  '+=' + absVal + '_cw';
     } else {
       // anti-clockwise
-      return '-=' + absVal + '_ccw';
+      retStr = '-=' + absVal + '_ccw';
     }
   } else {
-    return code;
+    retStr = code;
+  }
+
+  updateRotationCount(retStr);
+  return retStr;
+}
+
+function updateRotationCount(code) {
+  if (Number.isInteger(code)) {
+    if (code >= 0) {
+      rotationCount += code;
+    } else {
+      rotationCount -= code;
+    }
+  } else {
+    let num = parseInt(code.replace(/[^0-9]/g, ''));
+    num = num / 90; // convert back to quarter turn = 1 style
+    let sign = code.charAt(0);
+
+    if (sign === '+') {
+      rotationCount = rotationCount + num;
+    } else if (sign === '-') {
+      rotationCount = rotationCount - num;
+    }
+  }
+
+  if (code != '+=0_cw') {
+    console.log(code, rotationCount);
   }
 }
 
