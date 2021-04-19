@@ -144,7 +144,7 @@ function L5() {
     autoRotate: 90,
   }
 
-  let spiralIn = { 
+  let spiralIn = {
     path: '#spiralIn',
     align: '#spiralIn',
     autoRotate: 90,
@@ -193,58 +193,47 @@ function L6() {
   reset();
 
   let ironCrossNW = {
-    path: [
-      {x: lfIsh - 80, y: mid},
-      {x: lfIsh, y: mid},
-      {x: -40, y: mid - 30},
-      {x: 0, y: hiIsh},
-      {x: 0, y: hi},
-    ],
-    start: .425,
-    end: .95,
-    curviness: .5,
-    type: 'soft',
+    path: '#ironCrossNW',
+    align: '#ironCrossNW',
     autoRotate: -90,
+    alignOrigin: [0.5, 0.35],
+    start: 0,
+    end: 1,
+    offsetX: -2,
+    offsetY: 2,
   }
 
   let ironCrossNE = {
-    path: [
-      {x: 30, y: mid - 30},
-      {x: rtIsh, y: mid},
-      {x: rt, y: mid - 10},
-    ],
-    start: 0,
-    end: .72,
-    curviness: .5,
+    path: '#ironCrossNE',
+    align: '#ironCrossNE',
     autoRotate: 90,
+    alignOrigin: [0.5, 0.35],
+    start: 1,
+    end: 0,
+    offsetX: -2,
+    offsetY: -6,
   }
 
   let ironCrossSE = {
-    path: [
-      {x: rtIsh + 90, y: mid},
-      {x: rtIsh, y: mid},
-      {x: 40, y: mid + 30},
-      {x: 0, y: lowIsh},
-      {x: 0, y: 0},
-    ],
-    start: .075,
-    end: .85,
-    curviness: .5,
+    path: '#ironCrossSE',
+    align: '#ironCrossSE',
     autoRotate: -90,
+    alignOrigin: [0.5, 0.35],
+    start: 0,
+    end: 1,
+    offsetX: -2,
+    offsetY: -6,
   }
 
   let ironCrossSW = {
-    path: [
-      {x: -8, y: ground},
-      {x: -8, y: lowIsh},
-      {x: - 40, y: lowIsh - 60},
-      {x: lfIsh, y: mid},
-      {x: lfIsh - 80, y: mid},
-    ],
-    start: .265,
-    end: .9,
-    curviness: .5,
+    path: '#ironCrossSW',
+    align: '#ironCrossSW',
     autoRotate: 90,
+    alignOrigin: [0.5, 0.35],
+    start: 1,
+    end: 0,
+    offsetX: -2,
+    offsetY: -6,
   }
 
   let preDive = {
@@ -252,13 +241,14 @@ function L6() {
     align: '#preDive',
     autoRotate: 90,
     alignOrigin: [0.5, 0.35],
-    start: .312,
+    start: .27,
     end: 1,
-    offsetX: 5,
-    offsetY: 20,
+    offsetX: -2,
+    offsetY: 2,
   }
 
   let s = new Stepper()
+    .setStart(k, kImg)
     .setStart(k, kImg, -2)
     .launch(lowIsh)
     .spin(3, .5, .7)
@@ -278,15 +268,15 @@ function L6() {
     .spin('+=45_cw', .5, .3)
     .spin('+=45_cw', .5, .3)
     .spin('+=45_cw', .5, .3)
-    .fly(lfIsh + 1, mid, 1, '-=10_ccw')
+    .fly(lfIsh, mid, 1)
     .path(ironCrossNW, 2)
     .path(ironCrossNE, 2)
     .path(ironCrossSE, 2)
     .path(ironCrossSW, 2)
-    .spin(1)
+    .spin(1, .5)
     .path(preDive, 3)
-    .diveStop(low, .5)
-    .spin(4)
+    .diveStop(low, .7)
+    .spin(4, .5, .5)
     .land()
 
   doTimeline(s.ptn);
