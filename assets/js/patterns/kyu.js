@@ -88,7 +88,7 @@ function L4() {
     ],
     start: 0,
     end: 1,
-    curviness: .4
+    curviness: .7,
   };
 
   let s = new Stepper()
@@ -97,12 +97,12 @@ function L4() {
     .path(mp1, 4)
     .innerSpin(1, 2, 1, '<')
     .fly(lfIsh, mid, 2)
-    .innerSpin(4, .5, 1)
-    .innerSpin(-4, .5, 1)
-    .innerSpin(-2, .5, 1)
+    .innerSpin(4, .5, .8)
+    .innerSpin(-4, .5, .8)
+    .innerSpin(-2, .5, .4)
     .fly(rtIsh)
-    .innerSpin(4, .5, 1)
-    .innerSpin(-4, .5, 1)
+    .innerSpin(4, .5, .8)
+    .innerSpin(-4, .5, .8)
     .fly(centre, mid, 1)
     .fly(centre, ground, 2)
     .fly(centre, mid, 2)
