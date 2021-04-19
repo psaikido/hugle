@@ -88,7 +88,7 @@ class Stepper {
   }
 
   land(duration = 1, delay = .5) {
-    this.fly(centre, ground, duration, 0, delay);
+    this.fly(this.x, ground, duration, 0, delay);
     return this;
   }
 
