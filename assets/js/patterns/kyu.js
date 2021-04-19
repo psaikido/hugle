@@ -143,49 +143,24 @@ function L5() {
     autoRotate: 90,
   }
 
-  let spiralIn = {
-    path: [
-      {x: rtIsh - 40, y: mid + 100},
-      {x: lfIsh + 40, y: mid + 100},
-      {x: lfIsh + 40, y: mid - 85},
-      {x: rtIsh - 80, y: mid - 85},
-      {x: rtIsh - 85, y: mid + 45},
-      {x: lfIsh + 85, y: mid + 45},
-      {x: lfIsh + 85, y: mid - 45},
-      {x: rtIsh - 95, y: mid - 45},
-      {x: 30, y: mid},
-      {x: 0, y: mid + 30},
-      {x: -15, y: mid + 10},
-      {x: 0, y: mid},
-    ],
-    start: 0,
-    end: 1,
+  let spiralIn = { 
+    path: '#spiralIn',
+    align: '#spiralIn',
     autoRotate: 90,
-    curviness: .8,
-  };
+    alignOrigin: [0.5, 0.35],
+    start: 0,
+    end: 0.995,
+  }
 
   let spiralOut = {
-    path: [
-      {x: 0, y: mid},
-      {x: -15, y: mid + 10},
-      {x: 0, y: mid + 30},
-      {x: 30, y: mid},
-      {x: rtIsh - 95, y: mid - 45},
-      {x: lfIsh + 85, y: mid - 45},
-      {x: lfIsh + 85, y: mid + 45},
-      {x: rtIsh - 85, y: mid + 45},
-      {x: rtIsh - 80, y: mid - 85},
-      {x: lfIsh + 40, y: mid - 85},
-      {x: lfIsh + 40, y: mid + 100},
-      {x: rtIsh - 40, y: mid + 100},
-      {x: rtIsh, y: hiIsh},
-      {x: 0, y: hi},
-    ],
-    start: 0,
-    end: 1,
-    curviness: .8,
+    path: '#spiralOut',
+    align: '#spiralOut',
     autoRotate: 90,
-  };
+    alignOrigin: [0.5, 0.35],
+    start: 0.995,
+    end: 0,
+    offsetX: 10,
+  }
 
   let s = new Stepper()
     .setStart(k, kImg, -2)
@@ -201,7 +176,7 @@ function L5() {
     .fly(lfIsh, lowIsh, 2)
     .fly(lfIsh, hiIsh, 2)
     .fly(rtIsh, hiIsh, 2)
-    .spin('+=82_cw', .5, 1)
+    .spin('+=60_cw', .5, 1)
     .path(spiralIn, 6)
     .spin('-92_ccw', .5, 1)
     .path(spiralOut, 6)

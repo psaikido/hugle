@@ -120,3 +120,11 @@
         border: 1px solid $border-light;
     }
 }
+
+svg path {
+    /*
+    stroke: #000;
+    stroke-width: '0.1';
+    */
+    fill: none;
+}
