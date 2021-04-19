@@ -200,7 +200,7 @@ function L6() {
       {x: 0, y: hiIsh},
       {x: 0, y: hi},
     ],
-    start: .42,
+    start: .425,
     end: .95,
     curviness: .5,
     type: 'soft',
@@ -211,40 +211,51 @@ function L6() {
     path: [
       {x: 30, y: mid - 30},
       {x: rtIsh, y: mid},
-      {x: rt, y: mid},
+      {x: rt, y: mid - 10},
     ],
     start: 0,
-    end: .7,
+    end: .72,
     curviness: .5,
     autoRotate: 90,
   }
 
   let ironCrossSE = {
     path: [
-      {x: rtIsh + 80, y: mid},
+      {x: rtIsh + 90, y: mid},
       {x: rtIsh, y: mid},
       {x: 40, y: mid + 30},
       {x: 0, y: lowIsh},
       {x: 0, y: 0},
     ],
-    start: .09,
-    end: .9,
+    start: .075,
+    end: .85,
     curviness: .5,
     autoRotate: -90,
   }
 
   let ironCrossSW = {
     path: [
-      {x: 0, y: ground},
-      {x: 0, y: lowIsh},
+      {x: -8, y: ground},
+      {x: -8, y: lowIsh},
       {x: - 40, y: lowIsh - 60},
       {x: lfIsh, y: mid},
       {x: lfIsh - 80, y: mid},
     ],
-    start: .13,
+    start: .265,
     end: .9,
     curviness: .5,
     autoRotate: 90,
+  }
+
+  let preDive = {
+    path: '#preDive',
+    align: '#preDive',
+    autoRotate: 90,
+    alignOrigin: [0.5, 0.35],
+    start: .312,
+    end: 1,
+    offsetX: 5,
+    offsetY: 20,
   }
 
   let s = new Stepper()
@@ -267,14 +278,13 @@ function L6() {
     .spin('+=45_cw', .5, .3)
     .spin('+=45_cw', .5, .3)
     .spin('+=45_cw', .5, .3)
-    .fly(lfIsh, mid, 1)
+    .fly(lfIsh + 1, mid, 1, '-=10_ccw')
     .path(ironCrossNW, 2)
     .path(ironCrossNE, 2)
     .path(ironCrossSE, 2)
     .path(ironCrossSW, 2)
     .spin(1)
-    .fly(lfIsh, hiIsh)
-    .fly(centre, hi, 1, 2, 0)
+    .path(preDive, 3)
     .diveStop(low, .5)
     .spin(4)
     .land()
