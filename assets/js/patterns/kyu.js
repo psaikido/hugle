@@ -126,6 +126,7 @@ function L5() {
 
   let figure8 = {
     path: [
+      {x: rtIsh, y: lowIsh},
       {x: lfIsh, y: hi},
       {x: lf, y: mid},
       {x: lfIsh, y: low},
@@ -165,11 +166,11 @@ function L5() {
   let s = new Stepper()
     .setStart(k, kImg, -2)
     .launch(low)
-    .spin(1, .5)
-    .fly(lf, low, 2)
-    .spin(-2, .5)
+    .spin(1, .3, .3)
+    .fly(lf + 40, low, 2)
+    .spin(-2, .3, 1.5)
     .fly(rt, low, 3)
-    .spin('-35_cw', .5)
+    .spin('+=155_cw', .3, 1.5)
     .path(figure8, 11)
     .fly(rtIsh, hiIsh, .5, '90_shortest')
     .fly(rtIsh, lowIsh, 2)
