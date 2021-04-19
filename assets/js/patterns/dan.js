@@ -36,17 +36,15 @@ function M9() {
 function M10() {
   reset();
 
-  let slideTurn = {
-    path: [
-      {x: lfIsh + 20, y: lowIsh},
-      {x: lfIsh , y: mid},
-      {x: 0, y: mid},
-      {x: 0, y: lowIsh},
-    ],
-    start: 0,
-    end: .9,
-    curviness: 1,
-    align: 'self',
+  let slideCircle = {
+    path: '#slideCircle',
+    align: '#slideCircle',
+    autoRotate: true,
+    alignOrigin: [0.5, 0.35],
+    start: .75,
+    end: 1.75,
+    offsetX: -95.5,
+    offsetY: 76,
   }
 
   let s = new Stepper()
@@ -81,9 +79,8 @@ function M10() {
     .fly(centre - 30, low)
     .fly(centre, low, 1, -2)
     .fly(centre, ground - 10)
-    .fly(centre, lowIsh)
-    .path(slideTurn, 5)
-    .innerSpin(4, 0, 5, '<')
+    .fly(centre - 3, lowIsh - 3, 1, '-=3_ccw')
+    .path(slideCircle, 5)
     .spin(-5, .5, .7)
     .land(1.5, .5)
 
