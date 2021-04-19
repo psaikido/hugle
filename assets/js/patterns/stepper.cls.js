@@ -39,6 +39,8 @@ class Stepper {
     this.obj = this.objCurrent = o;
     this.objInner = oInner;
     this.rotation = rotation;
+    this.duration = .1;
+    this.delay = 0;
 
     this._addStep();
     return this;
