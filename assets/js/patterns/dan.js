@@ -283,3 +283,27 @@ function M13() {
 
   doTimeline(s.ptn);
 }
+
+function M94() {
+  let s = new Stepper()
+    .setStart(k, kImg)
+    .launch(low, .5)
+    .spin(5, .5, 2)
+    .fly(lfIsh, low)
+    .spin(-9, .5, .8)
+    .fly(lfIsh, hi, .3)
+    .spin(10, .5, .5)
+    .fly(rt, hi, .3, 1)
+    .fly(lf + 40, low, 1.3, -22)
+    .fly(rtIsh, mid, .1, 2)
+    .spin(40)
+    .fly(-500, mid, .1, 2)
+    .fly(centre, hi - 90, .1, '+=130_cw', .2)
+    .fly(lfIsh, hi - 60, .1, '+=130_cw', .2)
+    .fly(centre, ground - 60, .1, '+=130_cw', .2)
+    .fly(rt + 150, lowIsh, .1, '+=130_cw', .2)
+    .fly(centre, mid, .1, '-=130_cw', .2)
+    .land()
+
+  doTimeline(s.ptn);
+}
