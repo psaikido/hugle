@@ -91,26 +91,35 @@ function M11() {
   reset();
 
   let slideCircle = {
-    path: [
-      {x: rtIsh, y: mid},
-      {x: 0, y: hiIsh},
-      {x: lfIsh, y: mid},
-      {x: 0, y: lowIsh},
-    ],
-    start: 0,
-    end: 1,
-    curviness: 1,
+    path: '#slideCircle',
+    align: '#slideCircle',
+    autoRotate: 180,
+    alignOrigin: [0.5, 0.35],
+    start: 1,
+    end: 0,
+    offsetX: 31,
+    offsetY: 28,
   }
 
   let slideHalfCircle = {
-    path: [
-      {x: 0, y: lowIsh},
-      {x: lfIsh, y: mid},
-      {x: 0, y: hiIsh},
-    ],
+    path: '#slideCircle',
+    align: '#slideCircle',
+    autoRotate: true,
+    alignOrigin: [0.5, 0.35],
+    start: 0,
+    end: .5,
+    offsetX: 31,
+    offsetY: 28,
+  }
+
+  let preDive = {
+    path: '#preDive',
+    align: '#preDive',
+    autoRotate: 90,
+    alignOrigin: [0.5, 0.35],
     start: 0,
     end: 1,
-    curviness: 1,
+    offsetY: -7,
   }
 
   let s = new Stepper()
@@ -133,18 +142,15 @@ function M11() {
     .spin(1, .5, .3)
     .fly(lfIsh, lowIsh)
     .spin(-3, .5, .5)
-    .fly(lfIsh, hiIsh)
-    .fly(centre, hi, 1, 2, 0)
-    .diveStop(lowIsh)
+    .path(preDive, 3)
+    .diveStop(low)
     .spin(-1, .5, .3)
     .spin(-1, .5, .3)
     .spin(-1, .5, .3)
     .spin(-1, .5, .3)
     .spin(4, .5, .5)
     .path(slideCircle, 6)
-    .innerSpin(-4, 0, 6, '<')
     .path(slideHalfCircle, 3)
-    .innerSpin(2, 0, 3, '<')
     .fly(centre, hi)
     .innerSpin(-2)
     .diveStop(mid, .7)
@@ -152,7 +158,6 @@ function M11() {
     .diveStop(low, .7)
     .spin(7, .5)
     .land()
-    //.land(1.5, .5)
 
   doTimeline(s.ptn);
 }
