@@ -4,34 +4,6 @@ title: club38 patterns
 permalink: /91j5t.html/
 ---
 
-<script>
-    gsap.registerPlugin(MotionPathPlugin);
-    var k = document.getElementById('kite-wrap');
-    var kImg = document.getElementById('kite');
-    var dude = document.getElementById('dude');
-    var dudeTimeline = gsap.timeline({
-        repeat:-1,
-        paused: true
-    });
-
-    dudeTimeline.to(dude, {
-        backgroundPosition: "-1022px 0",
-        ease: "steps(14)",
-        repeat: -1, 
-        duration: 6,
-    });
-
-    var timeline = gsap.timeline({
-        defaults: {
-            duration: 1,
-            ease: 'sine.inOut',
-            delay: .5,
-            onStart: startDude,
-            onComplete: stopDude,
-        }
-    });
-</script>
-
 <div id="msg">
     <ul>
         <li>launch from 0, low</li>
