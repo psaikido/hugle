@@ -4,43 +4,6 @@ title: club38 patterns
 permalink: /0h1vo.html/
 ---
 
-<script src="/assets/js/patterns/stepper.cls.js"></script>
-<script src="/assets/js/patterns/utils.js"></script>
-<script src="/assets/js/patterns/dan.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
-
-<link rel="stylesheet" href="/assets/css/kite-patterns.css">
-
-<div id="wind-window">
-    <div id="kite-wrap">
-        <div id="kite"></div>
-    </div>
-    <div id="dude-wrap">
-        <div id="dude"></div>
-    </div>
-</div>
-<div id="msg">
-    <ul>
-        <li>launch from +2, +3, reverse mid low left</li>
-        <li>-5, top, +2</li>
-        <li>divestop, slide circle +4</li>
-        <li>-5, low mid right</li>
-        <li>+1 x 5, -5, low right</li>
-        <li>tumbleweed +4</li>
-        <li>low mid left, -3</li>
-        <li>weird box</li>
-        <ul>
-            <li>reverse up mid left, +3</li>
-            <li>mid right, -4, low right</li>
-            <li>+5, low left, -6</li>
-        </ul>
-        <li>top, +2, divestop, -2, land</li>
-    </ul>
-
-    <h6>*Numbers are quarter turns. + means clockwise</h6>
-</div>
-
 <script>
     gsap.registerPlugin(MotionPathPlugin);
     var k = document.getElementById('kite-wrap');
@@ -68,6 +31,27 @@ permalink: /0h1vo.html/
         }
     });
 </script>
+
+<div id="msg">
+    <ul>
+        <li>launch from +2, +3, reverse mid low left</li>
+        <li>-5, top, +2</li>
+        <li>divestop, slide circle +4</li>
+        <li>-5, low mid right</li>
+        <li>+1 x 5, -5, low right</li>
+        <li>tumbleweed +4</li>
+        <li>low mid left, -3</li>
+        <li>weird box</li>
+        <ul>
+            <li>reverse up mid left, +3</li>
+            <li>mid right, -4, low right</li>
+            <li>+5, low left, -6</li>
+        </ul>
+        <li>top, +2, divestop, -2, land</li>
+    </ul>
+
+    <h6>*Numbers are quarter turns. + means clockwise</h6>
+</div>
 
 <div class="button-bank left">
 <input type="button" value="M-13" onclick="M13();" />  

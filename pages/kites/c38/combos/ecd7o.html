@@ -4,40 +4,6 @@ title: club38 patterns
 permalink: /ecd7o.html/
 ---
 
-<script src="/assets/js/patterns/stepper.cls.js"></script>
-<script src="/assets/js/patterns/utils.js"></script>
-<script src="/assets/js/patterns/combos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
-
-<link rel="stylesheet" href="/assets/css/kite-patterns.css">
-
-<div id="wind-window">
-    <div id="kite-wrap">
-        <div id="kite"></div>
-    </div>
-    <div id="dude-wrap">
-        <div id="dude"></div>
-    </div>
-</div>
-
-<div id="msg">
-    <h6>combo #5 Shock Clock Snap</h6>
-    <ul>
-        <li>divestop, +1 x 4, -5</li>
-    </ul>
-
-    <h6>combo #6 Go Snap Back Vslide</h6>
-    <ul>
-        <li>mid low to rightish</li>
-        <li>+4, reverse</li>
-        <li>-3, inverted slide rightish</li>
-    </ul>
-
-    <h6>*Numbers are quarter turns. + means clockwise</h6>
-    <h6>All combos can be done with + or - turns</h6>
-</div>
-
 <script>
     gsap.registerPlugin(MotionPathPlugin);
     var k = document.getElementById('kite-wrap');
@@ -65,6 +31,23 @@ permalink: /ecd7o.html/
         }
     });
 </script>
+
+<div id="msg">
+    <h6>combo #5 Shock Clock Snap</h6>
+    <ul>
+        <li>divestop, +1 x 4, -5</li>
+    </ul>
+
+    <h6>combo #6 Go Snap Back Vslide</h6>
+    <ul>
+        <li>mid low to rightish</li>
+        <li>+4, reverse</li>
+        <li>-3, inverted slide rightish</li>
+    </ul>
+
+    <h6>*Numbers are quarter turns. + means clockwise</h6>
+    <h6>All combos can be done with + or - turns</h6>
+</div>
 
 <div class="button-bank solo">
 <input type="button" value="shock-clock-snap" onclick="combos(5);" />
