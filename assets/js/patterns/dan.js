@@ -238,17 +238,27 @@ function M12() {
 function M13() {
   reset();
 
-  let slideCircle = {
-    path: [
-      {x: lfIsh, y: mid},
-      {x: 0, y: hiIsh},
-      {x: rtIsh, y: mid},
-      {x: 0, y: low},
-    ],
+  let preDive = {
+    path: '#preDive',
+    align: '#preDive',
+    autoRotate: 90,
+    alignOrigin: [0.5, 0.35],
     start: 0,
     end: 1,
-    curviness: 1,
+    offsetY: 48,
   }
+
+  let slideCircle = {
+    path: '#slideCircle',
+    align: '#slideCircle',
+    autoRotate: true,
+    alignOrigin: [0.5, 0.35],
+    start: 0,
+    end: 1,
+    offsetX: 31,
+    offsetY: 27,
+  }
+
 
   let s = new Stepper()
     .setStart(k, kImg, 2)
@@ -256,11 +266,9 @@ function M13() {
     .spin(3, .5, .5)
     .fly(lfIsh)
     .spin(-5)
-    .fly(lfIsh, hiIsh)
-    .fly(centre, hi, .7, 2, 0)
+    .path(preDive, 3)
     .diveStop(low)
     .path(slideCircle, 6)
-    .innerSpin(4, 0, 6, '<')
     .spin(-5, 0, .7)
     .fly(rtIsh, low)
     .spin(1, .5, .3)
