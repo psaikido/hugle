@@ -4,41 +4,6 @@ title: club38 patterns
 permalink: /adofn.html/
 ---
 
-<script src="/assets/js/patterns/stepper.cls.js"></script>
-<script src="/assets/js/patterns/utils.js"></script>
-<script src="/assets/js/patterns/combos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
-
-<link rel="stylesheet" href="/assets/css/kite-patterns.css">
-
-<div id="wind-window">
-    <div id="kite-wrap">
-        <div id="kite"></div>
-    </div>
-    <div id="dude-wrap">
-        <div id="dude"></div>
-    </div>
-</div>
-
-<div id="msg">
-    <h6>combo #7 V Snap V</h6>
-    <ul>
-        <li>-4, continue inv slide right</li>
-    </ul>
-
-    <h6>combo #8 Don Fox Snap Box</h6>
-    <ul>
-        <li>up and +1 to hover</li>
-        <li>right and +1 to hover</li>
-        <li>down and +1 to hover</li>
-        <li>left and +1 to hover</li>
-    </ul>
-
-    <h6>*Numbers are quarter turns. + means clockwise</h6>
-    <h6>All combos can be done with + or - turns</h6>
-</div>
-
 <script>
     gsap.registerPlugin(MotionPathPlugin);
     var k = document.getElementById('kite-wrap');
@@ -66,6 +31,24 @@ permalink: /adofn.html/
         }
     });
 </script>
+
+<div id="msg">
+    <h6>combo #7 V Snap V</h6>
+    <ul>
+        <li>-4, continue inv slide right</li>
+    </ul>
+
+    <h6>combo #8 Don Fox Snap Box</h6>
+    <ul>
+        <li>up and +1 to hover</li>
+        <li>right and +1 to hover</li>
+        <li>down and +1 to hover</li>
+        <li>left and +1 to hover</li>
+    </ul>
+
+    <h6>*Numbers are quarter turns. + means clockwise</h6>
+    <h6>All combos can be done with + or - turns</h6>
+</div>
 
 <div class="button-bank solo">
 <input type="button" value="v-slide-v" onclick="combos(7);" />

@@ -4,42 +4,6 @@ title: club38 patterns
 permalink: /0vwa9.html/
 ---
 
-<script src="/assets/js/patterns/stepper.cls.js"></script>
-<script src="/assets/js/patterns/utils.js"></script>
-<script src="/assets/js/patterns/dan.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
-
-<link rel="stylesheet" href="/assets/css/kite-patterns.css">
-
-<div id="wind-window">
-    <div id="kite-wrap">
-        <div id="kite"></div>
-    </div>
-    <div id="dude-wrap">
-        <div id="dude"></div>
-    </div>
-</div>
-<div id="msg">
-    <ul>
-        <li>launch from 0, centre</li>
-        <li>+6, reverse up</li>
-        <li>-5, slide down</li>
-        <li>-4, low right, +4, reverse</li>
-        <li>slide -3, low right</li>
-        <li>+1 x 5, low left</li>
-        <li>-3, top, +2</li>
-        <li>divestop, -1 x 4, +4</li>
-        <li>slide circle -4</li>
-        <li>slide circle +2, top</li>
-        <li>-2, divestop halfway</li>
-        <li>-4, divestop</li>
-        <li>+7, right tip landing</li>
-    </ul>
-
-    <h6>*Numbers are quarter turns. + means clockwise</h6>
-</div>
-
 <script>
     gsap.registerPlugin(MotionPathPlugin);
     var k = document.getElementById('kite-wrap');
@@ -67,6 +31,26 @@ permalink: /0vwa9.html/
         }
     });
 </script>
+
+<div id="msg">
+    <ul>
+        <li>launch from 0, centre</li>
+        <li>+6, reverse up</li>
+        <li>-5, slide down</li>
+        <li>-4, low right, +4, reverse</li>
+        <li>slide -3, low right</li>
+        <li>+1 x 5, low left</li>
+        <li>-3, top, +2</li>
+        <li>divestop, -1 x 4, +4</li>
+        <li>slide circle -4</li>
+        <li>slide circle +2, top</li>
+        <li>-2, divestop halfway</li>
+        <li>-4, divestop</li>
+        <li>+7, right tip landing</li>
+    </ul>
+
+    <h6>*Numbers are quarter turns. + means clockwise</h6>
+</div>
 
 <div class="button-bank left">
 <input type="button" value="M-11" onclick="M11();" />  

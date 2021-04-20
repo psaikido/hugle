@@ -4,61 +4,6 @@ title: club38 patterns
 permalink: /0hck8.html/
 ---
 
-<script src="/assets/js/patterns/stepper.cls.js"></script>
-<script src="/assets/js/patterns/utils.js"></script>
-<script src="/assets/js/patterns/kyu.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
-
-<link rel="stylesheet" href="/assets/css/kite-patterns.css">
-
-<div id="wind-window">
-    <div id="kite-wrap">
-        <div id="kite"></div>
-    </div>
-    <div id="dude-wrap">
-        <div id="dude"></div>
-    </div>
-
-    <svg viewBox="0 0 800 400">
-        <g>
-            <path id="preDive"
-                d="M232.446 473.007c-1.622-52.354-2.825-104.744-1.993-157.12.314-19.695.247-39.448 2.184-59.055 1.084-10.96 6.608-21.231 14.764-28.582 11.086-9.993 25.43-15.545 39.808-18.747 11.437-2.547 23.189-4.451 34.897-3.78 17.572 1.009 35.422 3.418 51.666 10.448 8.157 3.53 16.397 8.1 21.584 15.53 2.204 3.157 3.656 6.915 3.675 10.797" transform="matrix(1 0 0 .895 36 -141.501)" />
-
-            <path id="ironCrossNW" 
-                d="M266.354 175.484c64.993-.598 105.459-46.95 105.83-119.246" />
-            <path id="ironCrossNE" 
-                d="M477.669 184.484c-64.994-.598-105.459-46.95-105.83-119.246" />
-            <path id="ironCrossSE" 
-                d="M477.669 184.736c-64.994.598-105.459 46.95-105.83 119.246" />
-            <path id="ironCrossSW" 
-                d="M266.344 184.736c64.994.598 105.459 46.95 105.83 119.246" />
-        </g>
-    </svg>
-</div>
-<div id="msg">
-    <ul>
-        <li>launch from +2</li>
-        <li>+3, +1, +1, -6, low right</li>
-        <li>float +2, low left</li>
-        <li>float -2, low centre</li>
-        <li>+1, reverse up to centre</li>
-        <li>-5, mid right</li>
-        <li>-.5, -.5, -.5, -.5, mid left</li>
-        <li>iron cross</li>
-        <ul>
-            <li>slow -1 turn to high centre</li>
-            <li>slow -1 turn to mid right</li>
-            <li>slow -1 turn to low centre</li>
-            <li>slow -1 turn to mid left</li>
-        </ul>
-        <li>+1, top</li>
-        <li>+2, divestop, +4, land inverted</li>
-    </ul>
-
-    <h6>*Numbers are quarter turns. + means clockwise</h6>
-</div>
-
 <script>
     gsap.registerPlugin(MotionPathPlugin);
     var k = document.getElementById('kite-wrap');
@@ -86,6 +31,29 @@ permalink: /0hck8.html/
         }
     });
 </script>
+
+<div id="msg">
+    <ul>
+        <li>launch from +2</li>
+        <li>+3, +1, +1, -6, low right</li>
+        <li>float +2, low left</li>
+        <li>float -2, low centre</li>
+        <li>+1, reverse up to centre</li>
+        <li>-5, mid right</li>
+        <li>-.5, -.5, -.5, -.5, mid left</li>
+        <li>iron cross</li>
+        <ul>
+            <li>slow -1 turn to high centre</li>
+            <li>slow -1 turn to mid right</li>
+            <li>slow -1 turn to low centre</li>
+            <li>slow -1 turn to mid left</li>
+        </ul>
+        <li>+1, top</li>
+        <li>+2, divestop, +4, land inverted</li>
+    </ul>
+
+    <h6>*Numbers are quarter turns. + means clockwise</h6>
+</div>
 
 <div class="button-bank left">
 <input type="button" value="L-6" onclick="L6();" />  
