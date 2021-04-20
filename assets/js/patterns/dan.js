@@ -166,24 +166,32 @@ function M12() {
   reset();
 
   let slideCircle = {
-    path: [
-      {x: 0, y: lowIsh},
-      {x: lfIsh + 80, y: mid},
-      {x: 40, y: hiIsh},
-      {x: rtIsh, y: mid},
-      {x: rtIsh, y: lowIsh},
-    ],
+    path: '#slideCircle',
+    align: '#slideCircle',
+    autoRotate: true,
+    alignOrigin: [0.5, 0.35],
+    start: 0,
+    end: .75,
+    offsetX: 134,
+    offsetY: 27,
+  }
+
+  let preDive = {
+    path: '#preDive',
+    align: '#preDive',
+    autoRotate: 90,
+    alignOrigin: [0.5, 0.35],
     start: 0,
     end: 1,
-    curviness: 1,
+    offsetY: -7,
   }
 
   let s = new Stepper()
     .setStart(k, kImg, 2)
     .launch(lowIsh)
-    .spin(-5)
+    .spin(-5, .5, .7)
     .fly(rtIsh, lowIsh)
-    .spin(6)
+    .spin(6, .5, .8)
     .fly(lfIsh, lowIsh)
     .spin(-3, .5, .5)
     .fly(lfIsh, hiIsh)
@@ -194,8 +202,7 @@ function M12() {
     .innerSpin(1, .9, .1, '<')
     .fly(lfIsh, lowIsh)
     .innerSpin(-3, .5, 1.5)
-    .fly(lfIsh, hiIsh)
-    .fly(centre, hi, 1, 2, 0)
+    .path(preDive, 3)
     .diveStop(mid, .7)
     .spin(-4)
     .diveStop(low, .7)
@@ -209,14 +216,12 @@ function M12() {
     .innerSpin(4, 1.2, .7, '<')
     .fly(lfIsh, hiIsh, 1.5)
     .fly(rtIsh, hiIsh, 1.5)
-    .fly(rtIsh, low, 1.5)
-    .path(slideCircle, 6)
-    .innerSpin(3, 0, 6, '<')
-    .innerSpin(-3, .5, .5)
-    .spin(-2, .5, .3) 
-    .innerSpin(-4, 0, .7, '<')
-    .fly(rtIsh, hiIsh)
-    .fly(rtIsh, hi, .7, 2, 0)
+    .fly(rtIsh, low, 1.5, '-=0.600_ccw')
+    .path(slideCircle, 5)
+    .spin('-180_ccw', .5, .4) 
+    .spin(-6, .5, .8)
+    .fly(230.077, hiIsh)
+    .fly(centre, hi, 1, -2, 0)
     .diveStop(mid, .7)
     .spin(1, .5, .3)
     .spin(1, .5, .3)
@@ -225,7 +230,7 @@ function M12() {
     .spin(-4, .5, .7)
     .diveStop(low, .7)
     .spin(2, .5, .3)
-    .fly(rtIsh, ground)
+    .fly(centre, ground)
 
   doTimeline(s.ptn);
 }
