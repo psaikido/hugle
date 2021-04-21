@@ -128,6 +128,58 @@ class Stepper {
     }
   }
 
+  doTimeline() {
+    let obj, lbl, i;
+
+    for (i = 0; i < this.ptn.length; i++) {
+      //doMessage(ptn[i]);
+
+      obj = this.ptn[i][0];
+      if (this.ptn[i][8] !== undefined) {
+        lbl = this.ptn[i][8];
+        timeline.to(obj, this.makeTweenObj(this.ptn[i]), lbl)
+      } else {
+        timeline.to(obj, this.makeTweenObj(this.ptn[i]))
+      }
+    }
+  }
+
+  makeTweenObj(step) {
+    //a 'step' - obj, x, y, rotation, duration, delay, motionPath, ease, label
+    let twnObj = {};
+
+    if (step[1] !== undefined) {
+      twnObj['x'] = step[1];
+    }
+
+    if (step[2] !== undefined) {
+      twnObj['y'] = step[2];
+    }
+
+    if (step[3] !== undefined) {
+      twnObj['rotation'] = convertRotCode(step[3]);
+    }
+
+    if (step[4] !== undefined) {
+      twnObj['duration'] = step[4];
+    } else {
+      twnObj['duration'] = 1;
+    }
+
+    if (step[5] !== undefined) {
+      twnObj['delay'] = step[5];
+    }
+
+    if (step[6] !== undefined) {
+      twnObj['motionPath'] = step[6];
+    }
+
+    if (step[7] !== undefined) {
+      twnObj['ease'] = step[7];
+    }
+
+    return twnObj;
+  }
   _addStep() {
     let step = [
       this.objCurrent,

@@ -30,7 +30,7 @@ function M9() {
     .spin(-5, .5, 1)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function M10() {
@@ -84,7 +84,7 @@ function M10() {
     .spin(-5, .5, .7)
     .land(1.5, .5)
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function M11() {
@@ -159,7 +159,7 @@ function M11() {
     .spin(7, .5)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function M12() {
@@ -232,7 +232,7 @@ function M12() {
     .spin(2, .5, .3)
     .fly(centre, ground)
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function M13() {
@@ -296,7 +296,7 @@ function M13() {
     .spin(-2, .5, .3)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function m14() {
@@ -381,7 +381,7 @@ function m14() {
     .spin(4, .5, .5)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function M94() {
@@ -405,5 +405,5 @@ function M94() {
     .fly(centre, mid, .1, '-=130_cw', .2)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
