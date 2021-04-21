@@ -30,6 +30,7 @@ class Stepper {
     this.motionPath;
     this.ease;
     this.label;
+    this.rotationCount = 0;
     
     //[obj, x, y, rotation, duration, delay, motionPath, ease, label]
     this.ptn = [];
@@ -155,7 +156,7 @@ class Stepper {
     }
 
     if (step[3] !== undefined) {
-      twnObj['rotation'] = convertRotCode(step[3]);
+      twnObj['rotation'] = this._convertRotCode(step[3]);
     }
 
     if (step[4] !== undefined) {
@@ -178,6 +179,7 @@ class Stepper {
 
     return twnObj;
   }
+
   _addStep() {
     let step = [
       this.objCurrent,
@@ -205,4 +207,52 @@ class Stepper {
     this.ease = undefined;
     this.label = undefined;
   }
+
+  _convertRotCode(code) {
+    let retStr = '';
+
+    // We might have a gsap type of string for fine tuning
+    // but usually it will be a whole number.
+    if (Number.isInteger(code)) {
+      let absVal = Math.abs(code) * 90;
+
+      if (code >= 0) {
+        // clockwise
+        retStr =  '+=' + absVal + '_cw';
+      } else {
+        // anti-clockwise
+        retStr = '-=' + absVal + '_ccw';
+      }
+    } else {
+      retStr = code;
+    }
+
+    this._updateRotationCount(retStr);
+    return retStr;
+  }
+
+  _updateRotationCount(code) {
+    if (Number.isInteger(code)) {
+      if (code >= 0) {
+        this.rotationCount += code;
+      } else {
+        this.rotationCount -= code;
+      }
+    } else {
+      let num = parseInt(code.replace(/[^0-9]/g, ''));
+      num = num / 90; // convert back to quarter turn = 1 style
+      let sign = code.charAt(0);
+
+      if (sign === '+') {
+        this.rotationCount = this.rotationCount + num;
+      } else if (sign === '-') {
+        this.rotationCount = this.rotationCount - num;
+      }
+    }
+
+    if (code != '+=0_cw') {
+      console.log(code, this.rotationCount);
+    }
+  }
+
 }
