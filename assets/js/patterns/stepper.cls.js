@@ -136,14 +136,14 @@ class Stepper {
       obj = this.ptn[i][0];
       if (this.ptn[i][8] !== undefined) {
         lbl = this.ptn[i][8];
-        timeline.to(obj, this.makeTweenObj(this.ptn[i]), lbl)
+        timeline.to(obj, this._makeTweenObj(this.ptn[i]), lbl)
       } else {
-        timeline.to(obj, this.makeTweenObj(this.ptn[i]))
+        timeline.to(obj, this._makeTweenObj(this.ptn[i]))
       }
     }
   }
 
-  makeTweenObj(step) {
+  _makeTweenObj(step) {
     //a 'step' - obj, x, y, rotation, duration, delay, motionPath, ease, label
     let twnObj = {};
 
@@ -193,10 +193,10 @@ class Stepper {
       this.label
     ];
     this.ptn.push(step);
-    this._resetPtn();
+    this._resetVars();
   }
 
-  _resetPtn() {
+  _resetVars() {
     this.objCurrent = this.obj;
     this.x = undefined;
     this.y = undefined;
@@ -254,5 +254,4 @@ class Stepper {
       console.log(code, this.rotationCount);
     }
   }
-
 }
