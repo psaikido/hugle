@@ -4,7 +4,7 @@ layout: bucket
 permalink: /bucket/
 ---
 
-New stuff
+Unpublished stuff
 
 !["Wiltshire path"](/assets/images/faves/WiltshirePath.jpg "Wiltshire path")
 
