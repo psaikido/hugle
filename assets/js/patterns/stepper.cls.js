@@ -132,8 +132,6 @@ class Stepper {
     let obj, lbl, i;
 
     for (i = 0; i < this.ptn.length; i++) {
-      //doMessage(ptn[i]);
-
       obj = this.ptn[i][0];
       if (this.ptn[i][8] !== undefined) {
         lbl = this.ptn[i][8];
