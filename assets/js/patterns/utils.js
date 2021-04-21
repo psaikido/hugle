@@ -68,36 +68,6 @@ function updateRotationCount(code) {
   }
 }
 
-function doMessage(m) {
-  let msg = '';
-
-  if (m[1] !== undefined) {
-    msg += 'x: ' + m[1] + ', ';
-  }
-
-  if (m[2] !== undefined) {
-    msg += 'y: ' + m[2] + ', ';
-  }
-
-  if (m[3] !== undefined) {
-    msg += 'rotation: ' + m[3] + ', ';
-  }
-
-  if (m[4] !== undefined) {
-    msg += 'duration: ' + m[4] + ', ';
-  }
-
-  if (m[5] !== undefined) {
-    msg += 'delay: ' + m[5] + ', ';
-  }
-
-  if (m[6] !== undefined) {
-    msg += 'ease: ' + m[6] + ', ';
-  }
-
-  //console.log(msg);
-}
-
 function showCombos() {
   $('.button-bank.combos').attr('style', 'display: block');
 }
