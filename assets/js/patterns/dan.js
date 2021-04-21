@@ -308,28 +308,25 @@ function m14() {
     alignOrigin: [0.5, 0.35],
     start: 0,
     end: 1,
-    offsetX: 31,
-    offsetY: 27,
+    offsetX: -1,
+    offsetY: 35,
   }
 
   let s = new Stepper()
     .setStart(k, kImg)
     // #3 walk-it-off
-  /*
     .spin('+=30_cw', .3, .5)
     .spin('-=60_ccw', .3, .5)
     .spin('+=60_cw', .3, .5)
     .spin('-=60_ccw', .3, .5)
     .spin('+=60_cw', .3, .5)
     .spin('-=30_ccw', .3, .5)
-  */
     // #4 launch-snaps
     .launch(low, .5)
     .spin(3, .5, .5)
     .fly(lfIsh, low, 0, .5, .7)
     .spin(-7, .5, .8)
     // #8 don-fox-snap-box 
-  /*
     .fly(lfIsh, hiIsh)
     .innerSpin(1, .9, .1, '<')
     .fly(rtIsh, hiIsh)
@@ -338,22 +335,20 @@ function m14() {
     .innerSpin(1, .9, .1, '<')
     .fly(lfIsh, lowIsh)
     .innerSpin(1, .9, .1, '<')
-  */
     // zig zag up
-    .fly(lfIsh, lowIsh)
-    .fly(lfIsh + 100, lowIsh - 100)
-  /*
-    .fly(lfIsh, hiIsh)
-    .fly(centre, hi, 2, 0, .5)
+    .spin('-=315_ccw', .5, .5)
+    .fly(lfIsh + 100, lowIsh - 100, 0, .5, .7)
+    .spin(3, .5, .5)
+    .fly(lfIsh, hiIsh, 0, .5, .7)
+    .spin(-3, .5, .5)
+    .fly(centre, hi, '+=135_cw', .5)
     // #10 shock-circle-snap 
     .diveStop(low)
-    .path(slideCircle, 8)
-    .innerSpin(4, 0, 8, '<')
+    .path(slideCircle, 6)
     .innerSpin(-3, .1, .3)
     // #9 snap-clock-snap
-    .fly(lfIsh, low, 0, .5, .7)
-    .spin(-1, .5, .2)
-    .innerSpin(-5, 0, .6, '<')
+    .fly(lfIsh, low)
+    .spin(-2, .5, .2)
     .fly(centre, low)
     .innerSpin(-4, .5, .5)
     .spin(1, .5, .3)
@@ -373,11 +368,10 @@ function m14() {
     .spin(4, 1.2, .7, '<')
     .spin(2, 0, .5)
     // #1 shock-snap
-    .fly(lfIsh, hiIsh)
-    .fly(centre, hi, 2, 0, .5)
+    .fly(centre, hi, 2, .5)
     .diveStop(low, .8)
     .spin(5, .2, .7)
-    .fly(centre, hi, 0, -5, 3)
+    .fly(centre, hi, 4, -5, 3)
     // #5 shock-clock-snap
     .diveStop(low, .8)
     .spin(-1, .5, .3)
@@ -397,20 +391,157 @@ function M94() {
     .spin(5, .5, 2)
     .fly(lfIsh, low)
     .spin(-9, .5, .8)
-    .fly(lfIsh, hi, .3)
+    .fly(lfIsh, hi, 0, .3)
     .spin(10, .5, .5)
-    .fly(rt, hi, .3, 1)
-    .fly(lf + 40, low, 1.3, -22)
-    .fly(rtIsh, mid, .1, 2)
+    .fly(rt, hi, 0, .3, 1)
+    .fly(lf + 40, low, -22, 1.3)
+    .fly(rtIsh, mid, 0, .1, 2)
     .spin(40)
-    .fly(-500, mid, .1, 2)
-    .fly(centre, hi - 90, .1, '+=130_cw', .2)
-    .fly(lfIsh, hi - 60, .1, '+=130_cw', .2)
-    .fly(centre, ground - 60, .1, '+=130_cw', .2)
-    .fly(rt + 150, lowIsh, .1, '+=130_cw', .2)
-    .fly(centre, mid, .1, '-=130_cw', .2)
+    .fly(-500, mid, 0, .1, 2)
+    .fly(centre, hi - 90, '+=130_cw', .1, .2)
+    .fly(lfIsh, hi - 60, '+=130_cw', .1, .2)
+    .fly(centre, ground - 60, '+=130_cw', .1, .2)
+    .fly(rt + 150, lowIsh, '+=130_cw', .1, .2)
+    .fly(centre, mid, '-=130_cw', .1, .2)
     .land()
-    */
+
+  s.doTimeline();
+}
+
+function dev() {
+  reset();
+
+  let s = new Stepper();
+  s.setStart(k, kImg);
+
+  let slideCircle = {
+    path: '#slideCircle',
+    align: '#slideCircle',
+    autoRotate: true,
+    alignOrigin: [0.5, 0.35],
+    start: 0,
+    end: 1,
+    offsetX: -1,
+    offsetY: 35,
+  }
+
+  // #3 walk-it-off
+  s.spin('+=30_cw', .3, .5);
+  s.spin('-=60_ccw', .3, .5);
+  s.spin('+=60_cw', .3, .5);
+  s.spin('-=60_ccw', .3, .5);
+  s.spin('+=60_cw', .3, .5);
+  s.spin('-=30_ccw', .3, .5);
+  let walk = s.ptn;
+  s.ptn = [];
+
+  // #4 launch-snaps
+  s.launch(low, .5);
+  s.spin(3, .5, .5);
+  s.fly(lfIsh, low, 0, .5, .7);
+  s.spin(-7, .5, .8);
+  let launchSnaps = s.ptn;
+  s.ptn = [];
+
+  // #8 don-fox-snap-box 
+  s.fly(lfIsh, hiIsh);
+  s.innerSpin(1, .9, .1, '<');
+  s.fly(rtIsh, hiIsh);
+  s.innerSpin(1, .9, .1, '<');
+  s.fly(rtIsh, lowIsh);
+  s.innerSpin(1, .9, .1, '<');
+  s.fly(lfIsh, lowIsh);
+  s.innerSpin(1, .9, .1, '<');
+  let snapBox = s.ptn;
+  s.ptn = [];
+
+  // zig zag up
+  s.spin('-=315_ccw', .5, .5);
+  s.fly(lfIsh + 100, lowIsh - 100, 0, .5, .7);
+  s.spin(3, .5, .5);
+  s.fly(lfIsh, hiIsh, 0, .5, .7);
+  s.spin(-3, .5, .5);
+  s.fly(centre, hi, '+=135_cw', .5);
+  let zigZagUp = s.ptn;
+  s.ptn = [];
+
+  // #10 shock-circle-snap 
+  s.diveStop(low);
+  s.path(slideCircle, 6);
+  s.innerSpin(-3, .1, .3);
+  let shockCircleSnap = s.ptn;
+  s.ptn = [];
+
+  // tip turns
+  s.fly(centre, low, -1);
+  s.tipTurn(centre, low, 2, 'right top');
+  s.tipTurn(centre, low, -2, 'left top');
+  let tipTurns = s.ptn;
+  console.log(tipTurns);
+  s.ptn = [];
+
+  // #9 snap-clock-snap
+  s.fly(lfIsh, low);
+  s.spin(-2, .5, .2);
+  s.fly(centre, low);
+  s.innerSpin(-4, .5, .5);
+  s.spin(1, .5, .3);
+  s.spin(1, .5, .3);
+  s.spin(1, .5, .3);
+  s.spin(1, .5, .3);
+  s.spin(-4, .5, .5);
+  s.fly(rtIsh, low);
+  let snapClockSnap = s.ptn;
+  s.ptn = [];
+
+  // #6 go-snap-back-vslide
+  s.spin(4, 0, .5);
+  s.fly(centre, low);
+  s.spin(-3, 0, .5);
+  s.fly(rtIsh, low, 0, 0, 1.5);
+  let goSnapBackV = s.ptn;
+  s.ptn = [];
+
+  // #7 v-slide-v
+  s.spin(4, 0, .7);
+  s.fly(lfIsh, low, 0, 0, 3);
+  s.spin(4, 1.2, .7, '<');
+  s.spin(2, 0, .5);
+  let vSlideV = s.ptn;
+  s.ptn = [];
+
+  // #1 shock-snap
+  s.fly(centre, hi, 6, .5, 5);
+  s.diveStop(low, .8);
+  s.spin(5, .2, .7);
+  let shockSnap = s.ptn;
+  s.ptn = [];
+
+  // #5 shock-clock-snap
+  s.diveStop(low, .8);
+  s.spin(-1, .5, .3);
+  s.spin(-1, .5, .3);
+  s.spin(-1, .5, .3);
+  s.spin(-1, .5, .3);
+  s.spin(4, .5, .5);
+  s.land();
+  let diveStopLand = s.ptn;
+  s.ptn = [];
+
+  let flight = [
+    //...walk,
+    //...launchSnaps,
+    //...snapBox,
+    //...zigZagUp,
+    //...shockCircleSnap,
+    ...tipTurns,
+    //...snapClockSnap,
+    //...goSnapBackV,
+    //...vSlideV,
+    //...shockSnap,
+    //...diveStopLand,
+  ];
+  s.ptn = flight;
 
   s.doTimeline();
 }

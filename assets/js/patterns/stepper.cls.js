@@ -25,14 +25,14 @@ class Stepper {
     this.x;
     this.y;
     this.rotation;
-    this.duration;
     this.delay;
+    this.duration;
     this.motionPath;
     this.ease;
     this.label;
     this.rotationCount = 0;
     
-    //[obj, x, y, rotation, duration, delay, motionPath, ease, label]
+    //[obj, x, y, rotation, delay, duration, motionPath, ease, label]
     this.ptn = [];
   }
 
@@ -40,8 +40,8 @@ class Stepper {
     this.obj = this.objCurrent = o;
     this.objInner = oInner;
     this.rotation = rotation;
-    this.duration = .1;
     this.delay = 0;
+    this.duration = .1;
 
     this._addStep();
     return this;
@@ -160,13 +160,13 @@ class Stepper {
     }
 
     if (step[4] !== undefined) {
-      twnObj['duration'] = step[4];
-    } else {
-      twnObj['duration'] = 1;
+      twnObj['delay'] = step[4];
     }
 
     if (step[5] !== undefined) {
-      twnObj['delay'] = step[5];
+      twnObj['duration'] = step[5];
+    } else {
+      twnObj['duration'] = 1;
     }
 
     if (step[6] !== undefined) {
@@ -186,8 +186,8 @@ class Stepper {
       this.x,
       this.y,
       this.rotation,
-      this.duration,
       this.delay,
+      this.duration,
       this.motionPath,
       this.ease,
       this.label
@@ -201,8 +201,8 @@ class Stepper {
     this.x = undefined;
     this.y = undefined;
     this.rotation = undefined;
-    this.duration = undefined;
     this.delay = undefined;
+    this.duration = undefined;
     this.motionPath = undefined;
     this.ease = undefined;
     this.label = undefined;
