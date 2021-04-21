@@ -45,7 +45,7 @@ function combos(combo) {
     default:
   }
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function combo1() {

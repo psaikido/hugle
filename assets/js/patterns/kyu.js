@@ -13,7 +13,7 @@ function L1() {
     .spin(1)
     .land(2)
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function L2() {
@@ -39,7 +39,7 @@ function L2() {
     .spin(-2, 1)
     .land(1)
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function L3() {
@@ -60,7 +60,7 @@ function L3() {
     .spin(-2)
     .land(2)
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function L4() {
@@ -118,7 +118,7 @@ function L4() {
     .innerSpin(2, .5)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function L5() {
@@ -186,7 +186,7 @@ function L5() {
     .spin(2, .5)
     .land()
     
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function L6() {
@@ -279,7 +279,7 @@ function L6() {
     .spin(4, .5, .5)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function L7() {
@@ -324,7 +324,7 @@ function L7() {
     .innerSpin('-=450_ccw', .5, .8)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }
 
 function L8() {
@@ -446,5 +446,5 @@ function L8() {
     .spin(-2, .5)
     .land()
 
-  doTimeline(s.ptn);
+  s.doTimeline();
 }

@@ -20,58 +20,6 @@ function stopDude() {
   dudeTimeline.pause();
 }
 
-function doTimeline(ptn) {
-  let obj, lbl;
-
-  for (i = 0; i < ptn.length; i++) {
-    //doMessage(ptn[i]);
-
-    obj = ptn[i][0];
-    if (ptn[i][8] !== undefined) {
-      lbl = ptn[i][8];
-      timeline.to(obj, makeTweenObj(ptn[i]), lbl)
-    } else {
-      timeline.to(obj, makeTweenObj(ptn[i]))
-    }
-  }
-}
-
-function makeTweenObj(step) {
-  //a 'step' - obj, x, y, rotation, duration, delay, motionPath, ease, label
-  let twnObj = {};
-
-  if (step[1] !== undefined) {
-    twnObj['x'] = step[1];
-  }
-
-  if (step[2] !== undefined) {
-    twnObj['y'] = step[2];
-  }
-
-  if (step[3] !== undefined) {
-    twnObj['rotation'] = convertRotCode(step[3]);
-  }
-
-  if (step[4] !== undefined) {
-    twnObj['duration'] = step[4];
-  } else {
-    twnObj['duration'] = 1;
-  }
-
-  if (step[5] !== undefined) {
-    twnObj['delay'] = step[5];
-  }
-
-  if (step[6] !== undefined) {
-    twnObj['motionPath'] = step[6];
-  }
-
-  if (step[7] !== undefined) {
-    twnObj['ease'] = step[7];
-  }
-
-  return twnObj;
-}
 
 function convertRotCode(code) {
   let retStr = '';
