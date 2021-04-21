@@ -163,9 +163,9 @@ function combo7() {
     .spin(-1, .5, .3)
     .fly(lfIsh, low)
     .spin(-1, .5, .3)
-    .fly(rtIsh, low, 3)
+    .fly(rtIsh, low, 0, .5, 3)
     .spin(-4, 1.2, .7, '<')
-    .fly(lfIsh, low, 3)
+    .fly(lfIsh, low, 0, .5, 3)
     .spin(4, 1.2, .7, '<')
 
   return s;

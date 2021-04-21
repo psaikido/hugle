@@ -78,20 +78,20 @@ class Stepper {
     return this;
   }
 
-  fly(x, y, duration = 1, rot = 0, delay = .5) {
+  fly(x, y, rot = 0, delay = .5, duration = 1) {
     this.objCurrent = this.obj;
     this.x = x;
     this.y = y;
-    this.duration = duration;
     this.rotation = rot;
     this.delay = delay;
+    this.duration = duration;
 
     this._addStep();
     return this;
   }
 
   land(duration = 1, delay = .5) {
-    this.fly(this.x, ground, duration, 0, delay);
+    this.fly(this.x, ground, 0, delay, duration);
     return this;
   }
 
