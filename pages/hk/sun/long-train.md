@@ -6,6 +6,7 @@ permalink: /sun/long-train.html
 ---
 
 
+<div class="poem">
 man but that train  
 just rolled on forever  
 clanking  
@@ -67,6 +68,7 @@ with gratitude
 that a home  
 could be found  
 anywhere
+</div>
 
 
 !["H does a trick for an Indian boy"](/assets/images/pilg1/pilg84.jpg "H does a trick for an Indian boy")

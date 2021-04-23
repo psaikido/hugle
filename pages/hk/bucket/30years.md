@@ -5,6 +5,7 @@ layout: bucket
 permalink: /bucket/30years.html
 ---
 
+<div class="poem">
 thirty years ago
 
 today
@@ -18,5 +19,6 @@ this old man
 still struggling
 
 to be born
+</div>
 
 ![the fateful stunt](/assets/images/circus/suitcase.jpg "the fateful stunt")

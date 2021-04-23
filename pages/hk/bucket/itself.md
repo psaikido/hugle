@@ -5,6 +5,7 @@ layout: bucket
 permalink: /bucket/itself.html
 ---
 
+<div class="poem">
 John I still miss you  
 but not so much  
 especially now I've remembered  
@@ -17,6 +18,7 @@ in that eternal present
 in silent appreciation  
 of this moment  
 just being itself
+</div>
 
 
 ![John leaving](/assets/images/chan/JohnLeaving.jpg "John leaving for China")

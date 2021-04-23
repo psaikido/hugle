@@ -6,6 +6,7 @@ permalink: /bucket/youth-club.html
 ---
 
 
+<div class="poem">
 we'd not done a show  
 together before  
 me and Dik  
@@ -101,6 +102,7 @@ a wee head
 popped around the corner  
 and called out  
 "we liked you really!"
+</div>
 
 
 !["hands in chains"](/assets/images/bucket/bound-with-chains.jpg "hands in chains")  

@@ -5,6 +5,7 @@ layout: sun
 permalink: /sun/ancestors.html
 ---
 
+<div class="poem">
 practising my juggling  
 one day in Oxford  
 a passing priest  
@@ -45,6 +46,7 @@ came to mean something
 me and the ancestors  
 honouring  
 each other  
+</div>
 
 
 !["5 balls East Oxford Community Centre"](/assets/images/circus/5balls_oxford.jpg "5 balls East Oxford Community Centre")
