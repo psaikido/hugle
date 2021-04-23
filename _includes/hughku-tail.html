@@ -14,58 +14,59 @@
 
                     {% for item in menu %}
                         {% if currentItemFound %}
+                        <div class="next">
                             next -> <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                        </div>
                             {% break %}
                         {% endif %}
 
                         {% if page.url == item.url %}
                             {% assign currentItemFound = true %}
-                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"><img src="/assets/images/fbshare.jpg" height="45" alt="share" title="share" /></a><br />
                         {% endif %}
                     {% endfor %}
                 </div>
             </div>
         </div>
 
-    <script type="text/javascript">
-        $('.poem-menu .toggler.show').click(function () {
-            if ($('.poem-menu ul').is(':visible')) {
-                hide(this);
-            } else {
-                show(this);
+        <script type="text/javascript">
+            $('.poem-menu .toggler.show').click(function () {
+                if ($('.poem-menu ul').is(':visible')) {
+                    hide(this);
+                } else {
+                    show(this);
+                }
+            })
+
+            function hide (elem) {
+                $(elem).html('->');
+
+                $('.poem-menu')
+                    .attr('class', 'poem-menu hide');
+
+                $('.poem-menu').find('ul').hide();
+
+                $('.main-content.subMenu')
+                    .attr('class', 'main-content subMenu hide');
+
+                $(elem)
+                    .attr('class', 'toggler hide');
             }
-        })
 
-        function hide (elem) {
-            $(elem).html('->');
+            function show (elem) {
+                $(elem).html('hide');
 
-            $('.poem-menu')
-                .attr('class', 'poem-menu hide');
+                $('.poem-menu')
+                    .attr('class', 'poem-menu show');
 
-            $('.poem-menu').find('ul').hide();
+                $('.poem-menu').find('ul').show();
 
-            $('.main-content.subMenu')
-                .attr('class', 'main-content subMenu hide');
+                $('.main-content.subMenu')
+                    .attr('class', 'main-content subMenu');
 
-            $(elem)
-                .attr('class', 'toggler hide');
-        }
-
-        function show (elem) {
-            $(elem).html('hide');
-
-            $('.poem-menu')
-                .attr('class', 'poem-menu show');
-
-            $('.poem-menu').find('ul').show();
-
-            $('.main-content.subMenu')
-                .attr('class', 'main-content subMenu');
-
-            $(elem)
-                .attr('class', 'toggler show');
-        }
-    </script>
+                $(elem)
+                    .attr('class', 'toggler show');
+            }
+        </script>
 
         {% include footer.html %}
     </body>
