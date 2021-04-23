@@ -24,11 +24,11 @@
     width: 45px; 
     height: 25px; 
     background-size: 45px 25px;
+    transform-origin: 50% 35%;
 } 
 
 #kite { 
     background-image: url("/assets/images/kite.png");
-    transform-origin: 50% 35%;
     top: 0;
     left: 0;
 }
