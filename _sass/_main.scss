@@ -111,6 +111,39 @@ body {
     h4 {
         border-bottom: 1px solid $border-light;
     }
+
+    h4.poem-title {
+        border-bottom: 1px solid $border-light;
+    }
+
+    .poem-written-date {
+        text-align: right;
+        color: $text-mute;
+    }
+
+    .poem-footer {
+        padding-top: 26px;
+
+        .next {
+            color: $text-mute;
+        }
+    }
+
+    .two-cols {
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+
+        .col-left {
+            width: 50%;
+            float: left;
+        }
+
+        .col-right {
+            width: 46%;
+            float: right;
+        }
+    }
 }
 
 .center-img {
@@ -146,48 +179,17 @@ ul {
 
     padding: 19px 0 0 0;
 
-    h4 {
-        border-bottom: 1px solid $border-light;
-    }
-
     animation-name: reveal;
     animation-duration: 4s;
     animation-iteration-count: 1;
 }
 
 @keyframes reveal {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-.main-content {
-    .poem-written-date {
-        text-align: right;
-        color: $text-mute;
+    0% {
+        opacity: 0;
     }
-
-    .poem-footer {
-        padding-top: 26px;
-
-        .next {
-            color: $text-mute;
-        }
-    }
-
-    .two-cols {
-        float: left;
-        width: 100%;
-        margin-bottom: 30px;
-
-        .col-left {
-            width: 50%;
-            float: left;
-        }
-
-        .col-right {
-            width: 46%;
-            float: right;
-        }
+    100% {
+        opacity: 1;
     }
 }
 
