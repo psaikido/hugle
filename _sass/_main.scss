@@ -149,12 +149,21 @@ ul {
     h4 {
         border-bottom: 1px solid $border-light;
     }
+
+    animation-name: reveal;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes reveal {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .main-content {
     .poem-written-date {
         text-align: right;
-        color: $text-light;
+        color: $text-mute;
     }
 
     .poem-footer {
