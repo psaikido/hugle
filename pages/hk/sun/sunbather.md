@@ -6,6 +6,7 @@ permalink: /sun/sunbather.html
 ---
 
 
+<div class="poem">
 I've always felt  
 colourless  
 skin so very pale  
@@ -37,6 +38,7 @@ it reminded me
 about how we are all  
 preposterous jewels  
 awkward miracles  
+</div>
 
 
 !["skin colours"](/assets/images/pilg1/pilg125.jpg "skin colours")

@@ -5,6 +5,7 @@ layout: bucket
 permalink: /bucket/gotta-die.html
 ---
 
+<div class="poem">
 cancer pneumonia   
 HIV  
 choking on a bun  
@@ -79,3 +80,4 @@ stop
 
 
 (_song lyrics_)
+</div>

@@ -5,6 +5,7 @@ layout: bucket
 permalink: /bucket/tricks.html
 ---
 
+<div class="poem">
 impromptu magic show  
 a large Indian family  
 had reacted with fear  
@@ -63,3 +64,4 @@ their own sorcery
 that they are victims  
 even while  
 they kill
+</div>

@@ -5,6 +5,7 @@ layout: bucket
 permalink: /bucket/beep.html
 ---
 
+<div class="poem">
 the command I typed  
 had a space  
 where it should not have been  
@@ -60,6 +61,7 @@ a heart attack
 clickery tappery  
 is no way  
 to earn a living  
+</div>
 
 
 !["row of monitors"](/assets/images/bucket/monitors.jpg "row of monitors")  

@@ -5,6 +5,8 @@ layout: sun
 permalink: /sun/ladyboy.html
 ---
 
+
+<div class="poem">
 Bangkok ladyboy  
 following us  
 leaving the park  
@@ -66,6 +68,7 @@ wondering
 about the many ways  
 one can prostitute  
 oneself
+</div>
 
 
 !["ladyboy"](/assets/images/bucket/ladyboy.jpg "ladyboy")

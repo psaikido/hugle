@@ -6,6 +6,7 @@ permalink: /sun/leaving.html
 ---
 
 
+<div class="poem">
 heading South  
 in Katie's wonderful bus  
 a 1954 Bedford  
@@ -68,6 +69,7 @@ and you can't tell from looking
 whether you are going  
 to get death threats  
 or bunting
+</div>
 
 
 !["Mr Gasket & Bedford Bus"](/assets/images/circus/mr_gasket.jpg "Mr Gasket & Bedford Bus")

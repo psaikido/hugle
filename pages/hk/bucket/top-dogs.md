@@ -5,6 +5,7 @@ layout: bucket
 permalink: /bucket/top-dogs.html
 ---
 
+<div class="poem">
 the top dogs  
 our CEO from Murca  
 with his consigliere  
@@ -62,6 +63,7 @@ yes they get the lion's share
 but  
 the dog-eat-dog mind  
 belongs to the animals  
+</div>
 
 !["dog and bone"](/assets/images/bucket/dog-and-bone.jpg "dog and bone")  
 [credit](https://rocksolidk9.wordpress.com/)

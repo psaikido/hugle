@@ -5,7 +5,7 @@ layout: bucket
 permalink: /bucket/big-wig.html
 ---
 
-
+<div class="poem">
 the big wig explained  
 just how very big  
 his bigness really was  
@@ -72,6 +72,7 @@ what is it
 to pretend to rule the world  
 and be  
 friendless?  
+</div>
 
 
 !["Darth Vader"](/assets/images/bucket/darth-vader.jpg "Darth Vader")  

@@ -6,6 +6,7 @@ permalink: /sun/spectre.html
 ---
 
 
+<div class="poem">
 I startled awake  
 didn't recognise the room  
 where was I?
@@ -58,3 +59,4 @@ well
 
 
 real
+</div>

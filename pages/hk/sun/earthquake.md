@@ -5,6 +5,7 @@ layout: sun
 permalink: /sun/earthquake.html
 ---
 
+<div class="poem">
 [Ontul Rinpoche](https://www.facebook.com/ontul)'s answer  
 had made me laugh  
 "what is your essential practice?"  
@@ -52,6 +53,7 @@ and loving the camaraderie
 of accepting  
 our imminent  
 demise
+</div>
 
 !["Tsopema"](/assets/images/pilg1/pilg54.jpg "Nuns at Tsopema")
 [what3words](https://what3words.com/sentry.jauntily.dean)  

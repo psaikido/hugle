@@ -6,6 +6,7 @@ permalink: /bucket/solstice.html
 ---
 
 
+<div class="poem">
 a Glastonbury solstice  
 near dawn  
 a young guy  
@@ -79,6 +80,7 @@ blazing
 sputtering forth  
 towards the setting  
 of that sun
+</div>
 
 
 !["dawn approaching"](/assets/images/bucket/dawn-approaching.jpg "dawn approaching")  
