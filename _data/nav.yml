@@ -5,9 +5,6 @@ menu:
     - title: home
       url: /
 
-    - title: shop
-      url: /shop/
-
     - title: "hughku:"
       sub: 
         - title: Yarn
@@ -71,6 +68,8 @@ menu:
         - title: links
           url: /links/
 
+    - title: shop
+      url: /shop/
 
     - title: sitemap
       url: /pages/sitemap.html
