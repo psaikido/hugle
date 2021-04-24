@@ -13,3 +13,4 @@ permalink: /links/
 - [Guitar](http://guitar.hugle.co.uk)
 - [Code](https://bitbucket.org/psaikido)
 - [Chan](https://westernchanfellowship.org)
+- [kite patterns](https://club38.carrollonline.uk/pattern-index.html)
