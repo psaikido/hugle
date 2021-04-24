@@ -3,14 +3,16 @@
     {% include head.html %}
     <body>
 
-        <div class="wrap">
-            <div class="header">{{ page.title }}</div>
+        <div class="body-border">
+            <div class="wrap">
+                <div class="header">{{ page.title }}</div>
 
-            {% include navs/main.html %}
-            {% include search.html %}
+                {% include navs/main.html %}
+                {% include search.html %}
 
-            <div class="main-content">
-                {{ content }}
+                <div class="main-content">
+                    {{ content }}
+                </div>
             </div>
         </div>
 
