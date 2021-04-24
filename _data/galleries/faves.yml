@@ -4,51 +4,155 @@ imageFolder: assets/images/faves/
 
 images:
     - img: 5balls_oxford.jpg
+      text: East Oxford Community Centre, 1987ish
+
     - img: 70sCarrollsHilliards.jpg
+      text: The Hilliards visit the Carrolls, mid 70s
+
     - img: 7yearsold.jpg
-    - img: anandaCaveMala.jpg
-    - img: blueWallLamps.jpg
-    - img: Chess.jpg
-    - img: chinaHatTrick.jpeg
-    - img: cricket_team.jpg
-    - img: deadPhones.jpg
-    - img: family-xmas2012.jpg
-    - img: firebreathingwithrichie.jpg
-    - img: FireWallet.jpg
-    - img: giantsGrave.jpg
-    - img: h_backright_holyfamily70.jpg
-    - img: h_losthorizon_baggypoint86.jpg
-    - img: h_naranjodebulnes89.jpg
-    - img: h_Wendy_Greg.jpg
+      text: School portrait at 7 years old
+
     - img: hcTieBurn1980.jpeg
-    - img: HeartSutraGift.jpg
-    - img: hGuitar.jpg
-    - img: HolyIslandMani.jpg
-    - img: hughie_mani.jpg
-    - img: HughieMam2008.jpg
-    - img: HughieTimDamianMargaretJemMatt_Cornwall08.jpg
-    - img: ilkleyartshow.jpg
+      text: Burning my tie on the last day of school, 1980
+
+    - img: anandaCaveMala.jpg
+      text: Ananda's cave at Rajgir, Vulture's Peak
+
+    - img: blueWallLamps.jpg
+      text: Portishead, 2015ish
+
+    - img: Chess.jpg
+      text: Wedding party magic gig, chess break, 2012ish
+
+    - img: chinaHatTrick.jpeg
+      text: Hat, foot to head trick, China, 2008
+
+    - img: cricket_team.jpg
+      text: Naked cricket team shot at Chris' wedding reception
+
     - img: john1.jpg
-    - img: JohnCrook_Hughie_2009.jpg
-    - img: JohnCrookChanHall.jpg
-    - img: JohnSeniorMaenllwyd2012.jpg
-    - img: JoshRosieMargaretJaquelineHughieDamo_NoreLighthouse2012.jpg
-    - img: losrubios_h&d_pembroke98.jpg
-    - img: MaenllwydFrostyMorning.jpg
-    - img: MaenllwydManiStone.jpg
-    - img: Margaret_Colm_ReedvilleGrove.jpg
-    - img: MargaretHughColmWallaseyHospitalWhereHWasBorn.jpg
-    - img: modelmayhem.jpg
-    - img: PaulDaniels_Hughie_2013.jpg
-    - img: peewee_hughie_firetower.jpg
-    - img: portisheadDryBoat.jpg
-    - img: Promo1984.jpg
-    - img: SamAndPaulWeddingHughie.jpg
-    - img: shifu_retreat2000.jpg
-    - img: SophieJohnHughiePete2012.jpg
+      text: John Crook. We are about to set off for Holy Island, 2007
+
+    - img: deadPhones.jpg
+      text: Holy Island, 2007
+
     - img: taraStone.jpg
+      text: The Tara stone made for Sophie, Gear Mill, 2007. Om tare tutarre ture svaha
+
+    - img: HolyIslandMani.jpg
+      text: Holy Island mani stone I carved
+
+    - img: hughie_mani.jpg
+      text: Just finished mani stone for the Maenllwyd, 2007
+
+    - img: MaenllwydManiStone.jpg
+      text: Maenllwyd mani in situ, 2007
+
+    - img: family-xmas2012.jpg
+      text: Family Christmas 2012
+
+    - img: firebreathingwithrichie.jpg
+      text: Firebreathing with Richie
+
+    - img: FireWallet.jpg
+      text: Firewallet trick at magic gig, Eastcott, 2012
+
+    - img: giantsGrave.jpg
+      text: Giant's Grave, 2006
+
+    - img: h_backright_holyfamily70.jpg
+      text: Holy Family, Hughie back row right, 1970
+
+    - img: h_losthorizon_baggypoint86.jpg
+      text: H on Lost Horizon, 1986
+
+    - img: h_naranjodebulnes89.jpg
+      text: Summit of El Naranjo de Bulnes, 1989
+
+    - img: losrubios_h&d_pembroke98.jpg
+      text: Los Rubios first ascent, H & Damo, Pembroke, 1998
+
+    - img: h_Wendy_Greg.jpg
+      text: With Wen & Greg, Leeds, 2009
+
+    - img: HeartSutraGift.jpg
+      text: Bing Nan Li giving me his Heart Sutra scroll, Ashmolean, 2014
+      url: /yarn/scroll/html
+      urlText: Scroll
+
+    - img: hGuitar.jpg
+      text: Self portrait with guitar, 2006
+
+    - img: HughieMam2008.jpg
+      text: Me & mam, hols, 2008
+
+    - img: HughieTimDamianMargaretJemMatt_Cornwall08.jpg
+      text: H, Tim, Damian, Mam, Jem, Matt, Cornwall, 2008
+
+    - img: ilkleyartshow.jpg
+      text: End of course art show, Ilkley, 1985. Bruises and blood stains still visible from the 'glassed' incident
+      url: /yarn/glassed.html
+      urlText: glassed
+
+    - img: Promo1984.jpg
+      text: Inevitable Split promo shot, 1984
+
+    - img: JohnCrook_Hughie_2009.jpg
+      text: John Crook & me on my 45th birthday, 2009. Rainbow!
+
+    - img: JohnCrookChanHall.jpg
+      text: John Crook in full flow at the Maenllwyd Chan Hall, 2007
+
+    - img: JohnSeniorMaenllwyd2012.jpg
+      text: John Senior burning the leaves, Maenllwyd, 2012
+
+    - img: JoshRosieMargaretJaquelineHughieDamo_NoreLighthouse2012.jpg
+      text: Josh, Rosie, Margaret, Jaqui, Hughie, Damo, Nore Lighthouse, 2012
+
+    - img: MaenllwydFrostyMorning.jpg
+      text: Frosty morning at the Maenllwyd
+
+    - img: damian_and_matt.jpg
+      text: Damian & Matt, Reedville Grove, 1960ish
+      
+    - img: Margaret_Colm_ReedvilleGrove.jpg
+      text: Margaret & Colm recreating dad's shot, 2006
+
+    - img: MargaretHughColmWallaseyHospitalWhereHWasBorn.jpg
+      text: Margaret, Hughie, Colm at the Wallasey hospital where H was born, 2006
+
+    - img: modelmayhem.jpg
+      text: The models proving that they were models, Stefano's party, snowed in, just after mantrasphere was released, 2010
+
+    - img: PaulDaniels_Hughie_2013.jpg
+      text: With Paul Daniels on his training day, Wargrave, 2013
+
+    - img: peewee_hughie_firetower.jpg
+      text: Peewee & H, 1988ish
+
+    - img: portisheadDryBoat.jpg
+      text: Dry dock boat, Portishead, 2006
+
+    - img: SamAndPaulWeddingHughie.jpg
+      text: At a wedding reception, 2016
+
+    - img: shifu_retreat2000.jpg
+      text: Master Sheng-yen Gaia House retreat, 2000. H to the right of John.
+
+    - img: SophieJohnHughiePete2012.jpg
+      text: Sophie, John, H & Pete posing where John was going to build a Chan Hall. Winterhead, 2012
+
     - img: theGangMinusAbi_2012xmas.jpg
+      text: Family Christmas, Portishead beach, 2012.
+
     - img: weedplants.jpg
+      text: The Weedplants, 1988
+
     - img: WiltshirePath.jpg
+      text: Fyfield Down, 2006
+
     - img: H-J-LansdownRoad.jpg
+      text: H & Jem, Landsown Road, Swindon, 1999
+
     - img: sr_p_rog_pt_m.jpg
+      text: Sarah, Peewee, Roger, Pete, Emma, Barbury Castle, 1999

@@ -16,22 +16,31 @@
 
                     {% for image in site.data.galleries[page.dataFile].images %}
 
-                        {% if image.url %}
-                            <a href="{{ image.url }}">{{ image.urlText }}</a>
-                            <br />
-                        {% endif %}
-
                         {% capture src %}
                             /{{ site.data.galleries[page.dataFile].imageFolder }}{{ image.img }}
                         {% endcapture %}
+
+
+                        {% if image.name %}
+                            <h6>{{ image.name }}</h6>
+                        {% endif %}
+
 
                         <img src="{{ src }}"
                             alt="{{ image.name }}" 
                             class="center-img" />
 
                         <br />
-                        {{ image.text }}
-                        <br />
+
+                        {% if image.text %}
+                            {{ image.text }}
+                            <br />
+                        {% endif %}
+
+                        {% if image.url %}
+                            <a href="{{ image.url }}">{{ image.urlText }}</a>
+                            <br />
+                        {% endif %}
 
                         <hr />
 
