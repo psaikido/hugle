@@ -3,17 +3,19 @@
     {% include head.html %}
     <body>
 
-        <div class="wrap">
-            <div class="header">{{ page.title }}</div>
+        <div class="body-border">
+            <div class="wrap">
+                <div class="header">{{ page.title }}</div>
 
-            {% include navs/main.html %}
-            {% include search.html %}
+                {% include navs/main.html %}
+                {% include search.html %}
 
-            <script src="/assets/js/random-hughku.js"></script>
+                <script src="/assets/js/random-hughku.js"></script>
 
 
-            <div class="main-content home">
-                {{ content }}
+                <div class="main-content home">
+                    {{ content }}
+                </div>
             </div>
         </div>
 

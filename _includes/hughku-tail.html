@@ -1,29 +1,30 @@
             {% include search.html %}
 
-            <div class="main-content subMenu">
-                <h4 class="poem-title">{{ page.title }}</h4>
+                <div class="main-content subMenu">
+                    <h4 class="poem-title">{{ page.title }}</h4>
 
-                {{ content }}
+                    {{ content }}
 
-                <div class="poem-footer"> 
-                    {% if page.written %}
-                        <div class="poem-written-date">
-                            HC: {{ page.written }}
-                        </div>
-                    {% endif %}
-
-                    {% for item in menu %}
-                        {% if currentItemFound %}
-                        <div class="next">
-                            next -> <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
-                        </div>
-                            {% break %}
+                    <div class="poem-footer"> 
+                        {% if page.written %}
+                            <div class="poem-written-date">
+                                HC: {{ page.written }}
+                            </div>
                         {% endif %}
 
-                        {% if page.url == item.url %}
-                            {% assign currentItemFound = true %}
-                        {% endif %}
-                    {% endfor %}
+                        {% for item in menu %}
+                            {% if currentItemFound %}
+                            <div class="next">
+                                next -> <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                            </div>
+                                {% break %}
+                            {% endif %}
+
+                            {% if page.url == item.url %}
+                                {% assign currentItemFound = true %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
