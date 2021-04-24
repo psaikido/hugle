@@ -4,39 +4,41 @@
 
     <body>
 
-        <div class="wrap">
-            <div class="header">{{ page.title }}</div>
+        <div class="body-border">
+            <div class="wrap">
+                <div class="header">{{ page.title }}</div>
 
-            {% include navs/main.html %}
-            {% include search.html %}
+                {% include navs/main.html %}
+                {% include search.html %}
 
-            <div class="main-content">
-                <h5>{{ site.data.galleries[page.dataFile].description }}</h5>
+                <div class="main-content">
+                    <h5>{{ site.data.galleries[page.dataFile].description }}</h5>
 
-                {% for image in site.data.galleries[page.dataFile].images %}
+                    {% for image in site.data.galleries[page.dataFile].images %}
 
-                    {% if image.url %}
-                        <a href="{{ image.url }}">{{ image.urlText }}</a>
+                        {% if image.url %}
+                            <a href="{{ image.url }}">{{ image.urlText }}</a>
+                            <br />
+                        {% endif %}
+
+                        {% capture src %}
+                            /{{ site.data.galleries[page.dataFile].imageFolder }}{{ image.img }}
+                        {% endcapture %}
+
+                        <img src="{{ src }}"
+                            alt="{{ image.name }}" 
+                            class="center-img" />
+
                         <br />
-                    {% endif %}
+                        {{ image.text }}
+                        <br />
 
-                    {% capture src %}
-                        /{{ site.data.galleries[page.dataFile].imageFolder }}{{ image.img }}
-                    {% endcapture %}
+                        <hr />
 
-                    <img src="{{ src }}"
-                        alt="{{ image.name }}" 
-                        class="center-img" />
-
-                    <br />
-                    {{ image.text }}
-                    <br />
-
-                    <hr />
-
-                {% endfor %}
+                    {% endfor %}
 
 
+                </div>
             </div>
         </div>
 
