@@ -62,9 +62,6 @@ menu:
 
     - title: "stuff:"
       sub:
-        - title: vids
-          url: /vids/
-
         - title: portfolio
           url: /pages/pix/portfolio.html
 
