@@ -1,5 +1,4 @@
 name: bio
-description: bio pix
 imageFolder: assets/images/bio/
 
 images:
@@ -7,22 +6,21 @@ images:
   img: hughie_april26_1964.jpg
   text: 1964 - born premature - this is an incubator
 
-- name: happy rock
+- name: family
   img: happyRock64.jpg
   text: Tim, Jem, Matt, Margaret, Hughie, Damian, Colmcille
 
-- name: Jungian archetypes workshop had us discover 5 aspects of personality
+- name: Jungian archetypes workshop had us discover 5 aspects of personality<br />#1 lover
   img: gasket_balloon_mime.jpg
-  text: "#1 lover"
 
-- img: h_dobra.jpg
-  text: "#2 warrior"
+- name: "#2 warrior"
+  img: h_dobra.jpg
 
-- img: FireWallet.jpg
-  text: "#3 magician"
+- name: "#3 magician"
+  img: FireWallet.jpg
 
-- img: Chess.jpg
-  text: "#4 predator"
+- name: "#4 predator"
+  img: Chess.jpg
 
-- img: h_naranjodebulnes89.jpg
-  text: "#5 king"
+- name: "#5 king"
+  img: h_naranjodebulnes89.jpg
