@@ -12,31 +12,36 @@
         background-color: $dark-grey;
         color: $hilight;
         padding: 8px;
+        margin-top: 10px;
 
-        .nav-item {
+        .btn {
+            background-color: inherit;
+            border-color: $dark-grey;
+        }
+
+        .btn-primary {
             line-height: 30px;
             text-align: left;
             width: 100%;
+            color: $hilight;
+            border-color: $dark-grey;
+        }
 
-            &.parent {
-                ul {
-                    display: none;
+        .show > .btn-primary.dropdown-toggle:focus,
+        .btn-primary:focus,
+        .btn:focus {
+            box-shadow: none!important;
+            background-color: inherit;
+            border-color: $dark-grey;
+            transition: none;
+        }
 
-                    .nav-item:hover {
-                       color: $hilight; 
-                    }
-                }
-            }
+        .dropdown-menu {
+            background-color: inherit;
+            margin-left: 30px;
 
-            &.parent:hover {
-                ul {
-                    display: block;
-                }
-            }
-
-            a {
-                display: inline-block;
-                width: 100%;
+            &.show {
+                margin-top: -10px;
             }
         }
     }
