@@ -11,22 +11,18 @@ images:
   img: happyRock64.jpg
   text: Tim, Jem, Matt, Margaret, Hughie, Damian, Colmcille
 
-- name: lover
+- name: Jungian archetypes workshop had us discover 5 aspects of personality
   img: gasket_balloon_mime.jpg
-  text: lover 
+  text: "#1 lover"
 
-- name: warrior
-  img: h_dobra.jpg
-  text: warrior 
+- img: h_dobra.jpg
+  text: "#2 warrior"
 
-- name: magician
-  img: FireWallet.jpg
-  text: magician 
+- img: FireWallet.jpg
+  text: "#3 magician"
 
-- name: predator
-  img: Chess.jpg
-  text: predator 
+- img: Chess.jpg
+  text: "#4 predator"
 
-- name: king
-  img: h_naranjodebulnes89.jpg
-  text: king 
+- img: h_naranjodebulnes89.jpg
+  text: "#5 king"
