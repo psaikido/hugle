@@ -1,0 +1,23 @@
+.stripe-wrap {
+    position: relative;
+    height: 70%;
+    width: 100%;
+}
+
+.stripe {
+    float: left;
+    height: 100%;
+    width: 3px;
+
+    &.first {
+        background-image: linear-gradient($blue, $pink);
+    }
+
+    &.second {
+        background-image: linear-gradient($dark-grey, $white);
+    }
+
+    &.third {
+        background-image: linear-gradient($yellow, $green);
+    }
+}
