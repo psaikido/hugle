@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+
+        <link rel="stylesheet" href="/assets/css/stripytoy.css">
+
+        <div class="body-border">
+            <div class="wrap">
+                <div class="stripe-wrap">
+                    {% for i in (1..250) %}
+                        {% assign mod = i | modulo: 3 %}
+
+                        {% if mod  == 0 %}
+                            <div class="stripe first ind_{{ i }}">&nbsp;</div>
+                        {% endif %}
+
+                        {% if mod  == 1 %}
+                            <div class="stripe second ind_{{ i }}">&nbsp;</div>
+                        {% endif %}
+
+                        {% if mod  == 2 %}
+                            <div class="stripe third ind_{{ i }}">&nbsp;</div>
+                        {% endif %}
+
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

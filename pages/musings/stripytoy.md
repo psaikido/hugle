@@ -1,0 +1,6 @@
+---
+layout: stripytoy
+title: stripytoy 
+---
+
+
