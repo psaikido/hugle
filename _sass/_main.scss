@@ -220,13 +220,16 @@ body {
     max-height: auto;
 }
 
+a,
 a:link,
 a:visited {
-	color: $text-link;
+	color: $text-mute;
+    text-decoration: underline;
 }
+
 a:hover {
     color: $hilight;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 ul {
