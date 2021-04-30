@@ -10,13 +10,10 @@ $pink: #ff36a3;
 
 $bkg: $dark-grey;
 $hilight: #c98f2a;
+$hilight-dark: $black;
 $text-light: #cdc8c8;
 $text-dark: $black;
 $text-mute: #7d7878;
 $text-link: #ada8a8;
 $border-light: #586e75;
-$border-dark: $pink;
-
-h1, h2, h3, h4, h5, h6 {
-    color: $hilight;
-}
+$border-dark: $dark-grey;

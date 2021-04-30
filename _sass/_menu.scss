@@ -1,3 +1,27 @@
+html {
+    .navbar-nav, 
+    .btn-primary,
+    .dropdown-menu {
+        background-color: $dark-grey;
+        color: $hilight;
+        border: 1px solid $border-light;
+    }
+
+    &.light {
+        .navbar-nav {
+            background-color: $light-grey;
+            color: $text-dark;
+        }
+
+        .navbar-nav, 
+        .btn-primary,
+        .dropdown-menu {
+            border: none;
+            color: $hilight-dark;
+        }
+    }
+}
+
 .navbar {
     position: fixed;
     top: 9px;
@@ -7,10 +31,7 @@
 
     .navbar-nav {
         border-radius: .25rem;
-        border: 1px solid $border-light;
         width: 305px;
-        background-color: $dark-grey;
-        color: $hilight;
         padding: 8px;
         margin-top: 10px;
 
@@ -23,8 +44,6 @@
             line-height: 30px;
             text-align: left;
             width: 100%;
-            color: $hilight;
-            border-color: $dark-grey;
         }
 
         .show > .btn-primary.dropdown-toggle:focus,
