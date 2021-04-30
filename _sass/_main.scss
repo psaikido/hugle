@@ -4,11 +4,25 @@ html {
     .body-inner {
         color: $text-light;
         background-color: $dark-grey;
+
+        .header,
+        h1, h2, h3, h4, h5, h6 {
+            color: $hilight;
+        }
     }
 
     #search-term {
         color: $text-light;
         background-color: $dark-grey;
+    }
+
+    .home-text-box,
+    .random-hughku {
+        color: $text-light;
+
+        a {
+            color: $hilight;
+        }
     }
 
     &.light {
@@ -17,9 +31,23 @@ html {
             color: $text-dark;
         }
 
+        .header,
+        h1, h2, h3, h4, h5, h6 {
+            color: $hilight-dark;
+        }
+
         #search-term {
             color: $text-dark;
             background-color: $light-grey;
+        }
+
+        .home-text-box,
+        .random-hughku {
+            color: $white;
+
+            a {
+                color: $white;
+            }
         }
     }
 }
@@ -124,11 +152,6 @@ body {
         padding: 30px;
         background-color: $bkg;
         opacity: .8;
-        color: $text-light;
-
-        a {
-            color: $hilight;
-        }
 
         td {
             text-align: left;
