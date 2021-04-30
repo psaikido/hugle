@@ -1,7 +1,57 @@
 <div class="footer">
     <span class="footer-text">
+        this site uses cookies
         <a href="https://www.facebook.com/hughkupoems"><img src="/assets/images/facebook-icon-960x1024.jpg" height="15" /></a> 
         &copy; 2021 - hughie (at) carrollonline.co.uk
     </span>
 </div>
 
+
+<script>
+    if (getCookie("theme") == "light"){
+        $('html').addClass("light");
+        toggleMenu('light');
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+
+        for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+
+            while (c.charAt(0)==' ') {
+                c = c.substring(1);
+            }
+
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length,c.length);
+            }
+        }
+
+        return "";
+    }
+
+    function toggleMenu(state) {
+        if (state === 'light') {
+            $('nav').addClass("navbar-light");
+            $('nav').removeClass("navbar-dark");
+        } else {
+            $('nav').addClass("navbar-dark");
+            $('nav').removeClass("navbar-light");
+        }
+    }
+
+    $(".theme-toggle").click(function(e){
+        e.preventDefault();
+        $('html').toggleClass("light");
+
+        if ($('html').hasClass("light")){
+            document.cookie = "theme=light;path=/";
+            toggleMenu('light');
+        } else {
+            document.cookie = "theme=dark;path=/";
+            toggleMenu('dark');
+        }
+    })
+</script>
