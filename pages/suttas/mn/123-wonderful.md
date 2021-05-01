@@ -9,4 +9,5 @@ title: "MN 123 Wonderful and Marvellous: Acchariy'abbhutadhamma"
 --  
 This great light appears when a Buddha is born, gets enlightened, starts teaching and dies. I find it so moving that the beings in outer darkness can see by it enough to realise that they are not in fact alone and thus start their journey back upwards. 
 
-[Full text](https://www.dhammatalks.org/suttas/MN/MN123.html)
+[Full text](https://www.dhammatalks.org/suttas/MN/MN123.html)  
+[Great Light - Mantrasphere](https://mantrasphere.co.uk/pages/songs/great-light.html)
