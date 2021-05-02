@@ -8,7 +8,7 @@ permalink: /bucket/reilly.html
 <div class="poem">
 on a slow afternoon in the Beehive  
 I was working behind the bar  
-and this red-faced woman  
+when this red-faced woman  
 came storming in  
 
 
@@ -20,10 +20,10 @@ outrageously rude to me!"
 
 
 "Of course Madam  
-please follow me"
+please follow me"  
+so off we went to the back
 
 
-so off we went to the back  
 I knocked on Noel's door  
 "What is it?"  
 he called from upstairs  
@@ -35,7 +35,8 @@ bump bump bump
 he came stomping down the stairs  
 "I'll not be having  
 my neighbours insulted"  
-he says as he opens the door
+he says  
+as he opens the door
 
 
 "THAT'S HIM!"  
@@ -43,7 +44,7 @@ she shouts
 and points right at him  
 as Noel does a quick 180  
 and disappears  
-back upstairs
+scuttling back upstairs
 </div>
 
 ![Noel Reilly](/assets/images/bucket/noel-reilly.jpg "Noel Reilly")
