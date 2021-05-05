@@ -3,30 +3,162 @@
     {% include head.html %}
     <body>
 
+        <script src="/assets/js/jquery.wheelcolorpicker.min.js"></script>
         <link rel="stylesheet" href="/assets/css/stripytoy.css">
+        <link rel="stylesheet" href="/assets/css/wheelcolorpicker.css">
 
         <div class="body-inner">
             <div class="wrap">
                 <div class="stripe-wrap">
-                    {% for i in (1..250) %}
-                        {% assign mod = i | modulo: 3 %}
+                    <div class="controls">
+                        <div class="clr-first">
+                            <input class="clr-changer" id="clr-first-1" type="text" data-wheelcolorpicker size="6" />
+                            <div class="control-stripe-first"></div>
+                            <input class="clr-changer" id="clr-first-2" type="text" data-wheelcolorpicker size="6" />
+                        </div>
 
-                        {% if mod  == 0 %}
-                            <div class="stripe first ind_{{ i }}">&nbsp;</div>
-                        {% endif %}
+                        <div class="clr-second">
+                            <input class="clr-changer" id="clr-second-1" type="text" data-wheelcolorpicker size="6" />
+                            <div class="control-stripe-second"></div>
+                            <input class="clr-changer" id="clr-second-2" type="text" data-wheelcolorpicker size="6" />
+                        </div>
 
-                        {% if mod  == 1 %}
-                            <div class="stripe second ind_{{ i }}">&nbsp;</div>
-                        {% endif %}
+                        <div class="clr-third">
+                            <input class="clr-changer" id="clr-third-1" type="text" data-wheelcolorpicker size="6" />
+                            <div class="control-stripe-third"></div>
+                            <input class="clr-changer" id="clr-third-2" type="text" data-wheelcolorpicker size="6" />
+                        </div>
 
-                        {% if mod  == 2 %}
-                            <div class="stripe third ind_{{ i }}">&nbsp;</div>
-                        {% endif %}
+                        <div class="presets">
+                            presets<br />
+                            <input class="" type="button" value="one" onclick="presets(1);" />
+                            <input class="" type="button" value="two" onclick="presets(2);" />
+                            <input class="" type="button" value="three" onclick="presets(3);" />
+                        </div>
+                    </div>
 
-                    {% endfor %}
+                    <div class="display">
+                        {% for i in (3..202) %}
+                            {% assign mod = i | modulo: 3 %}
+
+                            {% if mod  == 0 %}
+                                <div class="stripe first ind_{{ i }}">&nbsp;</div>
+                            {% endif %}
+
+                            {% if mod  == 1 %}
+                                <div class="stripe second ind_{{ i }}">&nbsp;</div>
+                            {% endif %}
+
+                            {% if mod  == 2 %}
+                                <div class="stripe third ind_{{ i }}">&nbsp;</div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
+
+        <script>
+            $(document).ready(function() {
+                presets(1);
+            });
+
+            function init() {
+                let clrFirst1 = $('#clr-first-1').css('background-color');
+                $('#clr-first-1').wheelColorPicker('setValue', rgbToHex(clrFirst1));
+                $('#clr-first-1').on('colorchange', boing);
+
+                let clrFirst2 = $('#clr-first-2').css('background-color');
+                $('#clr-first-2').wheelColorPicker('setValue', rgbToHex(clrFirst2));
+                $('#clr-first-2').on('colorchange', boing);
+
+                let clrSecond1 = $('#clr-second-1').css('background-color');
+                $('#clr-second-1').wheelColorPicker('setValue', rgbToHex(clrSecond1));
+                $('#clr-second-1').on('colorchange', boing);
+
+                let clrSecond2 = $('#clr-second-2').css('background-color');
+                $('#clr-second-2').wheelColorPicker('setValue', rgbToHex(clrSecond2));
+                $('#clr-second-2').on('colorchange', boing);
+
+                let clrThird1 = $('#clr-third-1').css('background-color');
+                $('#clr-third-1').wheelColorPicker('setValue', rgbToHex(clrThird1));
+                $('#clr-third-1').on('colorchange', boing);
+
+                let clrThird2 = $('#clr-third-2').css('background-color');
+                $('#clr-third-2').wheelColorPicker('setValue', rgbToHex(clrThird2));
+                $('#clr-third-2').on('colorchange', boing);
+            }
+
+            function boing() {
+                let gradientString = '';
+
+                let clrFirst1 = $('#clr-first-1').val();
+                let clrFirst2 = $('#clr-first-2').val();
+                gradientString = "linear-gradient(#" + clrFirst1 + ", #" + clrFirst2 + ")";
+                console.log(gradientString);
+                $('.control-stripe-first').css('background-image', gradientString);
+                $('.stripe.first').css('background-image', gradientString);
+
+                let clrSecond1 = $('#clr-second-1').val();
+                let clrSecond2 = $('#clr-second-2').val();
+                gradientString = "linear-gradient(#" + clrSecond1 + ", #" + clrSecond2 + ")";
+                $('.control-stripe-second').css('background-image', gradientString);
+                $('.stripe.second').css('background-image', gradientString);
+
+                let clrThird1 = $('#clr-third-1').val();
+                let clrThird2 = $('#clr-third-2').val();
+                gradientString = "linear-gradient(#" + clrThird1 + ", #" + clrThird2 + ")";
+                $('.control-stripe-third').css('background-image', gradientString);
+                $('.stripe.third').css('background-image', gradientString);
+            }
+
+            function rgbToHex(rgb) {
+                let rgbvals = /rgb\((.+),(.+),(.+)\)/i.exec(rgb);
+                let rval = parseInt(rgbvals[1]);
+                let gval = parseInt(rgbvals[2]);
+                let bval = parseInt(rgbvals[3]);
+                return '#' + (
+                    rval.toString(16) +
+                    gval.toString(16) +
+                    bval.toString(16)
+                ).toUpperCase();
+            }
+
+            function presets(val) {
+                switch (val) {
+                    case 1:
+                        $('#clr-first-1').css('background-color', '#157dff');
+                        $('#clr-first-2').css('background-color', '#d33682');
+                        $('#clr-second-1').css('background-color', '#343a40');
+                        $('#clr-second-2').css('background-color', '#ffffff');
+                        $('#clr-third-1').css('background-color', '#ffe244');
+                        $('#clr-third-2').css('background-color', '#39d24a');
+                        break;
+
+                    case 2:
+                        $('#clr-first-1').css('background-color', '#157dff');
+                        $('#clr-first-2').css('background-color', '#f81033');
+                        $('#clr-second-1').css('background-color', '#eeea37');
+                        $('#clr-second-2').css('background-color', '#ff8ef2');
+                        $('#clr-third-1').css('background-color', '#ff9327');
+                        $('#clr-third-2').css('background-color', '#39d24a');
+                        break;
+                        
+                    case 3:
+                        $('#clr-first-1').css('background-color', '#50f91b');
+                        $('#clr-first-2').css('background-color', '#dd131f');
+                        $('#clr-second-1').css('background-color', '#1a19aa');
+                        $('#clr-second-2').css('background-color', '#1d18f2');
+                        $('#clr-third-1').css('background-color', '#f8dc43');
+                        $('#clr-third-2').css('background-color', '#2a9936');
+                        break;
+                        
+                    default:
+                }
+
+                init();
+            }
+        </script>
 
         {% include footer.html %}
     </body>
