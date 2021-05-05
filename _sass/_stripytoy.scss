@@ -2,22 +2,64 @@
     position: relative;
     height: 70%;
     width: 100%;
+    margin-top: 10px;
+    font-size: .7em;
+
+    .controls {
+        float: left;
+
+        .clr-first {
+            float: left;
+
+            .control-stripe-first {
+                width: 10px;
+                height: 200px;
+                background-image: linear-gradient($blue, $pink);
+            }
+        }
+
+        .clr-second {
+            float: left;
+
+            .control-stripe-second {
+                width: 10px;
+                height: 200px;
+                background-image: linear-gradient($dark-grey, $white);
+            }
+        }
+
+        .clr-third {
+            float: left;
+
+            .control-stripe-third {
+                width: 10px;
+                height: 200px;
+                background-image: linear-gradient($yellow, $green);
+            }
+        }
+    }
+
+    .display {
+        float: right;
+        height: 80%;
+
+        .stripe {
+            float: left;
+            width: 3px;
+            height: 100%;
+
+            &.first {
+                background-image: linear-gradient($blue, $pink);
+            }
+
+            &.second {
+                background-image: linear-gradient($dark-grey, $white);
+            }
+
+            &.third {
+                background-image: linear-gradient($yellow, $green);
+            }
+        }
+    }
 }
 
-.stripe {
-    float: left;
-    height: 100%;
-    width: 3px;
-
-    &.first {
-        background-image: linear-gradient($blue, $pink);
-    }
-
-    &.second {
-        background-image: linear-gradient($dark-grey, $white);
-    }
-
-    &.third {
-        background-image: linear-gradient($yellow, $green);
-    }
-}
