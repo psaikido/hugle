@@ -1,5 +1,6 @@
 .stripe-wrap {
     position: relative;
+    left: -78px;
     height: 70%;
     width: 100%;
     margin-top: 10px;
@@ -13,7 +14,7 @@
 
             .control-stripe-first {
                 width: 10px;
-                height: 200px;
+                height: 60px;
                 background-image: linear-gradient($blue, $pink);
             }
         }
@@ -23,7 +24,7 @@
 
             .control-stripe-second {
                 width: 10px;
-                height: 200px;
+                height: 60px;
                 background-image: linear-gradient($dark-grey, $white);
             }
         }
@@ -33,15 +34,21 @@
 
             .control-stripe-third {
                 width: 10px;
-                height: 200px;
+                height: 60px;
                 background-image: linear-gradient($yellow, $green);
             }
+        }
+
+        .presets {
+            float: left;
+            margin-left: 30px;
         }
     }
 
     .display {
-        float: right;
+        float: left;
         height: 80%;
+        margin-top: 20px;
 
         .stripe {
             float: left;
