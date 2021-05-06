@@ -40,31 +40,37 @@
                     </div>
 
                     <div class="display">
-                        {% for i in (3..202) %}
-                            {% assign mod = i | modulo: 3 %}
+                        <script>
+                            $(document).ready(function() {
+                                presets(1);
 
-                            {% if mod  == 0 %}
-                                <div class="stripe first ind_{{ i }}">&nbsp;</div>
-                            {% endif %}
+                                let stripeWrapWidth = $('.stripe-wrap')[0].clientWidth;
+                                let controlsWidth = $('.controls')[0].clientWidth;
+                                let dispWidth = stripeWrapWidth - controlsWidth;
+                                let stripeCount = Math.floor(dispWidth / 3);
 
-                            {% if mod  == 1 %}
-                                <div class="stripe second ind_{{ i }}">&nbsp;</div>
-                            {% endif %}
-
-                            {% if mod  == 2 %}
-                                <div class="stripe third ind_{{ i }}">&nbsp;</div>
-                            {% endif %}
-                        {% endfor %}
+                                for (var i = 1; i < stripeCount; i++) {
+                                    if (i % 3 === 0) {
+                                        let stripeHtml = '<div class="stripe first ind_' + i + '">&nbsp;</div>';
+                                        $('.display').append(stripeHtml);
+                                    }
+                                    if (i % 3 === 1) {
+                                        let stripeHtml = '<div class="stripe second ind_' + i + '">&nbsp;</div>';
+                                        $('.display').append(stripeHtml);
+                                    }
+                                    if (i % 3 === 2) {
+                                        let stripeHtml = '<div class="stripe third ind_' + i + '">&nbsp;</div>';
+                                        $('.display').append(stripeHtml);
+                                    }
+                                }
+                            });
+                        </script>
                     </div>
                 </div>
             </div>
         </div>
 
         <script>
-            $(document).ready(function() {
-                presets(1);
-            });
-
             function init() {
                 let clrFirst1 = $('#clr-first-1').css('background-color');
                 $('#clr-first-1').wheelColorPicker('setValue', rgbToHex(clrFirst1));
