@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     {% include head.html %}
     <body>
@@ -44,10 +44,12 @@
                             $(document).ready(function() {
                                 presets(1);
 
+                                let wrapWidth = $('.wrap')[0].clientWidth;
                                 let stripeWrapWidth = $('.stripe-wrap')[0].clientWidth;
                                 let controlsWidth = $('.controls')[0].clientWidth;
-                                let dispWidth = stripeWrapWidth - controlsWidth;
+                                let dispWidth = stripeWrapWidth - controlsWidth + 300;
                                 let stripeCount = Math.floor(dispWidth / 3);
+                                console.log(wrapWidth);
 
                                 for (var i = 1; i < stripeCount; i++) {
                                     if (i % 3 === 0) {
