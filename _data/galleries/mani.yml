@@ -65,3 +65,6 @@ images:
 
 - name: ripples
   img: mani-ripple.gif
+
+- name: svg mani for editing, decals, etc..
+  img: mani.svg
