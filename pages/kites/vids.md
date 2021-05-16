@@ -337,6 +337,47 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 #### M 14
 
 <div class="two-cols">
+
+<div class="col-left">
+<iframe width="100%" height="" src="https://www.youtube.com/embed/lTYG84f8WTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="col-right">
+- #3 walk
+- #4 launch to low, 3, left, -7
+- #8 don-fox-snap-box
+    - top left, 1
+    - top right, 1
+    - bottom right, 1
+    - bottom left
+- zigzag up
+    - slow -2 1/8, up right, 3
+    - up left, -3
+    - to top centre, -2 1/8
+
+- #10 shock-circle-snap
+    - divestop
+    - slide circle 4
+    - -5
+    - -2 tipturn, 2 tipturn, -2 tipturn, leftish, 6
+
+- #9 snap-clock-snap
+- #6 go-snap-back-vslide, low
+- #7 v-slide-v
+- -4, tumbleweed up to top centre
+
+- #1/#2 shock-snap-tip
+    - divestop
+    - 5, tip landing
+    - wide loop -6, tip landing
+    - launch to low, wide loop 3, to top centre
+
+- #5 shock-clock-snap
+    - divestop lowish
+    - anti-clockwise 1/8 turns
+    - 6, land
+</div>
+</div>
 ##### Snap Combos
 - all sequences can go either + or -
 
@@ -401,4 +442,4 @@ https://youtu.be/oaHhpUrynCI
 - divestop, slide circle +4
 - +5, fly right
 </div>
-
+</div>
