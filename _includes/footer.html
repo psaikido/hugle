@@ -6,8 +6,43 @@
     </span>
 </div>
 
-
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#383b75"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "type": "opt-out",
+      "content": {
+        "message": "This website uses cookies to count how many visits it gets."
+      },
+      onInitialise: function (status) {
+        var type = this.options.type;
+        var didConsent = this.hasConsented();
+        if (type == 'opt-in' && didConsent) {
+          loadGAonConsent();
+        }
+      },
+      onStatusChange: function(status, chosenBefore) {
+        var type = this.options.type;
+        var didConsent = this.hasConsented();
+        if (type == 'opt-in' && didConsent) {
+          loadGAonConsent();
+        }
+      },
+      onRevokeChoice: function() {
+        var type = this.options.type;
+        if (type == 'opt-out') {
+          loadGAonConsent();
+        }
+      }
+    });
+
     if (getCookie("theme") == "light"){
         $('html').addClass("light");
         toggleMenu('light');
@@ -54,42 +89,4 @@
             toggleMenu('dark');
         }
     })
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#383b75"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  },
-  "type": "opt-out",
-  "content": {
-    "message": "This website uses cookies to count how many visits it gets."
-  },
-  onInitialise: function (status) {
-    var type = this.options.type;
-    var didConsent = this.hasConsented();
-    if (type == 'opt-in' && didConsent) {
-      loadGAonConsent();
-    }
-  },
-  onStatusChange: function(status, chosenBefore) {
-    var type = this.options.type;
-    var didConsent = this.hasConsented();
-    if (type == 'opt-in' && didConsent) {
-      loadGAonConsent();
-    }
-  },
-  onRevokeChoice: function() {
-    var type = this.options.type;
-    if (type == 'opt-out') {
-      loadGAonConsent();
-    }
-  }
-});
 </script>
