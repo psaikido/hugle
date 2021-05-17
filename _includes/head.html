@@ -2,11 +2,13 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1199885-2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        function loadGAonConsent() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-      gtag('config', 'UA-1199885-2');
+          gtag('config', 'UA-1199885-2');
+        }
     </script>
 
     <link href="https://fonts.googleapis.com/css?family=Paprika" rel="stylesheet">
@@ -25,5 +27,6 @@
     <script src="/assets/js/lunr.min.js"></script>
     <script src="/assets/js/search.js"></script>
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <link rel="stylesheet" href="/assets/css/carrollonline.css">
 </head>

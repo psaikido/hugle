@@ -1,7 +1,6 @@
 <div class="footer">
     <button class="theme-toggle" title="light/dark"></button>
     <span class="footer-text">
-        <span class="cookies">this site uses cookies</span>
         <a href="https://www.facebook.com/hughkupoems"><img src="/assets/images/facebook-icon-960x1024.jpg" height="15" /></a> 
         &copy; 2021 - hughie (at) carrollonline.co.uk
     </span>
@@ -55,4 +54,54 @@
             toggleMenu('dark');
         }
     })
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#383b75"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "type": "opt-out",
+  "content": {
+    "message": "This website uses cookies to count how many visits it gets."
+  },
+  onInitialise: function (status) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      loadGAonConsent();
+    }
+    if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+    }
+  },
+  onStatusChange: function(status, chosenBefore) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      loadGAonConsent();
+    }
+    if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+    }
+  },
+  onRevokeChoice: function() {
+    var type = this.options.type;
+    if (type == 'opt-in') {
+      // disable cookies
+    }
+    if (type == 'opt-out') {
+      // enable cookies
+      loadGAonConsent();
+    }
+  }
+});
 </script>
