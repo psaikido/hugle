@@ -11,7 +11,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/yZBwX4gHrqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/yZBwX4gHrqs
 </div>
 
 <div class="col-right">
@@ -29,7 +29,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/P1wilPAEPPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/P1wilPAEPPQ
 </div>
 
 <div class="col-right">
@@ -51,7 +51,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/IBScoVR3CS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/IBScoVR3CS0
 </div>
 
 <div class="col-right">
@@ -72,7 +72,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/OrDt-EDFn4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/OrDt-EDFn4I
 </div>
 
 <div class="col-right">
@@ -98,7 +98,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/P16YCLk7Dh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/P16YCLk7Dh0
 </div>
 
 <div class="col-right">
@@ -133,7 +133,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/D_98aS6W_UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/D_98aS6W_UM
 </div>
 
 <div class="col-right">
@@ -160,7 +160,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/e_tWZkwL7R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/e_tWZkwL7R4
 </div>
 
 <div class="col-right">
@@ -181,7 +181,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/fHoS3oH-Ijc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/fHoS3oH-Ijc
 </div>
 
 <div class="col-right">
@@ -209,7 +209,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/V7LPhvXamnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/V7LPhvXamnc
 </div>
 
 <div class="col-right">
@@ -229,7 +229,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/qLhpUJ6BgLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/qLhpUJ6BgLQ
 </div>
 
 <div class="col-right">
@@ -255,7 +255,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/-QcLgaj3p2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/-QcLgaj3p2U
 </div>
 
 <div class="col-right">
@@ -281,7 +281,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/P5cOIccFrO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/P5cOIccFrO8
 </div>
 
 <div class="col-right">
@@ -313,7 +313,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/gayGPF0IHp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/gayGPF0IHp8
 </div>
 
 <div class="col-right">
@@ -339,7 +339,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-<iframe width="100%" height="" src="https://www.youtube.com/embed/lTYG84f8WTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/lTYG84f8WTg
 </div>
 
 <div class="col-right">
