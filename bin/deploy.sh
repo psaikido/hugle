@@ -1,6 +1,6 @@
 #! /bin/bash
 
-bundle exec jekyll b
+bundle exec JEKYLL_ENV=production jekyll b
 git push origin master
 
 config="carrollonline_uk@gp-uk.net:~/httpdocs/"
