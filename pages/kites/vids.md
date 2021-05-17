@@ -11,7 +11,7 @@ For terminology see [rotation codes](/pages/kites/rotation-codes.html)
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/yZBwX4gHrqs
+<a href="https://youtu.be/yZBwX4gHrqs">youtube</a>
 </div>
 
 <div class="col-right">
@@ -29,7 +29,7 @@ https://youtu.be/yZBwX4gHrqs
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/P1wilPAEPPQ
+<a href="https://youtu.be/P1wilPAEPPQ">youtube</a>
 </div>
 
 <div class="col-right">
@@ -51,7 +51,7 @@ https://youtu.be/P1wilPAEPPQ
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/IBScoVR3CS0
+<a href="https://youtu.be/IBScoVR3CS0">youtube</a>
 </div>
 
 <div class="col-right">
@@ -72,7 +72,7 @@ https://youtu.be/IBScoVR3CS0
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/OrDt-EDFn4I
+<a href="https://youtu.be/OrDt-EDFn4I">youtube</a>
 </div>
 
 <div class="col-right">
@@ -98,7 +98,7 @@ https://youtu.be/OrDt-EDFn4I
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/P16YCLk7Dh0
+<a href="https://youtu.be/P16YCLk7Dh0">youtube</a>
 </div>
 
 <div class="col-right">
@@ -133,7 +133,7 @@ https://youtu.be/P16YCLk7Dh0
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/D_98aS6W_UM
+<a href="https://youtu.be/D_98aS6W_UM">youtube</a>
 </div>
 
 <div class="col-right">
@@ -160,7 +160,7 @@ https://youtu.be/D_98aS6W_UM
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/e_tWZkwL7R4
+<a href="https://youtu.be/e_tWZkwL7R4">youtube</a>
 </div>
 
 <div class="col-right">
@@ -181,7 +181,7 @@ https://youtu.be/e_tWZkwL7R4
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/fHoS3oH-Ijc
+<a href="https://youtu.be/fHoS3oH-Ijc">youtube</a>
 </div>
 
 <div class="col-right">
@@ -209,7 +209,7 @@ https://youtu.be/fHoS3oH-Ijc
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/V7LPhvXamnc
+<a href="https://youtu.be/V7LPhvXamnc">youtube</a>
 </div>
 
 <div class="col-right">
@@ -229,7 +229,7 @@ https://youtu.be/V7LPhvXamnc
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/qLhpUJ6BgLQ
+<a href="https://youtu.be/qLhpUJ6BgLQ">youtube</a>
 </div>
 
 <div class="col-right">
@@ -255,7 +255,7 @@ https://youtu.be/qLhpUJ6BgLQ
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/-QcLgaj3p2U
+<a href="https://youtu.be/-QcLgaj3p2U">youtube</a>
 </div>
 
 <div class="col-right">
@@ -281,7 +281,7 @@ https://youtu.be/-QcLgaj3p2U
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/P5cOIccFrO8
+<a href="https://youtu.be/P5cOIccFrO8">youtube</a>
 </div>
 
 <div class="col-right">
@@ -313,7 +313,7 @@ https://youtu.be/P5cOIccFrO8
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/gayGPF0IHp8
+<a href="https://youtu.be/gayGPF0IHp8">youtube</a>
 </div>
 
 <div class="col-right">
@@ -339,7 +339,7 @@ https://youtu.be/gayGPF0IHp8
 <div class="two-cols">
 
 <div class="col-left">
-https://youtu.be/lTYG84f8WTg
+<a href="https://youtu.be/lTYG84f8WTg">youtube</a>
 </div>
 
 <div class="col-right">
@@ -383,21 +383,21 @@ https://youtu.be/lTYG84f8WTg
 
 
 ###### #1 Shock-snap  
-https://youtu.be/O1x9RS_m0Dg  
+<a href="https://youtu.be/O1x9RS_m0Dg">youtube</a>
 - divestop, +3
 
 ###### #2 Shock-snap-tip
-https://www.youtube.com/watch?v=beTPKHYFpZY  
+<a href="https://www.youtube.com/watch?v=beTPKHYFpZY">youtube</a>
 - divestop, +3 (or 5), tip landing
 
 
 ###### #3 Walk it off  
-https://youtu.be/NpPb59pcRvE  
+<a href="https://youtu.be/NpPb59pcRvE">youtube</a>
 - Walk it on the ground
 
 
 ###### #4 Launch-snaps  
-https://youtu.be/QwpBL_xg9yo  
+<a href="https://youtu.be/QwpBL_xg9yo">youtube</a>
 - launch from 0, +3 (or 5)
 - launch from 2, +3 (or 5)
 - +3 (or 5), tip landing
@@ -405,25 +405,25 @@ https://youtu.be/QwpBL_xg9yo
 
 
 ###### #5 Shock-Clock-Snap   
-https://youtu.be/nesDAjDqw78  
+<a href="https://youtu.be/nesDAjDqw78">youtube</a>
 - divestop, +1 x 4, -5
 
 
 ###### #6 Go-Snap-Back-V-slide  
-https://youtu.be/myiEc7uCeMc
+<a href="https://youtu.be/myiEc7uCeMc">youtube</a>
 - mid low to rightish
 - +4, reverse
 - -3, inverted slide rightish
 
 
 ###### #7 V-snap-V intro
-https://youtu.be/LrdGQ2qj0R8
+<a href="https://youtu.be/LrdGQ2qj0R8">youtube</a>
 - inverted slide right
 - -4, continue inv slide right
 
 
 ###### #8 Don Fox Snap Box  
-https://youtu.be/fsCsWIipw5w
+<a href="https://youtu.be/fsCsWIipw5w">youtube</a>
 - up and +1 to hover
 - right and +1 to hover
 - down and +1 to hover
@@ -431,14 +431,14 @@ https://youtu.be/fsCsWIipw5w
 
 
 ###### #9 Snap-Clock-Snap  
-https://youtu.be/My6oDGTySVQ
+<a href="https://youtu.be/My6oDGTySVQ">youtube</a>
 - fly right, -4
 - +1 x 4, -4
 - fly right
 
 
 ###### #10  Shock-Circle Slide-Snap  
-https://youtu.be/oaHhpUrynCI
+<a href="https://youtu.be/oaHhpUrynCI">youtube</a>
 - divestop, slide circle +4
 - +5, fly right
 </div>
