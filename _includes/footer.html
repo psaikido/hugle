@@ -1,92 +1,20 @@
 <div class="footer">
     <button class="theme-toggle" title="light/dark"></button>
+    <span id="cookie-info">
+        <a href="#">Cookie info</a>
+    </span>
+
     <span class="footer-text">
         <a href="https://www.facebook.com/hughkupoems"><img src="/assets/images/facebook-icon-960x1024.jpg" height="15" /></a> 
         &copy; 2021 - hughie (at) carrollonline.co.uk
     </span>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#383b75"
-        },
-        "button": {
-          "background": "#f1d600"
-        }
-      },
-      "type": "opt-out",
-      "content": {
-        "message": "This website uses cookies to count how many visits it gets."
-      },
-      onInitialise: function (status) {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-          loadGAonConsent();
-        }
-      },
-      onStatusChange: function(status, chosenBefore) {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-          loadGAonConsent();
-        }
-      },
-      onRevokeChoice: function() {
-        var type = this.options.type;
-        if (type == 'opt-out') {
-          loadGAonConsent();
-        }
-      }
-    });
+<div id="cookie-notice">
+    <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Allow cookies?</a>
+    <a href="/privacy/" class="btn btn-primary btn-sm">More info</a>
+</div>
 
-    if (getCookie("theme") == "light"){
-        $('html').addClass("light");
-        toggleMenu('light');
-    }
-
-    function getCookie(cname) {
-        var name = cname + "=";
-        var ca = document.cookie.split(';');
-
-        for(var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-
-            while (c.charAt(0)==' ') {
-                c = c.substring(1);
-            }
-
-            if (c.indexOf(name) == 0) {
-                return c.substring(name.length,c.length);
-            }
-        }
-
-        return "";
-    }
-
-    function toggleMenu(state) {
-        if (state === 'light') {
-            $('nav').addClass("navbar-light");
-            $('nav').removeClass("navbar-dark");
-        } else {
-            $('nav').addClass("navbar-dark");
-            $('nav').removeClass("navbar-light");
-        }
-    }
-
-    $(".theme-toggle").click(function(e){
-        e.preventDefault();
-        $('html').toggleClass("light");
-
-        if ($('html').hasClass("light")){
-            document.cookie = "theme=light;path=/";
-            toggleMenu('light');
-        } else {
-            document.cookie = "theme=dark;path=/";
-            toggleMenu('dark');
-        }
-    })
-</script>
+{% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include cookie-consent.html %}
+{% endif %}

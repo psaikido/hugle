@@ -47,7 +47,6 @@ function getRndInteger(minimum, maximum) {
 }
 
 var rnd = getRndInteger(1, hk.length)
-console.log(hk[rnd])
 
 $(document).ready(function() {
   var link = '<a href="' + hk[rnd].path + '">' + hk[rnd].title + '</a>'
