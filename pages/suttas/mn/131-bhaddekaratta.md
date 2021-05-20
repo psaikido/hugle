@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 131 On the Better Way to Live Alone: Bhaddekaratta Sutta"
+title: "MN 131 Bhaddekaratta Sutta: On the Better Way to Live Alone"
 ---
 
 Do not pursue the past.  

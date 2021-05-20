@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 118 Anapana Sati: "
+title: "MN 118 Anapana Sati: Mindfulness of Breathing"
 ---
 
 

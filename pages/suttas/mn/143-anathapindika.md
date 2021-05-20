@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 143 Advice to Anathapindika: Anathapindikovada Sutta"
+title: "MN 143 Anathapindikovada Sutta: Advice to Anathapindika"
 ---
 
 

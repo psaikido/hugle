@@ -1,6 +1,6 @@
 ---
 layout: suttas-mn
-title: "MN 122 Greater Discourse on Voidness: Maha-sunnyata"
+title: "MN 122 Maha-sunnyata: Greater Discourse on Voidness"
 ---
 
 The Buddha finds Ananda living with a lot of monks. 'Ananada, 
