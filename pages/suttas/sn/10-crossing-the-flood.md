@@ -1,6 +1,6 @@
 ---
 layout: suttas-sn
-title: "SN 1.1 Ogha-tarana Sutta: Crossing the Flood"
+title: "SN 1.1.1 Ogha-tarana Sutta: Crossing the Flood"
 ---
 
 A devata, a very beautiful, female 'demi-God', asks the Buddha "How did you cross the flood?". She means the 'flood' of cyclic existence in samsara.  
