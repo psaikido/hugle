@@ -39,6 +39,9 @@ menu:
         - title: Majjhima Nikaya 
           url: /pages/suttas/mn/index.html
 
+        - title: Samyutta Nikaya 
+          url: /pages/suttas/sn/index.html
+
     - title: "pix:"
       sub:
         - title: mani stones
