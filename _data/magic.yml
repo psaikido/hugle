@@ -1,0 +1,12 @@
+description: Magic
+
+menu:
+
+- title: info 
+  url: /pages/magic/main.html
+
+- title: testimonials 
+  url: /pages/magic/testimonials.html
+
+- title: pix from gigs 
+  url: /pages/magic/pix.html
