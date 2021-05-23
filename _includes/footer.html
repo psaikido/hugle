@@ -1,4 +1,21 @@
-<div id="footer">
-    <h2>Hughie's conjuring is theatrical and uses a traditional approach. It helps people come into a 'play space', creating surprise and making moments to delight and amuse.</h2>
-    <h6><a href="https://plus.google.com/u/0/b/113950568330386092006/113950568330386092006?rel=author" rel="author">+google</a> content by Hugh Carroll</h6>
+<div class="footer">
+    <button class="theme-toggle" title="light/dark"></button>
+    <span id="cookie-info">
+        <a href="#">Cookie info</a>
+    </span>
+
+    <span class="footer-text">
+        <a href="https://www.facebook.com/hughkupoems"><img src="/assets/images/facebook-icon-960x1024.jpg" height="15" /></a> 
+        &copy; 2021 - hughie (at) carrollonline.co.uk
+    </span>
 </div>
+
+<div id="cookie-notice">
+    <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Allow cookies?</a>
+    <a id="cookie-notice-decline" class="btn btn-primary btn-sm">Decline</a>
+    <a href="https://policies.google.com/technologies/cookies" class="btn btn-primary btn-sm">More info</a>
+</div>
+
+{% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include cookie-consent.html %}
+{% endif %}

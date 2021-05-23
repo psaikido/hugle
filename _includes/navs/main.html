@@ -1,0 +1,40 @@
+<nav class="navbar navbar-dark">
+    <button class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#nav-content" 
+        aria-controls="nav-content" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav-content">   
+        <ul class="navbar-nav dropdown">
+            {% for item in site.data.nav.menu %}
+                {% if item.sub %}
+                    <li class="">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                            {{ item.title }}
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            {% for subitem in item.sub %}
+                                <li>
+                                    <a href="{{ subitem.url }}" alt="{{ subitem.title }}">
+                                        {{ subitem.title }}
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% else %}
+                    <li class="">
+                        <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
+

@@ -1,20 +1,112 @@
+description: main menu
+
 menu:
 
     - title: home
-      url: /index.html
+      url: /
 
-    - title: vid
-      url: /pages/vid.html
+    - title: hughku
+      sub: 
+        - title: Yarn
+          url: /yarn/
 
-    - title: pics
-      url: /pages/pics.html
+        - title: Sunshine & Shadow
+          url: /sun/
 
-    - title: testimonials
-      url: /pages/testimonials.html
+        - title: Bucket
+          url: /bucket/
 
-    - title: blog
-      url: /pages/blog.html
 
-    - title: guitar tuition
-      url: http://guitar.hugle.co.uk
+    - title: kites
+      sub:
+        - title: rotation codes
+          url: /pages/kites/rotation-codes.html
+
+        - title: youtube-vids 
+          url: /pages/kites/youtube-vids.html
+
+
+    - title: stories
+      sub:
+        - title: Mahabodhi Moonlight
+          url: /pages/prose/mahabodhi-moonlight.html
+
+        - title: First Burn
+          url: /pages/prose/firstBurn/01-fb.html
+
+    - title: Sutta Anthology
+      sub:
+        - title: Majjhima Nikaya 
+          url: /pages/suttas/mn/index.html
+
+        - title: Samyutta Nikaya 
+          url: /pages/suttas/sn/index.html
+
+    - title: Mantrasphere
+      sub:
+        - title: listen
+          url: /pages/mantrasphere/listen.html
+
+        - title: info
+          url: /pages/mantrasphere/info.html
+
+        - title: songs
+          url: /pages/mantrasphere/songs.html
+
+        - title: launch party 
+          url: /pages/mantrasphere/pix-launch.html
+
+        - title: promo pix 
+          url: /pages/mantrasphere/pix-promo.html
+
+        - title: press release 
+          url: /pages/mantrasphere/press.html
+
+    - title: pix
+      sub:
+        - title: mani stones
+          url: /pages/pix/mani.html
+
+        - title: bio
+          url: /pages/pix/bio.html
+
+        - title: circus
+          url: /pages/pix/circus.html
+
+        - title: Chan
+          url: /pages/pix/chan.html
+
+        - title: faves
+          url: /pages/pix/faves.html
+
+    - title: magic
+      sub:
+        - title: info 
+          url: /pages/magic/main.html
+
+        - title: testimonials 
+          url: /pages/magic/testimonials.html
+
+        - title: pix from gigs 
+          url: /pages/magic/pix.html
+
+    - title: stuff
+      sub:
+        - title: IT portfolio
+          url: /pages/pix/portfolio.html
+
+        - title: TV Lutòn
+          url: /pages/musings/tvluton.html
+
+        - title: stripytoy 
+          url: /pages/musings/stripytoy.html
+
+        - title: links
+          url: /links/
+
+    - title: shop
+      url: /shop/
+
+    - title: sitemap
+      url: /pages/sitemap.html
 

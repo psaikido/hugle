@@ -1,0 +1,18 @@
+https://jekyllrb.com/
+Start dev by going:
+`bundle exec jekyll serve`
+
+Go live by
+`bundle exec jekyll build`
+..and then ftping _site/
+..or
+    cd _site
+    sftp carrollonline_uk@gp-uk.net
+    cd httpdocs
+    put -r .
+
+For svg editing, use inkscape, make the document settings
+the same dimensions and view box as the wind-window (800 x 400),
+and save the file. Go to https://jakearchibald.github.io/svgomg/
+and upload it. Copy the svg path out of the 'markup' tab.
+Paste that path into patterns.html and give it an id. 

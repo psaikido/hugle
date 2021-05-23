@@ -1,0 +1,74 @@
+            {% include search.html %}
+
+                <div class="main-content subMenu">
+                    <h4 class="poem-title">{{ page.title }}</h4>
+
+                    {{ content }}
+
+                    <div class="poem-footer"> 
+                        {% if page.written %}
+                            <div class="poem-written-date">
+                                HC: {{ page.written }}
+                            </div>
+                        {% endif %}
+
+                        {% for item in menu %}
+                            {% if currentItemFound %}
+                            <div class="next">
+                                next -> <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                            </div>
+                                {% break %}
+                            {% endif %}
+
+                            {% if page.url == item.url %}
+                                {% assign currentItemFound = true %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('.poem-menu .toggler.show').click(function () {
+                if ($('.poem-menu ul').is(':visible')) {
+                    hide(this);
+                } else {
+                    show(this);
+                }
+            })
+
+            function hide (elem) {
+                $(elem).html('->');
+
+                $('.poem-menu')
+                    .attr('class', 'poem-menu hide');
+
+                $('.poem-menu').find('ul').hide();
+
+                $('.main-content.subMenu')
+                    .attr('class', 'main-content subMenu hide');
+
+                $(elem)
+                    .attr('class', 'toggler hide');
+            }
+
+            function show (elem) {
+                $(elem).html('hide');
+
+                $('.poem-menu')
+                    .attr('class', 'poem-menu show');
+
+                $('.poem-menu').find('ul').show();
+
+                $('.main-content.subMenu')
+                    .attr('class', 'main-content subMenu');
+
+                $(elem)
+                    .attr('class', 'toggler show');
+            }
+        </script>
+
+        {% include footer.html %}
+    </body>
+</html>
