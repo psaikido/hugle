@@ -1,0 +1,271 @@
+description: youtube-vids
+
+menu:
+
+- title: Level 1
+  url: yZBwX4gHrqs
+  desc: 
+    - launch from 0
+    - -1 to mid left
+    - +2 to mid right
+    - -2 to centre
+    - +1 reverse to land
+
+- title: Level 2
+  url: P1wilPAEPPQ
+  desc: 
+    - launch from 0 to centre
+    - -1, left
+    - +2, right
+    - -2, centre
+    - +4, left
+    - +2, centre
+    - -5, top
+    - +2, divestop
+    - -2, land 
+
+- title: Level 3
+  url: IBScoVR3CS0
+  desc: 
+    - launch from +2, low
+    - -2, centre
+    - slide left
+    - -8, slide right
+    - +8, slide left
+    - +1, slide down halfway
+    - slow -2, left tip landing
+
+- title: Level 4
+  url: OrDt-EDFn4I
+  desc: 
+    - launch from +2, low
+    - inverted slide left
+    - +1, slide up to mid height
+    - reverse to centre
+    - +4, -4, -2, fly right
+    - +4, -4, reverse to centre
+    - right tip landing
+    - slide up to centre, slow -2
+    - left tip landing
+    - slide up to centre, fly left
+    - slide down, -1 to inverted slide right
+    - slow -1, -1, to top
+    - -2, divestop, +2, land 
+
+- title: Level 5
+  url: P16YCLk7Dh0
+  desc: 
+    - launch from -2
+    - +1, low left
+    - float -2, low right
+    - float +2, top left 
+    - figure 8
+        <ul>
+            <li>slide turn -2, top right</li>
+            <li>slide turn +2, top left</li>
+            <li>slide turn -2, top right</li>
+        </ul>
+    - box
+        <ul>
+            <li>slide down</li>
+            <li>reverse</li>
+            <li>slide up</li>
+            <li>right</li>
+        </ul>
+    - spiral in
+        <ul>
+            <li>big +4</li>
+            <li>small +4</li>
+            <li>snap +4</li>
+        </ul>
+    - spiral out
+        <ul>
+            <li>snap -4</li>
+            <li>little -4</li>
+            <li>big -4</li>
+        </ul>
+    - slow -1, top, -2, divestop, +2, land
+
+- title: Level 6
+  url: D_98aS6W_UM
+  desc: 
+    - launch from +2
+    - +3, +1, +1, -6, low right
+    - float +2, low left
+    - float -2, low centre
+    - +1, reverse up to centre
+    - -5, mid right
+    - -.5, -.5, -.5, -.5, mid left
+    - iron cross
+        <ul>
+            <li>slow -1 turn to high centre</li>
+            <li>slow -1 turn to mid right</li>
+            <li>slow -1 turn to low centre</li>
+            <li>slow -1 turn to mid left</li>
+        </ul>
+    - +1, top
+    - +2, divestop, +4, land inverted
+
+- title: Level 7
+  url: e_tWZkwL7R4
+  desc: 
+    - launch from 0, top
+    - +2, walk forwards
+    - divestop, slow +4
+    - -.5 x 9, reverse diagonally to mid left
+    - +2, slide turn -1.5
+    - slow +3, low right
+    - slow -4, reverse to centre
+    - -5, land
+
+- title: Level 8
+  url: fHoS3oH-Ijc
+  desc: 
+    - launch from 0, top
+    - sequence
+        <ul>
+            <li>slide a few feet, return</li>
+            <li>forward a few feet, retur</li>
+            <li>+.5, return, -.5, retur</li>
+        </ul>
+    - -2, divestop, sequence
+    - slow +3, mid right, sequence
+    - slide circle +2, mid left, sequence
+    - +1.5, high right, sequence
+    - -2, low left, sequence
+    - tip turn +2, tip turn -1, high left, sequence
+    - slide circle -2, low right, sequence
+    - slow +2.5, top
+    - -2, divestop halfway
+    - +4, divestop, +2, land
+
+- title: Master Level 9
+  url: V7LPhvXamnc
+  desc: 
+    - launch from 0, top
+    - +2, divestop
+    - -5, reverse to mid left
+    - slide -3, low right, slide -1
+    - +6, centre
+    - +3, divestop
+    - -5, right tip landing
+
+- title: Master Level 10
+  url: qLhpUJ6BgLQ 
+  desc: 
+    - launch from 0, low
+    - -3, low right
+    - +4, right tip landing
+    - relaunch, -6, low left
+    - +4, slide up, reverse, centre 
+    - +.5 x 6, top
+    - +2, divestop halfway, +4
+    - divestop, -5, right tip landing
+    - slight launch, slow +2, left tip landing
+    - slight launch, fake tip landing
+    - slide up, centre
+    - slide circle +4, slide down
+    - -5, land
+
+- title: Master Level 11
+  url: -QcLgaj3p2U
+  desc: 
+    - launch from 0, centre
+    - +6, reverse up
+    - -5, slide down
+    - -4, low right, +4, reverse
+    - slide -3, low right
+    - +1 x 5, low left
+    - -3, top, +2
+    - divestop, -1 x 4, +4
+    - slide circle -4
+    - slide circle +2, top
+    - -2, divestop halfway
+    - -4, divestop
+    - +7, right tip landing
+
+- title: Master Level 12
+  url: P5cOIccFrO8
+  desc: 
+    - launch from +2, reverse to low
+    - -5, mid right
+    - +6, mid left, -3
+    - Don Fox snap box
+        <ul>
+            <li>up and +1 to hover</li>
+            <li>right and +1 to hover</li>
+            <li>down and +1 to hover</li>
+            <li>left</li>
+        </ul>
+    - slow -3, top, +2
+    - divestop halfway, -4
+    - divestop, +7, reverse to low left
+    - -7, inv slide right, -4, continue right
+    - +4, inv slide left, +4, mid left
+    - inv box
+        <ul><li>up, right, down, left</li></ul>
+    - slide circle +3, -3, -6, top
+    - +2, divestop halfway
+    - +1 x 4, -4
+    - divestop, +2, land
+
+- title: Master Level 13
+  url: gayGPF0IHp8
+  desc: 
+    - launch from +2, +3, reverse mid low left
+    - -5, top, +2
+    - divestop, slide circle +4
+    - -5, low mid right
+    - +1 x 5, -5, low right
+    - tumbleweed +4
+    - low mid left, -3
+    - weird box
+        <ul>
+            <li>reverse up mid left, +3</li>
+            <li>mid right, -4, low right</li>
+            <li>+5, low left, -6</li>
+        </ul>
+    - top, +2, divestop, -2, land
+
+- title: Master Level 14 (Hughie's)
+  url: lTYG84f8WTg
+  desc: 
+    - combo3 walk
+    - combo4 launch to low, 3, left, -7
+    - combo8 don-fox-snap-box
+        <ul>
+            <li>up and +1 to hover</li>
+            <li>right and +1 to hover</li>
+            <li>down and +1 to hover</li>
+            <li>left</li>
+        </ul>
+    - zigzag up
+        <ul>
+            <li>slow -2 1/8, up right, 3</li>
+            <li>up left, -3</li>
+            <li>to top centre, -2 1/8</li>
+        </ul>
+    - combo10 shock-circle-snap
+        <ul>
+            <li>divestop</li>
+            <li>slide circle 4</li>
+            <li>-5</li>
+            <li>-2 tipturn, 2 tipturn, -2 tipturn, leftish, 6</li>
+        </ul>
+    - combo9 snap-clock-snap
+    - combo6 go-snap-back-vslide, low
+    - combo7 v-slide-v
+    - -4, tumbleweed up to top centre
+    - combo1/combo2 shock-snap-tip
+        <ul>
+            <li>divestop</li>
+            <li>5, tip landing</li>
+            <li>wide loop -6, tip landing</li>
+            <li>launch to low, wide loop 3, to top centre</li>
+        </ul>
+    - combo5 shock-clock-snap
+        <ul>
+            <li>divestop lowish</li>
+            <li>anti-clockwise 1/8 turns</li>
+            <li>6, land</li>
+        </ul>

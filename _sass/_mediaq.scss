@@ -1,46 +1,102 @@
-/* Most mobiles */
-@media only screen and (max-device-width: 480px) {
-    #outerContainer {
-        margin: 0;
-        padding: 10px;
-
-        #outer {
-            width: 480px;
-        }
-    }
-
-    #header {
-        background: none;
-        height: 43px;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-        text-align: center;
-        margin: 0 auto;
-
-        #headerContent {
-            margin-left: 25px;
-        }
-    }
-
-    #menu {
-        float: none;
-
-        img {
-            display: none;
-        }
-    }
-
-    #mainContent {
-        #inner {
-            margin: 0;
-            padding: 0;
-            width: 90%;
-        }
-    }
-
-    #buyBox {
-        float: left;
-    }
+/* Most desktops */
+@media only screen and (min-device-width: 991px) {
 }
 
+/* Most tablets */
+@media only screen and (max-device-width: 990px) {
+}
+
+/* Most mobiles */
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 740px) {
+    body {
+        font-size: 1em;
+    }
+
+    .main-content {
+        left: 16px;
+        min-width: 91%;
+
+        .home-page {
+            .random-hughku {
+                top: 80px;
+                left: 18px;
+                width: 88%;
+            }
+
+            .home-text-box {
+                top: 155px;
+                left: 18px;
+                width: 88%;
+                font-size: 12px;
+            }
+        }
+
+        &.subMenu {
+            left: 140px;
+            width: 245px;
+            min-width: 210px;
+
+            &.hide {
+                left: 24px;
+                width: 340px;
+            }
+        }
+    }
+
+    nav.poem-menu {
+        top: 85px;
+        font-size: .8em;
+        max-width: 140px;
+        min-width: 114px;
+        left: 0;
+
+        .toggler {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            width: 100%;
+            background: $hilight;
+            text-align: left;
+            text-indent: 2px;
+        }
+
+        ul li {
+            font-size: 1.1em;
+        }
+
+        &.hide, 
+        .toggler.hide {
+            width: 22px;
+        }
+
+        &.show, 
+        .toggler.show {
+            max-width: 140px;
+            min-width: 114px;
+        }
+    }
+
+    .wrap img {
+        max-width: 260px;
+    }
+
+    .header {
+        font-size: 1em;
+        max-width: 300px;
+    }
+    
+    #search-form {
+        position: absolute;
+        right: 7px;
+
+        #search-term {
+            width: 100px;
+        }
+    }
+
+    .navbar {
+        font-size: 1em;
+    }
+}

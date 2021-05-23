@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+
+    <body>
+
+        <div class="body-inner">
+            <div class="wrap">
+                <div class="header">{{ page.title }}</div>
+
+                {% include navs/main.html %}
+                {% include search.html %}
+                {% include navs/mantrasphere.html %}
+                {% assign menu = site.data.mantrasphere.menu %}
+
+                <div class="main-content subMenu">
+                    <h5>{{ site.data.galleries[page.dataFile].description }}</h5>
+
+                    {% for image in site.data.galleries[page.dataFile].images %}
+
+                        {% capture src %}
+                            /{{ site.data.galleries[page.dataFile].imageFolder }}{{ image.img }}
+                        {% endcapture %}
+
+
+                        {% if image.name %}
+                            <h6>{{ image.name }}</h6>
+                        {% endif %}
+
+
+                        <img src="{{ src }}"
+                            alt="{{ image.name }}" 
+                            class="center-img" />
+
+                        <br />
+
+                        {% if image.text %}
+                            {{ image.text }}
+                            <br />
+                        {% endif %}
+
+                        {% if image.url %}
+                            <a href="{{ image.url }}">{{ image.urlText }}</a>
+                            <br />
+                        {% endif %}
+
+                        <hr />
+
+                    {% endfor %}
+
+
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

@@ -1,0 +1,26 @@
+name: bio
+imageFolder: assets/images/bio/
+
+images:
+- name: birth
+  img: hughie_april26_1964.jpg
+  text: 1964 - born premature - this is an incubator
+
+- name: family
+  img: happyRock64.jpg
+  text: Tim, Jem, Matt, Margaret, Hughie, Damian, Colmcille
+
+- name: Jungian archetypes workshop had us discover 5 aspects of personality<br />#1 lover
+  img: gasket_balloon_mime.jpg
+
+- name: "#2 warrior"
+  img: h_dobra.jpg
+
+- name: "#3 magician"
+  img: FireWallet.jpg
+
+- name: "#4 predator"
+  img: Chess.jpg
+
+- name: "#5 king"
+  img: h_naranjodebulnes89.jpg

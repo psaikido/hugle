@@ -1,10 +1,11 @@
-title: hugle
-email: contact@hugle.co.uk
-description: Close up magic
-baseurl: "/"
 url: "https://hugle.co.uk"
-favicon: assets/favicon.ico
+email: hughie@carrollonline.co.uk
+baseurl: "/"
+title: hugle
+description: Hughie's stuff
+favicon: assets/images/favicon.ico
 permalink: /:path/:basename:output_ext
+google_analytics: UA-1199885-16
 
 markdown: kramdown
 kramdown:
@@ -12,6 +13,7 @@ kramdown:
 
 plugins:
     - jekyll-bootstrap-sass
+    - jekyll-sitemap
 
 sass:
     sass_dir: _sass
@@ -24,3 +26,4 @@ exclude:
     - changelog.md
     - "*.Rmd"
     - notes.txt
+    - bin/*

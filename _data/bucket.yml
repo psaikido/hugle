@@ -1,0 +1,52 @@
+description: bucket
+
+menu:
+
+- title: title page
+  url: /bucket/
+  silent: true
+
+- title: solstice
+  url: /bucket/solstice.html
+
+- title: youth club
+  url: /bucket/youth-club.html
+
+- title: beep
+  url: /bucket/beep.html
+
+- title: big wig
+  url: /bucket/big-wig.html
+
+- title: top dogs
+  url: /bucket/top-dogs.html
+
+- title: kite 
+  url: /bucket/kite.html
+
+- title: gotta die 
+  url: /bucket/gotta-die.html
+
+- title: pretend
+  url: /bucket/pretend.html
+
+- title: tricks
+  url: /bucket/tricks.html
+
+- title: itself
+  url: /bucket/itself.html
+
+- title: clench
+  url: /bucket/clench.html
+
+- title: 30 years
+  url: /bucket/30years.html
+
+- title: bins 
+  url: /bucket/bins.html
+
+- title: another birthday 
+  url: /bucket/another-birthday.html
+
+- title: Noel Reilly
+  url: /bucket/reilly.html

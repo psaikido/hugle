@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
     {% include head.html %}
 
     <body>
-        <div id="outer">
 
-            <div id="header">
-                <h1>Magician for parties, weddings, walk-about, festivals, restaurants, hotels</h1>
-                &nbsp;
-            </div>
+        <div class="body-inner">
+            <div class="wrap">
+                <div class="header">{{ page.title }}</div>
 
-            <div id="menu">
-                {% include nav.html %}
-            </div>
+                {% include navs/main.html %}
+                {% include search.html %}
 
-            <div id="content">
-                {{ page.dataFile }}
-                <div class="gallery">
-                    <h5>{{ page.description }}</h5>
-                    
-                    {% for image in site.data.pics.images %}
+                <div class="main-content">
+                    <h5>{{ site.data.galleries[page.dataFile].description }}</h5>
+
+                    {% for image in site.data.galleries[page.dataFile].images %}
+
                         {% capture src %}
-                            /{{ site.data.pics.imageFolder }}{{ image.img }}
+                            /{{ site.data.galleries[page.dataFile].imageFolder }}{{ image.img }}
                         {% endcapture %}
+
+
+                        {% if image.name %}
+                            <h6>{{ image.name }}</h6>
+                        {% endif %}
+
 
                         <img src="{{ src }}"
                             alt="{{ image.name }}" 
                             class="center-img" />
+
+                        <br />
+
+                        {% if image.text %}
+                            {{ image.text }}
+                            <br />
+                        {% endif %}
+
+                        {% if image.url %}
+                            <a href="{{ image.url }}">{{ image.urlText }}</a>
+                            <br />
+                        {% endif %}
+
+                        <hr />
+
                     {% endfor %}
+
 
                 </div>
             </div>
-
-            {% include rightStrip.html %}
-            {% include footer.html %}
         </div>
+
+        {% include footer.html %}
     </body>
 </html>
