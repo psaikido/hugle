@@ -1,0 +1,21 @@
+description: yarn
+
+menu:
+
+- title: listen 
+  url: /pages/mantrasphere/listen.html
+
+- title: info 
+  url: /pages/mantrasphere/info.html
+
+- title: songs 
+  url: /pages/mantrasphere/songs.html
+
+- title: launch party 
+  url: /pages/mantrasphere/pix-launch.html
+
+- title: promo pix 
+  url: /pages/mantrasphere/pix-promo.html
+
+- title: press release 
+  url: /pages/mantrasphere/press.html
