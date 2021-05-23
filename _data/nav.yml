@@ -5,7 +5,7 @@ menu:
     - title: home
       url: /
 
-    - title: "hughku:"
+    - title: hughku
       sub: 
         - title: Yarn
           url: /yarn/
@@ -17,7 +17,7 @@ menu:
           url: /bucket/
 
 
-    - title: "kites:"
+    - title: kites
       sub:
         - title: rotation codes
           url: /pages/kites/rotation-codes.html
@@ -26,7 +26,7 @@ menu:
           url: /pages/kites/youtube-vids.html
 
 
-    - title: "stories:"
+    - title: stories
       sub:
         - title: Mahabodhi Moonlight
           url: /pages/prose/mahabodhi-moonlight.html
@@ -34,7 +34,7 @@ menu:
         - title: First Burn
           url: /pages/prose/firstBurn/01-fb.html
 
-    - title: "Sutta Anthology:"
+    - title: Sutta Anthology
       sub:
         - title: Majjhima Nikaya 
           url: /pages/suttas/mn/index.html
@@ -62,7 +62,7 @@ menu:
         - title: press release 
           url: /pages/mantrasphere/press.html
 
-    - title: "pix:"
+    - title: pix
       sub:
         - title: mani stones
           url: /pages/pix/mani.html
@@ -79,9 +79,20 @@ menu:
         - title: faves
           url: /pages/pix/faves.html
 
-    - title: "stuff:"
+    - title: magic
       sub:
-        - title: portfolio
+        - title: info 
+          url: /pages/magic/main.html
+
+        - title: testimonials 
+          url: /pages/magic/testimonials.html
+
+        - title: pix from gigs 
+          url: /pages/magic/pix.html
+
+    - title: stuff
+      sub:
+        - title: IT portfolio
           url: /pages/pix/portfolio.html
 
         - title: TV Lutòn
