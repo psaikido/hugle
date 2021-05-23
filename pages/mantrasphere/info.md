@@ -17,9 +17,9 @@ The CD can be bought from the [shop](/shop/).
 <a title="The Three Refuges" href="http://youtu.be/LKj1byuQp3c">Three Refuges</a>
 
 Interview on [Swindon105.5](http://www.swindon1055.com/) with Lisa Coleman  
-[one](/assets/mp3/art2art-20110121-1.mp3)
-[two](/assets/mp3/art2art-20110121-2.mp3)
-[three](/assets/mp3/art2art-20110121-3.mp3)
+[one](https://soundcloud.com/mantrasphere/art2art-20110121-1)
+[two](https://soundcloud.com/mantrasphere/art2art-20110121-2)
+[three](https://soundcloud.com/mantrasphere/art2art-20110121-3)
 
 Produced by Barry Andrews of <a href="http://shriekback.com"><img style="border: none;" src="/assets/images/mantrasphere/title2.gif" alt="shriekback" width="150" /></a>
 
