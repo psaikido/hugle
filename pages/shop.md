@@ -97,6 +97,7 @@ permalink: /shop/
 <div class="shop-item">
 ##### Mindfulness CD
 <div class="graphic">
+<a name="sati-cd" />
 ![Mindfulness cover](/assets/images/shop/mindfulness-cd.gif "Mindfulness cover")  
 </div>
 
