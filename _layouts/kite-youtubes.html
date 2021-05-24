@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+
+        <div class="body-inner">
+            <div class="wrap">
+                <div class="header">{{ page.title }}</div>
+
+                {% include navs/main.html %}
+                {% include search.html %}
+
+                <div class="main-content">
+                    {% assign menu = site.data.kite-youtubes.menu %}
+                    {{ content }}
+
+                    {% include youtubes.html %}
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

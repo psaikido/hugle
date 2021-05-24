@@ -1,6 +1,6 @@
 ---
-layout: youtube-vids
 title: kite vids 
+layout: kite-youtubes
 ---
 
 [Club38](https://revkites.com/club-38/)  
