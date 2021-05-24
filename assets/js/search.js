@@ -43,12 +43,16 @@ $(document).ready(function() {
     var query = $(this).val();
     var result = index.search(query);
     resultdiv.empty();
-    resultdiv.prepend('<p class="">Found '+result.length+' result(s)</p>');
     
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="result"><div class="result-body"><a href="'+store[ref].path+'" class="post-title">'+store[ref].title+'</a><p>'+store[ref].excerpt+'</p></div>';
-      resultdiv.append(searchitem);
+
+      if (store[ref].title != null) {
+        let link = '<a href="' + store[ref].path + '" class="post-title">' + store[ref].title + '</a>';
+        let excerpt = '<p>' + store[ref].excerpt + '</p>';
+        var searchitem = '<div class="result"><div class="result-body">' + link + excerpt + '</div></div>';
+        resultdiv.append(searchitem);
+      }
     }
   });
 });
