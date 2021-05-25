@@ -17,15 +17,6 @@ menu:
           url: /bucket/
 
 
-    - title: kites
-      sub:
-        - title: rotation codes
-          url: /pages/kites/rotation-codes.html
-
-        - title: youtubes 
-          url: /pages/kites/kite-youtubes.html
-
-
     - title: stories
       sub:
         - title: Mahabodhi Moonlight
@@ -41,6 +32,19 @@ menu:
 
         - title: Samyutta Nikaya 
           url: /pages/suttas/sn/index.html
+
+
+    - title: kites
+      sub:
+        - title: fleet 
+          url: /pages/kites/fleet.html
+
+        - title: rotation codes
+          url: /pages/kites/rotation-codes.html
+
+        - title: youtubes 
+          url: /pages/kites/kite-youtubes.html
+
 
     - title: Mantrasphere
       sub:
