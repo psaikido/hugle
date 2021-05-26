@@ -29,3 +29,7 @@ I got this lovely kite for low wind days, below 10mph. It seems to do best on sh
 [revkites blast](https://revkites.com/product/revolution-blast-stunt-kite/)
 This is the monster! Really fast and pulls hard. It is from the 'speed series' of revolution kites. The [club38](https://revkites.com/club-38/) levels done with one of the speed series is for the 'Triple Master' title.
 
+
+<h4>group shot</h4>
+![group](/assets/images/fleet/group.jpg)
+
