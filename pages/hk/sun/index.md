@@ -14,6 +14,8 @@ permalink: /sun/
 
 - buy on [blurb.co.uk](https://www.blurb.co.uk/b/10258007-sunshine-and-shadow)
 
+![Sunshine & Shadow cover](/assets/images/shop/sunshad-cover.jpg "Sunshine & Shadow cover")
+
 
 Poems on circus, zen, love, longing, loss and darkness.  
 Most have sprung from the silence of meditation.  
@@ -21,5 +23,4 @@ I rarely write in a deliberate way but instead wait until something comes up dem
 The poems from 'Ladakh' onwards are from a pilgrimage in 2005/6. The writings in prose form about that journey are called [Mahabodhi Moonlight](/pages/prose/mahabodhi-moonlight.html)
 
 
-![Sunshine & Shadow cover](/assets/images/shop/sunshad-cover.jpg "Sunshine & Shadow cover")
-
+"Hughie Carroll gives himself to his life so wholeheartedly that the reader fears for him, exposed to raw pain, then flooded with love. He has a remarkable degree of openness, and is able to articulate for us the hard won wisdom of the feeling person, an Everyman who will try anything and loves a laugh, 'delighted at the nonsense of it all'. Life is gloriously absurd, and we are all 'preposterous jewels, awkward miracles'.  Hughie records his experience in autobiographical poetic anecdotes that are always frank, and often funny." - George Marsh
