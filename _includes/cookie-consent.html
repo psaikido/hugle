@@ -6,7 +6,6 @@
     let cookieChoice = readCookie('cookie-notice-dismissed');
 
     if(cookieChoice == 'accepted') {
-        {% include analytics.js %}
         ci.style.display = 'inline';
     } else if (cookieChoice == 'declined') {
         ci.style.display = 'inline';

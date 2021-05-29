@@ -5,7 +5,6 @@ title: hugle
 description: Hughie's stuff
 favicon: assets/images/favicon.ico
 permalink: /:path/:basename:output_ext
-google_analytics: UA-1199885-16
 
 markdown: kramdown
 kramdown:
