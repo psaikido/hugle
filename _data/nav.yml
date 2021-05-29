@@ -34,18 +34,6 @@ menu:
           url: /pages/suttas/sn/index.html
 
 
-    - title: kites
-      sub:
-        - title: fleet 
-          url: /pages/kites/fleet.html
-
-        - title: rotation codes
-          url: /pages/kites/rotation-codes.html
-
-        - title: youtubes 
-          url: /pages/kites/kite-youtubes.html
-
-
     - title: Mantrasphere
       sub:
         - title: listen
@@ -66,6 +54,30 @@ menu:
         - title: press release 
           url: /pages/mantrasphere/press.html
 
+    - title: kites
+      sub:
+        - title: fleet 
+          url: /pages/kites/fleet.html
+
+        - title: rotation codes
+          url: /pages/kites/rotation-codes.html
+
+        - title: youtubes 
+          url: /pages/kites/kite-youtubes.html
+
+
+    - title: magic
+      sub:
+        - title: info 
+          url: /pages/magic/main.html
+
+        - title: testimonials 
+          url: /pages/magic/testimonials.html
+
+        - title: pix from gigs 
+          url: /pages/magic/pix.html
+
+
     - title: pix
       sub:
         - title: mani stones
@@ -83,16 +95,6 @@ menu:
         - title: faves
           url: /pages/pix/faves.html
 
-    - title: magic
-      sub:
-        - title: info 
-          url: /pages/magic/main.html
-
-        - title: testimonials 
-          url: /pages/magic/testimonials.html
-
-        - title: pix from gigs 
-          url: /pages/magic/pix.html
 
     - title: stuff
       sub:
@@ -108,9 +110,9 @@ menu:
         - title: links
           url: /links/
 
+        - title: sitemap
+          url: /pages/sitemap.html
+
     - title: shop
       url: /shop/
-
-    - title: sitemap
-      url: /pages/sitemap.html
 
