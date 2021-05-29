@@ -1,25 +1,18 @@
-                    {% for item in menu %}
-                    <h4>{{ item.title }}</h4>
-                    <div class="two-cols">
+{% for item in menu %}
+    <h4>{{ item.title }}</h4>
+    <div class="two-cols">
+        <div class="col-left">
+            <a href="https://youtu.be/{{ item.url }}">
+                <img src="https://img.youtube.com/vi/{{ item.url }}/0.jpg" alt="youtube thumbnail" />
+            </a>
+        </div>
 
-                    <div class="col-left" id="vid-{{ forloop.index }}">
-                        <script>
-                            var col = document.getElementById('vid-{{forloop.index}}');
-
-                            if (readCookie('cookie-notice-dismissed') == 'accepted') {
-                                col.innerHTML = '<iframe width="100%" height="" src="https://www.youtube.com/embed/{{ item.url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>';
-                            } else {
-                                col.innerHTML = '<a href="https://youtu.be/{{ item.url }}">youtube</a>';
-                            }
-                        </script>
-                    </div>
-
-                    <div class="col-right">
-                        <ul>
-                        {% for d in item.desc %}
-                            <li>{{ d }}</li>
-                        {% endfor %}
-                        </ul>
-                    </div>
-                    </div>
-                    {% endfor %}
+        <div class="col-right">
+            <ul>
+            {% for d in item.desc %}
+                <li>{{ d }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endfor %}
