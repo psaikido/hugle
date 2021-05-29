@@ -4,10 +4,12 @@ title: Links
 permalink: /links/
 ---
 
+- [hughkupoems on facebook](https://www.facebook.com/hughkupoems)
 - [Carroll Family Archive](http://family.carrollonline.uk)
-- [Mindfulness CD](https://mantrasphere.co.uk/pages/mindfulness-cd.html) made for the NHS
 - [Soundcloud](https://soundcloud.com/mantrasphere/)  
 - [Mad World](https://youtu.be/sSgvBhZ2-Us) Tears For Fears piano cover  
 - [Code](https://bitbucket.org/psaikido) projects on bitbucket
 - [Western Chan Fellowship](https://westernchanfellowship.org)
-- [hughkupoems on facebook](https://www.facebook.com/hughkupoems)
+- [Swindon Chan Group](https://swindonchan.org)
+- [Gear Mill](https://gearmill.org)
+- [Anne Lammar](https://annelammar.com)
