@@ -1,19 +1,38 @@
 <div class="footer">
-    <button class="theme-toggle" title="light/dark"></button>
-    <span id="cookie-info">
-        <a href="#">Cookie info</a>
-    </span>
+    <button class="theme-toggle" title="light/dark (a cookie is used for theming)"></button>
 
     <span class="footer-text">
-        <a href="https://www.facebook.com/hughkupoems"><img src="/assets/images/facebook-icon-960x1024.jpg" height="15" /></a> 
         &copy; 2021 - hughie (at) hugle.co.uk
     </span>
 </div>
 
-<div id="cookie-notice">
-    <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Allow cookies?</a>
-    <a id="cookie-notice-decline" class="btn btn-primary btn-sm">Decline</a>
-    <a href="https://policies.google.com/technologies/cookies" class="btn btn-primary btn-sm">More info</a>
-</div>
+<script>
+    if (getCookie("theme") == "light"){
+        $('html').addClass("light");
+        toggleMenu('light');
+    }
 
-{% include cookie-consent.html %}
+
+    function toggleMenu(state) {
+        if (state === 'light') {
+            $('nav').addClass("navbar-light");
+            $('nav').removeClass("navbar-dark");
+        } else {
+            $('nav').addClass("navbar-dark");
+            $('nav').removeClass("navbar-light");
+        }
+    }
+
+    $(".theme-toggle").click(function(e){
+        e.preventDefault();
+        $('html').toggleClass("light");
+
+        if ($('html').hasClass("light")){
+            document.cookie = "theme=light;path=/";
+            toggleMenu('light');
+        } else {
+            document.cookie = "theme=dark;path=/";
+            toggleMenu('dark');
+        }
+    })
+</script>
