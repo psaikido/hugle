@@ -1,6 +1,6 @@
 ---
 layout: suttas-sn
-title: "SN 1.10.4 Manibhadda Sutta: "
+title: "SN 1.10.4 Manibhadda Sutta: With Manibhadda"
 ---
 
 A kind of 'spirit' called a 'yakkha' says to the Buddha that one who practices mindfulness has everything improve and that they overcome animosity. It cures everything! The Buddha replies that only one who practices metta/loving-kindness can overcome animosity.  
