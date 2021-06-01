@@ -3,6 +3,7 @@ description: kite-youtubes
 menu:
 
 - title: Level 1
+  date: 2020-10-20
   url: yZBwX4gHrqs
   desc: 
     - launch from 0
@@ -11,7 +12,12 @@ menu:
     - -2 to centre
     - +1 reverse to land
 
+- title: Speed Series Level 1
+  date: 2021-05-29
+  url: ERllUcLFh6o
+
 - title: Level 2
+  date: 2020-11-12
   url: P1wilPAEPPQ
   desc: 
     - launch from 0 to centre
@@ -24,7 +30,12 @@ menu:
     - +2, divestop
     - -2, land 
 
+- title: Speed Series Level 2
+  date: 2021-05-29
+  url: ooIZVj8fBQo
+
 - title: Level 3
+  date: 2020-11-12
   url: IBScoVR3CS0
   desc: 
     - launch from +2, low
@@ -34,6 +45,10 @@ menu:
     - +8, slide left
     - +1, slide down halfway
     - slow -2, left tip landing
+
+- title: Speed Series Level 3
+  date: 2021-05-30
+  url: 0qkvSo5iNUI 
 
 - title: Level 4
   url: OrDt-EDFn4I
@@ -52,7 +67,12 @@ menu:
     - slow -1, -1, to top
     - -2, divestop, +2, land 
 
+- title: Speed Series Level 4
+  date: 2020-12-17
+  url: l8WedxddbXQ
+
 - title: Level 5
+  date: 2021-01-28
   url: P16YCLk7Dh0
   desc: 
     - launch from -2
@@ -87,6 +107,7 @@ menu:
     - slow -1, top, -2, divestop, +2, land
 
 - title: Level 6
+  date: 2021-02-16
   url: D_98aS6W_UM
   desc: 
     - launch from +2
@@ -107,6 +128,7 @@ menu:
     - +2, divestop, +4, land inverted
 
 - title: Level 7
+  date: 2021-02-17
   url: e_tWZkwL7R4
   desc: 
     - launch from 0, top
@@ -119,6 +141,7 @@ menu:
     - -5, land
 
 - title: Level 8
+  date: 2021-02-18
   url: fHoS3oH-Ijc
   desc: 
     - launch from 0, top
@@ -140,6 +163,7 @@ menu:
     - +4, divestop, +2, land
 
 - title: Master Level 9
+  date: 2021-02-25
   url: V7LPhvXamnc
   desc: 
     - launch from 0, top
@@ -151,6 +175,7 @@ menu:
     - -5, right tip landing
 
 - title: Master Level 10
+  date: 2021-03-04
   url: qLhpUJ6BgLQ 
   desc: 
     - launch from 0, low
@@ -168,6 +193,7 @@ menu:
     - -5, land
 
 - title: Master Level 11
+  date: 2021-03-14
   url: -QcLgaj3p2U
   desc: 
     - launch from 0, centre
@@ -185,6 +211,7 @@ menu:
     - +7, right tip landing
 
 - title: Master Level 12
+  date: 2021-03-24
   url: P5cOIccFrO8
   desc: 
     - launch from +2, reverse to low
@@ -210,6 +237,7 @@ menu:
     - divestop, +2, land
 
 - title: Master Level 13
+  date: 2021-04-01
   url: gayGPF0IHp8
   desc: 
     - launch from +2, +3, reverse mid low left
@@ -228,6 +256,7 @@ menu:
     - top, +2, divestop, -2, land
 
 - title: Master Level 14 (Hughie's)
+  date: 2021-05-15
   url: lTYG84f8WTg
   desc: 
     - combo3 walk
