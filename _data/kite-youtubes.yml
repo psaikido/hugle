@@ -51,6 +51,7 @@ menu:
   url: 0qkvSo5iNUI 
 
 - title: Level 4
+  date: 2020-12-17
   url: OrDt-EDFn4I
   desc: 
     - launch from +2, low
@@ -68,7 +69,7 @@ menu:
     - -2, divestop, +2, land 
 
 - title: Speed Series Level 4
-  date: 2020-12-17
+  date: 2021-05-31
   url: l8WedxddbXQ
 
 - title: Level 5
@@ -105,6 +106,10 @@ menu:
             <li>big -4</li>
         </ul>
     - slow -1, top, -2, divestop, +2, land
+
+- title: Speed Series Level 5
+  date: 2021-06-01
+  url: C3YfYP3ApZ4
 
 - title: Level 6
   date: 2021-02-16
