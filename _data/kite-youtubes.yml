@@ -133,6 +133,9 @@ menu:
 - title: Level 7
   date: 2021-02-17
   url: e_tWZkwL7R4
+  speed-series:
+    date: 2021-06-02
+    url: viLpSmHZs3I 
   desc: 
     - launch from 0, top
     - +2, walk forwards
@@ -151,8 +154,8 @@ menu:
     - sequence
         <ul>
             <li>slide a few feet, return</li>
-            <li>forward a few feet, retur</li>
-            <li>+.5, return, -.5, retur</li>
+            <li>forward a few feet, return</li>
+            <li>+.5, return, -.5, return</li>
         </ul>
     - -2, divestop, sequence
     - slow +3, mid right, sequence
