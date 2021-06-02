@@ -5,6 +5,9 @@ menu:
 - title: Level 1
   date: 2020-10-20
   url: yZBwX4gHrqs
+  speed-series:
+    date: 2021-05-29
+    url: ERllUcLFh6o
   desc: 
     - launch from 0
     - -1 to mid left
@@ -12,13 +15,12 @@ menu:
     - -2 to centre
     - +1 reverse to land
 
-- title: Speed Series Level 1
-  date: 2021-05-29
-  url: ERllUcLFh6o
-
 - title: Level 2
   date: 2020-11-12
   url: P1wilPAEPPQ
+  speed-series:
+    date: 2021-05-29
+    url: ooIZVj8fBQo
   desc: 
     - launch from 0 to centre
     - -1, left
@@ -30,13 +32,12 @@ menu:
     - +2, divestop
     - -2, land 
 
-- title: Speed Series Level 2
-  date: 2021-05-29
-  url: ooIZVj8fBQo
-
 - title: Level 3
   date: 2020-11-12
   url: IBScoVR3CS0
+  speed-series:
+    date: 2021-05-30
+    url: 0qkvSo5iNUI 
   desc: 
     - launch from +2, low
     - -2, centre
@@ -46,13 +47,12 @@ menu:
     - +1, slide down halfway
     - slow -2, left tip landing
 
-- title: Speed Series Level 3
-  date: 2021-05-30
-  url: 0qkvSo5iNUI 
-
 - title: Level 4
   date: 2020-12-17
   url: OrDt-EDFn4I
+  speed-series:
+    date: 2021-05-31
+    url: l8WedxddbXQ
   desc: 
     - launch from +2, low
     - inverted slide left
@@ -68,13 +68,12 @@ menu:
     - slow -1, -1, to top
     - -2, divestop, +2, land 
 
-- title: Speed Series Level 4
-  date: 2021-05-31
-  url: l8WedxddbXQ
-
 - title: Level 5
   date: 2021-01-28
   url: P16YCLk7Dh0
+  speed-series:
+    date: 2021-06-01
+    url: C3YfYP3ApZ4
   desc: 
     - launch from -2
     - +1, low left
@@ -107,13 +106,12 @@ menu:
         </ul>
     - slow -1, top, -2, divestop, +2, land
 
-- title: Speed Series Level 5
-  date: 2021-06-01
-  url: C3YfYP3ApZ4
-
 - title: Level 6
   date: 2021-02-16
   url: D_98aS6W_UM
+  speed-series:
+    date: 2021-06-01
+    url: SsW8S7Hjsf4
   desc: 
     - launch from +2
     - +3, +1, +1, -6, low right
