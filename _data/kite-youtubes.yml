@@ -2,12 +2,9 @@ description: kite-youtubes
 
 menu:
 
-- title: Level 1
+- title: L1
   date: 2020-10-20
   url: yZBwX4gHrqs
-  speed-series:
-    date: 2021-05-29
-    url: ERllUcLFh6o
   desc: 
     - launch from 0
     - -1 to mid left
@@ -15,12 +12,9 @@ menu:
     - -2 to centre
     - +1 reverse to land
 
-- title: Level 2
+- title: L2
   date: 2020-11-12
   url: P1wilPAEPPQ
-  speed-series:
-    date: 2021-05-29
-    url: ooIZVj8fBQo
   desc: 
     - launch from 0 to centre
     - -1, left
@@ -32,12 +26,9 @@ menu:
     - +2, divestop
     - -2, land 
 
-- title: Level 3
+- title: L3
   date: 2020-11-12
   url: IBScoVR3CS0
-  speed-series:
-    date: 2021-05-30
-    url: 0qkvSo5iNUI 
   desc: 
     - launch from +2, low
     - -2, centre
@@ -47,12 +38,9 @@ menu:
     - +1, slide down halfway
     - slow -2, left tip landing
 
-- title: Level 4
+- title: L4
   date: 2020-12-17
   url: OrDt-EDFn4I
-  speed-series:
-    date: 2021-05-31
-    url: l8WedxddbXQ
   desc: 
     - launch from +2, low
     - inverted slide left
@@ -68,12 +56,9 @@ menu:
     - slow -1, -1, to top
     - -2, divestop, +2, land 
 
-- title: Level 5
+- title: L5
   date: 2021-01-28
   url: P16YCLk7Dh0
-  speed-series:
-    date: 2021-06-01
-    url: C3YfYP3ApZ4
   desc: 
     - launch from -2
     - +1, low left
@@ -106,12 +91,9 @@ menu:
         </ul>
     - slow -1, top, -2, divestop, +2, land
 
-- title: Level 6
+- title: L6
   date: 2021-02-16
   url: D_98aS6W_UM
-  speed-series:
-    date: 2021-06-01
-    url: SsW8S7Hjsf4
   desc: 
     - launch from +2
     - +3, +1, +1, -6, low right
@@ -130,12 +112,9 @@ menu:
     - +1, top
     - +2, divestop, +4, land inverted
 
-- title: Level 7
+- title: L7
   date: 2021-02-17
   url: e_tWZkwL7R4
-  speed-series:
-    date: 2021-06-02
-    url: viLpSmHZs3I 
   desc: 
     - launch from 0, top
     - +2, walk forwards
@@ -146,12 +125,9 @@ menu:
     - slow -4, reverse to centre
     - -5, land
 
-- title: Level 8
+- title: L8
   date: 2021-02-18
   url: fHoS3oH-Ijc
-  speed-series:
-    date: 2021-06-03
-    url: GeVGbnK5CNE 
   desc: 
     - launch from 0, top
     - sequence
@@ -171,12 +147,9 @@ menu:
     - -2, divestop halfway
     - +4, divestop, +2, land
 
-- title: Master Level 9
+- title: M9
   date: 2021-02-25
   url: V7LPhvXamnc
-  speed-series:
-    date: 2021-06-03
-    url: WzM7y9QH5-0 
   desc: 
     - launch from 0, top
     - +2, divestop
@@ -186,7 +159,7 @@ menu:
     - +3, divestop
     - -5, right tip landing
 
-- title: Master Level 10
+- title: M10
   date: 2021-03-04
   url: qLhpUJ6BgLQ 
   desc: 
@@ -204,7 +177,7 @@ menu:
     - slide circle +4, slide down
     - -5, land
 
-- title: Master Level 11
+- title: M11
   date: 2021-03-14
   url: -QcLgaj3p2U
   desc: 
@@ -222,7 +195,7 @@ menu:
     - -4, divestop
     - +7, right tip landing
 
-- title: Master Level 12
+- title: M12
   date: 2021-03-24
   url: P5cOIccFrO8
   desc: 
@@ -248,7 +221,7 @@ menu:
     - +1 x 4, -4
     - divestop, +2, land
 
-- title: Master Level 13
+- title: M13
   date: 2021-04-01
   url: gayGPF0IHp8
   desc: 
@@ -267,7 +240,7 @@ menu:
         </ul>
     - top, +2, divestop, -2, land
 
-- title: Master Level 14 (Hughie's)
+- title: M14 (Hughie's)
   date: 2021-05-15
   url: lTYG84f8WTg
   desc: 
@@ -310,3 +283,39 @@ menu:
             <li>anti-clockwise 1/8 turns</li>
             <li>6, land</li>
         </ul>
+
+- title: Speed Series L1
+  date: 2021-05-29
+  url: ERllUcLFh6o
+
+- title: Speed Series L2
+  date: 2021-05-29
+  url: ooIZVj8fBQo
+
+- title: Speed Series L3
+  date: 2021-05-30
+  url: 0qkvSo5iNUI 
+  
+- title: Speed Series L4
+  date: 2021-05-31
+  url: l8WedxddbXQ
+
+- title: Speed Series L5
+  date: 2021-06-01
+  url: C3YfYP3ApZ4
+
+- title: Speed Series L6
+  date: 2021-06-01
+  url: SsW8S7Hjsf4
+
+- title: Speed Series L7
+  date: 2021-06-02
+  url: viLpSmHZs3I 
+
+- title: Speed Series L8
+  date: 2021-06-03
+  url: GeVGbnK5CNE 
+  
+- title: Speed Series M9
+  date: 2021-06-03
+  url: WzM7y9QH5-0 
