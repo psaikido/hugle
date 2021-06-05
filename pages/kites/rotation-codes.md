@@ -25,9 +25,9 @@ less ambiguous and you can keep a running total of the twisting of the lines.
 
 Consider this clip, the start of the M10 pattern in [Club38](https://revkites.com/club-38/)
 
-<video src="/assets/vids/rotation-codes.mp4" width="60%" type="video/mp4" 
-    autoplay="" preload="auto" controls>
-</video>
+<a href="https://youtu.be/6H3ZTJzQzmI">
+    <img src="https://img.youtube.com/vi/6H3ZTJzQzmI/0.jpg" alt="youtube thumbnail" />
+</a>
 
 - launch, stop, -3
 - fly right, stop, +4
