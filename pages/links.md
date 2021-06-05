@@ -13,3 +13,5 @@ permalink: /links/
 - [Swindon Chan Group](https://swindonchan.org)
 - [Gear Mill](https://gearmill.org)
 - [Anne Lammar](https://annelammar.com)
+- [Dharma Naming Ceremony](https://youtu.be/V0pNP8Fds64)
+
