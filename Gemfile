@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'jekyll'
+#gem 'jekyll'
+gem 'github-pages'
 gem 'jekyll-bootstrap-sass'
 gem 'jekyll-sitemap'
